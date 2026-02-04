@@ -1,0 +1,2458 @@
+[
+  {
+    "id": "d5d52784-995b-45f8-80fb-15b198cc3c7a",
+    "timestamp": "2026-02-04T14:04:42.979Z",
+    "type": "DISCOVERY",
+    "token": "ELT4JkJNQiW5y9f7RwqYuY1d7ZWm8JdQvM222Rhjpump",
+    "source": "Raydium",
+    "name": "Epic Grid Chronicles AI Game",
+    "symbol": "Orc",
+    "socials": {
+      "twitter": "https://x.com/_gridchronicles",
+      "telegram": null,
+      "website": "https://epic-grid-chronicles.gitbook.io/epic-grid-chronicles-docs"
+    },
+    "status": "detected",
+    "signature": "3m6W7LSsi8wAkPjaY4d383Apjh9ZsGM4TRaeXzMF693PzcaeEABTKPeBYcdcb5bwpjMVsMXSjFSwegqnmJM8RaBi"
+  },
+  {
+    "id": "e07e9a3e-c4ff-4745-a58c-c7f999962eb2",
+    "timestamp": "2026-02-04T14:17:59.122Z",
+    "type": "DISCOVERY",
+    "token": "65w1tz2Q7DhihfTVfDdK6uzpAFBPnCmkJ6kcRnKC21a6",
+    "source": "PumpFun",
+    "name": "@grok can you unblur",
+    "symbol": "Unblur",
+    "socials": {
+      "twitter": "https://x.com/search?q=Hey%20%20%40grok%20%20can%20you%20unblur&src=typed_query&f=live",
+      "telegram": null,
+      "website": "https://x.com/search?q=Hey%20%20%40grok%20%20can%20you%20unblur&src=typed_query&f=live"
+    },
+    "status": "detected",
+    "signature": "2oLtouPZLvNFnPTtyBARo8Ej6hQ1e4rwwLyrfh9MzRyamTC5Xo1MhxTwg67B7HFJn6vCbhvidbmBVHRBH2tYatRs"
+  },
+  {
+    "id": "e5f8fd52-d4b8-496b-a9f3-b83040c0ba8f",
+    "timestamp": "2026-02-04T14:17:59.142Z",
+    "type": "DISCOVERY",
+    "token": "65w1tz2Q7DhihfTVfDdK6uzpAFBPnCmkJ6kcRnKC21a6",
+    "source": "PumpFun",
+    "name": "@grok can you unblur",
+    "symbol": "Unblur",
+    "socials": {
+      "twitter": "https://x.com/search?q=Hey%20%20%40grok%20%20can%20you%20unblur&src=typed_query&f=live",
+      "telegram": null,
+      "website": "https://x.com/search?q=Hey%20%20%40grok%20%20can%20you%20unblur&src=typed_query&f=live"
+    },
+    "status": "detected",
+    "signature": "jKkB9B4eMexBRSxVYqJZVDKMwKZmmyozosN4kisbHvhBgW2qMBuNdga45QCo9ii7TvtEfTYu2HTLLbUQcsG7N44"
+  },
+  {
+    "id": "5d966a48-b77e-468c-b192-249bcc34a500",
+    "timestamp": "2026-02-04T14:17:59.144Z",
+    "type": "DISCOVERY",
+    "token": "6riXGATA93ntYEBZsEyYJCqAbQsCx4fZuNVvFz2EJ4Ue",
+    "source": "PumpFun",
+    "name": "MyCoin",
+    "symbol": "MyCoin",
+    "socials": {
+      "twitter": "https://x.com/hedizss/status/2019052246395187591",
+      "telegram": null,
+      "website": "https://www.youtube.com/watch?v=NpMDV9Q7uvo&t=346s"
+    },
+    "status": "detected",
+    "signature": "2JWTJnVLjaJUzs4P4WoFCA4Cb6eTc35KQBDwEU7KVKFd1sGyi2h9LdPArT3QpNkY74bDxuChzD2i4fXVc8fGp9Gv"
+  },
+  {
+    "id": "1f9716df-8203-45c0-aefe-8ecf618cfa67",
+    "timestamp": "2026-02-04T14:17:59.172Z",
+    "type": "DISCOVERY",
+    "token": "pnUQhDto2F7kZNCCP9xhZBseqtbsCayxwAaVBdUpump",
+    "source": "PumpFun",
+    "name": "Hitlepippin",
+    "symbol": "Hitpippin",
+    "socials": {
+      "twitter": "https://x.com/i/communities/2019046840725897721/",
+      "telegram": null,
+      "website": null
+    },
+    "status": "detected",
+    "signature": "2vnUr77Stm5XgLbs44KBZgiBUWBWghbAwRQzxQ9vpVkmK8xstozaxNh9UBSquUhCquZGJ5sTKC7d8gxRPtnyppCy"
+  },
+  {
+    "id": "5b0bff5a-6ff2-4792-a3aa-a2fc6f96a8a8",
+    "timestamp": "2026-02-04T14:17:59.173Z",
+    "type": "DISCOVERY",
+    "token": "pnUQhDto2F7kZNCCP9xhZBseqtbsCayxwAaVBdUpump",
+    "source": "PumpFun",
+    "name": "Hitlepippin",
+    "symbol": "Hitpippin",
+    "socials": {
+      "twitter": "https://x.com/i/communities/2019046840725897721/",
+      "telegram": null,
+      "website": null
+    },
+    "status": "detected",
+    "signature": "95G8KL2rDwdXVu6p1Q9bcVzy9jML7pA6EznoShXRxPkGq5neKzmsv5TSqHTjEDKoCMWUS4j5F1Pjtpsb1ZHWAYp"
+  },
+  {
+    "id": "373597d3-a0f4-4e38-9b6b-637430a9aa29",
+    "timestamp": "2026-02-04T14:17:59.355Z",
+    "type": "DISCOVERY",
+    "token": "vnNf5XszcbE7bbw4uCCP7eyjQvrUxfyGpbXQhWypump",
+    "source": "PumpFun",
+    "name": "Marius Fortelni",
+    "symbol": "Marius",
+    "socials": {
+      "twitter": "https://x.com/grandtheftpfun/status/2019052015482024428",
+      "telegram": null,
+      "website": "https://www.justice.gov/epstein"
+    },
+    "status": "detected",
+    "signature": "3odoEefTVs9kmrBJvtem4q9B5g88Jhz1gYwBGJu8MbdJbZxAfSSnDKGcJsm8mBsWdoEj2BnkzKRtcrDuG5rxpj1z"
+  },
+  {
+    "id": "ff282940-5fa8-4113-8cdd-345214b97494",
+    "timestamp": "2026-02-04T14:17:59.574Z",
+    "type": "DISCOVERY",
+    "token": "rDq2LbTiAFGh7bGxWRQUE2M48FtQMMJFbRB21zHbonk",
+    "source": "Raydium",
+    "name": "Proton",
+    "symbol": "PROTON",
+    "socials": {
+      "twitter": "https://x.com/solventlabs",
+      "telegram": null,
+      "website": "https://solvent.gg/"
+    },
+    "status": "detected",
+    "signature": "5LkEfQrEYGnSWAVpJQRQHUcnKjDY64ZMjKhKfxeDwxG9HNbaeZK9JiQtxQ1pmBFyKTaqULPSbLSjHagZ6DsuB7oo"
+  },
+  {
+    "id": "2e2abead-d028-47cb-b6d4-2bf2a443bc38",
+    "timestamp": "2026-02-04T14:18:00.138Z",
+    "type": "DISCOVERY",
+    "token": "6u1TLjqNrcQw6GofXvk8nEHiHieUisW65cKPVDGppump",
+    "source": "Raydium",
+    "name": "ape with ak-47",
+    "symbol": "ape47",
+    "socials": {
+      "twitter": "https://www.youtube.com/watch?v=GhxqIITtTtU",
+      "telegram": "https://www.youtube.com/watch?v=GhxqIITtTtU",
+      "website": "https://www.youtube.com/watch?v=GhxqIITtTtU"
+    },
+    "status": "detected",
+    "signature": "3kRNRFxJ2brNYNJT4n2gadYprsdKNPzZTAap6dD2sTBy53bmKDmbR729GQZ4oFr78cUKQKxDQ6C8B1WUF1hvx5of"
+  },
+  {
+    "id": "549a7bce-3927-42c7-b65c-0e21c278ab9f",
+    "timestamp": "2026-02-04T14:18:00.273Z",
+    "type": "DISCOVERY",
+    "token": "E3hid94EBNnyQrRD1UwMjNq9qHLBTHgrM3NwdHAUpump",
+    "source": "PumpFun",
+    "name": "In This Economy?",
+    "symbol": "Economy",
+    "socials": {
+      "twitter": "https://x.com/uncleibbra/status/2019045698444919294",
+      "telegram": null,
+      "website": "https://x.com/search?q=in%20this%20economy&src=recent_search_click"
+    },
+    "status": "detected",
+    "signature": "5MMrq4jHhMTXWYZFH687WnV6pCSd2uX14kk4TEX7hRD5AeAe9489pCQXgqDRCPsToDAQKbSfJi6wa2rjbKmdj6C4"
+  },
+  {
+    "id": "0a593a3c-e239-4de4-b0b7-cb67024694cf",
+    "timestamp": "2026-02-04T14:18:00.589Z",
+    "type": "DISCOVERY",
+    "token": "vnNf5XszcbE7bbw4uCCP7eyjQvrUxfyGpbXQhWypump",
+    "source": "PumpFun",
+    "name": "Marius Fortelni",
+    "symbol": "Marius",
+    "socials": {
+      "twitter": "https://x.com/grandtheftpfun/status/2019052015482024428",
+      "telegram": null,
+      "website": "https://www.justice.gov/epstein"
+    },
+    "status": "detected",
+    "signature": "5bzbexbTsGJVETbgu98GoPnaLJcszKADHpJ7gaXoaUnFf7jDjTKyTwM5D6t2JZUMVFMSTQsvda21BXsaZqWAw7PD"
+  },
+  {
+    "id": "eb3a57f1-1e1f-4b9b-8c89-bf90eaa9a5c1",
+    "timestamp": "2026-02-04T14:18:01.040Z",
+    "type": "DISCOVERY",
+    "token": "9xn4YKCLKd8MbEwRcgEreDprN5NmY8gfwGZcnXuKpump",
+    "source": "PumpFun",
+    "name": "Madeleine McCann",
+    "symbol": "Maddie",
+    "socials": {
+      "twitter": "https://x.com/____Satoshi__/status/2019050094322921922",
+      "telegram": null,
+      "website": "https://www.reddit.com/r/Epstein/comments/1qvp3v8/an_anonymous_tip_claiming_ghislaine_maxwell_was/"
+    },
+    "status": "detected",
+    "signature": "2MAHfUiuCMR2pvXMWaUcfRy1bKGssUxb3eyohZJjEVWbfQzPt2M5oqETnyZLNfVUT5xqSeHfzdEoEuout63U6tQp"
+  },
+  {
+    "id": "a8b22d3d-6085-4b39-8390-3aa6f9043a41",
+    "timestamp": "2026-02-04T14:18:02.006Z",
+    "type": "DISCOVERY",
+    "token": "vnNf5XszcbE7bbw4uCCP7eyjQvrUxfyGpbXQhWypump",
+    "source": "PumpFun",
+    "name": "Marius Fortelni",
+    "symbol": "Marius",
+    "socials": {
+      "twitter": "https://x.com/grandtheftpfun/status/2019052015482024428",
+      "telegram": null,
+      "website": "https://www.justice.gov/epstein"
+    },
+    "status": "detected",
+    "signature": "29TnRcu58kvi9Ny7R5kvcBSzHrJJPjkcvpQA6bU96Pv5gThtgzHLDCcnmnuzHKTKXQTvnPWvALcgL484ZDPPFXGR"
+  },
+  {
+    "id": "e29c2023-3308-4f9a-b204-c13d85f333ce",
+    "timestamp": "2026-02-04T14:50:08.690Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+    "source": "Meteora_DLMM",
+    "name": "TRUMP-USDC",
+    "symbol": "TRUMP",
+    "status": "candidate",
+    "metrics": {
+      "volume": 62050268.05622076,
+      "tvl": "115756316.36718468",
+      "utilization": "0.54"
+    }
+  },
+  {
+    "id": "a007bc96-c11c-494b-960e-e61c30c26fa2",
+    "timestamp": "2026-02-04T14:50:08.693Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "So11111111111111111111111111111111111111112",
+    "source": "Meteora_DLMM",
+    "name": "SOL-USDC",
+    "symbol": "SOL",
+    "status": "candidate",
+    "metrics": {
+      "volume": 23756010.66179831,
+      "tvl": "2071346.0050379464",
+      "utilization": "11.47"
+    }
+  },
+  {
+    "id": "89dadc4c-ed8f-43d2-bd35-247af27bb728",
+    "timestamp": "2026-02-04T14:50:08.695Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "So11111111111111111111111111111111111111112",
+    "source": "Meteora_DLMM",
+    "name": "SOL-USDC",
+    "symbol": "SOL",
+    "status": "candidate",
+    "metrics": {
+      "volume": 23096084.07965072,
+      "tvl": "5185349.128209904",
+      "utilization": "4.45"
+    }
+  },
+  {
+    "id": "59d19abb-f592-4878-a598-707a53618e3e",
+    "timestamp": "2026-02-04T15:12:49.669Z",
+    "type": "DISCOVERY_FULL",
+    "token": "Hw81n9EMCSomMi1s1kM7cSEyFmj5hMoCEaMzruQCrWnS",
+    "source": "PumpFun",
+    "name": "In This Economy?",
+    "symbol": "Economy",
+    "socials": {
+      "twitter": "https://x.com/hedizss/status/2019066295811965317",
+      "telegram": null,
+      "website": "https://x.com/i/communities/2019065726934364241"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "5qebXkGF3gJVRMtTdUpCe37wUfNaqFKcBTVDyx7e1c2esmzMvAhXzGj9g9UPzM7kvEWaYCNjHTvjn24tZwqWoaDd"
+  },
+  {
+    "id": "4d817cbc-0b2e-4d02-a843-29124a770f59",
+    "timestamp": "2026-02-04T15:12:49.819Z",
+    "type": "DISCOVERY_FULL",
+    "token": "9BpswRxLKQ6bmC92niH6ejcHC9iZxAy6h3XJkRHopump",
+    "source": "PumpFun",
+    "name": "moltpump",
+    "symbol": "moltpump",
+    "socials": {
+      "twitter": "https://x.com/moltpumptech",
+      "telegram": null,
+      "website": "https://moltpump.tech/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "33AM2tERhPMMkkVQGCnp7MzxNFcbNNbPzStq82okpGkY7SGJvVtRtjMSHbLENj5q3yLoJfP2eeppKDtnJvxCc9MM"
+  },
+  {
+    "id": "fd3e2c5c-1e07-47ba-bdca-d819d4eae163",
+    "timestamp": "2026-02-04T15:12:49.837Z",
+    "type": "DISCOVERY_FULL",
+    "token": "9BpswRxLKQ6bmC92niH6ejcHC9iZxAy6h3XJkRHopump",
+    "source": "PumpFun",
+    "name": "moltpump",
+    "symbol": "moltpump",
+    "socials": {
+      "twitter": "https://x.com/moltpumptech",
+      "telegram": null,
+      "website": "https://moltpump.tech/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "3km39kBLFvaTYxdLw291gUj7ijrCK7mGW1Gz9TXxHeCh9nxNXZZsSetNuLe6q9X32mSuBXEKqCybhkPj4mNKK2ZG"
+  },
+  {
+    "id": "a5a9b106-3fa6-4515-a969-162f182da053",
+    "timestamp": "2026-02-04T15:12:49.924Z",
+    "type": "DISCOVERY_FULL",
+    "token": "A5hmpAjkE7tCNa6SwN9A5o4MJ6DLHCzbLiG6zPcmf7mj",
+    "source": "PumpFun",
+    "name": "Max",
+    "symbol": "Max",
+    "socials": {
+      "twitter": "https://x.com/b_migliaccio/status/2019065931469631630",
+      "telegram": null,
+      "website": "https://youtu.be/l87HG34s9cQ"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "CNpTK5UALSaK49t7dMwaSNcnwYkaARi5vJpgLThmTUehsSjKnwteK75Fi3ZABSh8iy1bu5fexQDqWo9mCfzS2Dy"
+  },
+  {
+    "id": "a421d196-e4b1-4b63-9175-52d153f60f7f",
+    "timestamp": "2026-02-04T15:12:49.974Z",
+    "type": "DISCOVERY_FULL",
+    "token": "9BpswRxLKQ6bmC92niH6ejcHC9iZxAy6h3XJkRHopump",
+    "source": "PumpFun",
+    "name": "moltpump",
+    "symbol": "moltpump",
+    "socials": {
+      "twitter": "https://x.com/moltpumptech",
+      "telegram": null,
+      "website": "https://moltpump.tech/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "5eSwEi2atftccJuwVxnpPzZzMyhnXVAGjpXCZm6xZqmDdxqzpf942fDmRiPfsWigMXzn4BTAxnTKQNsVTxEwSqr6"
+  },
+  {
+    "id": "ff838e6c-f78e-4d21-802b-51692d4d9f5f",
+    "timestamp": "2026-02-04T15:12:50.049Z",
+    "type": "DISCOVERY_FULL",
+    "token": "E3hid94EBNnyQrRD1UwMjNq9qHLBTHgrM3NwdHAUpump",
+    "source": "PumpFun",
+    "name": "In This Economy?",
+    "symbol": "Economy",
+    "socials": {
+      "twitter": "https://x.com/uncleibbra/status/2019045698444919294",
+      "telegram": null,
+      "website": "https://x.com/search?q=in%20this%20economy&src=recent_search_click"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "22YV5W3MeqvXJVkaQJkgKEGwTyQ47zjC796Cv6TbgZtHcpsPVqu2vqmRjdr224tfn6MXUq9NFw9QueFnSCRLsiv9"
+  },
+  {
+    "id": "f2f2e4ca-326b-408b-af0d-e1c8d2e385a6",
+    "timestamp": "2026-02-04T15:12:50.074Z",
+    "type": "DISCOVERY_FULL",
+    "token": "9SPhH26e9AXWoqTczszatuhmWJz96v3mtkRuvEeWpump",
+    "source": "PumpFun",
+    "name": "CLAWEYES",
+    "symbol": "CLAWEYES",
+    "socials": {
+      "twitter": "https://x.com/toly/status/2019057552869257600",
+      "telegram": null,
+      "website": null
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "5FiC17nw9fS7UYsq2KPNSbsbRGbe34pkAHW95nzhpAuQhGjgZwkBuvZ92qCEDhF4BcBwejYi1mHsPgeBjomoMg7s"
+  },
+  {
+    "id": "526b41aa-ef6e-4d51-8822-00d01aba4ade",
+    "timestamp": "2026-02-04T15:12:50.275Z",
+    "type": "DISCOVERY_FULL",
+    "token": "UM32JryxAuS4sTH5sQTtzecC5SGBxjgGLiv7xMopump",
+    "source": "PumpFun",
+    "name": "the rolex index",
+    "symbol": "rolex ",
+    "socials": {
+      "twitter": "https://x.com/idrawcooksfbs/status/2019063966547255682?s=46",
+      "telegram": null,
+      "website": null
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "2Q33agY5wd6B65PhocJm9sBc8XLCofpsnCmozg9uaj9jX9UvxrhzthLJymx7dEgNavonb65NiFfPF2FwFdu5V47V"
+  },
+  {
+    "id": "3a40464c-f4ca-4d7f-ae64-e93628a97d0a",
+    "timestamp": "2026-02-04T15:12:50.296Z",
+    "type": "DISCOVERY_FULL",
+    "token": "UM32JryxAuS4sTH5sQTtzecC5SGBxjgGLiv7xMopump",
+    "source": "PumpFun",
+    "name": "the rolex index",
+    "symbol": "rolex ",
+    "socials": {
+      "twitter": "https://x.com/idrawcooksfbs/status/2019063966547255682?s=46",
+      "telegram": null,
+      "website": null
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "42XwPrgw68GU9PcSB9KkgwGwHupH5wKFZKW3s6YRv1M9j6NSvHs7zruwFbGqG1qbkx8cwcF3TzNB5PDbHQTfe7cY"
+  },
+  {
+    "id": "0a1fa4e4-69cd-408c-898f-e1954ac8f2bc",
+    "timestamp": "2026-02-04T15:12:50.701Z",
+    "type": "DISCOVERY_FULL",
+    "token": "6eNdMUAqtuJdh2bsBkn1QESs7zzS5XFQbHXzXWHipump",
+    "source": "Raydium",
+    "name": "HIMENO",
+    "symbol": "HIMENO",
+    "socials": {
+      "twitter": "https://x.com/HimenoSol",
+      "telegram": "https://t.me/HimenoSol",
+      "website": "https://api.himeno.xyz/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "7qeJb8CayuA41F5vzMecJ6WseNg9sXXX4XFjPgeDyQi9PPU8E2zhFDaBtjbDa4dhaPZ84v4v9mDX91TbBnxbqbx"
+  },
+  {
+    "id": "46fd21d9-4a21-43bc-aa67-8fca309fc983",
+    "timestamp": "2026-02-04T15:12:51.093Z",
+    "type": "DISCOVERY_FULL",
+    "token": "3YGihkKqbWmQmwWno81mHKVso6ETEv3GptBNayEYpump",
+    "source": "PumpFun",
+    "name": "Silicon Valley Coin",
+    "symbol": "SVC",
+    "socials": {
+      "twitter": "https://x.com/i/communities/2019054799325368496",
+      "telegram": null,
+      "website": "https://www.justice.gov/epstein/files/DataSet%209/EFTA00292479.pdf"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "3hDDfrvC7kL5a9eua7xVmzCoyKWLjsRKXffZjHPhPC4dxf85CapSTGNQADwhXabmAwvupo9zgEp1SzZxDKgzU5kG"
+  },
+  {
+    "id": "472ffbf0-ab0d-416f-a468-280a665fa8f1",
+    "timestamp": "2026-02-04T15:12:51.182Z",
+    "type": "DISCOVERY_FULL",
+    "token": "9BpswRxLKQ6bmC92niH6ejcHC9iZxAy6h3XJkRHopump",
+    "source": "PumpFun",
+    "name": "moltpump",
+    "symbol": "moltpump",
+    "socials": {
+      "twitter": "https://x.com/moltpumptech",
+      "telegram": null,
+      "website": "https://moltpump.tech/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "4fNXGV7eHT8YVGQ3jVx8WLj6w1XwsqHzKabUfp6g3hWxqzH9s6qiBkhg8dBTGtSghZ1T6MHvYndG7keDsP9Yd8gi"
+  },
+  {
+    "id": "beb49c0d-0ecf-4465-a373-d844c1216345",
+    "timestamp": "2026-02-04T15:12:51.418Z",
+    "type": "DISCOVERY_FULL",
+    "token": "Hw81n9EMCSomMi1s1kM7cSEyFmj5hMoCEaMzruQCrWnS",
+    "source": "PumpFun",
+    "name": "In This Economy?",
+    "symbol": "Economy",
+    "socials": {
+      "twitter": "https://x.com/hedizss/status/2019066295811965317",
+      "telegram": null,
+      "website": "https://x.com/i/communities/2019065726934364241"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "2qXiAao6uGeJM4EaEk7RLVRpCqwGsTProkoHNRRB8BEb4TAA1ejiLSz2qLbsDFSJhNQmtgubf3rQntc4aAMwUP5w"
+  },
+  {
+    "id": "12a923f0-5e53-4952-9a51-4245a3ca6fa0",
+    "timestamp": "2026-02-04T15:12:51.475Z",
+    "type": "DISCOVERY_FULL",
+    "token": "Hw81n9EMCSomMi1s1kM7cSEyFmj5hMoCEaMzruQCrWnS",
+    "source": "PumpFun",
+    "name": "In This Economy?",
+    "symbol": "Economy",
+    "socials": {
+      "twitter": "https://x.com/hedizss/status/2019066295811965317",
+      "telegram": null,
+      "website": "https://x.com/i/communities/2019065726934364241"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "diPBmmKGN6bbJcauX1qq8BJRvFohwszbmEs9DpvVxQoHsdiSpHhxDQeNxBzF5pNLivGu26X9m5BBwpkWbiUTWjN"
+  },
+  {
+    "id": "fd708b48-8306-4a20-90ea-580ed9cc28bf",
+    "timestamp": "2026-02-04T15:12:52.426Z",
+    "type": "DISCOVERY_FULL",
+    "token": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump",
+    "source": "Raydium",
+    "name": "AI Rig Complex",
+    "symbol": "arc",
+    "socials": {
+      "twitter": "https://x.com/arcdotfun",
+      "telegram": "https://t.me/+Blnohzq1E6RhOWJh",
+      "website": "https://www.arc.fun/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "5MEd7fUNDL7w7heFCWhx2Fjum2bQXVnLXp24Kk23tu1RQXRDrG8m9XsjUi366tckFAaZqoqaxAmXzwLdQ65BiP3w"
+  },
+  {
+    "id": "1de7450e-a295-471c-84dc-e6ec3364bf85",
+    "timestamp": "2026-02-04T15:12:52.442Z",
+    "type": "DISCOVERY_FULL",
+    "token": "9BpswRxLKQ6bmC92niH6ejcHC9iZxAy6h3XJkRHopump",
+    "source": "PumpFun",
+    "name": "moltpump",
+    "symbol": "moltpump",
+    "socials": {
+      "twitter": "https://x.com/moltpumptech",
+      "telegram": null,
+      "website": "https://moltpump.tech/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "3QeA6EKqkC6nSd36nGnPaVch9x7UmzyHrbFWX1N938u9JLo822tTi9ErYQTL8N77AtwyRT2qgruu9gZS6mw6MAY7"
+  },
+  {
+    "id": "1da17751-3beb-43cb-af5c-c3ffd0970269",
+    "timestamp": "2026-02-04T15:12:53.513Z",
+    "type": "DISCOVERY_FULL",
+    "token": "ENDnxht2LVTzBhtmdWfvD4ATg7LXRiu7kbzTwhXepump",
+    "source": "PumpFun",
+    "name": "I'm tired boss",
+    "symbol": "TIRED",
+    "socials": {
+      "twitter": "https://x.com/i/communities/2000396947417420210",
+      "telegram": null,
+      "website": null
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "xgmwQnov4orNs1o6raXuUTideu273RQZWPGxiDC9pMCsax242ytTtZGq5guC2GrDNScqnvW6FT7V41PQivtK3bg"
+  },
+  {
+    "id": "4ee5af42-52d3-4d85-ae8f-58b756acf475",
+    "timestamp": "2026-02-04T15:12:53.665Z",
+    "type": "DISCOVERY_FULL",
+    "token": "HHjF74S5PV77HsxZMSLj8LcmhJGSdbmUU9khHwr1pump",
+    "source": "PumpFun",
+    "name": "MacMiniAgent",
+    "symbol": "MacMini",
+    "socials": {
+      "twitter": "https://x.com/catmcgee",
+      "telegram": null,
+      "website": null
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "4eS6jgKd5gx65mgv84EBKDyHf3SNSvMRnacF27diSHmtE1ZXRoPiCRwzaMSzPVwb75zxyqt5FHMwuKJ3iQNGCYMZ"
+  },
+  {
+    "id": "8f92f764-4de1-4739-9da2-875f924b75a7",
+    "timestamp": "2026-02-04T15:12:54.368Z",
+    "type": "DISCOVERY_FULL",
+    "token": "EPx8RZZLyWwuv3BXzX7EbdgCtbMAQtncCsdMAXLkpump",
+    "source": "Raydium",
+    "name": "MEWS BROTHER",
+    "symbol": "RAT",
+    "socials": {
+      "twitter": "https://x.com/mew/status/1859651062522839486",
+      "telegram": null,
+      "website": null
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "3zSp5sTqA4WNJ9eUSL8Fb55tL8zp982XMWaCGnUAFfpQHEd3WTWWe6rX3XcGpiqb6KG6qfPAqZiMyhtFJnEUHW4t"
+  },
+  {
+    "id": "e763100e-ef5c-4eff-a3e3-f8be9e12af26",
+    "timestamp": "2026-02-04T15:12:55.693Z",
+    "type": "DISCOVERY_FULL",
+    "token": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump",
+    "source": "Raydium",
+    "name": "AI Rig Complex",
+    "symbol": "arc",
+    "socials": {
+      "twitter": "https://x.com/arcdotfun",
+      "telegram": "https://t.me/+Blnohzq1E6RhOWJh",
+      "website": "https://www.arc.fun/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "36s1yFe4QX5tFZLyrVPAhZX5HhTi71uppBGMiGYqe2atwG6xXzZ5RSY9p49Wvdh2vGB66miKRiE75j71VtkwNacp"
+  },
+  {
+    "id": "38e3d0f4-f127-4872-b870-b019a934dee7",
+    "timestamp": "2026-02-04T15:12:55.981Z",
+    "type": "DISCOVERY_FULL",
+    "token": "2emYMetySwE7Xh6qrG1AwAQ3TDvrLkUSpSZ5AjcWCc7B",
+    "source": "Raydium",
+    "name": "Lorm The Worm",
+    "symbol": "L",
+    "socials": {
+      "twitter": "https://x.com/LormTheWorm",
+      "telegram": "https://t.me/LormTheWorm",
+      "website": "https://lorm.wtf/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "3MgRFXYLncrRzJdZ6arJKhwWZ9NdejCr4aEtncXsG9v9Uqk5bCfzwBKV4NSHteEJUeej6BqPEuFar1CWJeDjPzHR"
+  },
+  {
+    "id": "eb751dd3-2cc4-4828-b9aa-90a5c8625136",
+    "timestamp": "2026-02-04T15:12:56.530Z",
+    "type": "DISCOVERY_FULL",
+    "token": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump",
+    "source": "Raydium",
+    "name": "AI Rig Complex",
+    "symbol": "arc",
+    "socials": {
+      "twitter": "https://x.com/arcdotfun",
+      "telegram": "https://t.me/+Blnohzq1E6RhOWJh",
+      "website": "https://www.arc.fun/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "C6jQSoWnPvf6WTKKxDq9HT9TABVUMRFcBLRJWSPYntUpkvt8K2woPL3yiNSZPdrAWjPG7vTV5vJFgkcPxd4BmSh"
+  },
+  {
+    "id": "fc26c3d5-fa45-4ff7-b160-5b190b1947e3",
+    "timestamp": "2026-02-04T15:12:58.428Z",
+    "type": "DISCOVERY_FULL",
+    "token": "J4E86qBt6g8AycDd4WaRFwwzaW2H1PkhxftrYY5mpump",
+    "source": "PumpFun",
+    "name": "Mossad Agent",
+    "symbol": "Mossad",
+    "socials": {
+      "twitter": "https://x.com/i/communities/2019062432396714086",
+      "telegram": null,
+      "website": "https://www.tiktok.com/search?q=mossad&t=1770215313748"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "3xJwRKF4R26AGbshPwA9hnNcZdT766v7Lweg254xSrDghA97Hd4gHcr8ECXbbipniui3aruUX3VWQE96FE7nzYDu"
+  },
+  {
+    "id": "8e35095f-7a67-45dd-b605-c8782bfe0da2",
+    "timestamp": "2026-02-04T15:12:58.438Z",
+    "type": "DISCOVERY_FULL",
+    "token": "5qmL9rCSfZ7pBYAsaoeG8SP76ZELeRCK8XtMmYZvpump",
+    "source": "Raydium",
+    "name": "W / I / B W \\ O \\ B",
+    "symbol": "wibwob",
+    "socials": {
+      "twitter": "https://x.com/_wibwob",
+      "telegram": "https://wibwob.surge.sh",
+      "website": "https://wibwob.surge.sh"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "4z7wu4a7HbcSoXhZA29ephmhSogKPRZoPxXgi7663P6LJZuW5LaeZMjepyCnqHro7JjZ11dBkr5sbxUHpo6iCPRW"
+  },
+  {
+    "id": "8695ffc1-5306-4c22-b9db-28fa1202bc17",
+    "timestamp": "2026-02-04T15:12:59.568Z",
+    "type": "DISCOVERY_FULL",
+    "token": "Hw81n9EMCSomMi1s1kM7cSEyFmj5hMoCEaMzruQCrWnS",
+    "source": "PumpFun",
+    "name": "In This Economy?",
+    "symbol": "Economy",
+    "socials": {
+      "twitter": "https://x.com/hedizss/status/2019066295811965317",
+      "telegram": null,
+      "website": "https://x.com/i/communities/2019065726934364241"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "3kihKm7WiPRPJp9E6zrCkjBeYyK7muZHFNdhsYVNgf2smAqyiCz2rJpF9CPbiXbeFVMfdk28g4khZu2FsPeZvMne"
+  },
+  {
+    "id": "79e7da2f-8703-4fa1-b310-cb7ec7bc26d2",
+    "timestamp": "2026-02-04T15:12:59.707Z",
+    "type": "DISCOVERY_FULL",
+    "token": "Dtdung1pyGtE59H2iLpfZ4KUphfYaPFLbqmc5mV7pump",
+    "source": "PumpFun",
+    "name": "Dirty Sánchez",
+    "symbol": "SANCHEZ",
+    "socials": {
+      "twitter": "https://x.com/elonmusk/status/2018873150973612340?s=46",
+      "telegram": null,
+      "website": null
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "2h3bJU1FW6u2GSB4E2kKRrpQ7wqkA2XWoo9JhFRuLRRfr1NYoRMa7uRGQoovn3yDXiWjA77G6KboZ5HRtyDLt4RC"
+  },
+  {
+    "id": "4261b934-1bbc-4475-9e82-e41b838b520a",
+    "timestamp": "2026-02-04T15:13:01.357Z",
+    "type": "DISCOVERY_FULL",
+    "token": "vXuzraKpqRhPByZyytXRt6TbmAptv3jUZFKrhwfpump",
+    "source": "Raydium",
+    "name": "Truth Terminal Imageboard",
+    "symbol": "GOATCHAN",
+    "socials": {
+      "twitter": "https://x.com/truth_terminal/status/1844978650313032131",
+      "telegram": null,
+      "website": "https://goatchan.org"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "44WkqPs1ZcbGUyrmC8GqW5tVTqXXiName5WHH6eysQWwpr24bWoA2xZc7JSbtfHx9mJDuX8ti7EK7zQ5TiyHLZnX"
+  },
+  {
+    "id": "77ce162a-77f7-4ba9-abdf-07b2f1f137a1",
+    "timestamp": "2026-02-04T15:13:01.699Z",
+    "type": "DISCOVERY_FULL",
+    "token": "9BpswRxLKQ6bmC92niH6ejcHC9iZxAy6h3XJkRHopump",
+    "source": "PumpFun",
+    "name": "moltpump",
+    "symbol": "moltpump",
+    "socials": {
+      "twitter": "https://x.com/moltpumptech",
+      "telegram": null,
+      "website": "https://moltpump.tech/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "3BoQ4Tm2zNdEVjizZtMKPfomMjxMNkrHxxr9HqJ3TeUa4SwAtLVzGMS3mtvAQVGPasxKkcHvBJvx3zg7ph3qzfcL"
+  },
+  {
+    "id": "b7e93469-e5ad-4aec-8dd4-022a5f8bc008",
+    "timestamp": "2026-02-04T15:13:02.364Z",
+    "type": "DISCOVERY_FULL",
+    "token": "5qmL9rCSfZ7pBYAsaoeG8SP76ZELeRCK8XtMmYZvpump",
+    "source": "Raydium",
+    "name": "W / I / B W \\ O \\ B",
+    "symbol": "wibwob",
+    "socials": {
+      "twitter": "https://x.com/_wibwob",
+      "telegram": "https://wibwob.surge.sh",
+      "website": "https://wibwob.surge.sh"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "nEQGqCTX2g6TG47bAruSvmaZgnmeSdKNjfvcaUKyYDsPPL3e1c4jhQUUdZSa6g1eGPNQQqdUUbhych2idXyaUL5"
+  },
+  {
+    "id": "b0a5e2c2-3e01-46ed-9464-ec40c2ce087c",
+    "timestamp": "2026-02-04T15:13:02.425Z",
+    "type": "DISCOVERY_FULL",
+    "token": "9BpswRxLKQ6bmC92niH6ejcHC9iZxAy6h3XJkRHopump",
+    "source": "PumpFun",
+    "name": "moltpump",
+    "symbol": "moltpump",
+    "socials": {
+      "twitter": "https://x.com/moltpumptech",
+      "telegram": null,
+      "website": "https://moltpump.tech/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "5pT1TMdYRcA8S5uLAqRC68xnw8uxNUEcSSXhxhq6H3DfERPNMRDk27rEUUUWyTHwTfjR5tT1KPDEpaafZ5UAHu4S"
+  },
+  {
+    "id": "a546a4c6-53e7-4f87-9e07-ef2d6071b18e",
+    "timestamp": "2026-02-04T15:13:02.677Z",
+    "type": "DISCOVERY_FULL",
+    "token": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump",
+    "source": "Raydium",
+    "name": "AI Rig Complex",
+    "symbol": "arc",
+    "socials": {
+      "twitter": "https://x.com/arcdotfun",
+      "telegram": "https://t.me/+Blnohzq1E6RhOWJh",
+      "website": "https://www.arc.fun/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "TZBmdjxVnThzvVpg7iCD5V7fXXNaXSgtQqtzyg716nBZinKgQtsgn99EzpyxYQCAsUj8Jc77E9kjBq6XDahxqCK"
+  },
+  {
+    "id": "ca10781d-bd76-486f-96e2-c572dd42e630",
+    "timestamp": "2026-02-04T15:13:03.425Z",
+    "type": "DISCOVERY_FULL",
+    "token": "9BpswRxLKQ6bmC92niH6ejcHC9iZxAy6h3XJkRHopump",
+    "source": "PumpFun",
+    "name": "moltpump",
+    "symbol": "moltpump",
+    "socials": {
+      "twitter": "https://x.com/moltpumptech",
+      "telegram": null,
+      "website": "https://moltpump.tech/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "3VgQGZWrvU1KHFieFZ5S9Gi9uqYbjYb8AFiL2BvzyiejpzX17jrmyinvjnBQKowhDSRLbeMDLHNUPNcLeVpX3UAg"
+  },
+  {
+    "id": "d6af6c4f-fceb-425d-bf0a-25de7066cd62",
+    "timestamp": "2026-02-04T15:13:04.369Z",
+    "type": "DISCOVERY_FULL",
+    "token": "CSh2QjuhFihJqEzzKNdNfv1Mtdt9DRHwn4VvVA91pump",
+    "source": "PumpFun",
+    "name": "manipulation",
+    "symbol": "MANIPUL",
+    "socials": {
+      "twitter": "https://x.com/search?q=MANIPULATION&src=typed_query&f=top",
+      "telegram": null,
+      "website": null
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "63gs186UkaAAKfVbaLMhw6J1XNaEj9N7gDFCqjS5QjxesYesTvfdPDnrCofRApvTtk4RKj4V7VaavC23tbJKWmM9"
+  },
+  {
+    "id": "6eac4ab8-20f0-4690-930a-063cc53c3fd9",
+    "timestamp": "2026-02-04T15:13:04.471Z",
+    "type": "DISCOVERY_FULL",
+    "token": "Hw81n9EMCSomMi1s1kM7cSEyFmj5hMoCEaMzruQCrWnS",
+    "source": "PumpFun",
+    "name": "In This Economy?",
+    "symbol": "Economy",
+    "socials": {
+      "twitter": "https://x.com/hedizss/status/2019066295811965317",
+      "telegram": null,
+      "website": "https://x.com/i/communities/2019065726934364241"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "2MB3jDyW6oQuQudCqdDyxLuEZ5gJbRMCme3viDVJEb9BTsFsNJpE4tXTFrqU3RgTsfdV85xZfDmvD2qg6z6rbtRt"
+  },
+  {
+    "id": "2eda8279-23b8-441c-b5dc-e1baeebcda74",
+    "timestamp": "2026-02-04T15:13:04.559Z",
+    "type": "DISCOVERY_FULL",
+    "token": "J4E86qBt6g8AycDd4WaRFwwzaW2H1PkhxftrYY5mpump",
+    "source": "PumpFun",
+    "name": "Mossad Agent",
+    "symbol": "Mossad",
+    "socials": {
+      "twitter": "https://x.com/i/communities/2019062432396714086",
+      "telegram": null,
+      "website": "https://www.tiktok.com/search?q=mossad&t=1770215313748"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "5veZRZYG4Ji4X7FjpnQdFaHcZokcVmPkibACmHyNUbfjW7PacSKi8yNwZJTEnqMz5a8AdnkCmdWxhBPqunGVz4wQ"
+  },
+  {
+    "id": "f72fcd1d-ffc2-46f9-a9c2-ddd296280e36",
+    "timestamp": "2026-02-04T15:13:05.464Z",
+    "type": "DISCOVERY_FULL",
+    "token": "9BpswRxLKQ6bmC92niH6ejcHC9iZxAy6h3XJkRHopump",
+    "source": "PumpFun",
+    "name": "moltpump",
+    "symbol": "moltpump",
+    "socials": {
+      "twitter": "https://x.com/moltpumptech",
+      "telegram": null,
+      "website": "https://moltpump.tech/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "4D6gLCA7Vq8hYZm9dC2b5bEcTesuhrStBU1XQNDXcdgiG2rNxgEmR3SFP7Qzh2EyLefuwasF3JmxQHbA8h4WEgna"
+  },
+  {
+    "id": "73983aa1-78f6-468d-8720-4c31ea6e132e",
+    "timestamp": "2026-02-04T15:13:05.479Z",
+    "type": "DISCOVERY_FULL",
+    "token": "CSh2QjuhFihJqEzzKNdNfv1Mtdt9DRHwn4VvVA91pump",
+    "source": "PumpFun",
+    "name": "manipulation",
+    "symbol": "MANIPUL",
+    "socials": {
+      "twitter": "https://x.com/search?q=MANIPULATION&src=typed_query&f=top",
+      "telegram": null,
+      "website": null
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "2k1Ny2w91Fjz5LUTazUoT6RbqYUj5c2XYYV3LfLm7MkLtGK3yoxqz99h8kfcNrYFpqoofzXpS2npZhcKjabVMJKk"
+  },
+  {
+    "id": "90b8c1c7-5156-47ab-a2b3-fd6334817308",
+    "timestamp": "2026-02-04T15:13:06.505Z",
+    "type": "DISCOVERY_FULL",
+    "token": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump",
+    "source": "Raydium",
+    "name": "AI Rig Complex",
+    "symbol": "arc",
+    "socials": {
+      "twitter": "https://x.com/arcdotfun",
+      "telegram": "https://t.me/+Blnohzq1E6RhOWJh",
+      "website": "https://www.arc.fun/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "3xBS79aDbpcxSsEsxG4P1Fco4QH4oZHRGhvBunxdTgu6qvbnJGnpVhGtrMt3jpaTq3uhLpEcKqtYiBEzBJcVe929"
+  },
+  {
+    "id": "69b9225c-dfd1-4ad8-b9e2-909f776afc6c",
+    "timestamp": "2026-02-04T15:13:07.238Z",
+    "type": "DISCOVERY_FULL",
+    "token": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump",
+    "source": "Raydium",
+    "name": "AI Rig Complex",
+    "symbol": "arc",
+    "socials": {
+      "twitter": "https://x.com/arcdotfun",
+      "telegram": "https://t.me/+Blnohzq1E6RhOWJh",
+      "website": "https://www.arc.fun/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "2sxQX9rhnjtrCJMUHLKLuuHPum1g7xm5iLTwpnKNnYKgSR7GUtLnrHZKfCiLxb62JGiqL6gskc5tmCXytRmi3qo4"
+  },
+  {
+    "id": "d31ff2d1-9c5f-4a17-9a65-dc6e84bc175b",
+    "timestamp": "2026-02-04T15:13:07.422Z",
+    "type": "DISCOVERY_FULL",
+    "token": "9BpswRxLKQ6bmC92niH6ejcHC9iZxAy6h3XJkRHopump",
+    "source": "PumpFun",
+    "name": "moltpump",
+    "symbol": "moltpump",
+    "socials": {
+      "twitter": "https://x.com/moltpumptech",
+      "telegram": null,
+      "website": "https://moltpump.tech/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "2PhGXSbzGMhZsBTVA4ZUtDApyvfGwMkeqwTdRPyE7NfPvYD3iVxCufKpZ5si4svLLKpMbsKPVcSjUFuRsCjCTEeP"
+  },
+  {
+    "id": "f22780b5-b190-442c-8944-da3327083e69",
+    "timestamp": "2026-02-04T15:13:07.619Z",
+    "type": "DISCOVERY_FULL",
+    "token": "3YGihkKqbWmQmwWno81mHKVso6ETEv3GptBNayEYpump",
+    "source": "PumpFun",
+    "name": "Silicon Valley Coin",
+    "symbol": "SVC",
+    "socials": {
+      "twitter": "https://x.com/i/communities/2019054799325368496",
+      "telegram": null,
+      "website": "https://www.justice.gov/epstein/files/DataSet%209/EFTA00292479.pdf"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "zLKNiFtTBMgW9WDbAbiP4Az53ZY23Rk5hADjHVcTaf5tinwpg6dE64W42iQeWvxh4pny5ugkh4Mr7rjSSpnsYkp"
+  },
+  {
+    "id": "d281ab4d-b46a-4b90-ad2c-57f9277c75e9",
+    "timestamp": "2026-02-04T15:13:08.356Z",
+    "type": "DISCOVERY_FULL",
+    "token": "9BpswRxLKQ6bmC92niH6ejcHC9iZxAy6h3XJkRHopump",
+    "source": "PumpFun",
+    "name": "moltpump",
+    "symbol": "moltpump",
+    "socials": {
+      "twitter": "https://x.com/moltpumptech",
+      "telegram": null,
+      "website": "https://moltpump.tech/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "3LxSggZQKCe5dB3V8Yv66GZkBiC6xM7izVPmnUHGiPZ1cDaWBzu2zPx3Deyx23JHWjTY4wNuzW5SFb4KsGXnoX3"
+  },
+  {
+    "id": "c3e0fdf0-97a3-440b-92e2-65e12ef01cac",
+    "timestamp": "2026-02-04T15:13:08.434Z",
+    "type": "DISCOVERY_FULL",
+    "token": "9BpswRxLKQ6bmC92niH6ejcHC9iZxAy6h3XJkRHopump",
+    "source": "PumpFun",
+    "name": "moltpump",
+    "symbol": "moltpump",
+    "socials": {
+      "twitter": "https://x.com/moltpumptech",
+      "telegram": null,
+      "website": "https://moltpump.tech/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "t1ei7VZZKG9dyo6DRQqqUQdpHiXFQqDbucedqaVg1q2Jq8rFrMjan2yRC1Rhczb78YKkf1ztU5LT2V9pjEsY1XX"
+  },
+  {
+    "id": "c4c6f6dd-28c3-4a67-a719-15ad01d54fd8",
+    "timestamp": "2026-02-04T15:13:08.527Z",
+    "type": "DISCOVERY_FULL",
+    "token": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump",
+    "source": "Raydium",
+    "name": "AI Rig Complex",
+    "symbol": "arc",
+    "socials": {
+      "twitter": "https://x.com/arcdotfun",
+      "telegram": "https://t.me/+Blnohzq1E6RhOWJh",
+      "website": "https://www.arc.fun/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "5ZyB63kcHbn6wdWkJAUEnKPBp93xEhAEu6vbng8FZ654fc1B65voSuKf95M51XvTKg87uzLtpT4iADxk5nuBmZBC"
+  },
+  {
+    "id": "49ec6902-aaaa-428a-9619-7e44bd1e9a98",
+    "timestamp": "2026-02-04T15:13:11.507Z",
+    "type": "DISCOVERY_FULL",
+    "token": "Hw81n9EMCSomMi1s1kM7cSEyFmj5hMoCEaMzruQCrWnS",
+    "source": "PumpFun",
+    "name": "In This Economy?",
+    "symbol": "Economy",
+    "socials": {
+      "twitter": "https://x.com/hedizss/status/2019066295811965317",
+      "telegram": null,
+      "website": "https://x.com/i/communities/2019065726934364241"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "4LSpN3sZJJQwChmS9NhURR5p6wHYesE7G3h67cu4KEJ7FyohGfNGN3ZGygh1w5Rjdr7a2KrnA89ZzUs1jkJRZmuo"
+  },
+  {
+    "id": "2d221b9a-a101-48da-9fac-bab519720aa4",
+    "timestamp": "2026-02-04T15:13:12.971Z",
+    "type": "DISCOVERY_FULL",
+    "token": "sDLRYc96bWkJCVgRaR8FTvokw2iSg8bSQrHR7vHpump",
+    "source": "PumpFun",
+    "name": "Ai Caricature",
+    "symbol": "Caricature",
+    "socials": {
+      "twitter": "https://x.com/zimmy_eth/status/2019061505916862931",
+      "telegram": null,
+      "website": null
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "2MVdosFHV4qiND3J5nfLQJw6MWXxhzvhq74BkeZhKkkdCaVREekeXEJaUshMriQ78PggwtFhap18JvtfkmAagesr"
+  },
+  {
+    "id": "f50847e4-59b4-4cc3-83d8-9946f6d118e0",
+    "timestamp": "2026-02-04T15:13:13.463Z",
+    "type": "DISCOVERY_FULL",
+    "token": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump",
+    "source": "Raydium",
+    "name": "AI Rig Complex",
+    "symbol": "arc",
+    "socials": {
+      "twitter": "https://x.com/arcdotfun",
+      "telegram": "https://t.me/+Blnohzq1E6RhOWJh",
+      "website": "https://www.arc.fun/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "UCnYgiFhao1TNGKqKR5US51oEqmvWKajB6v3rXBrQedQjaNNZbNKHpYW3yasjJW4tJumFFXaCMVHSuCdaBtSWFv"
+  },
+  {
+    "id": "4dfb5db4-65ea-4a66-b9da-07208ac2fa58",
+    "timestamp": "2026-02-04T15:13:13.478Z",
+    "type": "DISCOVERY_FULL",
+    "token": "9BpswRxLKQ6bmC92niH6ejcHC9iZxAy6h3XJkRHopump",
+    "source": "PumpFun",
+    "name": "moltpump",
+    "symbol": "moltpump",
+    "socials": {
+      "twitter": "https://x.com/moltpumptech",
+      "telegram": null,
+      "website": "https://moltpump.tech/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "4d7k4dSBCeNuZnGb1Q5GPhng8SLPxhykjdayGbBH1PTDNsZtnnmbzK4PAtehQMLn3a9XGScMpzvtRRjH7fFqWj6s"
+  },
+  {
+    "id": "7734fc1f-a335-40d3-845f-6126987470c3",
+    "timestamp": "2026-02-04T15:13:14.155Z",
+    "type": "DISCOVERY_FULL",
+    "token": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump",
+    "source": "Raydium",
+    "name": "AI Rig Complex",
+    "symbol": "arc",
+    "socials": {
+      "twitter": "https://x.com/arcdotfun",
+      "telegram": "https://t.me/+Blnohzq1E6RhOWJh",
+      "website": "https://www.arc.fun/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "57MWJCib9QZQcrMhZnRoFSP9UJMY87s19TcmaSA7bg51iJx2FQMAYmwaQfdDEpuG5bzqdQFdDzeWDZ8qgnGzSDWm"
+  },
+  {
+    "id": "f837e0c8-7d55-4468-8766-ae7b0514180c",
+    "timestamp": "2026-02-04T15:13:14.326Z",
+    "type": "DISCOVERY_FULL",
+    "token": "HHjF74S5PV77HsxZMSLj8LcmhJGSdbmUU9khHwr1pump",
+    "source": "PumpFun",
+    "name": "MacMiniAgent",
+    "symbol": "MacMini",
+    "socials": {
+      "twitter": "https://x.com/catmcgee",
+      "telegram": null,
+      "website": null
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "36oww7fedjun7pFvT8cQv9FBfZTAWZhnn5svXWXt7NuWNhc7CAQAyvAcvoYxFFvUjGDeSKL1t8BeCBfdzkRePuWg"
+  },
+  {
+    "id": "274ab3d0-41bd-4552-be14-821bc8bd1d9b",
+    "timestamp": "2026-02-04T15:13:14.352Z",
+    "type": "DISCOVERY_FULL",
+    "token": "9BpswRxLKQ6bmC92niH6ejcHC9iZxAy6h3XJkRHopump",
+    "source": "PumpFun",
+    "name": "moltpump",
+    "symbol": "moltpump",
+    "socials": {
+      "twitter": "https://x.com/moltpumptech",
+      "telegram": null,
+      "website": "https://moltpump.tech/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "3U2pUu7DQr1WwbhhPhdh4tR1k3LHJH7qoMjFDELMm6jS2rFkZtyEbuEbHFJpzyY4VV3PLkat7VHHkLYiyvK3LmFH"
+  },
+  {
+    "id": "803126e7-d307-4d09-9f0a-8ba50096f11b",
+    "timestamp": "2026-02-04T15:13:14.382Z",
+    "type": "DISCOVERY_FULL",
+    "token": "UM32JryxAuS4sTH5sQTtzecC5SGBxjgGLiv7xMopump",
+    "source": "PumpFun",
+    "name": "the rolex index",
+    "symbol": "rolex ",
+    "socials": {
+      "twitter": "https://x.com/idrawcooksfbs/status/2019063966547255682?s=46",
+      "telegram": null,
+      "website": null
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "2D2APaqJvpSFmiSaaLLYVSGiShZiDUSTR8S3JUx3SAX8n1n7uUmqVhGUYoX22sbC5jnJ2iFZNVPmr9PZ6ZqMqusf"
+  },
+  {
+    "id": "b9af84b5-40e6-4e1f-96b2-28f4e0974617",
+    "timestamp": "2026-02-04T15:13:14.410Z",
+    "type": "DISCOVERY_FULL",
+    "token": "Hw81n9EMCSomMi1s1kM7cSEyFmj5hMoCEaMzruQCrWnS",
+    "source": "PumpFun",
+    "name": "In This Economy?",
+    "symbol": "Economy",
+    "socials": {
+      "twitter": "https://x.com/hedizss/status/2019066295811965317",
+      "telegram": null,
+      "website": "https://x.com/i/communities/2019065726934364241"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "4R4SQ5e8SRdj3YEdYXxwVdmWTmvTWV8fDQfM3Uhxey1xWwr5uA1BWBUJUHVkvZasQjFS2ZQb7sFXBewRaYUVVMJa"
+  },
+  {
+    "id": "c688f9b9-5249-4376-88fe-078597cb10f3",
+    "timestamp": "2026-02-04T15:13:15.503Z",
+    "type": "DISCOVERY_FULL",
+    "token": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump",
+    "source": "Raydium",
+    "name": "AI Rig Complex",
+    "symbol": "arc",
+    "socials": {
+      "twitter": "https://x.com/arcdotfun",
+      "telegram": "https://t.me/+Blnohzq1E6RhOWJh",
+      "website": "https://www.arc.fun/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "4PtWXwrTzUiMFChuUZuyCGNrtGTxHXY6tdUy7DCXwYPhmrWbG9iEcuv6h1QrpVz9NuZWaHowMs66P7fK4p3itooY"
+  },
+  {
+    "id": "62e04901-57b4-4958-a56c-1ed6451bfce2",
+    "timestamp": "2026-02-04T15:13:16.716Z",
+    "type": "DISCOVERY_FULL",
+    "token": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump",
+    "source": "Raydium",
+    "name": "AI Rig Complex",
+    "symbol": "arc",
+    "socials": {
+      "twitter": "https://x.com/arcdotfun",
+      "telegram": "https://t.me/+Blnohzq1E6RhOWJh",
+      "website": "https://www.arc.fun/"
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "4bTrzfV4LhEod427AouGkDhCRXbTEWwxHVtuLwcsZJiNSMf1DxHvwohJYm9uVojHKoEEjk9tNWNJdrRNcoyFSaCX"
+  },
+  {
+    "id": "43403311-fb84-4847-8cb6-4eb03ad73eb1",
+    "timestamp": "2026-02-04T15:13:17.368Z",
+    "type": "DISCOVERY_FULL",
+    "token": "HHjF74S5PV77HsxZMSLj8LcmhJGSdbmUU9khHwr1pump",
+    "source": "PumpFun",
+    "name": "MacMiniAgent",
+    "symbol": "MacMini",
+    "socials": {
+      "twitter": "https://x.com/catmcgee",
+      "telegram": null,
+      "website": null
+    },
+    "sentiment": null,
+    "status": "analyzed",
+    "signature": "2DhBorVPRy9eDvMcuBQfjkMuLH2ATLm4qEGrVW2Fzw4Sn8hYNJ599phH8NpSQc4JoJVuaYCJmug2LKNWbTFUxwqD"
+  },
+  {
+    "id": "d8342892-2a15-4db7-86d4-d215d3e53df4",
+    "timestamp": "2026-02-04T16:04:10.428Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "HmcAxC5LfU9dKkKn891AbWr4GJHiKNCfuwp5rFRypump",
+    "source": "PumpFun",
+    "name": "Justice for Pixie",
+    "symbol": "PIXIE",
+    "score": 40,
+    "sentiment": null,
+    "signature": "4aiUcjNvXkfAiDKip2ZRod3D9KTHC9FR2X3hUPDXnxTnM1jtVceSAju6pa8j6ypssampmBaTxY9AT3hsvZmu8mir"
+  },
+  {
+    "id": "b4051a09-ee2b-4eb3-a65c-6131b8bf0041",
+    "timestamp": "2026-02-04T16:04:11.669Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "sDLRYc96bWkJCVgRaR8FTvokw2iSg8bSQrHR7vHpump",
+    "source": "PumpFun",
+    "name": "Ai Caricature",
+    "symbol": "Caricature",
+    "score": 40,
+    "sentiment": null,
+    "signature": "2L9nr5X3XVNruwnEBB6gxhUjVfjhvU7gpgYv2BfkN2oeQqbFLdry3VqqHQ4LrF4B7b9vz4sCxSrJzZU1NKt8JXpw"
+  },
+  {
+    "id": "3192e9a9-24fc-46df-b620-0145afc5d974",
+    "timestamp": "2026-02-04T16:04:13.687Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "EYEfhafXUCRsZpB5tv7PGgqh3pTD1nndNwsVWYqrpump",
+    "source": "PumpFun",
+    "name": "Not In The Files",
+    "symbol": "NITF",
+    "score": 40,
+    "sentiment": null,
+    "signature": "62gnxWc8PrN3Fo3WpaBrsCbAaAmJJDhuDwtMtE83x8UktMXjufCx2SFLNDGFxTTrsmWrt7MxB3Tx9wRPXNN2Ns6f"
+  },
+  {
+    "id": "367bf0e3-b86f-49ec-814e-8943bde7ab45",
+    "timestamp": "2026-02-04T16:04:13.920Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "6wTfN4kZrzS97BNukoWs2HATd1AG9F1wcRFCosAKpump",
+    "source": "PumpFun",
+    "name": "The Immortal Runner",
+    "symbol": "Jonathon ",
+    "score": 60,
+    "sentiment": null,
+    "signature": "4uFA5AWQ2Cs4aLi4vGFTXJAqRQmfBxaj9HiJwjdnp7TGC2R4cbHYfa4BfN6Bj6SPBxSgMAQGddcgnwwZU91b89vq"
+  },
+  {
+    "id": "20944286-45fa-4d5f-970f-a84b28b537c7",
+    "timestamp": "2026-02-04T16:04:15.013Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "FWa5ik7HCfAPSKcj51WfM1oBDFFDUxm9HStwW8nCwaa",
+    "source": "Raydium",
+    "name": "Yeezy Coin",
+    "symbol": "YzY",
+    "score": 100,
+    "sentiment": null,
+    "signature": "4ZVk6oPHZKkMXLk67c3srkABztFhUpp3DDrbyySS4jbgTMmnP7qdAS3NTx7sABRdbMUcswNkmTxRD4cQKgF1BjcT"
+  },
+  {
+    "id": "d7722732-39b9-413e-a81d-9d8d2cf8ab8a",
+    "timestamp": "2026-02-04T16:04:17.557Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "FWa5ik7HCfAPSKcj51WfM1oBDFFDUxm9HStwW8nCwaa",
+    "source": "Raydium",
+    "name": "Yeezy Coin",
+    "symbol": "YzY",
+    "score": 100,
+    "sentiment": null,
+    "signature": "4XMvcbfkSEbDWMLGUNYHK2UezS7iuaJE5pxYaXYupaF9K4jqPphJna1gmyqHQGtpoxEyUBSVxgLhfGqSVyWDKjVM"
+  },
+  {
+    "id": "ab329963-f46a-4f14-84b7-e2cdfe9855fe",
+    "timestamp": "2026-02-04T16:04:58.466Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "3echdLhqif8mVcHVFiNkRhQ4T4AZy39oQHoFRgDwpump",
+    "source": "PumpFun",
+    "name": "The Last Play",
+    "symbol": "Last",
+    "score": 60,
+    "sentiment": null,
+    "signature": "588BHjTSmD9gNEMdC8UZTwsV8PsGEfTmwzv8AfKZYSSpkxsctUyovFd6pAxy1CpppMHmXG8YCyd6mi9Hy7yb6fKo"
+  },
+  {
+    "id": "2028c3bc-b728-4a79-b727-c561fe9da9ba",
+    "timestamp": "2026-02-04T16:04:58.520Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "BQkqZ1J9zXdkutqkzzgMdfWkLZ2dqtEBDDQF2Mfepump",
+    "source": "Raydium",
+    "name": "leroy ai",
+    "symbol": "leroy",
+    "score": 60,
+    "sentiment": null,
+    "signature": "3sS2SG6B1JqzoVdCwhqrw4jby8ZQf1g6KVeCfZS8pfUsL6Ba4GwxbQxQJ5zBc7ZJTavA4N58SDWqCSkdvx9FAq8r"
+  },
+  {
+    "id": "d050c941-400a-454d-a953-513750da5817",
+    "timestamp": "2026-02-04T16:04:58.951Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "W3VyQ6r3PFa7DucMdkwfXW4164hpeBX8e6zpwpRpump",
+    "source": "PumpFun",
+    "name": "Deep Dive AI ",
+    "symbol": "DD",
+    "score": 60,
+    "sentiment": null,
+    "signature": "3m1gdXRVSksuMw9ncrz8AuFJRgKagfVzQMQzi4hwFGu2EBEp2FH3k7RXC4pQrEPkyj4sGVHDzRt4dkfe8mF6x8XV"
+  },
+  {
+    "id": "e4135502-2ab0-4582-83cb-35f687e0c143",
+    "timestamp": "2026-02-04T16:04:58.955Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "GQJot3EgoDj3xkoLcMdh5hoLJCLxuibVD66oiyCMNQHq",
+    "source": "PumpFun",
+    "name": "The Immortal Walker",
+    "symbol": "Jonathon",
+    "score": 60,
+    "sentiment": null,
+    "signature": "4yhYW4XbANeF4V7DoEMApykGW4VvRfrz1B3E74Hovkv9s3FggoDgJoDgRDpFwk3WfN4BpFZEc99D9cR3jusykgzf"
+  },
+  {
+    "id": "ef2ccbcb-aefa-467f-a215-bb46f52ec109",
+    "timestamp": "2026-02-04T16:04:58.991Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump",
+    "source": "Raydium",
+    "name": "AI Rig Complex",
+    "symbol": "arc",
+    "score": 100,
+    "sentiment": null,
+    "signature": "4N2TMdn9XpTakwgcZu4f3JCxnsFzyWgAyzCZJvJaTsAdXdBvuVZ9iDbCVMvDG66Q3g5PTQrZLHPFK9zddxG3RGNb"
+  },
+  {
+    "id": "10def8e2-a280-44b4-8bb9-b91c53198495",
+    "timestamp": "2026-02-04T16:04:59.017Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "HWeZgfKdPWRkLBGnmze5YokeZg9tQ2MYceYUChDNpump",
+    "source": "Raydium",
+    "name": "Bullshit Fantasy Coin",
+    "symbol": "BFC",
+    "score": 60,
+    "sentiment": null,
+    "signature": "3jwUFVahwefnJ57Fbaa9ekcPBkdF8HAs3PzygVrDWJNspmJZSAtGveAbj9CuHNwEU8zZRQgQXchw14raJVKnBK2a"
+  },
+  {
+    "id": "a913a2d1-051f-406c-b2ab-feb4379e956e",
+    "timestamp": "2026-02-04T16:04:59.237Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump",
+    "source": "Raydium",
+    "name": "AI Rig Complex",
+    "symbol": "arc",
+    "score": 100,
+    "sentiment": null,
+    "signature": "66Dmcvrrbu4Qd33KDcN94S8qi7mMQeGpb3u7KERC2ozhC3czM9heafu8jnefhAwb6GE1RZYu4f1twP3BG45GT1QM"
+  },
+  {
+    "id": "6697f31a-b383-476e-b2f8-03b2f832c8f2",
+    "timestamp": "2026-02-04T16:04:59.993Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "De4tJcbcyjLLfDo1eFwMrG3eJqdb8JAPvhtcmfwmNYEJ",
+    "source": "PumpFun",
+    "name": "Mid Life Crisis",
+    "symbol": "Crisis",
+    "score": 60,
+    "sentiment": null,
+    "signature": "5vvFZ5sLebdoh6hRYHfqQQrDL7fttY8CUZRdFPGeJApoDtwXWQ6U4EWVg2ecbqervWatsswndHpUqTVFYQUUTBHg"
+  },
+  {
+    "id": "d59e127a-c8cf-4731-89f0-7814b5fe4bfa",
+    "timestamp": "2026-02-04T16:05:00.289Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "3K7TmqV6ZDs4tJ6htXXGgjcWhMC8W6qnxec4tL2Dpump",
+    "source": "PumpFun",
+    "name": "Solentine",
+    "symbol": "SOLENTINE",
+    "score": 40,
+    "sentiment": null,
+    "signature": "YZofiMrcKXe74Q1SLj1GjXoSB6fmYzmQNfPbwNFbxJUzFKBNex48z9ENLFGjZzDFBghKtpTEFVMB6RihyRFacqw"
+  },
+  {
+    "id": "ff433afd-e1f2-43ad-abaa-cbd3ac32e6f1",
+    "timestamp": "2026-02-04T16:05:00.340Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump",
+    "source": "Raydium",
+    "name": "AI Rig Complex",
+    "symbol": "arc",
+    "score": 100,
+    "sentiment": null,
+    "signature": "5nazKu5ojMoDj7UPfUjMeD588kiJXXAbwWURUfpZu1dXsRfm5Hr3zyNpZMbj2FjbLLzAFoy6g1Wun7tfZqfd5gkk"
+  },
+  {
+    "id": "127c77e5-2d7d-4c07-ba9e-f94e751260db",
+    "timestamp": "2026-02-04T16:05:00.489Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "6q7cNzwqyCYSEUXfSkDUxp39e1bG7eCeCRGC52WApump",
+    "source": "PumpFun",
+    "name": "P.Diddy vs Epstein",
+    "symbol": "PVE",
+    "score": 60,
+    "sentiment": null,
+    "signature": "4GPsNzKXhyiuEGv98Azj49ed3KiDPcUV43hZXx74d3Ay7uZ7uYqy2kdSXLoJiwxBuh55ifUJLVsH9wa2MY8bRZj2"
+  },
+  {
+    "id": "30d5b836-7708-445f-913e-357c27af2728",
+    "timestamp": "2026-02-04T16:05:00.760Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "DVb1znJKBVJzcuzbgvcG3cSghf2i1YzdJqoJFb7ZdQuX",
+    "source": "Raydium",
+    "name": "GDTC",
+    "symbol": "GDTC",
+    "score": 100,
+    "sentiment": null,
+    "signature": "2PWwLpes3Ny4WV3g72WLs2wayb8dqGAywqAJXwokWEK2Ys1aTgMLuFQBfWDc7tWifkK6ETovTjJvP1KNwxE9HQue"
+  },
+  {
+    "id": "a3f0baef-3c16-4c98-aad7-033922cfe66d",
+    "timestamp": "2026-02-04T16:05:01.907Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "C7heQqfNzdMbUFQwcHkL9FvdwsFsDRBnfwZDDyWYCLTZ",
+    "source": "Raydium",
+    "name": "Collaterize",
+    "symbol": "$COLLAT",
+    "score": 100,
+    "sentiment": null,
+    "signature": "38CrGj8jXNn3Q1vsmoBSxnzcHWwwBP9ibJjCR7XLcZc1hcY7qZjr1NoKnKhWBTh4kQ4Rzooovwo9XQBcMFWfNRFz"
+  },
+  {
+    "id": "f7ecd39e-9bde-4b26-b049-9be9b06007a8",
+    "timestamp": "2026-02-04T16:05:01.934Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump",
+    "source": "Raydium",
+    "name": "AI Rig Complex",
+    "symbol": "arc",
+    "score": 100,
+    "sentiment": null,
+    "signature": "5tuL76rfxi2K3KMr9uHmbvAXJaHvGzbvEbVuWYvq9NQBANfnyosUDcidQ8D53PAj1fTQfMe2VyMFzy44C8Njk5DA"
+  },
+  {
+    "id": "a4d7e9be-49a3-4504-970f-457c58e45b2c",
+    "timestamp": "2026-02-04T16:05:02.011Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump",
+    "source": "Raydium",
+    "name": "AI Rig Complex",
+    "symbol": "arc",
+    "score": 100,
+    "sentiment": null,
+    "signature": "gEr1BpuLMzDTkNGPKXHK4qU38AGBW9kKyNfNijzaMC8wug25KVZMyguBRQxDmH3CMw5xCQQPowEgY9GwiVLHYw8"
+  },
+  {
+    "id": "59469cab-c502-4b42-ae9d-bc60f3b44fe1",
+    "timestamp": "2026-02-04T16:07:55.857Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "EoqciezPJ2BFDrrYzqaghyLSUTJtjRni8QBmGTnxpump",
+    "source": "PumpFun",
+    "name": "Scared Of Losing Dollars",
+    "symbol": "SOLD",
+    "score": 40,
+    "sentiment": null,
+    "signature": "2rvDNLm9qSGrUwfEPCBvfGCZycDBiW7q89cJBeEAmDS7PERoRSFZ7NpZ5CNRdombL7oXPVm2P4Kzw4sWbyZ7jyhm"
+  },
+  {
+    "id": "5d3ed442-4a71-40a8-a873-c1d339f7a659",
+    "timestamp": "2026-02-04T16:07:56.295Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "DnEkCduM5giBZNp82Vt6L4d5LAoRAHveofALsGucpump",
+    "source": "PumpFun",
+    "name": "The Immortal Runner",
+    "symbol": "Jonathan",
+    "score": 40,
+    "sentiment": null,
+    "signature": "TSZmC8qJdHX2YYQGBGeucWTsUyZyvyn7WMrFkiJdhwxNEJgqm2BUaPjd4RMA1fuAH6i2UFdG7K3jTERhdrB7KQN"
+  },
+  {
+    "id": "cd90c9c3-a7e4-4d70-beb4-ec596c9bbc51",
+    "timestamp": "2026-02-04T16:07:56.346Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "E4R9WhueCpk75ewDckgzw8UBZgoiC4Qkhtxv6Ln2pump",
+    "source": "PumpFun",
+    "name": "bullshit fantasy coin",
+    "symbol": "bfc",
+    "score": 40,
+    "sentiment": null,
+    "signature": "57dndezYaKVPTpiJBxighhxvrzyLeRovnvm9j3eEiaVrPoat3F6XTSWCsmkuXWGrSabcDww2EH3LP5NCEzxfkLr3"
+  },
+  {
+    "id": "89251034-c781-4bb4-8a9d-3bd2c19302af",
+    "timestamp": "2026-02-04T16:09:22.828Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "FAset1oTbzHJKdy6oFtwPDbREAS96hdzeK9VfCXSpump",
+    "source": "PumpFun",
+    "name": "Something Positive",
+    "symbol": "+",
+    "score": 40,
+    "sentiment": null,
+    "signature": "2PHFhmLxhWb5Sqk4jMWyKQ8iZvGDwfkjgdz5LADTTF9pgESQRrWipBBwV1JmfXED3ixJkUs36yVQ9RaBRm67yLr3"
+  },
+  {
+    "id": "b71df478-15b6-4730-84dc-93a4e8b6f710",
+    "timestamp": "2026-02-04T16:09:22.846Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "CN162nCPpq3DxPCyKLbAvEJeB1aCxsnVTEG4ZU8vpump",
+    "source": "Raydium",
+    "name": "AGENDA 47",
+    "symbol": "A47",
+    "score": 80,
+    "sentiment": null,
+    "signature": "2upMxek5b7ej21vA28mB9ZukXK8xzssMo2jNiG2ndkdZLnNsFuh8WoNfsUn185tmq4h7F2RefY6pcA2K6JEqsa8S"
+  },
+  {
+    "id": "e2ef18bd-b7e6-4929-945e-3c382b22730d",
+    "timestamp": "2026-02-04T16:09:22.857Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "9a21gb7fWGm9dD2UFdZAzgFn5K1NwfmYkjyLbpAcKgnM",
+    "source": "Raydium",
+    "name": "██████",
+    "symbol": "REDACTED",
+    "score": 100,
+    "sentiment": null,
+    "signature": "bjm9TpoCV7URVsb7EStyA5rSK6quBAZQv6F6cPpPARkFxC7GYF93Nu9cxYVBcDA7YmkFrrmTMgWnmWExAraHubE"
+  },
+  {
+    "id": "39a01f07-8768-4ea7-8e7c-5afc2c09704c",
+    "timestamp": "2026-02-04T16:09:22.860Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "CN162nCPpq3DxPCyKLbAvEJeB1aCxsnVTEG4ZU8vpump",
+    "source": "Raydium",
+    "name": "AGENDA 47",
+    "symbol": "A47",
+    "score": 80,
+    "sentiment": null,
+    "signature": "66RZPo9xUDE14J42JhRZjFYAM8Bb2fDYJkwmNAneTUJ2VLvFX5ittBLR6a7uVh4sDaZqLWPrT5j2H1nZmxxd47dq"
+  },
+  {
+    "id": "c1783bfc-ae7c-40ae-be6c-1b7a51f4dec0",
+    "timestamp": "2026-02-04T16:09:22.981Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "3K7TmqV6ZDs4tJ6htXXGgjcWhMC8W6qnxec4tL2Dpump",
+    "source": "PumpFun",
+    "name": "Solentine",
+    "symbol": "SOLENTINE",
+    "score": 40,
+    "sentiment": null,
+    "signature": "4PKLTwFah7nNA4n2LmyZsj9U1P9dbVCv19YZGvmmPs3dbdywFeEMr4V84yCs9kPfGUWEXXiELACGEuzphd3ZC4jW"
+  },
+  {
+    "id": "a7df51dc-99a4-461c-9cb3-4b479716c21e",
+    "timestamp": "2026-02-04T16:09:25.260Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "8d9PmWBJgHUtGE4vYDoJTKB49krXb5J4wafcMdampump",
+    "source": "PumpFun",
+    "name": "Indian Bieber",
+    "symbol": "Suraj",
+    "score": 60,
+    "sentiment": null,
+    "signature": "4uwtC9QLXPcZXGstaK1mSnzNo9XCqWH5wiYWUqLdP5iZtxeECPSBRDVG3wbVVUXKjVHAGqSE1CBDoFDXXX6X7pcD"
+  },
+  {
+    "id": "3010427d-3a39-4628-a5a9-0315e3190c99",
+    "timestamp": "2026-02-04T16:15:00.206Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+    "source": "Meteora_DLMM",
+    "name": "TRUMP-USDC",
+    "symbol": "TRUMP",
+    "status": "candidate",
+    "metrics": {
+      "volume": 62068521.18324454,
+      "tvl": "114813511.02436072",
+      "utilization": "0.54"
+    }
+  },
+  {
+    "id": "3a82e5a1-9c1c-4e21-ae5d-3697c0b1c7dc",
+    "timestamp": "2026-02-04T16:15:00.208Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "So11111111111111111111111111111111111111112",
+    "source": "Meteora_DLMM",
+    "name": "SOL-USDC",
+    "symbol": "SOL",
+    "status": "candidate",
+    "metrics": {
+      "volume": 23712235.051333994,
+      "tvl": "1914549.1553672748",
+      "utilization": "12.39"
+    }
+  },
+  {
+    "id": "5a33c40d-9ddb-4d72-897a-6709f80cbe8a",
+    "timestamp": "2026-02-04T16:15:00.210Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "So11111111111111111111111111111111111111112",
+    "source": "Meteora_DLMM",
+    "name": "SOL-USDC",
+    "symbol": "SOL",
+    "status": "candidate",
+    "metrics": {
+      "volume": 22990341.526618436,
+      "tvl": "5005921.087870631",
+      "utilization": "4.59"
+    }
+  },
+  {
+    "id": "3cae6b79-646c-4b37-b962-c91f9d3da891",
+    "timestamp": "2026-02-04T16:15:07.458Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "9frMQWLNpNWkKP2yTJmY2JG28vjxR69r738t8mSpump",
+    "source": "Raydium",
+    "name": "Bambi-nance",
+    "symbol": "Bambi",
+    "score": 40,
+    "sentiment": {
+      "score": 91,
+      "verdict": "BULLISH",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "519BCMm9EWmN9hRKrNJNQxWSf4booDRH2GjGUh3EYEkHypEETSjvaRriirU6KaTcuQ4QWRjr2fN3gaMqNVzJpakZ"
+  },
+  {
+    "id": "499b1227-4d1a-40ae-b3be-0f54e48c2d3b",
+    "timestamp": "2026-02-04T16:15:07.499Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "EPo2v7GEsKBea1a2hY8gSkyUWhU1wbxK95FfZJrcSGMY",
+    "source": "PumpFun",
+    "name": "wtf? i just saw solana at 100$",
+    "symbol": "wtf?",
+    "score": 40,
+    "sentiment": {
+      "score": 95,
+      "verdict": "BULLISH",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "GbCu8rwak97XXsfggL8EPbkzTLR6eQAXFXP3FnMQUa8jzXmMVvcr98dtczG9LQvskPoMJDAbrCwAhGot2LSDyKB"
+  },
+  {
+    "id": "144ad668-b47a-4e1f-a135-ee14a455f1f6",
+    "timestamp": "2026-02-04T16:15:07.512Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "ED5nyyWEzpPPiWimP8vYm7sD7TD3LAt3Q3gRTWHzPJBY",
+    "source": "Raydium",
+    "name": "Moo Deng",
+    "symbol": "MOODENG",
+    "score": 100,
+    "sentiment": {
+      "score": 71,
+      "verdict": "NEUTRAL",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "ZNX2UyFaytYU44Hr2yVdYuzQ4XhfpaxUKrQbs81ispANXQfEwmmNuN4eDp5tKCUUkq6Dna5B1TBgvuTA8i62D5V"
+  },
+  {
+    "id": "62f7acd0-11ea-424c-ad99-974cf5742b98",
+    "timestamp": "2026-02-04T16:15:07.536Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump",
+    "source": "Raydium",
+    "name": "Alchemist AI",
+    "symbol": "ALCH",
+    "score": 60,
+    "sentiment": {
+      "score": 69,
+      "verdict": "NEUTRAL",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "ZL2vY3QtkH6H3SaRDH8oUZu12jS5iALJi15w3pd4jecWo7P9rnwJcm5GF9YPj53FSCjraed2ijdETZkt7A3K5TA"
+  },
+  {
+    "id": "83468e95-79b1-4ec3-ab3d-98262acf4c56",
+    "timestamp": "2026-02-04T16:15:07.556Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "rizo34MUwbCBqpSTSfnEktdWB4CTByqqYh8zBxL3WAR",
+    "source": "Raydium",
+    "name": "HahaYes",
+    "symbol": "RIZO",
+    "score": 100,
+    "sentiment": {
+      "score": 99,
+      "verdict": "BULLISH",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "58ARJ6Z1LPv1BFNznr8EW1Ms1dcbSkexgj2gnPtBjEaTjKwhSJuAiCwFY7yUkE4huHsVNeABWDXnEXiyz21Y18Zc"
+  },
+  {
+    "id": "ffd11f9d-47b9-4c09-a1a4-bca3ae6d93ae",
+    "timestamp": "2026-02-04T16:15:07.819Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "Rymv7FSC5mpqaXXJRyqBdzngD6sWSRYVhF2B4k2pump",
+    "source": "Raydium",
+    "name": "OctonetAI",
+    "symbol": "OCTO",
+    "score": 100,
+    "sentiment": {
+      "score": 93,
+      "verdict": "BULLISH",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "23kviPTh7e7ddPkE6V8c1D4qd8CE98xxShBYpuAsiNNr1DwtPKC7CQ77Z6p2qYmqCG3h6d8NqpXEjyXThSyQachz"
+  },
+  {
+    "id": "c41fdeaa-85c0-4e2e-8e78-9e1f7b8d7bd4",
+    "timestamp": "2026-02-04T16:15:07.899Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "12V33BaFsK8oyhKyAUoEzjgnyeDgBLaxq7LEwAPWpump",
+    "source": "PumpFun",
+    "name": "PVE NARRA",
+    "symbol": "READD",
+    "score": 60,
+    "sentiment": {
+      "score": 77,
+      "verdict": "BULLISH",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "28FbfydNdRvEyQenj6w7ACgzoKSLZdDwazkuwe9oePzXLBwzxG4fQEtNTPav4VKLLuVDAmygfsAB4Ut3wHJjuxq8"
+  },
+  {
+    "id": "667766d1-a37a-4eeb-afdb-91d60e76df20",
+    "timestamp": "2026-02-04T16:15:08.106Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "2ASYekmV8pNYo5eGvuxk8qxHf8TuNLxJHjFDowf6pump",
+    "source": "PumpFun",
+    "name": "PVE NARRA",
+    "symbol": "READD",
+    "score": 60,
+    "sentiment": {
+      "score": 86,
+      "verdict": "BULLISH",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "4zTGsshEPEErqTggsuScKUK8bj9Yq8ptkLPEnDupzLMJ178ugerMBC3DRU7vrjFYcKarqeBNuYzVEVBncuLKdbhQ"
+  },
+  {
+    "id": "a2d4cb90-ae13-403b-a999-692c87dcfa14",
+    "timestamp": "2026-02-04T16:15:08.110Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "2d2HGEkrqdW5GUegVWsqhYrV7XH44GbqEieborsVpump",
+    "source": "PumpFun",
+    "name": "PVE NARRA",
+    "symbol": "READD",
+    "score": 60,
+    "sentiment": {
+      "score": 82,
+      "verdict": "BULLISH",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "56G9t3iCupYHU2MaLLFbSkbnkJ4eNVngz1exnAb3FRTex1crKURgmSR8aHi3QkvnAiK7EgGqY6VqCafDwmbv6wEY"
+  },
+  {
+    "id": "66138c4c-f16e-4015-97ed-f3c9ef833f8a",
+    "timestamp": "2026-02-04T16:17:40.441Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+    "source": "Meteora_DLMM",
+    "name": "TRUMP-USDC",
+    "symbol": "TRUMP",
+    "status": "candidate",
+    "metrics": {
+      "volume": 61944882.264583565,
+      "tvl": "114343742.62103318",
+      "utilization": "0.54"
+    }
+  },
+  {
+    "id": "a57b163c-4b7b-48b0-8714-a48f5f478377",
+    "timestamp": "2026-02-04T16:17:40.447Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "So11111111111111111111111111111111111111112",
+    "source": "Meteora_DLMM",
+    "name": "SOL-USDC",
+    "symbol": "SOL",
+    "status": "candidate",
+    "metrics": {
+      "volume": 23726353.970705967,
+      "tvl": "1908486.8776414664",
+      "utilization": "12.43"
+    }
+  },
+  {
+    "id": "fc969dc1-5b09-4dd9-ab65-498f27d7b32d",
+    "timestamp": "2026-02-04T16:17:40.451Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "So11111111111111111111111111111111111111112",
+    "source": "Meteora_DLMM",
+    "name": "SOL-USDC",
+    "symbol": "SOL",
+    "status": "candidate",
+    "metrics": {
+      "volume": 23030531.662959393,
+      "tvl": "4991832.770558659",
+      "utilization": "4.61"
+    }
+  },
+  {
+    "id": "e52c1f6a-b216-41fc-b86f-c4795013d07d",
+    "timestamp": "2026-02-04T16:17:40.455Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+    "source": "Meteora_DLMM",
+    "name": "cbBTC-USDC",
+    "symbol": "cbBTC",
+    "status": "candidate",
+    "metrics": {
+      "volume": 19234689.726192065,
+      "tvl": "1299757.4780054623",
+      "utilization": "14.80"
+    }
+  },
+  {
+    "id": "cba3d4fb-50a2-4a7e-85dc-d2ed340e1ab2",
+    "timestamp": "2026-02-04T16:17:40.460Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU",
+    "source": "Meteora_DLMM",
+    "name": "BFS-USDC",
+    "symbol": "BFS",
+    "status": "candidate",
+    "metrics": {
+      "volume": 11120462.569363557,
+      "tvl": "100265.39078963509",
+      "utilization": "110.91"
+    }
+  },
+  {
+    "id": "64794e99-0556-4f73-8dbd-35d1194c88a4",
+    "timestamp": "2026-02-04T16:17:40.466Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump",
+    "source": "Meteora_DLMM",
+    "name": "PENGUIN-SOL",
+    "symbol": "PENGUIN",
+    "status": "candidate",
+    "metrics": {
+      "volume": 10432689.62848783,
+      "tvl": "1078404.7650902888",
+      "utilization": "9.67"
+    }
+  },
+  {
+    "id": "d5fecec7-a7ce-4062-9ac9-9dae85d8a9b1",
+    "timestamp": "2026-02-04T16:17:40.470Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+    "source": "Meteora_DLMM",
+    "name": "cbBTC-SOL",
+    "symbol": "cbBTC",
+    "status": "candidate",
+    "metrics": {
+      "volume": 9547464.879764488,
+      "tvl": "192921.0619921456",
+      "utilization": "49.49"
+    }
+  },
+  {
+    "id": "f8d082b3-d4e5-4008-b090-f9e1f60634ee",
+    "timestamp": "2026-02-04T16:17:40.472Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
+    "source": "Meteora_DLMM",
+    "name": "HYPE-SOL",
+    "symbol": "HYPE",
+    "status": "candidate",
+    "metrics": {
+      "volume": 8934800.430299161,
+      "tvl": "1429249.3142431756",
+      "utilization": "6.25"
+    }
+  },
+  {
+    "id": "638127b1-6704-4c46-85fa-840a16768c5d",
+    "timestamp": "2026-02-04T16:17:40.485Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "JuprjznTrTSp2UFa3ZBUFgwdAmtZCq4MQCwysN55USD",
+    "source": "Meteora_DLMM",
+    "name": "JupUSD-USDC",
+    "symbol": "JupUSD",
+    "status": "candidate",
+    "metrics": {
+      "volume": 6630552.973919003,
+      "tvl": "10111621.886429172",
+      "utilization": "0.66"
+    }
+  },
+  {
+    "id": "2937ea32-a354-46db-8b47-7613812b5e7b",
+    "timestamp": "2026-02-04T16:17:40.490Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
+    "source": "Meteora_DLMM",
+    "name": "HYPE-cbBTC",
+    "symbol": "HYPE",
+    "status": "candidate",
+    "metrics": {
+      "volume": 6138591.397653865,
+      "tvl": "941447.7171708824",
+      "utilization": "6.52"
+    }
+  },
+  {
+    "id": "9cba64cd-7bcc-4eb9-aeba-73e3d3344b37",
+    "timestamp": "2026-02-04T16:17:40.493Z",
+    "type": "YIELD_ENTRY",
+    "address": "5rCf1DM8LjKTw4YqhnoLcngyZYeNnQqztScTogYHAS6",
+    "name": "SOL-USDC",
+    "entryTime": 1770221860493,
+    "entryUtil": 12.43,
+    "allocation": 0.05,
+    "status": "dry_run"
+  },
+  {
+    "id": "35518811-bf49-4e84-9e3e-8f05762ae3a9",
+    "timestamp": "2026-02-04T16:17:40.495Z",
+    "type": "YIELD_ENTRY",
+    "address": "BGm1tav58oGcsQJehL9WXBFXF7D27vZsKefj4xJKD5Y",
+    "name": "SOL-USDC",
+    "entryTime": 1770221860495,
+    "entryUtil": 4.61,
+    "allocation": 0.05,
+    "status": "dry_run"
+  },
+  {
+    "id": "d9d049ee-1f14-4a69-a378-2f55690ca35f",
+    "timestamp": "2026-02-04T16:17:40.499Z",
+    "type": "YIELD_ENTRY",
+    "address": "7ubS3GccjhQY99AYNKXjNJqnXjaokEdfdV915xnCb96r",
+    "name": "cbBTC-USDC",
+    "entryTime": 1770221860499,
+    "entryUtil": 14.8,
+    "allocation": 0.05,
+    "status": "dry_run"
+  },
+  {
+    "id": "33732894-7a40-4581-9568-cabdfd3f191f",
+    "timestamp": "2026-02-04T16:20:26.430Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "ER6QPPUWg7GUpq5LeaJwBAQotgNk4SrTeT4WYrQUpump",
+    "source": "PumpFun",
+    "name": "lenin lobster",
+    "symbol": "lenin",
+    "score": 40,
+    "sentiment": {
+      "score": 83,
+      "verdict": "BULLISH",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "5CaZmbFsMdrNiJq28axpx5feizixX73q6mY7FPTuasw8jbJdP1SS2fLFioyYN1a81sWyBHFYZ3aRhWPzJuE3eVxV"
+  },
+  {
+    "id": "d70cbed1-4b4f-4a1c-bfaf-cd9348a5bdb0",
+    "timestamp": "2026-02-04T16:23:24.661Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "4DG4SyLmaF16sLTpxfuXbWpd8kgMpHQJ3wQmAZEQ1zGk",
+    "source": "PumpFun",
+    "name": "NEVER BONDED PERFECT TIME",
+    "symbol": "SAD",
+    "score": 40,
+    "sentiment": {
+      "score": 75,
+      "verdict": "NEUTRAL",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "65XWGJRbkboE9BpigEVZvK6otKcBXNiPVbNzvGmHjR8heMgTVsm5sFN2FcPqTfYiYc4yEkNDYUP1USxcSYh6H89i"
+  },
+  {
+    "id": "4a1cbfdd-1ae1-4e0a-9cfc-d750e527c0a0",
+    "timestamp": "2026-02-04T16:23:32.396Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "GECBRpEctf3qmqZYkUxmgDBhchiEEf99TCGSr3NTpump",
+    "source": "PumpFun",
+    "name": "Bottomless",
+    "symbol": "Bottomless",
+    "score": 40,
+    "sentiment": {
+      "score": 73,
+      "verdict": "NEUTRAL",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "5TBVFSiqYTccpE6vhyJRW2C6PW7WaZPpTgEQWUbxVuWGjhNFTxrCz5Jgk62Wfhj2eJkTUVGqH3PaTuNQTevS88zX"
+  },
+  {
+    "id": "01272566-d928-4280-be12-a3f1d809a5a8",
+    "timestamp": "2026-02-04T16:23:36.799Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "J2LWsSXx4r3pYbJ1fwuX5Nqo7PPxjcGPpUb2zHNadWKa",
+    "source": "Raydium",
+    "name": "DePlan",
+    "symbol": "DPLN",
+    "score": 100,
+    "sentiment": {
+      "score": 89,
+      "verdict": "BULLISH",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "3t7WLg6igtcFoTrAHwFabrcwkjaf8bzkbRKGW7ichCTTTGcWUSL8QFCe3nSCRXK6ZravmFzoZz7G52Rm4EhMXtKV"
+  },
+  {
+    "id": "ea421f2e-3d2d-4405-b65d-b0fa26bfe359",
+    "timestamp": "2026-02-04T16:29:21.460Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "4jxYzgg4gYSabSacxenAWGv5VExe8vCWsVwAksDUpump",
+    "source": "PumpFun",
+    "name": "The Pepe Whale",
+    "symbol": "PepeWhale",
+    "score": 100,
+    "sentiment": {
+      "score": 91,
+      "verdict": "BULLISH",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "2K2sVvXtfceKBJ56oKyGdYeuiFWwPG4zVB8Wsay5HvERLccW3htG9X3JcPLDEUeVCNoJva19fxLkJxVdD85joQSG"
+  },
+  {
+    "id": "901a015b-76ca-4d72-8536-a25a4b40f2cd",
+    "timestamp": "2026-02-04T16:44:14.671Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "2ciH6UvHMs4Co4UPzHMRzBJWkaP4TpcmejRHdJAQpump",
+    "source": "PumpFun",
+    "name": "The Fudder",
+    "symbol": "Fudder",
+    "score": 40,
+    "sentiment": {
+      "score": 78,
+      "verdict": "BULLISH",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "diMk4Vt2kjEHvqwhHpTqS6qsz7ezVTssB29XZv4kq4Qb8eYchcqQvA15xYakkymN2i2Riw8tSf1hftbbyod8TZ3"
+  },
+  {
+    "id": "e4224c48-16a7-4f3c-81eb-763f25c725eb",
+    "timestamp": "2026-02-04T16:44:14.916Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+    "source": "Meteora_DLMM",
+    "name": "TRUMP-USDC",
+    "symbol": "TRUMP",
+    "status": "candidate",
+    "metrics": {
+      "volume": 62016447.24310069,
+      "tvl": "113865963.319057",
+      "utilization": "0.54"
+    }
+  },
+  {
+    "id": "eca191e5-2f44-4f28-98d5-5d0ba6124d19",
+    "timestamp": "2026-02-04T16:44:14.919Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "So11111111111111111111111111111111111111112",
+    "source": "Meteora_DLMM",
+    "name": "SOL-USDC",
+    "symbol": "SOL",
+    "status": "candidate",
+    "metrics": {
+      "volume": 23631750.2597382,
+      "tvl": "1870483.4304372831",
+      "utilization": "12.63"
+    }
+  },
+  {
+    "id": "f1d3a4f0-4f21-4529-b599-0c53977c0993",
+    "timestamp": "2026-02-04T16:44:14.921Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "So11111111111111111111111111111111111111112",
+    "source": "Meteora_DLMM",
+    "name": "SOL-USDC",
+    "symbol": "SOL",
+    "status": "candidate",
+    "metrics": {
+      "volume": 23344367.199895643,
+      "tvl": "4905528.924968573",
+      "utilization": "4.76"
+    }
+  },
+  {
+    "id": "7082d27f-64cd-4070-bb52-5f1ad0dd70ff",
+    "timestamp": "2026-02-04T16:44:14.923Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+    "source": "Meteora_DLMM",
+    "name": "cbBTC-USDC",
+    "symbol": "cbBTC",
+    "status": "candidate",
+    "metrics": {
+      "volume": 19401765.38974173,
+      "tvl": "1291892.3681781278",
+      "utilization": "15.02"
+    }
+  },
+  {
+    "id": "9dbb13d0-f862-4466-a1ff-b091ee076405",
+    "timestamp": "2026-02-04T16:44:14.925Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU",
+    "source": "Meteora_DLMM",
+    "name": "BFS-USDC",
+    "symbol": "BFS",
+    "status": "candidate",
+    "metrics": {
+      "volume": 11162935.604526378,
+      "tvl": "110199.20219349246",
+      "utilization": "101.30"
+    }
+  },
+  {
+    "id": "84ae09cf-89da-4d31-af01-d5ed6655ec4f",
+    "timestamp": "2026-02-04T16:44:14.927Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump",
+    "source": "Meteora_DLMM",
+    "name": "PENGUIN-SOL",
+    "symbol": "PENGUIN",
+    "status": "candidate",
+    "metrics": {
+      "volume": 10471491.69863408,
+      "tvl": "1040365.5424592764",
+      "utilization": "10.07"
+    }
+  },
+  {
+    "id": "71e26bbd-9291-43be-ae09-a3c5a5a78a6c",
+    "timestamp": "2026-02-04T16:44:14.929Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+    "source": "Meteora_DLMM",
+    "name": "cbBTC-SOL",
+    "symbol": "cbBTC",
+    "status": "candidate",
+    "metrics": {
+      "volume": 9311560.822000785,
+      "tvl": "190883.7036274957",
+      "utilization": "48.78"
+    }
+  },
+  {
+    "id": "5ad404a4-f98d-486b-a17c-a00724b091b4",
+    "timestamp": "2026-02-04T16:44:14.933Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
+    "source": "Meteora_DLMM",
+    "name": "HYPE-SOL",
+    "symbol": "HYPE",
+    "status": "candidate",
+    "metrics": {
+      "volume": 9212849.014347794,
+      "tvl": "1419024.883390141",
+      "utilization": "6.49"
+    }
+  },
+  {
+    "id": "18f87aac-f488-4bcf-a0f7-e3d913226eff",
+    "timestamp": "2026-02-04T16:44:14.935Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "JuprjznTrTSp2UFa3ZBUFgwdAmtZCq4MQCwysN55USD",
+    "source": "Meteora_DLMM",
+    "name": "JupUSD-USDC",
+    "symbol": "JupUSD",
+    "status": "candidate",
+    "metrics": {
+      "volume": 6624788.004298056,
+      "tvl": "10111659.198792135",
+      "utilization": "0.66"
+    }
+  },
+  {
+    "id": "1c906f3c-85d3-45a1-b98e-b1962a077c6f",
+    "timestamp": "2026-02-04T16:44:14.937Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
+    "source": "Meteora_DLMM",
+    "name": "HYPE-cbBTC",
+    "symbol": "HYPE",
+    "status": "candidate",
+    "metrics": {
+      "volume": 6341431.422345095,
+      "tvl": "955395.9209524048",
+      "utilization": "6.64"
+    }
+  },
+  {
+    "id": "15205477-ebb7-46d5-a3c9-e0a105fcc14d",
+    "timestamp": "2026-02-04T16:44:14.939Z",
+    "type": "YIELD_ENTRY",
+    "address": "5rCf1DM8LjKTw4YqhnoLcngyZYeNnQqztScTogYHAS6",
+    "name": "SOL-USDC",
+    "entryTime": 1770223454939,
+    "entryUtil": 12.63,
+    "allocation": 0.05,
+    "status": "dry_run"
+  },
+  {
+    "id": "35dfd609-2b17-455c-804f-9fb0fa9f9dde",
+    "timestamp": "2026-02-04T16:44:14.941Z",
+    "type": "YIELD_ENTRY",
+    "address": "BGm1tav58oGcsQJehL9WXBFXF7D27vZsKefj4xJKD5Y",
+    "name": "SOL-USDC",
+    "entryTime": 1770223454941,
+    "entryUtil": 4.76,
+    "allocation": 0.05,
+    "status": "dry_run"
+  },
+  {
+    "id": "c04efc19-f22c-4e2c-ac8c-498bc2dbaf02",
+    "timestamp": "2026-02-04T16:44:14.943Z",
+    "type": "YIELD_ENTRY",
+    "address": "7ubS3GccjhQY99AYNKXjNJqnXjaokEdfdV915xnCb96r",
+    "name": "cbBTC-USDC",
+    "entryTime": 1770223454943,
+    "entryUtil": 15.02,
+    "allocation": 0.05,
+    "status": "dry_run"
+  },
+  {
+    "id": "8f02f702-5df8-445c-adbf-52233b8883b9",
+    "timestamp": "2026-02-04T16:44:15.777Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "DqUjg9sY8HY5nuYxvXNpzjQGcHiCG3gnkp2jcgzUpump",
+    "source": "PumpFun",
+    "name": "Spirit Of Onoda",
+    "symbol": "ONODA",
+    "score": 40,
+    "sentiment": {
+      "score": 95,
+      "verdict": "BULLISH",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "nqVQdaXoQgRgyLG2qxYQbpiYWmpcoXJW8pM8YKsPZ8mKLyZ8sENsTjq4BovY7fHmWosqMTs75dnZ5KVfvpRHayF"
+  },
+  {
+    "id": "70f78c1c-2665-477a-afda-8cfbccded0a6",
+    "timestamp": "2026-02-04T16:44:15.816Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "BCT3wr6DJUHGi6UuWNizk5GZ6YWtyi4GqmCa36WMbonk",
+    "source": "Raydium",
+    "name": "The Baron",
+    "symbol": "Baron",
+    "score": 60,
+    "sentiment": {
+      "score": 60,
+      "verdict": "NEUTRAL",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "24KTtJgb6UhYckPdJ5Ex2Son5s3owMp2zBwyTqLuaoTDLxfjPgZWmURa4w7oxBFVPvCKHzV24xupHMZjYBf5wVS6"
+  },
+  {
+    "id": "32d82ed2-d986-4a99-911d-6ccd9fa51a61",
+    "timestamp": "2026-02-04T16:44:16.321Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump",
+    "source": "Raydium",
+    "name": "Goatseus Maximus",
+    "symbol": "GOAT",
+    "score": 100,
+    "sentiment": {
+      "score": 63,
+      "verdict": "NEUTRAL",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "2p7KGhPC2J9rdQw7GFyT3vw6ZvgdmPAZ8YQ3KdWn7K3JuQoaxrSHvn86y9RzfT6QGwYfavd9WS42RHxSKt11zcZm"
+  },
+  {
+    "id": "ac664f2c-65d5-44e6-b3f3-ab5407cb48a6",
+    "timestamp": "2026-02-04T16:44:17.118Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump",
+    "source": "Raydium",
+    "name": "Goatseus Maximus",
+    "symbol": "GOAT",
+    "score": 100,
+    "sentiment": {
+      "score": 67,
+      "verdict": "NEUTRAL",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "htaG1R8hEctKbXqc24xHXcTmAjegmRmxuGwnmDHf3rYbN7wuqCPph49gN4T8vVWuRbdPSf5nhMsx6fidGPQvYij"
+  },
+  {
+    "id": "58d09024-cc12-4456-892d-a042589606f3",
+    "timestamp": "2026-02-04T16:44:17.725Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "FPyawDxmGAY14keXkTaEzppM2ZkxK9waxqipmG8Kpump",
+    "source": "PumpFun",
+    "name": "c██t",
+    "symbol": "c██t",
+    "score": 60,
+    "sentiment": {
+      "score": 70,
+      "verdict": "NEUTRAL",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "4rQrRReWeNEXJZiT9K9MSHH2CuL73G5MsjwdQMSzZUWjpt3gHCGY1KoPdP9ueLmrDLaaqfWXUVY7dooFeyn91Dhf"
+  },
+  {
+    "id": "d967e802-2469-43c7-a803-1d3135ac4d5d",
+    "timestamp": "2026-02-04T16:44:17.789Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "CLzTivf7gpAVgVyuw5E8dcfPFkHzQgxLW3bT5NcVpump",
+    "source": "PumpFun",
+    "name": "currency of moltbook",
+    "symbol": "MOLT",
+    "score": 40,
+    "sentiment": {
+      "score": 75,
+      "verdict": "NEUTRAL",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "3jqxyHWRxPqqRzemqWsnHX17zhVqccGgMccxtbstYuc2z9BMMpKga6Gq7TCfp9hH33Yx8uVUbFSd66yxbyXeRCfD"
+  },
+  {
+    "id": "568688ac-c1f5-4604-9662-bcd7218153d9",
+    "timestamp": "2026-02-04T16:44:18.864Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump",
+    "source": "Raydium",
+    "name": "Ava AI",
+    "symbol": "AVA",
+    "score": 60,
+    "sentiment": {
+      "score": 89,
+      "verdict": "BULLISH",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "2vDVNjPozFusMucyEGGiptKpoJipbMCevALHEeQ2zRNbyHeZjYkauyvNgzx13i76SNtxH1vFmU76qqUq4w8WdKao"
+  },
+  {
+    "id": "5ee7eba1-7098-400d-93f4-6cf87035ad00",
+    "timestamp": "2026-02-04T16:44:18.919Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump",
+    "source": "Raydium",
+    "name": "swarms",
+    "symbol": "swarms",
+    "score": 60,
+    "sentiment": {
+      "score": 66,
+      "verdict": "NEUTRAL",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "4HE6HERs15SbAv28u8oSAUskR1E9bKNDEZgDtWYFypYuCVuYsHVGt1cVvTYUKZpHmM1X7ZVbgUGUXM5VA8ZoiHnC"
+  },
+  {
+    "id": "7fdfc70d-75b7-4e37-a635-e90454bb29da",
+    "timestamp": "2026-02-04T16:44:19.305Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "79eXoT1aR7qhBMGKXzVNdV4ZcLqHsupqj2WTFvDumpSZ",
+    "source": "Raydium",
+    "name": "GOLD",
+    "symbol": "GOLD",
+    "score": 80,
+    "sentiment": {
+      "score": 88,
+      "verdict": "BULLISH",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "5u4oAJrdsLiuE8WLCnAkx5CvVPSaV4QPCzffnCtWZWQGoksKmxGkfk4WdJCNwTh8LHA6bitECe5e6CRjnTcyozeL"
+  },
+  {
+    "id": "0a94ae18-97e1-4d15-b50a-c108427469ac",
+    "timestamp": "2026-02-04T16:44:20.448Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "13X73qU6y2RHKkUVLdjsPmvpQE2JzFf7GQEEns3kpump",
+    "source": "PumpFun",
+    "name": "Fuck It Ape This",
+    "symbol": "FIAT",
+    "score": 40,
+    "sentiment": {
+      "score": 64,
+      "verdict": "NEUTRAL",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "oPry1VnLgDYWsBdWDhxXSiy9qDFRas24QBsm931XW3qoTdbQdZvJUKjQzpWwehdUqRNPYvAevkFh7ZJ2RXrK4Lh"
+  },
+  {
+    "id": "21dc4917-14cb-4007-a41b-cc5319c3e57c",
+    "timestamp": "2026-02-04T16:46:25.538Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "y1AZt42vceCmStjW4zetK3VoNarC1VxJ5iDjpiupump",
+    "source": "Raydium",
+    "name": "FARTBOY",
+    "symbol": "FARTBOY",
+    "score": 100,
+    "sentiment": {
+      "score": 95,
+      "verdict": "BULLISH",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "54VxtNH33iVm8RcAhC7TQ72fHaFrS2TYFz96DggxtjGDSMjA6pWYmEsfr8jxCz75897XWptLLrYP8smxrPo7wLWx"
+  },
+  {
+    "id": "31eac771-cf97-4dde-b1bc-04e222e39a8f",
+    "timestamp": "2026-02-04T16:46:25.588Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "65e18Ap79fjvkpBB1Vgjm3UqtLgk3UiNaoQGwj6Bpump",
+    "source": "PumpFun",
+    "name": "Sinco The Squirrel",
+    "symbol": "SINCO",
+    "score": 60,
+    "sentiment": {
+      "score": 64,
+      "verdict": "NEUTRAL",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "HZf7NoUKicYApmyTD1jGs9TXKaH9UvMAHEfDi565Gm7GnSqzdi8eVumwCFsyyh9SXX6hTqHfaU23NHAALDkuQvv"
+  },
+  {
+    "id": "bf7551a7-cad3-4ae5-97a7-327dd52d571b",
+    "timestamp": "2026-02-04T16:46:25.642Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "y1AZt42vceCmStjW4zetK3VoNarC1VxJ5iDjpiupump",
+    "source": "Raydium",
+    "name": "FARTBOY",
+    "symbol": "FARTBOY",
+    "score": 100,
+    "sentiment": {
+      "score": 85,
+      "verdict": "BULLISH",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "3A3WBAE6yh71BAdZXtFeP79aapogm8owDRbnRyHYNFsTxA3gNj6L5V37jUGozeoY6gAC74d9CpdTcYQXmRixVJT"
+  },
+  {
+    "id": "8258ac16-7528-4217-9aa8-0da0f2d11316",
+    "timestamp": "2026-02-04T16:46:25.712Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "BmteucsobzFwbYnWyZ7vd2MQZPXgWnfQKA2UU83Upump",
+    "source": "PumpFun",
+    "name": "Flushetron3000",
+    "symbol": "FLUSHETRON",
+    "score": 60,
+    "sentiment": {
+      "score": 64,
+      "verdict": "NEUTRAL",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "4CQDdQfqCrFdXBEQvteKcK4mCruHc5rdNxY2waykRjSQKZASkucYSFdtSBknzeWPGJBpx3UqZxwFXdAgY6VU9pFF"
+  },
+  {
+    "id": "dcba73f9-166e-48a7-bcd1-c3f43cc79905",
+    "timestamp": "2026-02-04T16:46:32.631Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "37hXE6Fj4w6AeqBtxdCbvkhQ5XeUoTQpFpRpDPXHpump",
+    "source": "PumpFun",
+    "name": "WOJTEK",
+    "symbol": "WOJTEK",
+    "score": 40,
+    "sentiment": {
+      "score": 65,
+      "verdict": "NEUTRAL",
+      "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
+    },
+    "signature": "4X4bkns7JR4P3BNsQuyF8upNxjhj3LC7ZB3RsueyM75FxwkpzSpG8c2n2nWvk3fygQi268KXyQZvvUVE3X6ui2t9"
+  }
+]

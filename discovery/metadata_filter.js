@@ -2,11 +2,13 @@ const { Connection, PublicKey } = require('@solana/web3.js');
 const { createUmi } = require('@metaplex-foundation/umi-bundle-defaults');
 const { fetchMetadata, findMetadataPda } = require('@metaplex-foundation/mpl-token-metadata');
 const { publicKey } = require('@metaplex-foundation/umi');
-const fetch = require('node-fetch'); // Ensure node-fetch is used (might be native in Node 22 but good to be safe)
+const fetch = require('node-fetch');
+require('dotenv').config();
 
-// Initialize Connection
-const connection = new Connection('https://api.mainnet-beta.solana.com', 'confirmed');
-const umi = createUmi('https://api.mainnet-beta.solana.com');
+// Initialize Connection with Env RPC
+const RPC_ENDPOINT = process.env.RPC_ENDPOINT || 'https://api.mainnet-beta.solana.com';
+const connection = new Connection(RPC_ENDPOINT, 'confirmed');
+const umi = createUmi(RPC_ENDPOINT);
 
 /**
  * Extracts a URI from a buffer using regex (Universal Fallback).

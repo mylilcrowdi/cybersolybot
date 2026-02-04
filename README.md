@@ -1,40 +1,55 @@
-# Cybersolybot ⚡
+# ⚡ Agent Cyber (Cybersolybot)
 
-**Autonomous AI Trading Agent for the Solana AI Hackathon 2026.**
+> **Autonomous High-Frequency Trading Intelligence on Solana.**
 
-## 🎯 Mission
-Win the Solana AI Hackathon by proving an autonomous agent can profitably manage and grow a portfolio starting from **0.2 SOL**.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Solana](https://img.shields.io/badge/Solana-Mainnet-green)](https://solana.com)
+[![Hackathon](https://img.shields.io/badge/Colosseum-Agent%20Hackathon-blue)](https://colosseum.com/agent-hackathon)
 
-## 🧠 Strategy: "Calculated Degen"
-We employ a dynamic, risk-averse strategy that adapts to market conditions.
+## 📜 Mission
+Agent Cyber exists to prove a hypothesis: **An autonomous AI agent, starting with minimal resources, can outperform human execution through speed, discipline, and data-driven decision making.**
 
-### 1. Discovery & Analysis
-- **Sources:** Monitor Pump.fun, Dexscreener, and social signals (X/Twitter).
-- **Tools:**
-  - `puppeteer`: For web scraping and sentiment analysis (RAG).
-  - `@solana/web3.js`: For on-chain data verification.
-- **Filter:** High conviction, safety checks (rug-pull detection), and volume analysis.
+We are building in public. We are trading in the trenches.
 
-### 2. Execution (Sniper/Trade)
-- **Entry:** Rapid execution on confirmed signals.
-- **Exit:** Pre-defined take-profit and stop-loss levels. Volatility is utilized, not gambled on.
+## 🧠 Architecture
 
-### 3. Growth & Stability (Liquidity Provision)
-- **Meteora LP:**
-  - Utilize **Meteora DLMM** (Dynamic Liquidity Market Maker) or standard pools to provide liquidity for high-conviction assets.
-  - **Goal:** Earn yield on idle assets and capture trading fees, compounding gains while reducing directional risk.
-  - **Logic:** "Farm the volatility" rather than just betting on price direction.
+### 1. Discovery ("God Mode")
+- **Mechanism:** WebSocket subscriptions to `logs` (Raydium/Pump.fun).
+- **Latency:** <50ms detection of new pools.
+- **Filter:** `discovery/metadata_filter.js` validates token metadata and social presence instantly.
 
-## 🛠 Tech Stack
-- **Runtime:** Node.js
-- **Chain:** Solana (Mainnet-Beta)
-- **Browser:** Chromium + Puppeteer
-- **Dependencies:** `@solana/web3.js`, `bs58`, `puppeteer`, `axios`, `dotenv`
+### 2. Analysis (RAG Engine)
+- **Sentiment:** Scrapes X/Twitter for narrative velocity (Checking $CASHTAGS, Influencer mentions).
+- **Safety:** Automatic RugCheck integration (Mint authority, Liquidity lock status).
 
-## 🔒 Security
-- Private keys never logged.
-- Risk limits strictly enforced.
-- Simulation before execution.
+### 3. Execution ("The Claw")
+- **Router:** Optimized pathfinding for best price execution.
+- **Strategies:**
+    - `Double Tap`: Sell 50% at 2x.
+    - `Silence`: Exit if volume drops >50% vs 5m MA.
+    - `Timebreaker`: Hard exit at T+30m for speculative plays.
+
+## 🛠️ Tech Stack
+- **Runtime:** Node.js v22
+- **Chain Interaction:** `@solana/web3.js`, `@metaplex-foundation/umi`
+- **Data:** RPC Websockets + Puppeteer (Sentiment)
+
+## 🚀 Usage
+
+```bash
+# Clone the intelligence
+git clone https://github.com/mylilcrowdi/cybersolybot.git
+
+# Install dependencies
+npm install
+
+# Run the Discovery Module
+node discovery/monitor.js
+```
+
+## 📊 Live Ledger
+All actions are cryptographically verified and logged.
+*See `data/history.json` for performance metrics.*
 
 ---
-*Built by Agent Cyber & Async.*
+*Built by Async & Agent Cyber.*

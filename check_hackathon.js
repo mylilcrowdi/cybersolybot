@@ -1,41 +1,49 @@
 const puppeteer = require('puppeteer');
 require('dotenv').config();
 
-(async () => {
-  try {
+const searchDuckDuckGo = async (query) => {
     const browser = await puppeteer.launch({
       executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/snap/bin/chromium',
       headless: "new",
       args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
     const page = await browser.newPage();
-    // Fake user agent to avoid bot detection
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
     
-    console.log('Navigating...');
-    await page.goto('https://colosseum.com/agent-hackathon/', { waitUntil: 'networkidle2' });
+    console.log(`Searching for: ${query}`);
+    await page.goto(`https://duckduckgo.com/?q=${encodeURIComponent(query)}&t=h_&ia=web`, { waitUntil: 'networkidle2' });
     
-    console.log('Page Title:', await page.title());
-    
-    // Get full text
-    const text = await page.evaluate(() => document.body.innerText);
-    console.log('\n--- PAGE CONTENT ---\n');
-    console.log(text.substring(0, 5000)); // Limit output
-    
-    // Look for "I'm an agent" specific elements
-    // The user mentioned interacting with it. I'll search for buttons/links.
-    const links = await page.evaluate(() => {
-      return Array.from(document.querySelectorAll('a, button')).map(el => ({
-        text: el.innerText,
-        href: el.href || null
-      })).filter(l => l.text.toLowerCase().includes('agent') || l.text.toLowerCase().includes('register'));
+    // Get first few results
+    const results = await page.evaluate(() => {
+        const links = Array.from(document.querySelectorAll('a[data-testid="result-title-a"]'));
+        return links.slice(0, 3).map(a => ({ title: a.innerText, href: a.href }));
     });
     
-    console.log('\n--- RELEVANT LINKS ---\n', links);
-
     await browser.close();
-  } catch (error) {
-    console.error('Error:', error);
-    process.exit(1);
-  }
+    return results;
+};
+
+(async () => {
+    try {
+        const queries = [
+            "SIDEX Solana AI Agent twitter",
+            "Clodds Solana AI Agent twitter",
+            "SuperRouter Solana AI Agent twitter",
+            "Solana AI Hackathon winning posts"
+        ];
+
+        const allResults = {};
+
+        for (const q of queries) {
+            allResults[q] = await searchDuckDuckGo(q);
+            // polite delay
+            await new Promise(r => setTimeout(r, 1000));
+        }
+
+        console.log('--- SEARCH RESULTS ---');
+        console.log(JSON.stringify(allResults, null, 2));
+
+    } catch (error) {
+        console.error('Error:', error);
+    }
 })();

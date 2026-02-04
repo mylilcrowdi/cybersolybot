@@ -2454,5 +2454,539 @@
       "summary": "Mock analysis: Narrative velocity looks organic, likely influencer interest detected in simulation."
     },
     "signature": "4X4bkns7JR4P3BNsQuyF8upNxjhj3LC7ZB3RsueyM75FxwkpzSpG8c2n2nWvk3fygQi268KXyQZvvUVE3X6ui2t9"
+  },
+  {
+    "id": "63af5f91-ac3e-47e2-b857-4ab58586f6d9",
+    "timestamp": "2026-02-04T16:51:18.329Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+    "source": "Meteora_DLMM",
+    "name": "TRUMP-USDC",
+    "symbol": "TRUMP",
+    "status": "candidate",
+    "metrics": {
+      "volume": 62741344.87778038,
+      "tvl": "114345864.72984624",
+      "utilization": "0.55"
+    }
+  },
+  {
+    "id": "8479fa58-c189-484c-b27e-db18479c57c1",
+    "timestamp": "2026-02-04T16:51:18.334Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "So11111111111111111111111111111111111111112",
+    "source": "Meteora_DLMM",
+    "name": "SOL-USDC",
+    "symbol": "SOL",
+    "status": "candidate",
+    "metrics": {
+      "volume": 23600441.679495417,
+      "tvl": "1920062.085730063",
+      "utilization": "12.29"
+    }
+  },
+  {
+    "id": "79cb3d11-feff-48e3-9020-6f7a018466a6",
+    "timestamp": "2026-02-04T16:51:18.337Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "So11111111111111111111111111111111111111112",
+    "source": "Meteora_DLMM",
+    "name": "SOL-USDC",
+    "symbol": "SOL",
+    "status": "candidate",
+    "metrics": {
+      "volume": 23304154.07767526,
+      "tvl": "4900323.42824673",
+      "utilization": "4.76"
+    }
+  },
+  {
+    "id": "14feeba4-c779-4e47-a6ec-6af5c8b608a9",
+    "timestamp": "2026-02-04T16:51:18.339Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+    "source": "Meteora_DLMM",
+    "name": "cbBTC-USDC",
+    "symbol": "cbBTC",
+    "status": "candidate",
+    "metrics": {
+      "volume": 19546503.955084667,
+      "tvl": "1293611.983427821",
+      "utilization": "15.11"
+    }
+  },
+  {
+    "id": "0becf354-4402-4834-a830-e6ede5b7b43d",
+    "timestamp": "2026-02-04T16:51:18.342Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU",
+    "source": "Meteora_DLMM",
+    "name": "BFS-USDC",
+    "symbol": "BFS",
+    "status": "candidate",
+    "metrics": {
+      "volume": 11163945.226162648,
+      "tvl": "110515.54362688512",
+      "utilization": "101.02"
+    }
+  },
+  {
+    "id": "7b697159-935d-429f-abcf-1790a3760e24",
+    "timestamp": "2026-02-04T16:51:18.345Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump",
+    "source": "Meteora_DLMM",
+    "name": "PENGUIN-SOL",
+    "symbol": "PENGUIN",
+    "status": "candidate",
+    "metrics": {
+      "volume": 10486828.438168151,
+      "tvl": "1037110.6355670932",
+      "utilization": "10.11"
+    }
+  },
+  {
+    "id": "2133043d-3ceb-4a58-828a-fba640931690",
+    "timestamp": "2026-02-04T16:51:18.348Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
+    "source": "Meteora_DLMM",
+    "name": "HYPE-SOL",
+    "symbol": "HYPE",
+    "status": "candidate",
+    "metrics": {
+      "volume": 9462237.199244712,
+      "tvl": "1409538.5687161284",
+      "utilization": "6.71"
+    }
+  },
+  {
+    "id": "9dd313c8-1c78-4822-a188-cd3da2acd1fc",
+    "timestamp": "2026-02-04T16:51:18.350Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+    "source": "Meteora_DLMM",
+    "name": "cbBTC-SOL",
+    "symbol": "cbBTC",
+    "status": "candidate",
+    "metrics": {
+      "volume": 9225654.394759243,
+      "tvl": "191026.87580017815",
+      "utilization": "48.30"
+    }
+  },
+  {
+    "id": "64a2d109-ac48-4ad7-9a8f-09324739eccd",
+    "timestamp": "2026-02-04T16:51:18.353Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "JuprjznTrTSp2UFa3ZBUFgwdAmtZCq4MQCwysN55USD",
+    "source": "Meteora_DLMM",
+    "name": "JupUSD-USDC",
+    "symbol": "JupUSD",
+    "status": "candidate",
+    "metrics": {
+      "volume": 6638913.357979796,
+      "tvl": "10111660.09349618",
+      "utilization": "0.66"
+    }
+  },
+  {
+    "id": "d94558d3-835c-4fef-b8bb-895491de5eee",
+    "timestamp": "2026-02-04T16:51:18.356Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
+    "source": "Meteora_DLMM",
+    "name": "HYPE-cbBTC",
+    "symbol": "HYPE",
+    "status": "candidate",
+    "metrics": {
+      "volume": 6508234.618414484,
+      "tvl": "954500.4635606108",
+      "utilization": "6.82"
+    }
+  },
+  {
+    "id": "b4f4c058-bb01-4a94-84d7-11a8a7a8b6f4",
+    "timestamp": "2026-02-04T16:51:18.359Z",
+    "type": "YIELD_ENTRY",
+    "address": "5rCf1DM8LjKTw4YqhnoLcngyZYeNnQqztScTogYHAS6",
+    "name": "SOL-USDC",
+    "entryTime": 1770223878359,
+    "entryUtil": 12.29,
+    "allocation": 0.05,
+    "status": "executing"
+  },
+  {
+    "id": "8f2d5978-e23b-4dcf-b81a-98e537b6485b",
+    "timestamp": "2026-02-04T16:51:18.362Z",
+    "type": "YIELD_ENTRY",
+    "address": "BGm1tav58oGcsQJehL9WXBFXF7D27vZsKefj4xJKD5Y",
+    "name": "SOL-USDC",
+    "entryTime": 1770223878362,
+    "entryUtil": 4.76,
+    "allocation": 0.05,
+    "status": "executing"
+  },
+  {
+    "id": "c70f1a8c-54ac-43d3-a7f5-ad2f1406b050",
+    "timestamp": "2026-02-04T16:51:18.365Z",
+    "type": "YIELD_ENTRY",
+    "address": "7ubS3GccjhQY99AYNKXjNJqnXjaokEdfdV915xnCb96r",
+    "name": "cbBTC-USDC",
+    "entryTime": 1770223878365,
+    "entryUtil": 15.11,
+    "allocation": 0.05,
+    "status": "executing"
+  },
+  {
+    "id": "0791ce41-f6bb-4dfd-9bae-31b79ddcdee6",
+    "timestamp": "2026-02-04T16:51:18.370Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "EsP4kJfKUDLfX274WoBSiiEy74Sh4tZKUCDjfULHpump",
+    "source": "Raydium",
+    "name": "FRIC",
+    "symbol": "FRIC",
+    "score": 40,
+    "sentiment": null,
+    "signature": "3gfB3wEa4DEapYHk62jrS1d4hh1xfKy6MJcc8Am9NiTsCHKTdHMXygbU2j6UwUtwiA9Jwa68dyFwCLbBZAjxeoDf"
+  },
+  {
+    "id": "8f77b41d-519c-45e1-9b2d-c18b4f25a0bc",
+    "timestamp": "2026-02-04T16:51:18.396Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "CPcf58MNikQw2G23kTVWQevRDeFDpdxMH7KkR7Lhpump",
+    "source": "Raydium",
+    "name": "DOBBY",
+    "symbol": "DOBBY",
+    "score": 80,
+    "sentiment": null,
+    "signature": "492D9W37T3WHV53iEiReEpdLXbBJCcf1yLnca8WofgfSuWyozg6c8XcvbZDMDFF9fkeGrdoSvp6pWic8wLLqGd9x"
+  },
+  {
+    "id": "68e31d22-8069-46e2-9462-238783f35530",
+    "timestamp": "2026-02-04T16:51:18.742Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "CSrwNk6B1DwWCHRMsaoDVUfD5bBMQCJPY72ZG3Nnpump",
+    "source": "Raydium",
+    "name": "Franklin The Turtle",
+    "symbol": "Franklin",
+    "score": 60,
+    "sentiment": null,
+    "signature": "5BTbtYJcLirzG6haHwS6nknFNM19Hf7qnpnt6MT6z6cDKcTXpVAzLY9gFCWGmDZ3D1CVfXndYbGwSaspeDQqJfPq"
+  },
+  {
+    "id": "18722938-946a-4607-bd2a-fce4e5e7d212",
+    "timestamp": "2026-02-04T16:51:20.884Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump",
+    "source": "Raydium",
+    "name": "Ava AI",
+    "symbol": "AVA",
+    "score": 60,
+    "sentiment": null,
+    "signature": "73syFu2R81aNLMrit75NUhpHEkESiJY8dsmSMaxsVKbZZwnPbXJxgni8GL3LMGmnbpjGNSmRF9M7idWYW4wu5Fk"
+  },
+  {
+    "id": "1acff997-4fdd-4d8a-acbe-eb0d5dc789a4",
+    "timestamp": "2026-02-04T16:51:21.743Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "FkX4iFoyNjqGXotyLdVv6m777zxjdazqrMMYC4Xspump",
+    "source": "PumpFun",
+    "name": "c██t",
+    "symbol": "c██t",
+    "score": 40,
+    "sentiment": null,
+    "signature": "48XcTbMa76VFoxbP711oYFCMihsUYiNu7mHK3jUDRdacucnnnY5Re8nLk1ATR9vk9WqPTDSCp9LUmsiuKXFSJYdB"
+  },
+  {
+    "id": "0e0720f2-91b3-4569-977c-ce8129cc1be9",
+    "timestamp": "2026-02-04T16:51:21.775Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "5QvtNuR1D2PLVEAdacdp9T4AeHvRBWH9Qg1hVgUupump",
+    "source": "PumpFun",
+    "name": "Water ",
+    "symbol": "H2O",
+    "score": 40,
+    "sentiment": null,
+    "signature": "4uYusM9kAm2CvwgB2ftrFhyrtEQ1S5ZYLQXkbXTpJamEHCoixhBq47GZvfD5rWd9yZz8EQY8JKYAfBm8EZc1QupY"
+  },
+  {
+    "id": "ae377f86-95d7-4d05-983d-045ec4cde453",
+    "timestamp": "2026-02-04T16:51:21.877Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "SKRbvo6Gf7GondiT3BbTfuRDPqLWei4j2Qy2NPGZhW3",
+    "source": "Raydium",
+    "name": "Seeker",
+    "symbol": "SKR",
+    "score": 40,
+    "sentiment": null,
+    "signature": "3xQzemfFNW7yn4tiPRh5JH5zr393tUZKRcZJcciZ3NFf8rgMmw2ykqJHT1768pSRf1hWmTrH6Aja4wivcwG7c5Ar"
+  },
+  {
+    "id": "8054fefb-c40d-4400-aca2-bc96cfb1c09a",
+    "timestamp": "2026-02-04T16:52:58.136Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+    "source": "Meteora_DLMM",
+    "name": "TRUMP-USDC",
+    "symbol": "TRUMP",
+    "status": "candidate",
+    "metrics": {
+      "volume": 62741344.87778038,
+      "tvl": "114345864.72984624",
+      "utilization": "0.55"
+    }
+  },
+  {
+    "id": "56d2ce87-88f9-4c6c-a926-74c6e3b5e180",
+    "timestamp": "2026-02-04T16:52:58.139Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "So11111111111111111111111111111111111111112",
+    "source": "Meteora_DLMM",
+    "name": "SOL-USDC",
+    "symbol": "SOL",
+    "status": "candidate",
+    "metrics": {
+      "volume": 23610062.039151743,
+      "tvl": "1928361.5866397473",
+      "utilization": "12.24"
+    }
+  },
+  {
+    "id": "3296ee52-466f-4549-b0eb-4a48a544dfa4",
+    "timestamp": "2026-02-04T16:52:58.141Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "So11111111111111111111111111111111111111112",
+    "source": "Meteora_DLMM",
+    "name": "SOL-USDC",
+    "symbol": "SOL",
+    "status": "candidate",
+    "metrics": {
+      "volume": 23320103.92798031,
+      "tvl": "4913774.736229353",
+      "utilization": "4.75"
+    }
+  },
+  {
+    "id": "a71e15b8-22c6-4ea1-a783-fe2a488bb2c2",
+    "timestamp": "2026-02-04T16:52:58.143Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+    "source": "Meteora_DLMM",
+    "name": "cbBTC-USDC",
+    "symbol": "cbBTC",
+    "status": "candidate",
+    "metrics": {
+      "volume": 19585790.636729155,
+      "tvl": "1295598.4719861469",
+      "utilization": "15.12"
+    }
+  },
+  {
+    "id": "1686f4a7-8aad-4ebd-8bc7-fe11c407ad40",
+    "timestamp": "2026-02-04T16:52:58.148Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU",
+    "source": "Meteora_DLMM",
+    "name": "BFS-USDC",
+    "symbol": "BFS",
+    "status": "candidate",
+    "metrics": {
+      "volume": 11157645.714489697,
+      "tvl": "108810.46170519158",
+      "utilization": "102.54"
+    }
+  },
+  {
+    "id": "4b4d294c-af06-4c54-b6c8-ab73f44b7975",
+    "timestamp": "2026-02-04T16:52:58.150Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump",
+    "source": "Meteora_DLMM",
+    "name": "PENGUIN-SOL",
+    "symbol": "PENGUIN",
+    "status": "candidate",
+    "metrics": {
+      "volume": 10490809.873336652,
+      "tvl": "1038143.1101127312",
+      "utilization": "10.11"
+    }
+  },
+  {
+    "id": "5f9f2a7b-2a54-4e52-8042-49fb4c600c76",
+    "timestamp": "2026-02-04T16:52:58.153Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
+    "source": "Meteora_DLMM",
+    "name": "HYPE-SOL",
+    "symbol": "HYPE",
+    "status": "candidate",
+    "metrics": {
+      "volume": 9436551.645765863,
+      "tvl": "1411811.7745490328",
+      "utilization": "6.68"
+    }
+  },
+  {
+    "id": "c2f9baca-9f90-4f2b-852f-bc5c6a760b10",
+    "timestamp": "2026-02-04T16:52:58.154Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+    "source": "Meteora_DLMM",
+    "name": "cbBTC-SOL",
+    "symbol": "cbBTC",
+    "status": "candidate",
+    "metrics": {
+      "volume": 9105688.424190937,
+      "tvl": "192058.3465588201",
+      "utilization": "47.41"
+    }
+  },
+  {
+    "id": "dbbc5193-7df9-48b4-a822-c595d98fd246",
+    "timestamp": "2026-02-04T16:52:58.156Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "JuprjznTrTSp2UFa3ZBUFgwdAmtZCq4MQCwysN55USD",
+    "source": "Meteora_DLMM",
+    "name": "JupUSD-USDC",
+    "symbol": "JupUSD",
+    "status": "candidate",
+    "metrics": {
+      "volume": 6638913.357979796,
+      "tvl": "10111660.09349618",
+      "utilization": "0.66"
+    }
+  },
+  {
+    "id": "7079237a-7e64-4783-8b63-2bc505e589fe",
+    "timestamp": "2026-02-04T16:52:58.159Z",
+    "type": "DISCOVERY_METEORA",
+    "token": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
+    "source": "Meteora_DLMM",
+    "name": "HYPE-cbBTC",
+    "symbol": "HYPE",
+    "status": "candidate",
+    "metrics": {
+      "volume": 6519438.177452203,
+      "tvl": "955035.9576401002",
+      "utilization": "6.83"
+    }
+  },
+  {
+    "id": "7dd5226b-4d99-4f91-9a1e-f4c0d362267a",
+    "timestamp": "2026-02-04T16:52:58.161Z",
+    "type": "YIELD_ENTRY",
+    "address": "5rCf1DM8LjKTw4YqhnoLcngyZYeNnQqztScTogYHAS6",
+    "name": "SOL-USDC",
+    "entryTime": 1770223978161,
+    "entryUtil": 12.24,
+    "allocation": 0.05,
+    "status": "executing"
+  },
+  {
+    "id": "524d5bb7-c7d9-4ad6-bee6-1f47b05e29e0",
+    "timestamp": "2026-02-04T16:52:58.163Z",
+    "type": "YIELD_ENTRY",
+    "address": "BGm1tav58oGcsQJehL9WXBFXF7D27vZsKefj4xJKD5Y",
+    "name": "SOL-USDC",
+    "entryTime": 1770223978163,
+    "entryUtil": 4.75,
+    "allocation": 0.05,
+    "status": "executing"
+  },
+  {
+    "id": "14e57a07-0793-4857-ac63-83477fdd7210",
+    "timestamp": "2026-02-04T16:52:58.165Z",
+    "type": "YIELD_ENTRY",
+    "address": "7ubS3GccjhQY99AYNKXjNJqnXjaokEdfdV915xnCb96r",
+    "name": "cbBTC-USDC",
+    "entryTime": 1770223978165,
+    "entryUtil": 15.12,
+    "allocation": 0.05,
+    "status": "executing"
+  },
+  {
+    "id": "5775167c-94dc-44e4-be9c-e6ff4e89e308",
+    "timestamp": "2026-02-04T16:54:10.008Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "SKRbvo6Gf7GondiT3BbTfuRDPqLWei4j2Qy2NPGZhW3",
+    "source": "Raydium",
+    "name": "Seeker",
+    "symbol": "SKR",
+    "score": 40,
+    "sentiment": null,
+    "signature": "3ZZz5rvDmVJ9VTJXUcGhwV1kqbRDjSKfXaaKrFabBpcB8xdEaFGeMaNtEmuDsKwd7B4kNVmPAE3Fmfby7QfRj3hY"
+  },
+  {
+    "id": "d83108f7-a534-4ff5-b815-3c67ada6aa13",
+    "timestamp": "2026-02-04T16:54:10.092Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+    "source": "Raydium",
+    "name": "Fartcoin ",
+    "symbol": "Fartcoin ",
+    "score": 40,
+    "sentiment": null,
+    "signature": "4a5oT3nnTVWRs4sRPmiVSafhkWWvrPbne5b5v9NkfaBuvW1poxVvKZg6J1DyatPn32UVamm1usCtb68GvMzG7Bex"
+  },
+  {
+    "id": "de344502-0712-4f95-ae77-be9f454f474b",
+    "timestamp": "2026-02-04T16:54:10.125Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "73bNL9CsZLUvdehbpV1yj59328AtowjYZ41zVsujpump",
+    "source": "PumpFun",
+    "name": "GLITCH CAT",
+    "symbol": "$GCAT",
+    "score": 100,
+    "sentiment": null,
+    "signature": "4q2qFSm5yih5jLyzPXHrsPDX1C9z86CRE71hQUNJxXnj8za2Wge4KUM2EFC6eWbBkUbFYfPqGBa4o3Wg9F3EkA3F"
+  },
+  {
+    "id": "280e4584-eccb-4902-af30-270cfc4753e6",
+    "timestamp": "2026-02-04T16:54:10.579Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "GWKVEeU49wnoAjSxdWK861SZUD6ewTWMwcKiiTE6UZE7",
+    "source": "Raydium",
+    "name": "Beans and Bologna",
+    "symbol": "BEANS",
+    "score": 100,
+    "sentiment": null,
+    "signature": "48oBbmi1DnNW3LAFidJyU7hTCitJRyioHdwM9HrRU2pYWDCphWfPidXfwRMmYx9CnrxUHT1QoJcoE669dTG2ZeuW"
+  },
+  {
+    "id": "8ce4495c-2a9b-44da-a992-302255fe58a3",
+    "timestamp": "2026-02-04T16:54:10.588Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "GWKVEeU49wnoAjSxdWK861SZUD6ewTWMwcKiiTE6UZE7",
+    "source": "Raydium",
+    "name": "Beans and Bologna",
+    "symbol": "BEANS",
+    "score": 100,
+    "sentiment": null,
+    "signature": "5pKhdua6TA94zFSG5acaeuaXxREZAmVYDtDsV47RsCzhJ5NkrWiMHheB751zEFRtRDgjdBBH8HkdZvNr5zNsxcJn"
+  },
+  {
+    "id": "dc752bfb-f6b3-499d-9b3d-02be40e99360",
+    "timestamp": "2026-02-04T16:54:10.623Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "GWKVEeU49wnoAjSxdWK861SZUD6ewTWMwcKiiTE6UZE7",
+    "source": "Raydium",
+    "name": "Beans and Bologna",
+    "symbol": "BEANS",
+    "score": 100,
+    "sentiment": null,
+    "signature": "4AP9ZRzo7ioh8kXkeU7PDandpw2cZcTnawrzHnJrpUYoJ4NgvKYzWEsiNhnrfMnjQgdmeoh7JY9XBsM2hGJQ8tqQ"
+  },
+  {
+    "id": "8166b05c-330c-4c45-a7c0-8a7dce7c95f9",
+    "timestamp": "2026-02-04T16:54:11.460Z",
+    "type": "DISCOVERY_SIGNAL",
+    "mint": "madHpjRn6bd8t78Rsy7NuSuNwWa2HU8ByPobZprHbHv",
+    "source": "Raydium",
+    "name": "MAD",
+    "symbol": "MAD",
+    "score": 100,
+    "sentiment": null,
+    "signature": "2X5ovTSq7y9ywnEkYCMamDb9PbkzYiDX9iyhLm5USohvZTy6bAnFqCSE83s8kYCgQbPnZogNSsAuoBdKaghMAYbF"
   }
 ]

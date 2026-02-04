@@ -1,0 +1,27 @@
+{
+  "name": "cybersolybot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mylilcrowdi/cybersolybot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mylilcrowdi/cybersolybot/issues"
+  },
+  "homepage": "https://github.com/mylilcrowdi/cybersolybot#readme",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4",
+    "axios": "^1.13.4",
+    "bs58": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "puppeteer": "^24.36.1"
+  }
+}

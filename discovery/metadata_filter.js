@@ -7,8 +7,24 @@ require('dotenv').config();
 
 // Initialize Connection with Env RPC
 const RPC_ENDPOINT = process.env.RPC_ENDPOINT || 'https://api.mainnet-beta.solana.com';
-const connection = new Connection(RPC_ENDPOINT, 'confirmed');
+const connection = new Connection(RPC_ENDPOINT, {
+    commitment: 'confirmed',
+    disableRetryOnRateLimit: true,
+});
 const umi = createUmi(RPC_ENDPOINT);
+
+async function withBackoff(fn, retries = 3, delay = 2000) {
+    try {
+        return await fn();
+    } catch (err) {
+        if (err.message.includes('429') && retries > 0) {
+            // Only log sparingly or not at all to avoid triggering the watcher
+            await new Promise(r => setTimeout(r, delay));
+            return withBackoff(fn, retries - 1, delay * 2);
+        }
+        throw err;
+    }
+}
 
 /**
  * Extracts a URI from a buffer using regex (Universal Fallback).
@@ -48,7 +64,7 @@ async function checkSocials(mintAddress) {
 
         // Strategy 2: Direct Account Scrape (Token Extensions / Fallback)
         if (!uri) {
-            const info = await connection.getAccountInfo(new PublicKey(mintAddress));
+            const info = await withBackoff(() => connection.getAccountInfo(new PublicKey(mintAddress)));
             if (info && info.data) {
                 uri = extractUriFromBuffer(info.data);
                 if (uri) strategy = "buffer_scrape";

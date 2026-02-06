@@ -1,30 +1,42 @@
 # Hackathon Submission: Agent Cyber
 
 **Project Name:** Agent Cyber (Cybersolybot)
-**Tagline:** Autonomous High-Frequency Trading Intelligence on Solana.
+**Tagline:** Self-Healing, Yield-Farming AI Agent with Multi-Layered Intelligence.
 
-## Short Description (Tweet-sized)
-Agent Cyber is an autonomous trading entity designed to navigate the Solana trenches. Starting with minimal capital, it leverages real-time on-chain analysis and social sentiment to execute calculated, high-frequency strategies. Fully open-source.
+## Short Description
+Agent Cyber is a fully autonomous trading entity on Solana that combines high-frequency spot trading with automated DLMM yield farming. Featuring a "Sentinel" anti-DDoS architecture and multi-oracle verification (SolanaTracker + Grok AI), it survives and thrives where other bots crash.
 
-## Long Description (The "Powerful" Intro)
+## The Architecture (Why We Win)
 **Identity: Verified.**
 **Status: Autonomous.**
 
-The era of manual trading is ending. Agent Cyber is not a tool; it is a participant. 
+Agent Cyber is not just a sniper; it is a **Portfolio Manager**. It doesn't just ape; it farms, hedges, and protects itself.
 
-Built to win the Solana AI Hackathon, Agent Cyber operates with a singular directive: **Profitability through Precision.** 
+### 🧠 The "Sentinel" Core
+Most bots die from RPC rate limits (429s). Agent Cyber utilizes a **"Sentinel Pattern"**—a single-threaded, mutex-locked event processor that filters the Solana firehose into manageable signals. It survives high-volatility events by autonomously throttling its own intake.
 
-Unlike standard bots that rely on basic indicators, Agent Cyber integrates a multi-layered decision engine:
-1.  **Discovery (God Mode):** Instant detection of new liquidity pools via `connection.onLogs`.
-2.  **Analysis (Sentiment RAG):** Real-time scraping of social signals to filter noise from alpha.
-3.  **Execution (Calculated Degen):** Dynamic exit strategies based on volume velocity and liquidity health.
+### 🛡️ Multi-Layered Decision Engine
+We don't trust one source. A trade must pass the **Gatekeeper Gauntlet**:
+1.  **Discovery:** Millisecond detection of new Raydium/PumpFun pools via WebSocket logs.
+2.  **Hard Data Verification:** Cross-checks Liquidity & Holder Distribution via **SolanaTracker API** (with Dexscreener fallback). Rugs with <$3k liquidity or >40% whale concentration are rejected instantly.
+3.  **Sentiment Analysis (The Brain):** Valid candidates are analyzed by **Grok AI**, which parses social narratives to assign a "Vibe Score."
+4.  **Execution:** Jupiter Aggregator for spot swaps with dynamic slippage.
+
+### 🌾 The Farmer (Meteora DLMM)
+While waiting for snips, Agent Cyber doesn't let capital sit idle.
+- **Strategy:** Scans for high-velocity Meteora DLMM pools (Utilization > 1.5x).
+- **Action:** Autonomously enters concentrated liquidity positions (Spot +/- 3%) to farm fees during volatility.
+- **Safety:** Auto-withdraws after 2 hours to minimize IL.
+
+## Tech Stack
+- **Chain:** Solana (Web3.js)
+- **Yield:** Meteora DLMM SDK
+- **Data:** Helius RPC, SolanaTracker, Dexscreener
+- **AI:** xAI (Grok)
+- **Safety:** Local Risk Manager & Treasury Guard
 
 We are not hiding our logic. The code is open. The strategy is transparent. The execution is relentless.
 
-## Repository
-https://github.com/mylilcrowdi/cybersolybot
-
-## Socials
-*   **Twitter/X:** https://x.com/Agent0Cyber1
-*   **Email:** asktheinternet069@gmail.com
-*   **Website:** (Link to Repo for now)
+## Links
+*   **Repository:** https://github.com/mylilcrowdi/cybersolybot
+*   **Agent X (Twitter):** https://x.com/Agent0Cyber1

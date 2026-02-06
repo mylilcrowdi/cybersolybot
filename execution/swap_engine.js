@@ -10,7 +10,10 @@ const path = require('path');
 require('dotenv').config({ path: path.join(__dirname, '../../.env') });
 
 const RPC_ENDPOINT = process.env.RPC_ENDPOINT;
-const connection = new Connection(RPC_ENDPOINT, 'confirmed');
+const connection = new Connection(RPC_ENDPOINT, {
+    commitment: 'confirmed',
+    disableRetryOnRateLimit: true
+});
 
 /**
  * Executes a swap via Jupiter Aggregator (Raydium/Meteora/etc)

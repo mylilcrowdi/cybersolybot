@@ -1,0 +1,2459 @@
+
+> cybersolybot@1.0.0 start
+> node index.js
+
+[dotenv@17.2.3] injecting env (4) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from ../.env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from ../.env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from ../.env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[Execution] 🔑 Wallet Loaded: 2xQ4KCE7tCogEAsXjGuT8VvzLMVHCDLf4atuVaJsHswK
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from ../.env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.2.3] injecting env (0) from ../.env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+-----------------------------------------
+⚡ Agent Cyber: Final Integration Initialized
+🤖 Auto-Trade: OFF (DRY RUN)
+💰 Trade Size: 0.01 SOL
+-----------------------------------------
+[Monitor] ⚡ Agent Cyber Listening via Helius RPC
+[Yield] 🌾 Starting Yield Management cycle...
+[Meteora] ☄️  Scanning DLMM Pools...
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreifbv4tf3cqc2ao76ttifd6z4euu3hcrore6lyjpptlmpc3jkofrf4
+[PumpFun] ✅ TARGET ACQUIRED: clawdbuilds (clawdbuild)
+[Grok] 🧪 MOCK ANALYSIS for $clawdbuild (clawdbuilds)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for clawdbuild (6aZXJxUgEQVaHiRmagYYWZiQgGtBGagLZvdzA8g4pump)
+[Decision] 🚀 CRITERIA MET! Score: 98. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought clawdbuild for 0.01 SOL.
+[Meteora] Found 95 active pools.
+[Meteora] 🔥 Opportunity: TRUMP-USDC
+   - Address: 9d9mb8kooFfaD3SctgZtkxQypkshx6ezhbKio89ixyy2
+   - 24h Vol: $79,119,006.685
+   - TVL: $105,377,567.804
+   - Utilization: 0.75x
+[Logger] Action logged: DISCOVERY_METEORA 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN (candidate)
+[Meteora] 🔥 Opportunity: SOL-USDC
+   - Address: BGm1tav58oGcsQJehL9WXBFXF7D27vZsKefj4xJKD5Y
+   - 24h Vol: $43,343,700.719
+   - TVL: $4,567,630.832
+   - Utilization: 9.49x
+[Logger] Action logged: DISCOVERY_METEORA So11111111111111111111111111111111111111112 (candidate)
+[Meteora] 🔥 Opportunity: SOL-USDC
+   - Address: 5rCf1DM8LjKTw4YqhnoLcngyZYeNnQqztScTogYHAS6
+   - 24h Vol: $20,099,842.052
+   - TVL: $1,613,745.506
+   - Utilization: 12.46x
+[Logger] Action logged: DISCOVERY_METEORA So11111111111111111111111111111111111111112 (candidate)
+[Meteora] 🔥 Opportunity: cbBTC-USDC
+   - Address: 7ubS3GccjhQY99AYNKXjNJqnXjaokEdfdV915xnCb96r
+   - 24h Vol: $18,751,745.243
+   - TVL: $320,524.042
+   - Utilization: 58.50x
+[Logger] Action logged: DISCOVERY_METEORA cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij (candidate)
+[Meteora] 🔥 Opportunity: TRUMP-USDC
+   - Address: 3C5YE97HADPDxZehYq9Cis8AXr9aNyrUsczKzE1nDbW9
+   - 24h Vol: $17,796,156.353
+   - TVL: $19,250,879.395
+   - Utilization: 0.92x
+[Logger] Action logged: DISCOVERY_METEORA 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN (candidate)
+[Meteora] 🔥 Opportunity: BFS-SOL
+   - Address: E6sr5aGsJwkmvxQxLWrLzo78wMFQm7JUn6aCTGpF4zmH
+   - 24h Vol: $13,558,371.631
+   - TVL: $128,464.153
+   - Utilization: 105.54x
+[Logger] Action logged: DISCOVERY_METEORA 2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU (candidate)
+[Meteora] 🔥 Opportunity: HYPE-SOL
+   - Address: 81GpCm4d13y8TozYtThabuSCLQN2o3bbrvDogXFPn8sA
+   - 24h Vol: $10,151,528.376
+   - TVL: $1,959,948.513
+   - Utilization: 5.18x
+[Logger] Action logged: DISCOVERY_METEORA 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g (candidate)
+[Meteora] 🔥 Opportunity: HYPE-cbBTC
+   - Address: FV7Y42oBKfdm5BwszydeUmvsojzpnJ2hFrwxkTW4oDj4
+   - 24h Vol: $8,946,232.761
+   - TVL: $1,619,596.325
+   - Utilization: 5.52x
+[Logger] Action logged: DISCOVERY_METEORA 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g (candidate)
+[Meteora] 🔥 Opportunity: cbBTC-SOL
+   - Address: H2USRSaWuUchkbdmSJgKNfAm7ocyD4ZnCm69oRGyecKw
+   - 24h Vol: $8,384,182.953
+   - TVL: $2,823,868.323
+   - Utilization: 2.97x
+[Logger] Action logged: DISCOVERY_METEORA cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij (candidate)
+[Meteora] 🔥 Opportunity: PENGUIN-SOL
+   - Address: LJGCprfvx4qZVXktL24CLArGwzpAsQXjq5AQFa5w6WT
+   - 24h Vol: $7,622,090.587
+   - TVL: $787,749.713
+   - Utilization: 9.68x
+[Logger] Action logged: DISCOVERY_METEORA 8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump (candidate)
+[Yield] 🚀 DECISION: ENTERING POOL SOL-USDC (Util: 9.49x)
+[Yield] 🧪 DRY RUN: Would have deposited 0.05 SOL into SOL-USDC.
+[Logger] Action logged: YIELD_ENTRY  (dry_run)
+[Yield] 🚀 DECISION: ENTERING POOL SOL-USDC (Util: 12.46x)
+[Yield] 🧪 DRY RUN: Would have deposited 0.05 SOL into SOL-USDC.
+[Logger] Action logged: YIELD_ENTRY  (dry_run)
+[Yield] 🚀 DECISION: ENTERING POOL cbBTC-USDC (Util: 58.5x)
+[Yield] 🧪 DRY RUN: Would have deposited 0.05 SOL into cbBTC-USDC.
+[Logger] Action logged: YIELD_ENTRY  (dry_run)
+[Yield] 🔍 Monitoring Position: cbBTC-USDC...
+[Yield] 🔍 Monitoring Position: SOL-USDC...
+[Yield] 🔍 Monitoring Position: SOL-USDC...
+[Filter] Found URI via metaplex_pda: https://bafkreihwqhounu3cdwgvk2gc2dqcinpntlccbo3xcy4xuerd24yndldl5q.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmfGS7XmDe1oZSHr4eNYiSyvqowgrsQgXzARWchvUVWwy3
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmckb3nWWHyoJKtX3FeagfmDZXNVqiXM4nKkYsTnygm2Ah
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmbe4nA5bYwmGLJ6Bgcegf8tqUHBAVSNPQmT8gXYSb8rUN
+[Raydium] ✅ TARGET ACQUIRED: Alchemist AI (ALCH)
+[Grok] 🧪 MOCK ANALYSIS for $ALCH (Alchemist AI)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ALCH (HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump)
+[Decision] 🚀 CRITERIA MET! Score: 85. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ALCH for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmbe4nA5bYwmGLJ6Bgcegf8tqUHBAVSNPQmT8gXYSb8rUN
+[Raydium] ✅ TARGET ACQUIRED: Alchemist AI (ALCH)
+[Grok] 🧪 MOCK ANALYSIS for $ALCH (Alchemist AI)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ALCH (HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (64/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmZf8F4hXkAma1fUY8ZLhbxtpdi1anGAof5FqVAjrKrYhh
+[Raydium] ✅ TARGET ACQUIRED: AI Rig Complex (arc)
+[Grok] 🧪 MOCK ANALYSIS for $arc (AI Rig Complex)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for arc (61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump)
+[Decision] 🚀 CRITERIA MET! Score: 85. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought arc for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmQrsAvZBxWJMPkF1DQQh2hGy4z2nLMmaXF9XVkw1vUYFW
+[Raydium] ✅ TARGET ACQUIRED: DirtySanchez (DirtyS)
+[Grok] 🧪 MOCK ANALYSIS for $DirtyS (DirtySanchez)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for DirtyS (FetTw8zYm3x962VqHtVvJS2XYA5nMw9TuGXwQDFWpump)
+[Decision] 🚀 CRITERIA MET! Score: 74. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought DirtyS for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreibhg5ryhluz2kdgdsosbzxionhyvcdgs26z2k3lx7omqoj6vaqm3m
+[PumpFun] ✅ TARGET ACQUIRED: DRILLGUY (DRILLGUY)
+[Grok] 🧪 MOCK ANALYSIS for $DRILLGUY (DRILLGUY)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for DRILLGUY (7ptERv6iYFicpZ1snWbDdALWbDxPLga86PXdRuqqpump)
+[Decision] 🚀 CRITERIA MET! Score: 82. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought DRILLGUY for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreiffyqj3u47qnb4how2birbnd62wuzoxibkxpooi3fdnm75aa5cgaq
+[PumpFun] ✅ TARGET ACQUIRED: Breadcoin (Bread)
+[Grok] 🧪 MOCK ANALYSIS for $Bread (Breadcoin)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Bread (CoxQb1nXcezJiUkQw7pm4J8MXeGCFsvuFrvMimR9pump)
+[Decision] 🚀 CRITERIA MET! Score: 76. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Bread for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://arweave.net/Aspx_hmFzf0sixzgjwK-T8EPGqh8djjq1Nkel0vgQ-c
+[Filter] Found URI via buffer_scrape: http://93.205.10.67
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via buffer_scrape: https://meta.uxento.io/data/33c53ef2-2d8c-4ac0-86dc-a8b4c065952d
+[PumpFun] ✅ TARGET ACQUIRED: HODL (HODL)
+[Grok] 🧪 MOCK ANALYSIS for $HODL (HODL)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for HODL (Apkw2AE3dFWVZWDjUCXsqzFJtrVTpg74BACGhRjqpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (62/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmVBvzXHBNa2LVDHXpWbSFMRp5LgAwv4pmLkJNYjj5PBt7
+[Filter] Found URI via metaplex_pda: https://bafkreid4idckaxfnjpr3p7derwlylyfkmbw4xxd2sjnvdo4nv7gunfnldm.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via buffer_scrape: https://meta.uxento.io/data/d6bc12fc-e784-4002-a841-1caad2b450c9
+[PumpFun] ✅ TARGET ACQUIRED: HODL (HODL)
+[Grok] 🧪 MOCK ANALYSIS for $HODL (HODL)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for HODL (ADHjaZPUJ6xK35KswapFKeD8GxNQfRrwBT23G5Mkpump)
+[Decision] 🚀 CRITERIA MET! Score: 78. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought HODL for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://bafkreieuo5b7aavvm4u2eaffwhzn53g7t45ac26isovfwluv653lvc5u4i.ipfs.nftstorage.link/
+[Raydium] ✅ TARGET ACQUIRED: cat in a dogs world (MEW)
+[Grok] 🧪 MOCK ANALYSIS for $MEW (cat in a dogs world)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for MEW (MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5)
+[Decision] 🚀 CRITERIA MET! Score: 80. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought MEW for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://bafkreid4idckaxfnjpr3p7derwlylyfkmbw4xxd2sjnvdo4nv7gunfnldm.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via metaplex_pda: https://bafkreifi2rtjfhynuvm423e2655frhjeby3k6hiu64way4wlnehkffscfy.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmdQb1U6dmKSL5os8LmFwh9hDQ7TcmDathFp1C3SdwgPzj
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmTXT8EFrM7FShwENGKMPSi9Es2iXP6F1CzMDAtCJhkC6f
+[Raydium] ✅ TARGET ACQUIRED: swarms (swarms)
+[Grok] 🧪 MOCK ANALYSIS for $swarms (swarms)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for swarms (74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump)
+[Decision] 🚀 CRITERIA MET! Score: 89. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought swarms for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYTnHwVqLHCYL1xrwGQLY8e1YHdXVMimkLuYeHZNNyUiX
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreihajd6mrdlujeocwomyluvremhzg5oi2jqf3jjd3ahzuo552bv6qa
+[PumpFun] ✅ TARGET ACQUIRED: fuck i should have stabled (fishes)
+[Grok] 🧪 MOCK ANALYSIS for $fishes (fuck i should have stabled)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for fishes (3nEx3hLXTg7pnjpCFFQTnZ8qUnfJLAei3zsz7Mvupump)
+[Decision] 🚀 CRITERIA MET! Score: 94. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought fishes for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://coffee-important-lizard-419.mypinata.cloud/ipfs/Qmbu9N9Lwp7AanwM6hsRwaFJtfSNVLtryMpkHd4AdVcRnu
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmckb3nWWHyoJKtX3FeagfmDZXNVqiXM4nKkYsTnygm2Ah
+[Filter] Found URI via metaplex_pda: https://storage.googleapis.com/octo-nfts/oktkn_metadata.json
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/wlfi-metadata.json
+[Filter] Found URI via metaplex_pda: https://coffee-important-lizard-419.mypinata.cloud/ipfs/Qmbu9N9Lwp7AanwM6hsRwaFJtfSNVLtryMpkHd4AdVcRnu
+[Filter] Found URI via metaplex_pda: https://bafkreiehz3jw7547ryrb5mr54rbnqmcjsqblkcoz46v7aejszqricvnbsa.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://arweave.net/Ho26uxZTJe_yP1nEVdcZ7vcHUChcrWNGz3CrtsjPFpA
+[Raydium] ✅ TARGET ACQUIRED: BEER ($BEER)
+[Grok] 🧪 MOCK ANALYSIS for $$BEER (BEER)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for $BEER (AujTJJ7aMS8LDo3bFzoyXDwT3jBALUbu4VZhzZdTZLmG)
+[Decision] 🚀 CRITERIA MET! Score: 82. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought $BEER for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmY6pBETx1wUQx5jjhNqRRPDbnwfKTJHC2KkLg54ky6XwC
+[Raydium] ✅ TARGET ACQUIRED: Ozapay (OZA)
+[Grok] 🧪 MOCK ANALYSIS for $OZA (Ozapay)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for OZA (67iVSrbgQKiPjttU9uXx9CXUoS1Si3XUhrXeiNAUUZSR)
+[Decision] 🚀 CRITERIA MET! Score: 81. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought OZA for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.irys.xyz/P-_9IXgQ-5gM3KtEaAjhzX2Gfx80AffQC_Z0fx7M6D0
+[Raydium] ✅ TARGET ACQUIRED: Seeker (SKR)
+[Grok] 🧪 MOCK ANALYSIS for $SKR (Seeker)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for SKR (SKRbvo6Gf7GondiT3BbTfuRDPqLWei4j2Qy2NPGZhW3)
+[Decision] 🚀 CRITERIA MET! Score: 75. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought SKR for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via metaplex_pda: https://bafkreigvcrafulck2qznwwvpyzn3bqkvrtilryusxb65nnw4l3eypycppa.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://bafkreiggdqj2zkz72k75m5l3tl3cfng5a5y23odre7phax7sknizxcrybe.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWVzSC1ZTFiBYFiZZ6QivGUZ9awPJwqZECSFL1UD4gitC
+[Raydium] ✅ TARGET ACQUIRED: Moo Deng (MOODENG)
+[Grok] 🧪 MOCK ANALYSIS for $MOODENG (Moo Deng)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for MOODENG (ED5nyyWEzpPPiWimP8vYm7sD7TD3LAt3Q3gRTWHzPJBY)
+[Decision] 🚀 CRITERIA MET! Score: 73. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought MOODENG for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://arweave.net/x8B0Sv4DdQB_Tupec003Mu6HyL41DLQCQHlNMPgTHuw
+[Raydium] ✅ TARGET ACQUIRED: test griffain.com (GRIFFAIN)
+[Grok] 🧪 MOCK ANALYSIS for $GRIFFAIN (test griffain.com)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for GRIFFAIN (KENJSUYLASHUMfHyy5o4Hp2FdNqZg1AsUPhfH2kYvEP)
+[Decision] 🚀 CRITERIA MET! Score: 83. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought GRIFFAIN for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://bafkreid4w525uxvn5ep4hanxrraqi2r2gbuwri6imxcovir46xqk75ttey.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmdQb1U6dmKSL5os8LmFwh9hDQ7TcmDathFp1C3SdwgPzj
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmRaah2aa24T3F2hGQCf8XefSuaNFZM2wGx2W2UnsxfLxM
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmaqr4jU97zckiTbRm7A1vV4354PXYLZrHE75CwMJH1Vsa
+[Raydium] ✅ TARGET ACQUIRED: zerebro (ZEREBRO)
+[Grok] 🧪 MOCK ANALYSIS for $ZEREBRO (zerebro)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ZEREBRO (8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (64/70)
+[Filter] Found URI via metaplex_pda: https://storage.googleapis.com/octo-nfts/oktkn_metadata.json
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/bafkreifycidc3ffywovstz7cdr5ft5kjljpgzfyz2n2jz5l3s3hqe74ysu
+[PumpFun] ✅ TARGET ACQUIRED: slow cook (slow)
+[Grok] 🧪 MOCK ANALYSIS for $slow (slow cook)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for slow (BApHssCGAEedwDa9HjgbhFzvGLQU3mAXfS4fCkvfpump)
+[Decision] 🚀 CRITERIA MET! Score: 71. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought slow for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmdWtUkc8ZvS8UBon5YFxK5qwiQQdonC1C8c2pyzLfeH3g
+[Raydium] ✅ TARGET ACQUIRED: Skill Stacker (stkr)
+[Grok] 🧪 MOCK ANALYSIS for $stkr (Skill Stacker)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for stkr (3DFnwGLJUfxc4eMxDgQwW6oWaeKBrJ1iwA26YjTfpump)
+[Decision] 🚀 CRITERIA MET! Score: 93. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought stkr for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://metadata.j7tracker.com/metadata/b55f92a1e55842d2.json
+[PumpFun] ✅ TARGET ACQUIRED: CHANCE TO SEND IT TOMILSFIINALLY (HODL)
+[Grok] 🧪 MOCK ANALYSIS for $HODL (CHANCE TO SEND IT TOMILSFIINALLY)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for HODL (2wBammvSE61SiGcVhfp3dutgScWda4f3qrd4qJW13ySe)
+[Decision] 🚀 CRITERIA MET! Score: 79. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought HODL for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmeJPx76iLzqUXB6oDEDUo9xrcFG1FvtvbM4j9yj86zEBz
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreibk4zgxcmwwyytpud6gstohv4y6m66pqpr3ylq7646tcb6o2co5lu
+[PumpFun] ✅ TARGET ACQUIRED: yk who wasn't in the epstein? (who)
+[Grok] 🧪 MOCK ANALYSIS for $who (yk who wasn't in the epstein?)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for who (7pokh2MxLSWv4R3BwJCQrLrmUEHZyof6QQwSfzLjpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (62/70)
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmXKRtMcpMfTqittTyEPWh4M8rvMZRgt5bxuPHZDPsxUtM
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreibhg5ryhluz2kdgdsosbzxionhyvcdgs26z2k3lx7omqoj6vaqm3m
+[PumpFun] ✅ TARGET ACQUIRED: DRILLGUY (DRILLGUY)
+[Grok] 🧪 MOCK ANALYSIS for $DRILLGUY (DRILLGUY)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for DRILLGUY (7ptERv6iYFicpZ1snWbDdALWbDxPLga86PXdRuqqpump)
+[Decision] 🚀 CRITERIA MET! Score: 76. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought DRILLGUY for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmfQK96BwcZMHGSjHW39XmiZDCMFtwgWmMTqTnFsdKVB6f
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/bafkreifktpdwdpn5wg4wg6ax7pgg6uw4ttz5jpzthghh26upnlfuqshyfa
+[Raydium] ✅ TARGET ACQUIRED: Bud Man (BUD)
+[Grok] 🧪 MOCK ANALYSIS for $BUD (Bud Man)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for BUD (D32i1UHF5yzsBM7d5EBG6zZSHGW3iTNcwm3eVkrSbonk)
+[Decision] 🚀 CRITERIA MET! Score: 93. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought BUD for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/bafkreiceainx62zus4y6ngt2libxwqvmepgybgixm3huzjygxzikkrrziq
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmbe4nA5bYwmGLJ6Bgcegf8tqUHBAVSNPQmT8gXYSb8rUN
+[Raydium] ✅ TARGET ACQUIRED: Alchemist AI (ALCH)
+[Grok] 🧪 MOCK ANALYSIS for $ALCH (Alchemist AI)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ALCH (HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump)
+[Decision] 🚀 CRITERIA MET! Score: 81. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ALCH for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmZPnkFty7QTWGve52voQVK3GoRikwYSUUnv4xCKFMTUb1
+[Filter] Found URI via metaplex_pda: https://dl.dropboxusercontent.com/scl/fi/womrya3wluwvgh9qazxiu/uri_brix.json?rlkey=7tj48k75etk9svphvdm2kwpk3&dl=0
+[Filter] Found URI via metaplex_pda: https://arweave.net/BKQlg-oPhrjHSqsXJwQlS1Ui4Wy9vkM-ChXXqWXTMxc
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/QmcCFK3jike9eTG87hsMG5BFgXfk8qWwb2Ss1GFTYfE8kw
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmcGmF4tQxsQKdF3s1mSqYyg1vNqAXou32tbWztnsnEzth
+[Raydium] ✅ TARGET ACQUIRED: Goatseus Maximus (GOAT)
+[Grok] 🧪 MOCK ANALYSIS for $GOAT (Goatseus Maximus)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for GOAT (CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump)
+[Decision] 🚀 CRITERIA MET! Score: 82. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought GOAT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmbe4nA5bYwmGLJ6Bgcegf8tqUHBAVSNPQmT8gXYSb8rUN
+[Raydium] ✅ TARGET ACQUIRED: Alchemist AI (ALCH)
+[Grok] 🧪 MOCK ANALYSIS for $ALCH (Alchemist AI)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ALCH (HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump)
+[Decision] 🚀 CRITERIA MET! Score: 80. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ALCH for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://bafkreiehz3jw7547ryrb5mr54rbnqmcjsqblkcoz46v7aejszqricvnbsa.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/bafkreihitmpolpmcqs5oikly2uxstgrq7omusy7rdu3vfagw2nmy5lt4me
+[Raydium] ✅ TARGET ACQUIRED: Retardmaxxing (Retardmaxx)
+[Grok] 🧪 MOCK ANALYSIS for $Retardmaxx (Retardmaxxing)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Retardmaxx (3Y7uP2UhEE68dpyAmWfXc7biSQmQqQonCiyDp6KYpump)
+[Decision] 🚀 CRITERIA MET! Score: 86. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Retardmaxx for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://bafkreiehz3jw7547ryrb5mr54rbnqmcjsqblkcoz46v7aejszqricvnbsa.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://bafkreihygg7erlybmcbfl5fzjzosuse3nkxugvi6im4sw5s2sz4a55lgmy.ipfs.nftstorage.link
+[Raydium] ✅ TARGET ACQUIRED: Hege (HEGE)
+[Grok] 🧪 MOCK ANALYSIS for $HEGE (Hege)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for HEGE (ULwSJmmpxmnRfpu6BjnK6rprKXqD5jXUmPpS1FxHXFy)
+[Decision] 🚀 CRITERIA MET! Score: 77. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought HEGE for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://upward-sport-headed.quicknode-ipfs.com/ipfs/QmcS4MfaifxBrFDAGKtMrp4DtNBLoa3KJop3RNNcyDZV5J
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmNVY73MUCao6bcw1bRFWZDMguYgDtUCqRNN1ERW6cg2tR
+[Raydium] ✅ TARGET ACQUIRED: Ava AI (AVA)
+[Grok] 🧪 MOCK ANALYSIS for $AVA (Ava AI)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for AVA (DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump)
+[Decision] 🚀 CRITERIA MET! Score: 72. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought AVA for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmNVY73MUCao6bcw1bRFWZDMguYgDtUCqRNN1ERW6cg2tR
+[Raydium] ✅ TARGET ACQUIRED: Ava AI (AVA)
+[Grok] 🧪 MOCK ANALYSIS for $AVA (Ava AI)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for AVA (DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump)
+[Decision] 🚀 CRITERIA MET! Score: 80. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought AVA for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://bafkreiej62ovyx7sonjiqzyvlxnsccm63nfu6pxfb3xves2lso6juzut6m.ipfs.nftstorage.link
+[Raydium] ✅ TARGET ACQUIRED: Shillbo Baggins (SHILLBO)
+[Grok] 🧪 MOCK ANALYSIS for $SHILLBO (Shillbo Baggins)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for SHILLBO (CB1yADEN1k7b7gCteNerThL8cWjihauhZFBT9dC8S5LG)
+[Decision] 🚀 CRITERIA MET! Score: 83. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought SHILLBO for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmRBjGUEf3F9vwrW7h22z2xsnPJho8iyN1JK53FXQPmZg8
+[Raydium] ✅ TARGET ACQUIRED: Coinomi wallet$ (Coinomi)
+[Grok] 🧪 MOCK ANALYSIS for $Coinomi (Coinomi wallet$)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Coinomi (EHmZM5QD7NFpu6hm3o8yYSA6EhYYunHL21fzN2ucpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (65/70)
+[Filter] Found URI via metaplex_pda: https://hylo-token-metadata.s3.us-east-2.amazonaws.com/xSOL/metadata.json
+[Raydium] ✅ TARGET ACQUIRED: Hylo Leveraged SOL (xSOL)
+[Grok] 🧪 MOCK ANALYSIS for $xSOL (Hylo Leveraged SOL)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for xSOL (4sWNB8zGWHkh6UnmwiEtzNxL4XrN7uK9tosbESbJFfVs)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (64/70)
+[Filter] Found URI via buffer_scrape: https://api.vortexdeployer.com/metadata/10723feb-0a02-4e68-acae-d668054c6acb.json
+[PumpFun] ✅ TARGET ACQUIRED: Fear & Greed Index (FEAR)
+[Grok] 🧪 MOCK ANALYSIS for $FEAR (Fear & Greed Index)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for FEAR (ArqLBb9bZ3mystiQpgKhk8Tgg9cZmMxW3JDtiytMpump)
+[Decision] 🚀 CRITERIA MET! Score: 76. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought FEAR for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.irys.xyz/S6nT0toKFAzwMJ7gm7Bh78tLTk9LeSGRjT2_1gp6otk
+[Filter] Found URI via metaplex_pda: https://arweave.net/QPC6FYdUn-3V8ytFNuoCS85S2tHAuiDblh6u3CIZLsw
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmTXT8EFrM7FShwENGKMPSi9Es2iXP6F1CzMDAtCJhkC6f
+[Raydium] ✅ TARGET ACQUIRED: swarms (swarms)
+[Grok] 🧪 MOCK ANALYSIS for $swarms (swarms)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for swarms (74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump)
+[Decision] 🚀 CRITERIA MET! Score: 77. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought swarms for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/QmQG5cyK98PJcP8kafRj8FT4CrfKJqfD2U7jn55FYwtPiV
+[PumpFun] ✅ TARGET ACQUIRED: Jew cat (JewCat)
+[Grok] 🧪 MOCK ANALYSIS for $JewCat (Jew cat)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for JewCat (HxWcEHSCxr8WBkBaYRE5XgAJmq1imH2Ff8SudLYkpump)
+[Decision] 🚀 CRITERIA MET! Score: 70. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought JewCat for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmbe4nA5bYwmGLJ6Bgcegf8tqUHBAVSNPQmT8gXYSb8rUN
+[Raydium] ✅ TARGET ACQUIRED: Alchemist AI (ALCH)
+[Grok] 🧪 MOCK ANALYSIS for $ALCH (Alchemist AI)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ALCH (HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump)
+[Decision] 🚀 CRITERIA MET! Score: 87. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ALCH for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWVzSC1ZTFiBYFiZZ6QivGUZ9awPJwqZECSFL1UD4gitC
+[Raydium] ✅ TARGET ACQUIRED: Moo Deng (MOODENG)
+[Grok] 🧪 MOCK ANALYSIS for $MOODENG (Moo Deng)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for MOODENG (ED5nyyWEzpPPiWimP8vYm7sD7TD3LAt3Q3gRTWHzPJBY)
+[Decision] 🚀 CRITERIA MET! Score: 81. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought MOODENG for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmdQb1U6dmKSL5os8LmFwh9hDQ7TcmDathFp1C3SdwgPzj
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmcGmF4tQxsQKdF3s1mSqYyg1vNqAXou32tbWztnsnEzth
+[Raydium] ✅ TARGET ACQUIRED: Goatseus Maximus (GOAT)
+[Grok] 🧪 MOCK ANALYSIS for $GOAT (Goatseus Maximus)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for GOAT (CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump)
+[Decision] 🚀 CRITERIA MET! Score: 88. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought GOAT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYTnHwVqLHCYL1xrwGQLY8e1YHdXVMimkLuYeHZNNyUiX
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYiyZcURW4evLVQNz4WEiY2ecFKvTSfjy3RHZiu3qA9LM
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmZf8F4hXkAma1fUY8ZLhbxtpdi1anGAof5FqVAjrKrYhh
+[Raydium] ✅ TARGET ACQUIRED: AI Rig Complex (arc)
+[Grok] 🧪 MOCK ANALYSIS for $arc (AI Rig Complex)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for arc (61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (65/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/bafkreifoljzl46cyqgfarzjb247egsxuf4efc26wlnvcgxzzdesk7umexa
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmapPN3ZaZTKQ7XYmEDjh75j2V83dcBoNg8FTQrZGEGcAE
+[Raydium] ✅ TARGET ACQUIRED: Act I : The AI Prophecy (ACT)
+[Grok] 🧪 MOCK ANALYSIS for $ACT (Act I : The AI Prophecy)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ACT (GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump)
+[Decision] 🚀 CRITERIA MET! Score: 75. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ACT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://bafkreif6sugqitckrum7iqpf3bz7lp4dmv4xziw53ltp6jwice7tgzr2sm.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://arweave.net/QPC6FYdUn-3V8ytFNuoCS85S2tHAuiDblh6u3CIZLsw
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmTqrFRxym7EVPQMxTJeahMqxRcmxtA1UL5iD8TETPsACn
+[Raydium] ✅ TARGET ACQUIRED: soliloquy_cat REAL NAME (Slinks)
+[Grok] 🧪 MOCK ANALYSIS for $Slinks (soliloquy_cat REAL NAME)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Slinks (HyP8EwkaJQaRvHpGtexcENQFNgNJiidq5f8jhB1Bpump)
+[Decision] 🚀 CRITERIA MET! Score: 97. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Slinks for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://coffee-important-lizard-419.mypinata.cloud/ipfs/Qmbu9N9Lwp7AanwM6hsRwaFJtfSNVLtryMpkHd4AdVcRnu
+[Filter] Found URI via buffer_scrape: https://metadata.j7tracker.com/metadata/66a9aedb614a4ad3.json
+[PumpFun] ✅ TARGET ACQUIRED: Markets are dead, send the Bread (Bread)
+[Grok] 🧪 MOCK ANALYSIS for $Bread (Markets are dead, send the Bread)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Bread (5gSy5NHZnm4Mo4CvSAsiCaGqgfr1Bp2kBXFY7v5MPz79)
+[Decision] 🚀 CRITERIA MET! Score: 96. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Bread for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://chintai.io/chexsol.json
+[Filter] Found URI via metaplex_pda: https://gateway.irys.xyz/cI4MwcMzgJgGfR6ZC9JjU6cCyDISZXcLF7rVhYq3cPo
+[Raydium] ✅ TARGET ACQUIRED: GDTC (GDTC)
+[Grok] 🧪 MOCK ANALYSIS for $GDTC (GDTC)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for GDTC (DVb1znJKBVJzcuzbgvcG3cSghf2i1YzdJqoJFb7ZdQuX)
+[Decision] 🚀 CRITERIA MET! Score: 79. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought GDTC for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://metadata.rapidlaunch.io/metadata/f0eef897-cb0f-45e3-813d-0f942e7fa5bd.json
+[PumpFun] ✅ TARGET ACQUIRED: Post Trench Stress Disorder (PTSD)
+[Grok] 🧪 MOCK ANALYSIS for $PTSD (Post Trench Stress Disorder)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for PTSD (EsYo1QFVDn4bWxXX4HcqyAgDDp1ZX4T4e2Nhs4Nqpump)
+[Decision] 🚀 CRITERIA MET! Score: 88. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought PTSD for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://arweave.net/5t4LzaQGc1yb6CuSwFQlAGjaTYQNZyUt9ntAd8JRyQ0
+[Filter] Found URI via metaplex_pda: https://arweave.net/cSCP0h2n1crjeSWE9KF-XtLciJalDNFs7Vf-Sm0NNY0
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmTXT8EFrM7FShwENGKMPSi9Es2iXP6F1CzMDAtCJhkC6f
+[Raydium] ✅ TARGET ACQUIRED: swarms (swarms)
+[Grok] 🧪 MOCK ANALYSIS for $swarms (swarms)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for swarms (74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump)
+[Decision] 🚀 CRITERIA MET! Score: 72. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought swarms for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.irys.xyz/Og2WwPZPySIvSR-M5Hf6NnQQKmEB07b2VwF4fb2ViCs
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYfe8zVGHA1heej47AkBX3Nnetg2h2kqj5yymz1xyKeHb
+[Raydium] ✅ TARGET ACQUIRED: Fartcoin  (Fartcoin )
+[Grok] 🧪 MOCK ANALYSIS for $Fartcoin  (Fartcoin )
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Fartcoin  (9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump)
+[Decision] 🚀 CRITERIA MET! Score: 84. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Fartcoin  for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmbe4nA5bYwmGLJ6Bgcegf8tqUHBAVSNPQmT8gXYSb8rUN
+[Raydium] ✅ TARGET ACQUIRED: Alchemist AI (ALCH)
+[Grok] 🧪 MOCK ANALYSIS for $ALCH (Alchemist AI)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ALCH (HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump)
+[Decision] 🚀 CRITERIA MET! Score: 81. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ALCH for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYFTvJUVN85XNdyoCxv3rbW17tjWZJ3RuZRissfSvFSZ8
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/bafkreidtgu7jlx75ylfkqp73ek7qjgtk6hgqmhmjgas3nbsxt7rs7tbqni
+[Raydium] ✅ TARGET ACQUIRED: 1 coin can change your life (1)
+[Grok] 🧪 MOCK ANALYSIS for $1 (1 coin can change your life)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for 1 (GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk)
+[Decision] 🚀 CRITERIA MET! Score: 74. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought 1 for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/QmeMymKJF7hHoLaYoiasVFjXZZ8DQ74ERK9w6cB28MbH4a
+[PumpFun] ✅ TARGET ACQUIRED: Valontine (Valontine)
+[Grok] 🧪 MOCK ANALYSIS for $Valontine (Valontine)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Valontine (5fRPUQKVZEYUe66QT9UCmeGPcA2ijsRNAvCwbuZSpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (64/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYBkpt5Wyt8U82CStwKt6cdXMnKJrC2xUDzmsjk5kfdur
+[Raydium] ✅ TARGET ACQUIRED: GoosepumpsAI (Goosepumps)
+[Grok] 🧪 MOCK ANALYSIS for $Goosepumps (GoosepumpsAI)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Goosepumps (B3seNmLjE4sv7W6HCjfzcKFnAWTfHDv9MBa43zEKpump)
+[Decision] 🚀 CRITERIA MET! Score: 86. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Goosepumps for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYCSfRjN3qoNhUzYLS6LifLgcc2NWQngenCAHvqguFeZ5
+[Raydium] ✅ TARGET ACQUIRED: Black Wallstreet ✊🏾 (TULSA)
+[Grok] 🧪 MOCK ANALYSIS for $TULSA (Black Wallstreet ✊🏾)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for TULSA (8TVr3U85V3Uazkxd5DJbmzdUWaxhQdEGNNGJ7eNTpump)
+[Decision] 🚀 CRITERIA MET! Score: 96. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought TULSA for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://loraxa.mypinata.cloud/ipfs/bafkreidhotqqk54phhty4f5m7c2lraodja5zj6hee6byy6dgt2okuw5ouq
+[PumpFun] ✅ TARGET ACQUIRED: Dog in poverty (DIP)
+[Grok] 🧪 MOCK ANALYSIS for $DIP (Dog in poverty)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for DIP (7peFoEdrYuYCnqRUByx7tLyKioh5SYf3HJPyMne6pump)
+[Decision] 🚀 CRITERIA MET! Score: 94. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought DIP for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/Qme84JUTV5EghVTrKExR73jVxcjCJ2Ls5GbMivyFR5HoMY
+[Filter] Found URI via metaplex_pda: https://arweave.net/-iMU_pGvPzv8vt7UJbSPGGif2haMg83hwoODIBCqpEI
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreihfho4syazcgqi4az3xs6rff5wk35jo7gpd7lupgujakeet7zabmi
+[Raydium] ✅ TARGET ACQUIRED: Bearcoin (Bear)
+[Grok] 🧪 MOCK ANALYSIS for $Bear (Bearcoin)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Bear (9XfhPXxpPeuk2cSPwR4B6zVsxZdKRcJ2csACErozpump)
+[Decision] 🚀 CRITERIA MET! Score: 99. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Bear for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://bafkreidvhwdwjhphbokvkmzrdecs6wilixqmdxt7c3vrjftq3pakrnhqkq.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/bafkreifktpdwdpn5wg4wg6ax7pgg6uw4ttz5jpzthghh26upnlfuqshyfa
+[Raydium] ✅ TARGET ACQUIRED: Bud Man (BUD)
+[Grok] 🧪 MOCK ANALYSIS for $BUD (Bud Man)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for BUD (D32i1UHF5yzsBM7d5EBG6zZSHGW3iTNcwm3eVkrSbonk)
+[Decision] 🚀 CRITERIA MET! Score: 98. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought BUD for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://metadata.rapidlaunch.io/metadata/9608b601-91c1-4148-960f-20ae283b61c5.json
+[PumpFun] ✅ TARGET ACQUIRED: Larp Terminal (LARP)
+[Grok] 🧪 MOCK ANALYSIS for $LARP (Larp Terminal)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for LARP (J7P4abmazVd3Fz3Ymn8ADsQJvm6gn26jR3kBEFfLpump)
+[Decision] 🚀 CRITERIA MET! Score: 73. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought LARP for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmZf8F4hXkAma1fUY8ZLhbxtpdi1anGAof5FqVAjrKrYhh
+[Raydium] ✅ TARGET ACQUIRED: AI Rig Complex (arc)
+[Grok] 🧪 MOCK ANALYSIS for $arc (AI Rig Complex)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for arc (61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (65/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmV1f5Xvy9TgXS8ZTUmd54K6PphHbwFoSEMCgzXt1krxE3
+[Raydium] ✅ TARGET ACQUIRED: AGENDA 47 (A47)
+[Grok] 🧪 MOCK ANALYSIS for $A47 (AGENDA 47)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for A47 (CN162nCPpq3DxPCyKLbAvEJeB1aCxsnVTEG4ZU8vpump)
+[Decision] 🚀 CRITERIA MET! Score: 74. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought A47 for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://bafkreif6sugqitckrum7iqpf3bz7lp4dmv4xziw53ltp6jwice7tgzr2sm.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://sapphire-lazy-macaw-504.mypinata.cloud/ipfs/QmdCURMrH6KtQaUaeyL3qKDJay5wFWUwA2HLMZvKXbgHsb
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmfGS7XmDe1oZSHr4eNYiSyvqowgrsQgXzARWchvUVWwy3
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmZfGXz32nmdPjgKrtF6iURX4rLMkZg6nnswSAHViCuACj
+[PumpFun] ✅ TARGET ACQUIRED: Everybody Lies (LIES)
+[Grok] 🧪 MOCK ANALYSIS for $LIES (Everybody Lies)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for LIES (Bg1eucRYEiAN5mEy3baS9mLb2JsR6jNdgPH38nvVpump)
+[Decision] 🚀 CRITERIA MET! Score: 80. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought LIES for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYTnHwVqLHCYL1xrwGQLY8e1YHdXVMimkLuYeHZNNyUiX
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreiark4ob54gapkqjrfbzw4zz2ajdntlcaqscx3et3h2l7wi725jhnu
+[PumpFun] ✅ TARGET ACQUIRED: back to ($8)
+[Grok] 🧪 MOCK ANALYSIS for $$8 (back to)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for $8 (CcDeSqjZevBc159qxJtSjTksMk7ddXuxNLNGRRC5pump)
+[Decision] 🚀 CRITERIA MET! Score: 73. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought $8 for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreicl7xdxfwuyom3qva72hwlacahmojrglvxs2ebplnesz7ornbmvee
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmZf8F4hXkAma1fUY8ZLhbxtpdi1anGAof5FqVAjrKrYhh
+[Raydium] ✅ TARGET ACQUIRED: AI Rig Complex (arc)
+[Grok] 🧪 MOCK ANALYSIS for $arc (AI Rig Complex)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for arc (61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump)
+[Decision] 🚀 CRITERIA MET! Score: 95. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought arc for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/bafkreiceainx62zus4y6ngt2libxwqvmepgybgixm3huzjygxzikkrrziq
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmafvPM2yBb6DECjN85Za5JHUq71AyW1TJjWiuQbxZvX9D
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/QmeMymKJF7hHoLaYoiasVFjXZZ8DQ74ERK9w6cB28MbH4a
+[PumpFun] ✅ TARGET ACQUIRED: Valontine (Valontine)
+[Grok] 🧪 MOCK ANALYSIS for $Valontine (Valontine)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Valontine (5fRPUQKVZEYUe66QT9UCmeGPcA2ijsRNAvCwbuZSpump)
+[Decision] 🚀 CRITERIA MET! Score: 76. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Valontine for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmQPyqztyXwskeaiVZF1qazdw85hF85Kw7Wu5C2SvrC8PG
+[Raydium] ✅ TARGET ACQUIRED: Homebrew Robotics Club (BREW)
+[Grok] 🧪 MOCK ANALYSIS for $BREW (Homebrew Robotics Club)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for BREW (2hXQn7nJbh2XFTxvtyKb5mKfnScuoiC1Sm8rnWydpump)
+[Decision] 🚀 CRITERIA MET! Score: 85. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought BREW for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://static-create.jup.ag/metadata/CaoajQzBuNrssXTXkQ5kQ4TLFSwrNm1jJ3RrCiS8jupx.json
+[Raydium] ✅ TARGET ACQUIRED: MoltMarkets (MM)
+[Grok] 🧪 MOCK ANALYSIS for $MM (MoltMarkets)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for MM (CaoajQzBuNrssXTXkQ5kQ4TLFSwrNm1jJ3RrCiS8jupx)
+[Decision] 🚀 CRITERIA MET! Score: 76. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought MM for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreigqvsqoncmpmrhbjzi4jddrh5m6k3jtatzedfzoymlsnbrmxxqscq
+[PumpFun] ✅ TARGET ACQUIRED: DelveSDK (DLVSDK)
+[Grok] 🧪 MOCK ANALYSIS for $DLVSDK (DelveSDK)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for DLVSDK (m5ZBzQVNoaru3CmZWDWXo1KKpRkEhfH4Ti3X69ppump)
+[Decision] 🚀 CRITERIA MET! Score: 99. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought DLVSDK for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.irys.xyz/ccvTo7-haBV7G9AgGZn3lSAwJcm16aQmGJSpZTcWoys
+[Raydium] ✅ TARGET ACQUIRED: FARTBOY (FARTBOY)
+[Grok] 🧪 MOCK ANALYSIS for $FARTBOY (FARTBOY)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for FARTBOY (y1AZt42vceCmStjW4zetK3VoNarC1VxJ5iDjpiupump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (66/70)
+[Filter] Found URI via metaplex_pda: https://bafkreiakqilnrqmsrto5hwkdmxgsu3q3lvenns6qg4khzwuudo3p75jbpi.ipfs.nftstorage.link
+[Raydium] ✅ TARGET ACQUIRED: GOLD (GOLD)
+[Grok] 🧪 MOCK ANALYSIS for $GOLD (GOLD)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for GOLD (79eXoT1aR7qhBMGKXzVNdV4ZcLqHsupqj2WTFvDumpSZ)
+[Decision] 🚀 CRITERIA MET! Score: 80. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought GOLD for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmSwEpRo9SRsPaFfrD65drLbusGLMY6ewRevWXF4JcWKTv
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via buffer_scrape: https://meta.uxento.io/data/a6e47402-7976-4ab7-b8d4-37de92a431e3
+[PumpFun] ✅ TARGET ACQUIRED: Happiness (HAPPINESS)
+[Grok] 🧪 MOCK ANALYSIS for $HAPPINESS (Happiness)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for HAPPINESS (HZvdS99zynvpkLyHHYofmf1iWH35WcRpCxEcXDk5pump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (65/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmeG9tmHsAZVkXxng7Hg9YAUBRs8WbQLkxE2ffBoiVQXK3
+[Filter] Found URI via metaplex_pda: https://tgopdjci63ypgy3qjh6mojgc3af5llctlcqknbccpfo3mm74jeia.arweave.net/mZzxpEj28PNjcEn8xyTC2AvVrFNYoKaEQnldtjP8SRA
+[Filter] Found URI via metaplex_pda: https://gateway.irys.xyz/ccvTo7-haBV7G9AgGZn3lSAwJcm16aQmGJSpZTcWoys
+[Raydium] ✅ TARGET ACQUIRED: FARTBOY (FARTBOY)
+[Grok] 🧪 MOCK ANALYSIS for $FARTBOY (FARTBOY)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for FARTBOY (y1AZt42vceCmStjW4zetK3VoNarC1VxJ5iDjpiupump)
+[Decision] 🚀 CRITERIA MET! Score: 91. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought FARTBOY for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreieql7lox5n4vsztp4zouivtdqtkjs3lksx2ndd5ftrvkmvxud4k64
+[PumpFun] ✅ TARGET ACQUIRED: Kyle Broflovski (JEW)
+[Grok] 🧪 MOCK ANALYSIS for $JEW (Kyle Broflovski)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for JEW (2ue4RrF13Zky9fQPiCrYD9Zj9mYzhMvgqQdWHt6epump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (62/70)
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmZPnkFty7QTWGve52voQVK3GoRikwYSUUnv4xCKFMTUb1
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYfe8zVGHA1heej47AkBX3Nnetg2h2kqj5yymz1xyKeHb
+[Raydium] ✅ TARGET ACQUIRED: Fartcoin  (Fartcoin )
+[Grok] 🧪 MOCK ANALYSIS for $Fartcoin  (Fartcoin )
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Fartcoin  (9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump)
+[Decision] 🚀 CRITERIA MET! Score: 87. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Fartcoin  for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYfe8zVGHA1heej47AkBX3Nnetg2h2kqj5yymz1xyKeHb
+[Raydium] ✅ TARGET ACQUIRED: Fartcoin  (Fartcoin )
+[Grok] 🧪 MOCK ANALYSIS for $Fartcoin  (Fartcoin )
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Fartcoin  (9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (64/70)
+[Filter] Found URI via metaplex_pda: https://arweave.net/v5C_Bm6f2BENVsV5AH6LYk2DHmG0-cb8fodBzIR-M-I
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/QmeMymKJF7hHoLaYoiasVFjXZZ8DQ74ERK9w6cB28MbH4a
+[PumpFun] ✅ TARGET ACQUIRED: Valontine (Valontine)
+[Grok] 🧪 MOCK ANALYSIS for $Valontine (Valontine)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Valontine (5fRPUQKVZEYUe66QT9UCmeGPcA2ijsRNAvCwbuZSpump)
+[Decision] 🚀 CRITERIA MET! Score: 89. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Valontine for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmTXT8EFrM7FShwENGKMPSi9Es2iXP6F1CzMDAtCJhkC6f
+[Raydium] ✅ TARGET ACQUIRED: swarms (swarms)
+[Grok] 🧪 MOCK ANALYSIS for $swarms (swarms)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for swarms (74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump)
+[Decision] 🚀 CRITERIA MET! Score: 97. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought swarms for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmapPN3ZaZTKQ7XYmEDjh75j2V83dcBoNg8FTQrZGEGcAE
+[Raydium] ✅ TARGET ACQUIRED: Act I : The AI Prophecy (ACT)
+[Grok] 🧪 MOCK ANALYSIS for $ACT (Act I : The AI Prophecy)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ACT (GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump)
+[Decision] 🚀 CRITERIA MET! Score: 80. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ACT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmVAvr3r1q2NrFHsY5fvrkJCdBniGM326U2pAvfpvgkwDR
+[Filter] Found URI via metaplex_pda: https://bafkreifi2rtjfhynuvm423e2655frhjeby3k6hiu64way4wlnehkffscfy.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmSEFmDCYb7Asro2VirBVjecp253iNnGwjgVZHdHxm9Rm5
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreibfdr6alijhdlpm4qfcl4wivft3ebdpq2nrul7tfaded6g524tlbm
+[PumpFun] ✅ TARGET ACQUIRED: It's not over until I (WIN)
+[Grok] 🧪 MOCK ANALYSIS for $WIN (It's not over until I)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for WIN (Ew2GEX5HuACnbv96own7ZcfNvX42hWfXRUprR2oepump)
+[Decision] 🚀 CRITERIA MET! Score: 82. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought WIN for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmapPN3ZaZTKQ7XYmEDjh75j2V83dcBoNg8FTQrZGEGcAE
+[Raydium] ✅ TARGET ACQUIRED: Act I : The AI Prophecy (ACT)
+[Grok] 🧪 MOCK ANALYSIS for $ACT (Act I : The AI Prophecy)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ACT (GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump)
+[Decision] 🚀 CRITERIA MET! Score: 74. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ACT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmapPN3ZaZTKQ7XYmEDjh75j2V83dcBoNg8FTQrZGEGcAE
+[Raydium] ✅ TARGET ACQUIRED: Act I : The AI Prophecy (ACT)
+[Grok] 🧪 MOCK ANALYSIS for $ACT (Act I : The AI Prophecy)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ACT (GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (65/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmZf8F4hXkAma1fUY8ZLhbxtpdi1anGAof5FqVAjrKrYhh
+[Raydium] ✅ TARGET ACQUIRED: AI Rig Complex (arc)
+[Grok] 🧪 MOCK ANALYSIS for $arc (AI Rig Complex)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for arc (61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump)
+[Decision] 🚀 CRITERIA MET! Score: 93. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought arc for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.irys.xyz/ccvTo7-haBV7G9AgGZn3lSAwJcm16aQmGJSpZTcWoys
+[Raydium] ✅ TARGET ACQUIRED: FARTBOY (FARTBOY)
+[Grok] 🧪 MOCK ANALYSIS for $FARTBOY (FARTBOY)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for FARTBOY (y1AZt42vceCmStjW4zetK3VoNarC1VxJ5iDjpiupump)
+[Decision] 🚀 CRITERIA MET! Score: 85. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought FARTBOY for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmZPnkFty7QTWGve52voQVK3GoRikwYSUUnv4xCKFMTUb1
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://coffee-important-lizard-419.mypinata.cloud/ipfs/Qmbu9N9Lwp7AanwM6hsRwaFJtfSNVLtryMpkHd4AdVcRnu
+[Filter] Found URI via metaplex_pda: https://arweave.net/9cGHV49r5uSxQykHs0xWQIb1ggP2R1L-nU6BE5PiFL8
+[Filter] Found URI via metaplex_pda: https://gateway.irys.xyz/kq22VSTLugpwwm62lnpmz95m06g6SS0Ng4rsxLkc2rU
+[Raydium] ✅ TARGET ACQUIRED: MAD (MAD)
+[Grok] 🧪 MOCK ANALYSIS for $MAD (MAD)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for MAD (madHpjRn6bd8t78Rsy7NuSuNwWa2HU8ByPobZprHbHv)
+[Decision] 🚀 CRITERIA MET! Score: 84. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought MAD for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmapPN3ZaZTKQ7XYmEDjh75j2V83dcBoNg8FTQrZGEGcAE
+[Raydium] ✅ TARGET ACQUIRED: Act I : The AI Prophecy (ACT)
+[Grok] 🧪 MOCK ANALYSIS for $ACT (Act I : The AI Prophecy)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ACT (GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump)
+[Decision] 🚀 CRITERIA MET! Score: 78. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ACT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://qgp7lco5ylyitscysc2c7clhpxipw6sexpc2eij7g5rq3pnkcx2q.arweave.net/gZ_1id3C8InIWJC0L4lnfdD7ekS7xaIhPzdjDb2qFfU
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYfe8zVGHA1heej47AkBX3Nnetg2h2kqj5yymz1xyKeHb
+[Raydium] ✅ TARGET ACQUIRED: Fartcoin  (Fartcoin )
+[Grok] 🧪 MOCK ANALYSIS for $Fartcoin  (Fartcoin )
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Fartcoin  (9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (66/70)
+[Filter] Found URI via metaplex_pda: https://static.jup.ag/jup/metadata.json
+[Raydium] ✅ TARGET ACQUIRED: Jupiter (JUP)
+[Grok] 🧪 MOCK ANALYSIS for $JUP (Jupiter)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for JUP (JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN)
+[Decision] 🚀 CRITERIA MET! Score: 85. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought JUP for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://bafkreihwqhounu3cdwgvk2gc2dqcinpntlccbo3xcy4xuerd24yndldl5q.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWkBcrtBS77BhgJ7KDzJjZY8nYJdsE49rQFjjErg6y6vJ
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmcf7Mg3Y5QQsGK8nMoH8PvwvoKDfFe82ry6zfYF9BzyaL
+[Filter] Found URI via metaplex_pda: https://metadata.rapidlaunch.io/metadata/89bc69f6-c460-4fac-8ab6-cf810bf2e098.json
+[Raydium] ✅ TARGET ACQUIRED: hedge (hedge)
+[Grok] 🧪 MOCK ANALYSIS for $hedge (hedge)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for hedge (FFYLoYzPnD1CAVa8UeP9BeXhPPAykRkYiFLqVpxKbonk)
+[Decision] 🚀 CRITERIA MET! Score: 70. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought hedge for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://bafkreiehz3jw7547ryrb5mr54rbnqmcjsqblkcoz46v7aejszqricvnbsa.ipfs.nftstorage.link
+[Filter] Found URI via buffer_scrape: https://meta.uxento.io/data/ce7ef353-c02f-478f-bd67-9f392e4be174
+[Raydium] ✅ TARGET ACQUIRED: The Crypto Dog (DOG)
+[Grok] 🧪 MOCK ANALYSIS for $DOG (The Crypto Dog)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for DOG (21CnrFRqvEVkQZUTFmTXjcsJTLZhRY51ohoaCPwRpump)
+[Decision] 🚀 CRITERIA MET! Score: 93. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought DOG for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/Synesis-One/spl-token/main/metadata-mpl.json
+[Raydium] ✅ TARGET ACQUIRED: SynesisOne (SNS)
+[Grok] 🧪 MOCK ANALYSIS for $SNS (SynesisOne)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for SNS (SNSNkV9zfG5ZKWQs6x4hxvBRV6s8SqMfSGCtECDvdMd)
+[Decision] 🚀 CRITERIA MET! Score: 84. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought SNS for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmRqZVeSZotG4ttGYcCBcYpTqeSjkXB8kUN3R9HSTndHDT
+[Filter] Found URI via metaplex_pda: https://qgp7lco5ylyitscysc2c7clhpxipw6sexpc2eij7g5rq3pnkcx2q.arweave.net/gZ_1id3C8InIWJC0L4lnfdD7ekS7xaIhPzdjDb2qFfU
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmVAvr3r1q2NrFHsY5fvrkJCdBniGM326U2pAvfpvgkwDR
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmZPnkFty7QTWGve52voQVK3GoRikwYSUUnv4xCKFMTUb1
+[Filter] Found URI via buffer_scrape: https://metadata.rapidlaunch.io/metadata/9d3f5ae5-70c1-40c8-bf00-90e9c32abe44.json
+[PumpFun] ✅ TARGET ACQUIRED: Dog Cat Ape (DCA)
+[Grok] 🧪 MOCK ANALYSIS for $DCA (Dog Cat Ape)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for DCA (51uMk8uZ8AkFRgrpm1yEapNe6V8cd9wo21dh5TFjpump)
+[Decision] 🚀 CRITERIA MET! Score: 88. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought DCA for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmSkEeAv71gDaLjcwnvVMmDnNsFrhHxrFSFX2Tg4upVe48
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWVzSC1ZTFiBYFiZZ6QivGUZ9awPJwqZECSFL1UD4gitC
+[Raydium] ✅ TARGET ACQUIRED: Moo Deng (MOODENG)
+[Grok] 🧪 MOCK ANALYSIS for $MOODENG (Moo Deng)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for MOODENG (ED5nyyWEzpPPiWimP8vYm7sD7TD3LAt3Q3gRTWHzPJBY)
+[Decision] 🚀 CRITERIA MET! Score: 75. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought MOODENG for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreihysgjw2luy3zkxzeihc7qxbrffvdhv2ddsh2zwznximgn5xvnrqm
+[PumpFun] ✅ TARGET ACQUIRED: Bullcoin (Bullcoin)
+[Grok] 🧪 MOCK ANALYSIS for $Bullcoin (Bullcoin)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Bullcoin (9b1Br7Ee76o31kfRvY8YJrxk32H9V7gRgGxhitjApump)
+[Decision] 🚀 CRITERIA MET! Score: 75. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Bullcoin for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmTXT8EFrM7FShwENGKMPSi9Es2iXP6F1CzMDAtCJhkC6f
+[Raydium] ✅ TARGET ACQUIRED: swarms (swarms)
+[Grok] 🧪 MOCK ANALYSIS for $swarms (swarms)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for swarms (74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (68/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmZf8F4hXkAma1fUY8ZLhbxtpdi1anGAof5FqVAjrKrYhh
+[Raydium] ✅ TARGET ACQUIRED: AI Rig Complex (arc)
+[Grok] 🧪 MOCK ANALYSIS for $arc (AI Rig Complex)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for arc (61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump)
+[Decision] 🚀 CRITERIA MET! Score: 99. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought arc for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreidzr47r2mkehdcrwa3pcds2uhjqgyrxxyx2pbvdhd4jp5a2zowxza
+[PumpFun] ✅ TARGET ACQUIRED: Mad Coin ($MAD)
+[Grok] 🧪 MOCK ANALYSIS for $$MAD (Mad Coin)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for $MAD (Fa7ZE9nCEYnrHsnoeHuhEExJpchtrBtKXnWe6CgHpump)
+[Decision] 🚀 CRITERIA MET! Score: 88. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought $MAD for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmRBpzjpRAcaKuxQLuU2fpD2MJuy9Eso6hQQcfK9DRtgAC
+[Filter] Found URI via metaplex_pda: https://gateway.irys.xyz/P-_9IXgQ-5gM3KtEaAjhzX2Gfx80AffQC_Z0fx7M6D0
+[Raydium] ✅ TARGET ACQUIRED: Seeker (SKR)
+[Grok] 🧪 MOCK ANALYSIS for $SKR (Seeker)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for SKR (SKRbvo6Gf7GondiT3BbTfuRDPqLWei4j2Qy2NPGZhW3)
+[Decision] 🚀 CRITERIA MET! Score: 77. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought SKR for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via metaplex_pda: https://metadata.uxento.io/data/2df41a78-9fd3-4fdc-b9ca-7b8745e51507
+[Raydium] ✅ TARGET ACQUIRED: TrumpRX (TrumpRX)
+[Grok] 🧪 MOCK ANALYSIS for $TrumpRX (TrumpRX)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for TrumpRX (2aWkZqpVGNGWoX8M3J9NogKQfN3ADN31ZRfB1E15bonk)
+[Decision] 🚀 CRITERIA MET! Score: 72. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought TrumpRX for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://cdn.dexscreener.com/cms/tokens/metadata/e1vFJProuJX6HoohTTpK
+[Filter] Found URI via metaplex_pda: https://bafkreieuo5b7aavvm4u2eaffwhzn53g7t45ac26isovfwluv653lvc5u4i.ipfs.nftstorage.link/
+[Raydium] ✅ TARGET ACQUIRED: cat in a dogs world (MEW)
+[Grok] 🧪 MOCK ANALYSIS for $MEW (cat in a dogs world)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for MEW (MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5)
+[Decision] 🚀 CRITERIA MET! Score: 80. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought MEW for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmULEyQg19kh2DSLvDmNNLKGrKwt7UpvUMxtEy4hzTYusf
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreiark4ob54gapkqjrfbzw4zz2ajdntlcaqscx3et3h2l7wi725jhnu
+[PumpFun] ✅ TARGET ACQUIRED: back to ($8)
+[Grok] 🧪 MOCK ANALYSIS for $$8 (back to)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for $8 (CcDeSqjZevBc159qxJtSjTksMk7ddXuxNLNGRRC5pump)
+[Decision] 🚀 CRITERIA MET! Score: 99. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought $8 for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmaqr4jU97zckiTbRm7A1vV4354PXYLZrHE75CwMJH1Vsa
+[Raydium] ✅ TARGET ACQUIRED: zerebro (ZEREBRO)
+[Grok] 🧪 MOCK ANALYSIS for $ZEREBRO (zerebro)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ZEREBRO (8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn)
+[Decision] 🚀 CRITERIA MET! Score: 83. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ZEREBRO for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmNwCRF7TLmYSGGnRL7ESwDkXiv9DxNJzuKhJNJRLQuUUa
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmapPN3ZaZTKQ7XYmEDjh75j2V83dcBoNg8FTQrZGEGcAE
+[Raydium] ✅ TARGET ACQUIRED: Act I : The AI Prophecy (ACT)
+[Grok] 🧪 MOCK ANALYSIS for $ACT (Act I : The AI Prophecy)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ACT (GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (61/70)
+[Filter] Found URI via metaplex_pda: https://entities.nft.helium.io/v2/tokens/hnt
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmX6PTcUHizKKofhqabLEGRd3DRVjSs3KTzsiqKWzZVwPn
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYiyZcURW4evLVQNz4WEiY2ecFKvTSfjy3RHZiu3qA9LM
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qma1JSpjZDQewC8mFz7jWQ2zeZYTf4q28LFF2qWYQp8b3y
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/bafkreigfugrh35hrp3dgganmvswzspme2hx3ch4wpduzrht633qyqlfdq4
+[Raydium] ✅ TARGET ACQUIRED: RECON RACCOON (RCON)
+[Grok] 🧪 MOCK ANALYSIS for $RCON (RECON RACCOON)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for RCON (7nZuYZYZnof9gF3zr9QhdnxpQ1mTM8LN3VaJuhrGbonk)
+[Decision] 🚀 CRITERIA MET! Score: 96. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought RCON for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmZzN73z4fNXhetFTdHx4TGP1xTGxYZrWpm6gZkWYbRMhU
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://coffee-important-lizard-419.mypinata.cloud/ipfs/Qmbu9N9Lwp7AanwM6hsRwaFJtfSNVLtryMpkHd4AdVcRnu
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmSkEeAv71gDaLjcwnvVMmDnNsFrhHxrFSFX2Tg4upVe48
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qme5vDMRTnPWiEGfP7S97LZYJCcQKZAQyvjnTwZWfaeR1J
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmSkEeAv71gDaLjcwnvVMmDnNsFrhHxrFSFX2Tg4upVe48
+[Filter] Found URI via buffer_scrape: https://metadata.rapidlaunch.io/metadata/c8049aa1-4da5-4505-9de8-9a7a8861917f.json
+[PumpFun] ✅ TARGET ACQUIRED: Hyperliquid Whale (HyperWhale)
+[Grok] 🧪 MOCK ANALYSIS for $HyperWhale (Hyperliquid Whale)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for HyperWhale (C3kiFH7MJKXZciF6NXMmsMMoDsRiTRqgtrMsML4hpump)
+[Decision] 🚀 CRITERIA MET! Score: 89. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought HyperWhale for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/bafkreienygh5gs3enwnhr6n4on6ti2vuis5jilr4ar6s3cy5y3jzo4amq4
+[Filter] Found URI via metaplex_pda: https://coffee-important-lizard-419.mypinata.cloud/ipfs/Qmbu9N9Lwp7AanwM6hsRwaFJtfSNVLtryMpkHd4AdVcRnu
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreify3soqwcwetw2hqg575lvatwmmhnqzdczqpiu2f6nzieionmakjq
+[PumpFun] ✅ TARGET ACQUIRED: The Crypto Cat (CAT)
+[Grok] 🧪 MOCK ANALYSIS for $CAT (The Crypto Cat)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for CAT (DPLKEMVrfu3DxWo4psBvp9hQXyH21qLuLQAEDusCpump)
+[Decision] 🚀 CRITERIA MET! Score: 89. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought CAT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmPdFihY66HG4UxazP5ZH8LxZXKQMjUM6iP4RL2oSjq8Jf
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmZf8F4hXkAma1fUY8ZLhbxtpdi1anGAof5FqVAjrKrYhh
+[Raydium] ✅ TARGET ACQUIRED: AI Rig Complex (arc)
+[Grok] 🧪 MOCK ANALYSIS for $arc (AI Rig Complex)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for arc (61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump)
+[Decision] 🚀 CRITERIA MET! Score: 87. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought arc for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreihxpw6apfav23rrwravoc34smiwzphnmmeobj4sg3rvtlfnaynxde
+[PumpFun] ✅ TARGET ACQUIRED: This is Fine (FINE)
+[Grok] 🧪 MOCK ANALYSIS for $FINE (This is Fine)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for FINE (5rGmJC7jrUqMbqwshZMViZGfYYJuCEVUQgiviBCqpump)
+[Decision] 🚀 CRITERIA MET! Score: 81. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought FINE for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreihxpw6apfav23rrwravoc34smiwzphnmmeobj4sg3rvtlfnaynxde
+[PumpFun] ✅ TARGET ACQUIRED: This is Fine (FINE)
+[Grok] 🧪 MOCK ANALYSIS for $FINE (This is Fine)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for FINE (5rGmJC7jrUqMbqwshZMViZGfYYJuCEVUQgiviBCqpump)
+[Decision] 🚀 CRITERIA MET! Score: 92. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought FINE for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYfe8zVGHA1heej47AkBX3Nnetg2h2kqj5yymz1xyKeHb
+[Raydium] ✅ TARGET ACQUIRED: Fartcoin  (Fartcoin )
+[Grok] 🧪 MOCK ANALYSIS for $Fartcoin  (Fartcoin )
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Fartcoin  (9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (64/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qme5vDMRTnPWiEGfP7S97LZYJCcQKZAQyvjnTwZWfaeR1J
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmSEFmDCYb7Asro2VirBVjecp253iNnGwjgVZHdHxm9Rm5
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYTnHwVqLHCYL1xrwGQLY8e1YHdXVMimkLuYeHZNNyUiX
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreihan7zg3zfqekui7qrhlwnouqsealunm2wbxiu5ckijnhvdvhsaci
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmVdyXBuLLZyQU8MJgrv9VEDMBNgmkg88ixgQPoia2xuNa
+[Raydium] ✅ TARGET ACQUIRED: LABUBU (LABUBU)
+[Grok] 🧪 MOCK ANALYSIS for $LABUBU (LABUBU)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for LABUBU (JB2wezZLdzWfnaCfHxLg193RS3Rh51ThiXxEDWQDpump)
+[Decision] 🚀 CRITERIA MET! Score: 97. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought LABUBU for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://bafkreieuo5b7aavvm4u2eaffwhzn53g7t45ac26isovfwluv653lvc5u4i.ipfs.nftstorage.link/
+[Raydium] ✅ TARGET ACQUIRED: cat in a dogs world (MEW)
+[Grok] 🧪 MOCK ANALYSIS for $MEW (cat in a dogs world)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for MEW (MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5)
+[Decision] 🚀 CRITERIA MET! Score: 78. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought MEW for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmVAvr3r1q2NrFHsY5fvrkJCdBniGM326U2pAvfpvgkwDR
+[Filter] Found URI via metaplex_pda: https://arweave.net/QPC6FYdUn-3V8ytFNuoCS85S2tHAuiDblh6u3CIZLsw
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYdBfefSYU9SaxZGy1CEBy3Qeg5XDGSSz1gEuE4Kd5v29
+[Filter] Found URI via metaplex_pda: https://bafkreieuo5b7aavvm4u2eaffwhzn53g7t45ac26isovfwluv653lvc5u4i.ipfs.nftstorage.link/
+[Raydium] ✅ TARGET ACQUIRED: cat in a dogs world (MEW)
+[Grok] 🧪 MOCK ANALYSIS for $MEW (cat in a dogs world)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for MEW (MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5)
+[Decision] 🚀 CRITERIA MET! Score: 90. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought MEW for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmVajEocbaw1iJoH2AV6GPT8uwA29Nk2UjkkSdBnKVCvzY
+[Filter] Found URI via metaplex_pda: https://bafkreieuo5b7aavvm4u2eaffwhzn53g7t45ac26isovfwluv653lvc5u4i.ipfs.nftstorage.link/
+[Raydium] ✅ TARGET ACQUIRED: cat in a dogs world (MEW)
+[Grok] 🧪 MOCK ANALYSIS for $MEW (cat in a dogs world)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for MEW (MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5)
+[Decision] 🚀 CRITERIA MET! Score: 74. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought MEW for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWVzSC1ZTFiBYFiZZ6QivGUZ9awPJwqZECSFL1UD4gitC
+[Raydium] ✅ TARGET ACQUIRED: Moo Deng (MOODENG)
+[Grok] 🧪 MOCK ANALYSIS for $MOODENG (Moo Deng)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for MOODENG (ED5nyyWEzpPPiWimP8vYm7sD7TD3LAt3Q3gRTWHzPJBY)
+[Decision] 🚀 CRITERIA MET! Score: 72. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought MOODENG for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYE2x5oFPgR7rYcpCxnWiWndi5jTGF9SwhyY4X8QxgCHU
+[Raydium] ✅ TARGET ACQUIRED: self-building coding agent (DITTO)
+[Grok] 🧪 MOCK ANALYSIS for $DITTO (self-building coding agent)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for DITTO (FytxjA2ejmketiNZryV6JnVdfhsMZktSGbLCJRYCpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (64/70)
+[Filter] Found URI via metaplex_pda: https://bafkreifi2rtjfhynuvm423e2655frhjeby3k6hiu64way4wlnehkffscfy.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://arweave.net/nFo9Nwcam4ek0SwtKQchYD47T9dkTpGqL62CgcXSjZE
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmTXT8EFrM7FShwENGKMPSi9Es2iXP6F1CzMDAtCJhkC6f
+[Raydium] ✅ TARGET ACQUIRED: swarms (swarms)
+[Grok] 🧪 MOCK ANALYSIS for $swarms (swarms)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for swarms (74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump)
+[Decision] 🚀 CRITERIA MET! Score: 75. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought swarms for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://bafkreifi2rtjfhynuvm423e2655frhjeby3k6hiu64way4wlnehkffscfy.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://bafkreihwqhounu3cdwgvk2gc2dqcinpntlccbo3xcy4xuerd24yndldl5q.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmcGmF4tQxsQKdF3s1mSqYyg1vNqAXou32tbWztnsnEzth
+[Raydium] ✅ TARGET ACQUIRED: Goatseus Maximus (GOAT)
+[Grok] 🧪 MOCK ANALYSIS for $GOAT (Goatseus Maximus)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for GOAT (CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (61/70)
+[Filter] Found URI via metaplex_pda: https://bafkreieuo5b7aavvm4u2eaffwhzn53g7t45ac26isovfwluv653lvc5u4i.ipfs.nftstorage.link/
+[Raydium] ✅ TARGET ACQUIRED: cat in a dogs world (MEW)
+[Grok] 🧪 MOCK ANALYSIS for $MEW (cat in a dogs world)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for MEW (MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5)
+[Decision] 🚀 CRITERIA MET! Score: 88. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought MEW for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmTXT8EFrM7FShwENGKMPSi9Es2iXP6F1CzMDAtCJhkC6f
+[Raydium] ✅ TARGET ACQUIRED: swarms (swarms)
+[Grok] 🧪 MOCK ANALYSIS for $swarms (swarms)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for swarms (74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump)
+[Decision] 🚀 CRITERIA MET! Score: 96. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought swarms for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmbP9SdrBMRiT5kd19qjrDHNjJbqxKUcXfDjY4rxGEKzpS
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/QmQGwH5Xkbtv7GqkmjS7ciML9oKoNmBbiABYzYYBCA5vw1
+[PumpFun] ✅ TARGET ACQUIRED: Pepe Shark (PepeShark)
+[Grok] 🧪 MOCK ANALYSIS for $PepeShark (Pepe Shark)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for PepeShark (3wEJgPscUYm8aQbCjmL3YJhA3cTGZJ17VxfHzhiqpump)
+[Decision] 🚀 CRITERIA MET! Score: 81. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought PepeShark for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://bafkreif6sugqitckrum7iqpf3bz7lp4dmv4xziw53ltp6jwice7tgzr2sm.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmRaah2aa24T3F2hGQCf8XefSuaNFZM2wGx2W2UnsxfLxM
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmRyeHjWDQgy5otkdFffa5TN3ATZz4SRoBX9381BDyd83L
+[Raydium] ✅ TARGET ACQUIRED: Coral Protocol (CORAL)
+[Grok] 🧪 MOCK ANALYSIS for $CORAL (Coral Protocol)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for CORAL (CoRAitPvr9seu5F9Hk39vbjqA1o1XuoryHjSk1Z1q2mo)
+[Decision] 🚀 CRITERIA MET! Score: 84. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought CORAL for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://arweave.net/GWKBRfaCBSiDWs0hYHe_PCEEhKoq_Bl3JlpmW5MqRnE
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreia4bfpq3zcec5sylkjb5obgwk6dexkqrivyt3nj2tq775i2fc762e
+[PumpFun] ✅ TARGET ACQUIRED: BreakingDAO (BREAKING)
+[Grok] 🧪 MOCK ANALYSIS for $BREAKING (BreakingDAO)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for BREAKING (3fbQMXbKc69a6Dd2M9tHLQSDH15D7iJby8PKaXPzpump)
+[Decision] 🚀 CRITERIA MET! Score: 73. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought BREAKING for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://metadata.rapidlaunch.io/metadata/bcf42aea-baf7-4237-a4a8-cced49854af9.json
+[PumpFun] ✅ TARGET ACQUIRED: i've had inuf (inuf)
+[Grok] 🧪 MOCK ANALYSIS for $inuf (i've had inuf)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for inuf (HuuxoRh89vmnNj3HbW9kvQBJUzvEZYYkzPq4pWKnpump)
+[Decision] 🚀 CRITERIA MET! Score: 98. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought inuf for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via buffer_scrape: https://token-metadata.bridge.xyz/solana/cash.json
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmTXT8EFrM7FShwENGKMPSi9Es2iXP6F1CzMDAtCJhkC6f
+[Raydium] ✅ TARGET ACQUIRED: swarms (swarms)
+[Grok] 🧪 MOCK ANALYSIS for $swarms (swarms)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for swarms (74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump)
+[Decision] 🚀 CRITERIA MET! Score: 83. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought swarms for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmbe4nA5bYwmGLJ6Bgcegf8tqUHBAVSNPQmT8gXYSb8rUN
+[Raydium] ✅ TARGET ACQUIRED: Alchemist AI (ALCH)
+[Grok] 🧪 MOCK ANALYSIS for $ALCH (Alchemist AI)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ALCH (HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump)
+[Decision] 🚀 CRITERIA MET! Score: 79. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ALCH for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/bafkreibc4ulynjvceju3hxpjqoretgqsnopkwafp7cm2wg7zo6kxf2yjki
+[PumpFun] ✅ TARGET ACQUIRED: Ouroboros (Ouroboros)
+[Grok] 🧪 MOCK ANALYSIS for $Ouroboros (Ouroboros)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Ouroboros (GYihUMb3wvYXMG8piTYEiBvvrifG1eeNw4zmrwHbpump)
+[Decision] 🚀 CRITERIA MET! Score: 96. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Ouroboros for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmdscDkEszrG1ZHQmb1TXwjGYQ1Ej3MDfeeABS1rcQcPy8
+[Filter] Found URI via metaplex_pda: https://gateway.irys.xyz/ccvTo7-haBV7G9AgGZn3lSAwJcm16aQmGJSpZTcWoys
+[Raydium] ✅ TARGET ACQUIRED: FARTBOY (FARTBOY)
+[Grok] 🧪 MOCK ANALYSIS for $FARTBOY (FARTBOY)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for FARTBOY (y1AZt42vceCmStjW4zetK3VoNarC1VxJ5iDjpiupump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (66/70)
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreibpq5pauqp2spyewhyqnje7zz3nkv35vljbasff3zkisspkom4kuy
+[Filter] Found URI via metaplex_pda: https://gateway.irys.xyz/ccvTo7-haBV7G9AgGZn3lSAwJcm16aQmGJSpZTcWoys
+[Raydium] ✅ TARGET ACQUIRED: FARTBOY (FARTBOY)
+[Grok] 🧪 MOCK ANALYSIS for $FARTBOY (FARTBOY)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for FARTBOY (y1AZt42vceCmStjW4zetK3VoNarC1VxJ5iDjpiupump)
+[Decision] 🚀 CRITERIA MET! Score: 83. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought FARTBOY for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmTQZHB2vbt1rUpJ15YuZCfnqjF66GkXn99k6qJwrK7EvN
+[Filter] Found URI via metaplex_pda: https://static.jup.ag/jup/metadata.json
+[Raydium] ✅ TARGET ACQUIRED: Jupiter (JUP)
+[Grok] 🧪 MOCK ANALYSIS for $JUP (Jupiter)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for JUP (JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (68/70)
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmULEyQg19kh2DSLvDmNNLKGrKwt7UpvUMxtEy4hzTYusf
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qma7idYyGorZza6XSzJTB9eWz4Fw6Fq92kL2cMoNLqDVd8
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmbe4nA5bYwmGLJ6Bgcegf8tqUHBAVSNPQmT8gXYSb8rUN
+[Raydium] ✅ TARGET ACQUIRED: Alchemist AI (ALCH)
+[Grok] 🧪 MOCK ANALYSIS for $ALCH (Alchemist AI)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ALCH (HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump)
+[Decision] 🚀 CRITERIA MET! Score: 85. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ALCH for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYfe8zVGHA1heej47AkBX3Nnetg2h2kqj5yymz1xyKeHb
+[Raydium] ✅ TARGET ACQUIRED: Fartcoin  (Fartcoin )
+[Grok] 🧪 MOCK ANALYSIS for $Fartcoin  (Fartcoin )
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Fartcoin  (9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (68/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYfGLbHJpMRusYfz7kZDkNzjgi2RFzFADwiV4D37UKx8n
+[Raydium] ✅ TARGET ACQUIRED: DOBBY (DOBBY)
+[Grok] 🧪 MOCK ANALYSIS for $DOBBY (DOBBY)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for DOBBY (CPcf58MNikQw2G23kTVWQevRDeFDpdxMH7KkR7Lhpump)
+[Decision] 🚀 CRITERIA MET! Score: 74. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought DOBBY for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://meta.uxento.io/data/a4e3109b-af7f-4777-a014-c3980d9a45ba
+[PumpFun] ✅ TARGET ACQUIRED: The Fudder (Fudder)
+[Grok] 🧪 MOCK ANALYSIS for $Fudder (The Fudder)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Fudder (9dbsLAvDkw8KnViJNkDt4DywZ19N8QuUSBjUWpGzpump)
+[Decision] 🚀 CRITERIA MET! Score: 75. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Fudder for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreicnqqiikoeib7onoetva5ypylgdtyjxxdlpl7rxa47bnmkdb5nkue
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreiaaz2eavikkhu6t6cd75jastcpikjylhcbl4yyba2xdz2fddqfhca
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreies5frc5yipkddkq4q5bsasjgvvtgerwdbmh64wj5r2tnh5nmsgiq
+[PumpFun] ✅ TARGET ACQUIRED: Grove Street Family (GSF)
+[Grok] 🧪 MOCK ANALYSIS for $GSF (Grove Street Family)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for GSF (5p7cync1oKto9pgdkt9Au8s9f8A8rHvSprAPp2dzpump)
+[Decision] 🚀 CRITERIA MET! Score: 97. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought GSF for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmQ2Bdm5nDTFLGMcgDNnvPwLgqcUgbfihrvhXxeCsearq2
+[Raydium] ✅ TARGET ACQUIRED: YZYVSN (YZYVSN)
+[Grok] 🧪 MOCK ANALYSIS for $YZYVSN (YZYVSN)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for YZYVSN (6GfqyAfYTnbBKqHCki1834u1JkuxgU5pPgrmyccEpump)
+[Decision] 🚀 CRITERIA MET! Score: 80. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought YZYVSN for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmccMecLGVgBLTHzYg381sQ6Pz8kcxz9oJN3Rs2LZzrXAs
+[Filter] Found URI via buffer_scrape: https://metadata.rapidlaunch.io/metadata/c8049aa1-4da5-4505-9de8-9a7a8861917f.json
+[PumpFun] ✅ TARGET ACQUIRED: Hyperliquid Whale (HyperWhale)
+[Grok] 🧪 MOCK ANALYSIS for $HyperWhale (Hyperliquid Whale)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for HyperWhale (C3kiFH7MJKXZciF6NXMmsMMoDsRiTRqgtrMsML4hpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (69/70)
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmadoSwHemuGSTmNNcm9TweXUtdF17ch71VejaWTWZ4geV
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://bafkreiehz3jw7547ryrb5mr54rbnqmcjsqblkcoz46v7aejszqricvnbsa.ipfs.nftstorage.link
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreiank7eehfrr3uhe5zfqjm2rocihrybid2lgfutbpw6di6pl2r4cdm
+[PumpFun] ✅ TARGET ACQUIRED: we are cooked (COOKED)
+[Grok] 🧪 MOCK ANALYSIS for $COOKED (we are cooked)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for COOKED (CrZQiiQiJ5ApkuFnWFg8N8Exn8yuL5BJz6AWGcjnpump)
+[Decision] 🚀 CRITERIA MET! Score: 75. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought COOKED for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmRBjGUEf3F9vwrW7h22z2xsnPJho8iyN1JK53FXQPmZg8
+[Raydium] ✅ TARGET ACQUIRED: Coinomi wallet$ (Coinomi)
+[Grok] 🧪 MOCK ANALYSIS for $Coinomi (Coinomi wallet$)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Coinomi (EHmZM5QD7NFpu6hm3o8yYSA6EhYYunHL21fzN2ucpump)
+[Decision] 🚀 CRITERIA MET! Score: 91. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Coinomi for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmckb3nWWHyoJKtX3FeagfmDZXNVqiXM4nKkYsTnygm2Ah
+[Filter] Found URI via metaplex_pda: https://bafkreieuo5b7aavvm4u2eaffwhzn53g7t45ac26isovfwluv653lvc5u4i.ipfs.nftstorage.link/
+[Raydium] ✅ TARGET ACQUIRED: cat in a dogs world (MEW)
+[Grok] 🧪 MOCK ANALYSIS for $MEW (cat in a dogs world)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for MEW (MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (61/70)
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreigkw6jobolaexkdpk37jjna2by3dfj7nudq2hwfxveyk6nqjwf7hq
+[PumpFun] ✅ TARGET ACQUIRED: Not Gonna Make It (NGMI)
+[Grok] 🧪 MOCK ANALYSIS for $NGMI (Not Gonna Make It)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for NGMI (D6qtyzmMF1xQPKaMyY4Qa1rjg4jDzCoFuXS7Ewotpump)
+[Decision] 🚀 CRITERIA MET! Score: 79. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought NGMI for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://metadata.j7tracker.com/metadata/c0cd09f940fb45a6.json
+[PumpFun] ✅ TARGET ACQUIRED: Shitmex (SHITMEX)
+[Grok] 🧪 MOCK ANALYSIS for $SHITMEX (Shitmex)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for SHITMEX (7q9Q1XN9MYGPur5LosmMARb8JWmHnm9k6opJp58AR1p4)
+[Decision] 🚀 CRITERIA MET! Score: 83. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought SHITMEX for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via metaplex_pda: https://gateway.irys.xyz/cI4MwcMzgJgGfR6ZC9JjU6cCyDISZXcLF7rVhYq3cPo
+[Raydium] ✅ TARGET ACQUIRED: GDTC (GDTC)
+[Grok] 🧪 MOCK ANALYSIS for $GDTC (GDTC)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for GDTC (DVb1znJKBVJzcuzbgvcG3cSghf2i1YzdJqoJFb7ZdQuX)
+[Decision] 🚀 CRITERIA MET! Score: 70. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought GDTC for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://qgp7lco5ylyitscysc2c7clhpxipw6sexpc2eij7g5rq3pnkcx2q.arweave.net/gZ_1id3C8InIWJC0L4lnfdD7ekS7xaIhPzdjDb2qFfU
+[Filter] Found URI via metaplex_pda: https://entities.nft.helium.io/v2/tokens/hnt
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmcuCXFGJn6WKyWFaA9HpwcRWrcs7zxR1AJsM7kZowz4hZ
+[Raydium] ✅ TARGET ACQUIRED: FXN (fxn)
+[Grok] 🧪 MOCK ANALYSIS for $fxn (FXN)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for fxn (92cRC6kV5D7TiHX1j56AbkPbffo9jwcXxSDQZ8Mopump)
+[Decision] 🚀 CRITERIA MET! Score: 79. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought fxn for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://metadata.j7tracker.com/metadata/382f4b63304a4156.json
+[PumpFun] ✅ TARGET ACQUIRED: first time? (first)
+[Grok] 🧪 MOCK ANALYSIS for $first (first time?)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for first (5QLCdu72FNrfuQdRMxReQcRFKpn619YPccmHH8Dnf6iC)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (61/70)
+[Filter] Found URI via buffer_scrape: https://metadata.rapidlaunch.io/metadata/9608b601-91c1-4148-960f-20ae283b61c5.json
+[PumpFun] ✅ TARGET ACQUIRED: Larp Terminal (LARP)
+[Grok] 🧪 MOCK ANALYSIS for $LARP (Larp Terminal)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for LARP (J7P4abmazVd3Fz3Ymn8ADsQJvm6gn26jR3kBEFfLpump)
+[Decision] 🚀 CRITERIA MET! Score: 84. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought LARP for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreiedypxj6xa7fwlduxhu2zyxlvmzbasmxgjb3i7p2ekbgucmjrrzfe
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmZf8F4hXkAma1fUY8ZLhbxtpdi1anGAof5FqVAjrKrYhh
+[Raydium] ✅ TARGET ACQUIRED: AI Rig Complex (arc)
+[Grok] 🧪 MOCK ANALYSIS for $arc (AI Rig Complex)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for arc (61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (64/70)
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://static-create.jup.ag/metadata/13DBdtWSA4b6AcFgmjqbffd5vX18UPu3SuDQFQuUjupx.json
+[Raydium] ✅ TARGET ACQUIRED: Behati Token (BHT)
+[Grok] 🧪 MOCK ANALYSIS for $BHT (Behati Token)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for BHT (13DBdtWSA4b6AcFgmjqbffd5vX18UPu3SuDQFQuUjupx)
+[Decision] 🚀 CRITERIA MET! Score: 98. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought BHT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmapPN3ZaZTKQ7XYmEDjh75j2V83dcBoNg8FTQrZGEGcAE
+[Raydium] ✅ TARGET ACQUIRED: Act I : The AI Prophecy (ACT)
+[Grok] 🧪 MOCK ANALYSIS for $ACT (Act I : The AI Prophecy)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ACT (GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump)
+[Decision] 🚀 CRITERIA MET! Score: 89. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ACT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmbe4nA5bYwmGLJ6Bgcegf8tqUHBAVSNPQmT8gXYSb8rUN
+[Raydium] ✅ TARGET ACQUIRED: Alchemist AI (ALCH)
+[Grok] 🧪 MOCK ANALYSIS for $ALCH (Alchemist AI)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ALCH (HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump)
+[Decision] 🚀 CRITERIA MET! Score: 84. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ALCH for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYTnHwVqLHCYL1xrwGQLY8e1YHdXVMimkLuYeHZNNyUiX
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via buffer_scrape: https://meta.uxento.io/data/49a610ee-ccb6-4d6b-86ee-cd1c25363716
+[PumpFun] ✅ TARGET ACQUIRED: Company (Company)
+[Grok] 🧪 MOCK ANALYSIS for $Company (Company)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Company (3P1iiNUGgrhvXXDFeSfmMFv8XG1HJTtxd18m4gwTpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (61/70)
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmTkHE4DTZPZRJCFQXXCLuvLfMB5Pk8RZLNtHRptwpyRdU
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmTkHE4DTZPZRJCFQXXCLuvLfMB5Pk8RZLNtHRptwpyRdU
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://storage.googleapis.com/token-metadata/JitoSOL.json
+[Raydium] ✅ TARGET ACQUIRED: Jito Staked SOL (JitoSOL)
+[Grok] 🧪 MOCK ANALYSIS for $JitoSOL (Jito Staked SOL)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for JitoSOL (J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn)
+[Decision] 🚀 CRITERIA MET! Score: 72. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought JitoSOL for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmZPnkFty7QTWGve52voQVK3GoRikwYSUUnv4xCKFMTUb1
+[Filter] Found URI via metaplex_pda: https://hylo-token-metadata.s3.us-east-2.amazonaws.com/xSOL/metadata.json
+[Raydium] ✅ TARGET ACQUIRED: Hylo Leveraged SOL (xSOL)
+[Grok] 🧪 MOCK ANALYSIS for $xSOL (Hylo Leveraged SOL)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for xSOL (4sWNB8zGWHkh6UnmwiEtzNxL4XrN7uK9tosbESbJFfVs)
+[Decision] 🚀 CRITERIA MET! Score: 76. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought xSOL for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmZf8F4hXkAma1fUY8ZLhbxtpdi1anGAof5FqVAjrKrYhh
+[Raydium] ✅ TARGET ACQUIRED: AI Rig Complex (arc)
+[Grok] 🧪 MOCK ANALYSIS for $arc (AI Rig Complex)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for arc (61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump)
+[Decision] 🚀 CRITERIA MET! Score: 84. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought arc for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/QmRBMjHBwr31qeK3ysTW9Lp4XubmywEQQeBAYoqcZD9f8M
+[PumpFun] ✅ TARGET ACQUIRED: Goat coin (GC)
+[Grok] 🧪 MOCK ANALYSIS for $GC (Goat coin)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for GC (FS7NxJg3fMokBde7PyAo1yeFYG4pDmbgroECK6KApump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (69/70)
+[Filter] Found URI via buffer_scrape: https://meta.uxento.io/data/ce7ef353-c02f-478f-bd67-9f392e4be174
+[Raydium] ✅ TARGET ACQUIRED: The Crypto Dog (DOG)
+[Grok] 🧪 MOCK ANALYSIS for $DOG (The Crypto Dog)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for DOG (21CnrFRqvEVkQZUTFmTXjcsJTLZhRY51ohoaCPwRpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (63/70)
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmetdCtL8pAVu4dHJAbUnBS4MUMSHXBtMyoc6C8Zeqhwwn
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmSoVq3nXorX1nh6q6NrN9VivDeK6pdQW2KNXsYwSJgwTy
+[Filter] Found URI via buffer_scrape: https://meta.uxento.io/data/ce7ef353-c02f-478f-bd67-9f392e4be174
+[Raydium] ✅ TARGET ACQUIRED: The Crypto Dog (DOG)
+[Grok] 🧪 MOCK ANALYSIS for $DOG (The Crypto Dog)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for DOG (21CnrFRqvEVkQZUTFmTXjcsJTLZhRY51ohoaCPwRpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (64/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/bafkreigfugrh35hrp3dgganmvswzspme2hx3ch4wpduzrht633qyqlfdq4
+[Raydium] ✅ TARGET ACQUIRED: RECON RACCOON (RCON)
+[Grok] 🧪 MOCK ANALYSIS for $RCON (RECON RACCOON)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for RCON (7nZuYZYZnof9gF3zr9QhdnxpQ1mTM8LN3VaJuhrGbonk)
+[Decision] 🚀 CRITERIA MET! Score: 89. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought RCON for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreif4kq4xkugqdcgxjcnzjoxphbyysfuzfmk526neqzbv3h2fbtlho4
+[PumpFun] ✅ TARGET ACQUIRED: CRYpto (CRY)
+[Grok] 🧪 MOCK ANALYSIS for $CRY (CRYpto)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for CRY (Ds5mP5mBZNzcpxuuzgZNN1zy4vnLE6ciEkd81NUEpump)
+[Decision] 🚀 CRITERIA MET! Score: 84. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought CRY for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreify3soqwcwetw2hqg575lvatwmmhnqzdczqpiu2f6nzieionmakjq
+[PumpFun] ✅ TARGET ACQUIRED: The Crypto Cat (CAT)
+[Grok] 🧪 MOCK ANALYSIS for $CAT (The Crypto Cat)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for CAT (DPLKEMVrfu3DxWo4psBvp9hQXyH21qLuLQAEDusCpump)
+[Decision] 🚀 CRITERIA MET! Score: 77. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought CAT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmRGzQMrMtMjoguvyeXvGmzjYZpvF24iEa53n5cisMoXj8
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreieqp4fiitf4ca76pgdx3osbgzztjrn4degd52gollziujvqkicgrq
+[PumpFun] ✅ TARGET ACQUIRED: S̶O̶L̶ (LOS)
+[Grok] 🧪 MOCK ANALYSIS for $LOS (S̶O̶L̶)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for LOS (6KDqQmq9rGKkCYEmU2rNgCzN4WpaEjK56pVY316Qpump)
+[Decision] 🚀 CRITERIA MET! Score: 97. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought LOS for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://meta.uxento.io/data/4d218ddd-d9f3-44db-8371-0b7366f73a95
+[PumpFun] ✅ TARGET ACQUIRED: Hitler Fish (Fishler)
+[Grok] 🧪 MOCK ANALYSIS for $Fishler (Hitler Fish)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Fishler (9NhuDufQucUKoLxyQGX8qH5DQa4SM3x5eJ5KpVsUpump)
+[Decision] 🚀 CRITERIA MET! Score: 87. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Fishler for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmVh2nQxsWqn15pKRvDMWx1cnp5RvKJe2nTvLo1Uweichw
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmU5FYYE76s4dsLrgZuVgQPtuj4v8BeNX9EsykGsAovV8Y
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreiark4ob54gapkqjrfbzw4zz2ajdntlcaqscx3et3h2l7wi725jhnu
+[PumpFun] ✅ TARGET ACQUIRED: back to ($8)
+[Grok] 🧪 MOCK ANALYSIS for $$8 (back to)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for $8 (CcDeSqjZevBc159qxJtSjTksMk7ddXuxNLNGRRC5pump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (69/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmTXT8EFrM7FShwENGKMPSi9Es2iXP6F1CzMDAtCJhkC6f
+[Raydium] ✅ TARGET ACQUIRED: swarms (swarms)
+[Grok] 🧪 MOCK ANALYSIS for $swarms (swarms)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for swarms (74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump)
+[Decision] 🚀 CRITERIA MET! Score: 78. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought swarms for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreib4sgpgp3oxrupb73vgndsgpvvjignt5vbmko5pf22tziv5bmwel4
+[PumpFun] ✅ TARGET ACQUIRED: Bitcoin To Zero (BTCZERO)
+[Grok] 🧪 MOCK ANALYSIS for $BTCZERO (Bitcoin To Zero)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for BTCZERO (9sC8fyFGsozjEpaf6GYrWeZgg17BErhNRRpoHkpGpump)
+[Decision] 🚀 CRITERIA MET! Score: 83. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought BTCZERO for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://arweave.net/Aspx_hmFzf0sixzgjwK-T8EPGqh8djjq1Nkel0vgQ-c
+[Filter] Found URI via metaplex_pda: https://bafkreidfxfn44gs3izzk6uyt2nbl24kuwmchkknov2uyipri2z64qxpzga.ipfs.nftstorage.link
+[Raydium] ✅ TARGET ACQUIRED: FillmorePHX (fPHX)
+[Grok] 🧪 MOCK ANALYSIS for $fPHX (FillmorePHX)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for fPHX (6gx6Ph2ek73kF6EWDrG4GQ54pcLJB6CYpATuRyxKXumo)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (64/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmSYsbxi81hHtofDgN4oSVAzy4zwB47jZNwqxx6KQwximg
+[Raydium] ✅ TARGET ACQUIRED: XMONEY (XMONEY)
+[Grok] 🧪 MOCK ANALYSIS for $XMONEY (XMONEY)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for XMONEY (5csfa95Xf8ebiCwP9joQ7mtC8KwFvnnejnYx5FbYpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (60/70)
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreigx2lchzpnsfppfntd7ttoucckucpkywvxrjiu3rutcc6kleh77xa
+[PumpFun] ✅ TARGET ACQUIRED: Goatcoin (GOAT)
+[Grok] 🧪 MOCK ANALYSIS for $GOAT (Goatcoin)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for GOAT (8ngjxcFiRQXAXjukYpaVYtqSZZULoUaLaRVW1mRipump)
+[Decision] 🚀 CRITERIA MET! Score: 97. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought GOAT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://hylo-token-metadata.s3.us-east-2.amazonaws.com/xSOL/metadata.json
+[Raydium] ✅ TARGET ACQUIRED: Hylo Leveraged SOL (xSOL)
+[Grok] 🧪 MOCK ANALYSIS for $xSOL (Hylo Leveraged SOL)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for xSOL (4sWNB8zGWHkh6UnmwiEtzNxL4XrN7uK9tosbESbJFfVs)
+[Decision] 🚀 CRITERIA MET! Score: 89. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought xSOL for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmZf8F4hXkAma1fUY8ZLhbxtpdi1anGAof5FqVAjrKrYhh
+[Raydium] ✅ TARGET ACQUIRED: AI Rig Complex (arc)
+[Grok] 🧪 MOCK ANALYSIS for $arc (AI Rig Complex)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for arc (61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump)
+[Decision] 🚀 CRITERIA MET! Score: 85. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought arc for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmbe4nA5bYwmGLJ6Bgcegf8tqUHBAVSNPQmT8gXYSb8rUN
+[Raydium] ✅ TARGET ACQUIRED: Alchemist AI (ALCH)
+[Grok] 🧪 MOCK ANALYSIS for $ALCH (Alchemist AI)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ALCH (HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump)
+[Decision] 🚀 CRITERIA MET! Score: 96. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ALCH for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmXKRtMcpMfTqittTyEPWh4M8rvMZRgt5bxuPHZDPsxUtM
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmX6PTcUHizKKofhqabLEGRd3DRVjSs3KTzsiqKWzZVwPn
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmVAvr3r1q2NrFHsY5fvrkJCdBniGM326U2pAvfpvgkwDR
+[Filter] Found URI via buffer_scrape: https://metadata.rapidlaunch.io/metadata/53e00e39-cc6b-4060-9619-92b5358d976b.json
+[PumpFun] ✅ TARGET ACQUIRED: FUCK CZ (FUCK CZ)
+[Grok] 🧪 MOCK ANALYSIS for $FUCK CZ (FUCK CZ)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for FUCK CZ (26nk1Yfjk4MgvxKhdBNAEBPiTA6Ux6Jo8dVZsbaLpump)
+[Decision] 🚀 CRITERIA MET! Score: 79. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought FUCK CZ for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmTkHE4DTZPZRJCFQXXCLuvLfMB5Pk8RZLNtHRptwpyRdU
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmRaah2aa24T3F2hGQCf8XefSuaNFZM2wGx2W2UnsxfLxM
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://bafkreifyo5fegmaxqtj23urw32ej52mbyojgodif2fq7f5ivd2q4brkzlu.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via metaplex_pda: https://gateway.irys.xyz/P-_9IXgQ-5gM3KtEaAjhzX2Gfx80AffQC_Z0fx7M6D0
+[Raydium] ✅ TARGET ACQUIRED: Seeker (SKR)
+[Grok] 🧪 MOCK ANALYSIS for $SKR (Seeker)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for SKR (SKRbvo6Gf7GondiT3BbTfuRDPqLWei4j2Qy2NPGZhW3)
+[Decision] 🚀 CRITERIA MET! Score: 70. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought SKR for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreifmcngewu3udeljxvyushvzt2o64ekzrwg63uv6vg3jkbj5wvg2si
+[Raydium] ✅ TARGET ACQUIRED: Crypto Craft (Minecraft)
+[Grok] 🧪 MOCK ANALYSIS for $Minecraft (Crypto Craft)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Minecraft (4wTd7KSpP8ii7PPumZwC6GD3jLPvVYiW4AWzXVNepump)
+[Decision] 🚀 CRITERIA MET! Score: 87. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Minecraft for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://arweave.net/7nthfPymdgZyy_DpWIK1DdDAJClojmBRj7aSuEQyQO4
+[Raydium] ✅ TARGET ACQUIRED: GDOG ($GDOG)
+[Grok] 🧪 MOCK ANALYSIS for $$GDOG (GDOG)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for $GDOG (GVmtuUyLDuXNh2gJtHgarEtpqSiwn5965fNv37VeEhk1)
+[Decision] 🚀 CRITERIA MET! Score: 73. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought $GDOG for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmdc3EwGLWPY6Z5Q8baJEsnmcAdfRcSh2DfQjPcLmwGuGu
+[Raydium] ✅ TARGET ACQUIRED: Atlas World Play (AWP)
+[Grok] 🧪 MOCK ANALYSIS for $AWP (Atlas World Play)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for AWP (GEHHH9rTEH8mFBkuX6hvpukpsmCLBgi4uE7qkxV22YVj)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (67/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmdpcYGA4KBfhAB9BFroBnb6fceySu8c8SEfLgd12DE5jx
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmaqr4jU97zckiTbRm7A1vV4354PXYLZrHE75CwMJH1Vsa
+[Raydium] ✅ TARGET ACQUIRED: zerebro (ZEREBRO)
+[Grok] 🧪 MOCK ANALYSIS for $ZEREBRO (zerebro)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ZEREBRO (8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn)
+[Decision] 🚀 CRITERIA MET! Score: 87. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ZEREBRO for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://arweave.net/cSCP0h2n1crjeSWE9KF-XtLciJalDNFs7Vf-Sm0NNY0
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmTqrFRxym7EVPQMxTJeahMqxRcmxtA1UL5iD8TETPsACn
+[Raydium] ✅ TARGET ACQUIRED: soliloquy_cat REAL NAME (Slinks)
+[Grok] 🧪 MOCK ANALYSIS for $Slinks (soliloquy_cat REAL NAME)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Slinks (HyP8EwkaJQaRvHpGtexcENQFNgNJiidq5f8jhB1Bpump)
+[Decision] 🚀 CRITERIA MET! Score: 71. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Slinks for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmZf8F4hXkAma1fUY8ZLhbxtpdi1anGAof5FqVAjrKrYhh
+[Raydium] ✅ TARGET ACQUIRED: AI Rig Complex (arc)
+[Grok] 🧪 MOCK ANALYSIS for $arc (AI Rig Complex)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for arc (61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump)
+[Decision] 🚀 CRITERIA MET! Score: 81. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought arc for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmbe4nA5bYwmGLJ6Bgcegf8tqUHBAVSNPQmT8gXYSb8rUN
+[Raydium] ✅ TARGET ACQUIRED: Alchemist AI (ALCH)
+[Grok] 🧪 MOCK ANALYSIS for $ALCH (Alchemist AI)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ALCH (HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump)
+[Decision] 🚀 CRITERIA MET! Score: 94. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ALCH for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmbe4nA5bYwmGLJ6Bgcegf8tqUHBAVSNPQmT8gXYSb8rUN
+[Raydium] ✅ TARGET ACQUIRED: Alchemist AI (ALCH)
+[Grok] 🧪 MOCK ANALYSIS for $ALCH (Alchemist AI)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ALCH (HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (65/70)
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmXaNy4cGifj61LsdJdC5CW1SGLzbtkP3fR4ULSzJ6bSpM
+[Filter] Found URI via metaplex_pda: https://artrade.app/artrade_token.json
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreiark4ob54gapkqjrfbzw4zz2ajdntlcaqscx3et3h2l7wi725jhnu
+[PumpFun] ✅ TARGET ACQUIRED: back to ($8)
+[Grok] 🧪 MOCK ANALYSIS for $$8 (back to)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for $8 (CcDeSqjZevBc159qxJtSjTksMk7ddXuxNLNGRRC5pump)
+[Decision] 🚀 CRITERIA MET! Score: 81. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought $8 for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmZPnkFty7QTWGve52voQVK3GoRikwYSUUnv4xCKFMTUb1
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmVbmfSyrr6asqNhmrDNFsBkmRsHffaMJfUSJSD4tyycAR
+[Raydium] ✅ TARGET ACQUIRED: Collaterize ($COLLAT)
+[Grok] 🧪 MOCK ANALYSIS for $$COLLAT (Collaterize)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for $COLLAT (C7heQqfNzdMbUFQwcHkL9FvdwsFsDRBnfwZDDyWYCLTZ)
+[Decision] 🚀 CRITERIA MET! Score: 82. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought $COLLAT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmciaE8qRSBMFPPFPjFkHCFTVFGfNXWGzc619Kt8ncb88g
+[Filter] Found URI via metaplex_pda: https://arweave.net/PRIQb-BsMGy1CEcxGZR4WfaIZflCXdYS8TTQ6-M2oVs
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmciaE8qRSBMFPPFPjFkHCFTVFGfNXWGzc619Kt8ncb88g
+[Filter] Found URI via metaplex_pda: https://gateway.irys.xyz/ccvTo7-haBV7G9AgGZn3lSAwJcm16aQmGJSpZTcWoys
+[Raydium] ✅ TARGET ACQUIRED: FARTBOY (FARTBOY)
+[Grok] 🧪 MOCK ANALYSIS for $FARTBOY (FARTBOY)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for FARTBOY (y1AZt42vceCmStjW4zetK3VoNarC1VxJ5iDjpiupump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (63/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmdQb1U6dmKSL5os8LmFwh9hDQ7TcmDathFp1C3SdwgPzj
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmbe4nA5bYwmGLJ6Bgcegf8tqUHBAVSNPQmT8gXYSb8rUN
+[Raydium] ✅ TARGET ACQUIRED: Alchemist AI (ALCH)
+[Grok] 🧪 MOCK ANALYSIS for $ALCH (Alchemist AI)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ALCH (HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump)
+[Decision] 🚀 CRITERIA MET! Score: 86. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ALCH for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://coffee-important-lizard-419.mypinata.cloud/ipfs/Qmbu9N9Lwp7AanwM6hsRwaFJtfSNVLtryMpkHd4AdVcRnu
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmaqr4jU97zckiTbRm7A1vV4354PXYLZrHE75CwMJH1Vsa
+[Raydium] ✅ TARGET ACQUIRED: zerebro (ZEREBRO)
+[Grok] 🧪 MOCK ANALYSIS for $ZEREBRO (zerebro)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ZEREBRO (8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn)
+[Decision] 🚀 CRITERIA MET! Score: 80. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ZEREBRO for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://bafkreifi2rtjfhynuvm423e2655frhjeby3k6hiu64way4wlnehkffscfy.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://bafkreifi2rtjfhynuvm423e2655frhjeby3k6hiu64way4wlnehkffscfy.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via buffer_scrape: https://token-metadata.bridge.xyz/solana/cash.json
+[Filter] Found URI via metaplex_pda: https://bafkreidt4cptrqikyrgvogi2h6nyybkskavrwnk5lqcajqieui63mdtmse.ipfs.nftstorage.link
+[Raydium] ✅ TARGET ACQUIRED: Ramadan (RMDN)
+[Grok] 🧪 MOCK ANALYSIS for $RMDN (Ramadan)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for RMDN (6TC3Nj94aEFK7ZzZ5QWUk29aUeym4TQYcqntW4z8Q88x)
+[Decision] 🚀 CRITERIA MET! Score: 71. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought RMDN for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreialsmfkaaxldfn5itxlbc65mcvpstcocqnzlu6ejwvn2fyx24enha
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/bafkreihr3sprtmvw63n75mbzskutbgevgwkyh4zkn2duzkef2pfhyvlzt4
+[PumpFun] ✅ TARGET ACQUIRED: Something positive (+)
+[Grok] 🧪 MOCK ANALYSIS for $+ (Something positive)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for + (GgTUBjEYA7dM8qzM2NZLacgJfwyNT17hwZfrKZXNpump)
+[Decision] 🚀 CRITERIA MET! Score: 92. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought + for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.irys.xyz/cWzZfrAdArnMqxN02noXXpBFU3Z8-E257gU4x4-39oU
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYgYtKdNFzHwrXc4iBfVQVAev5uYnpzdRibKkMjbqQ1Td
+[Raydium] ✅ TARGET ACQUIRED: NYANMARU COIN (NYAN)
+[Grok] 🧪 MOCK ANALYSIS for $NYAN (NYANMARU COIN)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for NYAN (FpECzw6x8RG4VBXfnVg3UJd8pq9CCxJUSWCKb4gebq8B)
+[Decision] 🚀 CRITERIA MET! Score: 72. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought NYAN for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://arweave.net/IiX6OFxiM1wb8DOSidDSn_6KVHqCpwnshUzU8RU5EN8
+[Filter] Found URI via metaplex_pda: https://arweave.net/IiX6OFxiM1wb8DOSidDSn_6KVHqCpwnshUzU8RU5EN8
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/ZeusNetworkHQ/zeus-metadata/master/metadata.json
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmRaah2aa24T3F2hGQCf8XefSuaNFZM2wGx2W2UnsxfLxM
+[Filter] Found URI via metaplex_pda: https://qgp7lco5ylyitscysc2c7clhpxipw6sexpc2eij7g5rq3pnkcx2q.arweave.net/gZ_1id3C8InIWJC0L4lnfdD7ekS7xaIhPzdjDb2qFfU
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmcnReE9QBZv5tSXHPY6tnZUhsGQFopDCrBTFSvHajei88
+[Raydium] ✅ TARGET ACQUIRED: Chill House (CHILLHOUSE)
+[Grok] 🧪 MOCK ANALYSIS for $CHILLHOUSE (Chill House)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for CHILLHOUSE (GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump)
+[Decision] 🚀 CRITERIA MET! Score: 95. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought CHILLHOUSE for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmZPnkFty7QTWGve52voQVK3GoRikwYSUUnv4xCKFMTUb1
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmVyun3xUtGVoPPjMA1Mvy1cGNLviCWFE27ayaJMyuj2pU
+[Raydium] ✅ TARGET ACQUIRED: The Face of Regret ($REGRET)
+[Grok] 🧪 MOCK ANALYSIS for $$REGRET (The Face of Regret)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for $REGRET (GEaPG3ZS6G2y2tRDJp1LV6M2UwnFGXDKMieYbSvopump)
+[Decision] 🚀 CRITERIA MET! Score: 96. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought $REGRET for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmXz72Aa4TkZXKKppWmKFJnxztACXHUq4KdesFP1dWV3M7
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmV1f5Xvy9TgXS8ZTUmd54K6PphHbwFoSEMCgzXt1krxE3
+[Raydium] ✅ TARGET ACQUIRED: AGENDA 47 (A47)
+[Grok] 🧪 MOCK ANALYSIS for $A47 (AGENDA 47)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for A47 (CN162nCPpq3DxPCyKLbAvEJeB1aCxsnVTEG4ZU8vpump)
+[Decision] 🚀 CRITERIA MET! Score: 86. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought A47 for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmXnfrUk9V3od1ZLA6iqG3YBKKeJhXyGm9w2dG129TkUZb
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/QmddvKE27sbqAHThHCfobpniy6BvDu6tuzkZzkuhjY3agp
+[PumpFun] ✅ TARGET ACQUIRED: Black Swan Theory (BlackSwan)
+[Grok] 🧪 MOCK ANALYSIS for $BlackSwan (Black Swan Theory)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for BlackSwan (J4F3RttGwmZGeFh1WHo2DnaefSboVemHipAAxnprpump)
+[Decision] 🚀 CRITERIA MET! Score: 80. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought BlackSwan for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmV1f5Xvy9TgXS8ZTUmd54K6PphHbwFoSEMCgzXt1krxE3
+[Raydium] ✅ TARGET ACQUIRED: AGENDA 47 (A47)
+[Grok] 🧪 MOCK ANALYSIS for $A47 (AGENDA 47)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for A47 (CN162nCPpq3DxPCyKLbAvEJeB1aCxsnVTEG4ZU8vpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (61/70)
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreigx2lchzpnsfppfntd7ttoucckucpkywvxrjiu3rutcc6kleh77xa
+[PumpFun] ✅ TARGET ACQUIRED: Goatcoin (GOAT)
+[Grok] 🧪 MOCK ANALYSIS for $GOAT (Goatcoin)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for GOAT (8ngjxcFiRQXAXjukYpaVYtqSZZULoUaLaRVW1mRipump)
+[Decision] 🚀 CRITERIA MET! Score: 93. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought GOAT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmV1f5Xvy9TgXS8ZTUmd54K6PphHbwFoSEMCgzXt1krxE3
+[Raydium] ✅ TARGET ACQUIRED: AGENDA 47 (A47)
+[Grok] 🧪 MOCK ANALYSIS for $A47 (AGENDA 47)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for A47 (CN162nCPpq3DxPCyKLbAvEJeB1aCxsnVTEG4ZU8vpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (61/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmV1f5Xvy9TgXS8ZTUmd54K6PphHbwFoSEMCgzXt1krxE3
+[Raydium] ✅ TARGET ACQUIRED: AGENDA 47 (A47)
+[Grok] 🧪 MOCK ANALYSIS for $A47 (AGENDA 47)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for A47 (CN162nCPpq3DxPCyKLbAvEJeB1aCxsnVTEG4ZU8vpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (62/70)
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreiark4ob54gapkqjrfbzw4zz2ajdntlcaqscx3et3h2l7wi725jhnu
+[Raydium] ✅ TARGET ACQUIRED: back to ($8)
+[Grok] 🧪 MOCK ANALYSIS for $$8 (back to)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for $8 (CcDeSqjZevBc159qxJtSjTksMk7ddXuxNLNGRRC5pump)
+[Decision] 🚀 CRITERIA MET! Score: 94. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought $8 for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreieztzanno7t476mq3hhgcm5ocqbe6trx7lnujcfzo3h77ntog5ndu
+[PumpFun] ✅ TARGET ACQUIRED: Jeffrey Nakamoto (SATOSHI)
+[Grok] 🧪 MOCK ANALYSIS for $SATOSHI (Jeffrey Nakamoto)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for SATOSHI (4qpsUfV3uFrcAbJ1XEFba5cGNqLWEjdBTEDjpfdZpump)
+[Decision] 🚀 CRITERIA MET! Score: 94. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought SATOSHI for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreid37ry4udkz7xlunqac6jshav3mzri5ibc7zvpsjogyyzbag3ypxe
+[PumpFun] ✅ TARGET ACQUIRED: Harry Flopper (HARRY)
+[Grok] 🧪 MOCK ANALYSIS for $HARRY (Harry Flopper)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for HARRY (HCY1dUtLxGaounasBu9njBwnEnfcFsnWKYiLt9fppump)
+[Decision] 🚀 CRITERIA MET! Score: 98. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought HARRY for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/QmPa3aBrXwja12ZmsY5ZLwoWwr83wRdCaDAnkiuk6ScrTS
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmapPN3ZaZTKQ7XYmEDjh75j2V83dcBoNg8FTQrZGEGcAE
+[Raydium] ✅ TARGET ACQUIRED: Act I : The AI Prophecy (ACT)
+[Grok] 🧪 MOCK ANALYSIS for $ACT (Act I : The AI Prophecy)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ACT (GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump)
+[Decision] 🚀 CRITERIA MET! Score: 89. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ACT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://solrnetwork.infura-ipfs.io/ipfs/QmWGHmyMZfoGYTJvjQJ3tQqTV7guwKVSnrBFD5WWEGy4MH
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYTnHwVqLHCYL1xrwGQLY8e1YHdXVMimkLuYeHZNNyUiX
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmTXT8EFrM7FShwENGKMPSi9Es2iXP6F1CzMDAtCJhkC6f
+[Raydium] ✅ TARGET ACQUIRED: swarms (swarms)
+[Grok] 🧪 MOCK ANALYSIS for $swarms (swarms)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for swarms (74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump)
+[Decision] 🚀 CRITERIA MET! Score: 87. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought swarms for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://coffee-important-lizard-419.mypinata.cloud/ipfs/Qmbu9N9Lwp7AanwM6hsRwaFJtfSNVLtryMpkHd4AdVcRnu
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmVF5s89joJgrHwBeMYhqXnLjAqk2Kct17oxA99XhjbM2a
+[Raydium] ✅ TARGET ACQUIRED: Tired of Winning (Tired)
+[Grok] 🧪 MOCK ANALYSIS for $Tired (Tired of Winning)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Tired (HEV8JPybpUrVTPWm6CvgYinMUxXdVgd3ULqw37DJpump)
+[Decision] 🚀 CRITERIA MET! Score: 74. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Tired for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://file.dexlab.space/file/19f572d8736f49d79cbcbe618b27ca28
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmaqr4jU97zckiTbRm7A1vV4354PXYLZrHE75CwMJH1Vsa
+[Raydium] ✅ TARGET ACQUIRED: zerebro (ZEREBRO)
+[Grok] 🧪 MOCK ANALYSIS for $ZEREBRO (zerebro)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ZEREBRO (8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (68/70)
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreify3soqwcwetw2hqg575lvatwmmhnqzdczqpiu2f6nzieionmakjq
+[PumpFun] ✅ TARGET ACQUIRED: The Crypto Cat (CAT)
+[Grok] 🧪 MOCK ANALYSIS for $CAT (The Crypto Cat)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for CAT (DPLKEMVrfu3DxWo4psBvp9hQXyH21qLuLQAEDusCpump)
+[Decision] 🚀 CRITERIA MET! Score: 92. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought CAT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmVbmfSyrr6asqNhmrDNFsBkmRsHffaMJfUSJSD4tyycAR
+[Raydium] ✅ TARGET ACQUIRED: Collaterize ($COLLAT)
+[Grok] 🧪 MOCK ANALYSIS for $$COLLAT (Collaterize)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for $COLLAT (C7heQqfNzdMbUFQwcHkL9FvdwsFsDRBnfwZDDyWYCLTZ)
+[Decision] 🚀 CRITERIA MET! Score: 83. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought $COLLAT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://metadata.pumployer.fun/data/6812f58f-4cd8-4538-8652-16acc04df8fd.json
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://metadata.pumployer.fun/data/6812f58f-4cd8-4538-8652-16acc04df8fd.json
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmZf8F4hXkAma1fUY8ZLhbxtpdi1anGAof5FqVAjrKrYhh
+[Raydium] ✅ TARGET ACQUIRED: AI Rig Complex (arc)
+[Grok] 🧪 MOCK ANALYSIS for $arc (AI Rig Complex)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for arc (61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (64/70)
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYTnHwVqLHCYL1xrwGQLY8e1YHdXVMimkLuYeHZNNyUiX
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmRcjyK7aPqBLfQGibto949VtaYhaSA5r9NUQsK6GQYQDe
+[Filter] Found URI via metaplex_pda: https://coffee-important-lizard-419.mypinata.cloud/ipfs/Qmbu9N9Lwp7AanwM6hsRwaFJtfSNVLtryMpkHd4AdVcRnu
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYfe8zVGHA1heej47AkBX3Nnetg2h2kqj5yymz1xyKeHb
+[Raydium] ✅ TARGET ACQUIRED: Fartcoin  (Fartcoin )
+[Grok] 🧪 MOCK ANALYSIS for $Fartcoin  (Fartcoin )
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Fartcoin  (9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (64/70)
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://bafkreiehz3jw7547ryrb5mr54rbnqmcjsqblkcoz46v7aejszqricvnbsa.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://bafkreiehz3jw7547ryrb5mr54rbnqmcjsqblkcoz46v7aejszqricvnbsa.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmaqr4jU97zckiTbRm7A1vV4354PXYLZrHE75CwMJH1Vsa
+[Raydium] ✅ TARGET ACQUIRED: zerebro (ZEREBRO)
+[Grok] 🧪 MOCK ANALYSIS for $ZEREBRO (zerebro)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ZEREBRO (8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn)
+[Decision] 🚀 CRITERIA MET! Score: 72. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ZEREBRO for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreifbp7m3oukm4zmkvjpslcyvbmx5f324gyt2ybx5nryeo5mfwgxmvy
+[PumpFun] ✅ TARGET ACQUIRED: Grindr (GRINDR)
+[Grok] 🧪 MOCK ANALYSIS for $GRINDR (Grindr)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for GRINDR (2K1gKJZyHXXKdJgsNmfW9VD8EBbBuKRavudKZnHUpump)
+[Decision] 🚀 CRITERIA MET! Score: 86. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought GRINDR for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://bafkreifi2rtjfhynuvm423e2655frhjeby3k6hiu64way4wlnehkffscfy.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmapPN3ZaZTKQ7XYmEDjh75j2V83dcBoNg8FTQrZGEGcAE
+[Raydium] ✅ TARGET ACQUIRED: Act I : The AI Prophecy (ACT)
+[Grok] 🧪 MOCK ANALYSIS for $ACT (Act I : The AI Prophecy)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ACT (GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump)
+[Decision] 🚀 CRITERIA MET! Score: 78. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ACT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://1ea5c9284bee4d1c815c8bd0.blob.core.windows.net/deploy/d0b872c7-3833-45fd-954f-45f047462e07.json
+[Raydium] ✅ TARGET ACQUIRED: Magic Money (MAGIC)
+[Grok] 🧪 MOCK ANALYSIS for $MAGIC (Magic Money)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for MAGIC (8iq7jzyY2WRWBT4GWj8QqhftbfHFrZ9fMr1EpcBts5y7)
+[Decision] 🚀 CRITERIA MET! Score: 77. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought MAGIC for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://1ea5c9284bee4d1c815c8bd0.blob.core.windows.net/deploy/d0b872c7-3833-45fd-954f-45f047462e07.json
+[Raydium] ✅ TARGET ACQUIRED: Magic Money (MAGIC)
+[Grok] 🧪 MOCK ANALYSIS for $MAGIC (Magic Money)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for MAGIC (8iq7jzyY2WRWBT4GWj8QqhftbfHFrZ9fMr1EpcBts5y7)
+[Decision] 🚀 CRITERIA MET! Score: 94. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought MAGIC for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://bafkreiehz3jw7547ryrb5mr54rbnqmcjsqblkcoz46v7aejszqricvnbsa.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/bafkreicr7qoicpnt4rxnownrej4jyxgdtuwoqzzobxjvpphmxfu64dsae4
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreify3soqwcwetw2hqg575lvatwmmhnqzdczqpiu2f6nzieionmakjq
+[PumpFun] ✅ TARGET ACQUIRED: The Crypto Cat (CAT)
+[Grok] 🧪 MOCK ANALYSIS for $CAT (The Crypto Cat)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for CAT (DPLKEMVrfu3DxWo4psBvp9hQXyH21qLuLQAEDusCpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (60/70)
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmaqr4jU97zckiTbRm7A1vV4354PXYLZrHE75CwMJH1Vsa
+[Raydium] ✅ TARGET ACQUIRED: zerebro (ZEREBRO)
+[Grok] 🧪 MOCK ANALYSIS for $ZEREBRO (zerebro)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ZEREBRO (8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn)
+[Decision] 🚀 CRITERIA MET! Score: 91. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ZEREBRO for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.irys.xyz/cI4MwcMzgJgGfR6ZC9JjU6cCyDISZXcLF7rVhYq3cPo
+[Raydium] ✅ TARGET ACQUIRED: GDTC (GDTC)
+[Grok] 🧪 MOCK ANALYSIS for $GDTC (GDTC)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for GDTC (DVb1znJKBVJzcuzbgvcG3cSghf2i1YzdJqoJFb7ZdQuX)
+[Decision] 🚀 CRITERIA MET! Score: 73. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought GDTC for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmZf8F4hXkAma1fUY8ZLhbxtpdi1anGAof5FqVAjrKrYhh
+[Raydium] ✅ TARGET ACQUIRED: AI Rig Complex (arc)
+[Grok] 🧪 MOCK ANALYSIS for $arc (AI Rig Complex)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for arc (61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump)
+[Decision] 🚀 CRITERIA MET! Score: 70. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought arc for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreify3soqwcwetw2hqg575lvatwmmhnqzdczqpiu2f6nzieionmakjq
+[PumpFun] ✅ TARGET ACQUIRED: The Crypto Cat (CAT)
+[Grok] 🧪 MOCK ANALYSIS for $CAT (The Crypto Cat)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for CAT (DPLKEMVrfu3DxWo4psBvp9hQXyH21qLuLQAEDusCpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (60/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/bafkreibqej6o6bb2ri47ugge54qw3lj6wrwqrxslfiy7cyqqn2vsxbmb2e
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmRyeHjWDQgy5otkdFffa5TN3ATZz4SRoBX9381BDyd83L
+[Raydium] ✅ TARGET ACQUIRED: Coral Protocol (CORAL)
+[Grok] 🧪 MOCK ANALYSIS for $CORAL (Coral Protocol)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for CORAL (CoRAitPvr9seu5F9Hk39vbjqA1o1XuoryHjSk1Z1q2mo)
+[Decision] 🚀 CRITERIA MET! Score: 91. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought CORAL for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreihigdqqrr7t2upaanic4itcy4dcyn6ksjkaows7ii3qyhaikp7i4q
+[PumpFun] ✅ TARGET ACQUIRED: Hook Coin  (HOOK)
+[Grok] 🧪 MOCK ANALYSIS for $HOOK (Hook Coin )
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for HOOK (ng61LSypPYtvnn3vgQhgQ3bS4M7WaReJ5nvbo5ppump)
+[Decision] 🚀 CRITERIA MET! Score: 96. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought HOOK for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreiapvjaveo2lsjgl6fve3fw3psppxcgs2xo5i7yiijgnsg5rjt5sc4
+[PumpFun] ✅ TARGET ACQUIRED: Ansem (ANSEM)
+[Grok] 🧪 MOCK ANALYSIS for $ANSEM (Ansem)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ANSEM (4zdFWXDtxwzf3urFikFXDB5jQnhWHQJXjSVNopsTpump)
+[Decision] 🚀 CRITERIA MET! Score: 78. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ANSEM for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreigx2lchzpnsfppfntd7ttoucckucpkywvxrjiu3rutcc6kleh77xa
+[PumpFun] ✅ TARGET ACQUIRED: Goatcoin (GOAT)
+[Grok] 🧪 MOCK ANALYSIS for $GOAT (Goatcoin)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for GOAT (8ngjxcFiRQXAXjukYpaVYtqSZZULoUaLaRVW1mRipump)
+[Decision] 🚀 CRITERIA MET! Score: 87. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought GOAT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://amethyst-clear-beaver-385.mypinata.cloud/ipfs/Qmeyv5vKEeyVUev4KEaGhk6ewoqqNSdXbYujVRSHfMBVnq
+[Filter] Found URI via metaplex_pda: https://coffee-important-lizard-419.mypinata.cloud/ipfs/Qmbu9N9Lwp7AanwM6hsRwaFJtfSNVLtryMpkHd4AdVcRnu
+[Filter] Found URI via buffer_scrape: https://metadata.j7tracker.com/metadata/fa49e38b97754d10.json
+[PumpFun] ✅ TARGET ACQUIRED: Easy USD1 Crime (MAGIC)
+[Grok] 🧪 MOCK ANALYSIS for $MAGIC (Easy USD1 Crime)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for MAGIC (AfFvhdrD3r5rfEzjvwnPYm6wBT4APtLyBEbhazNFs9zf)
+[Decision] 🚀 CRITERIA MET! Score: 73. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought MAGIC for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreieztzanno7t476mq3hhgcm5ocqbe6trx7lnujcfzo3h77ntog5ndu
+[PumpFun] ✅ TARGET ACQUIRED: Jeffrey Nakamoto (SATOSHI)
+[Grok] 🧪 MOCK ANALYSIS for $SATOSHI (Jeffrey Nakamoto)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for SATOSHI (4qpsUfV3uFrcAbJ1XEFba5cGNqLWEjdBTEDjpfdZpump)
+[Decision] 🚀 CRITERIA MET! Score: 85. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought SATOSHI for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreify3soqwcwetw2hqg575lvatwmmhnqzdczqpiu2f6nzieionmakjq
+[PumpFun] ✅ TARGET ACQUIRED: The Crypto Cat (CAT)
+[Grok] 🧪 MOCK ANALYSIS for $CAT (The Crypto Cat)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for CAT (DPLKEMVrfu3DxWo4psBvp9hQXyH21qLuLQAEDusCpump)
+[Decision] 🚀 CRITERIA MET! Score: 79. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought CAT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmZPnkFty7QTWGve52voQVK3GoRikwYSUUnv4xCKFMTUb1
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYCSfRjN3qoNhUzYLS6LifLgcc2NWQngenCAHvqguFeZ5
+[Raydium] ✅ TARGET ACQUIRED: Black Wallstreet ✊🏾 (TULSA)
+[Grok] 🧪 MOCK ANALYSIS for $TULSA (Black Wallstreet ✊🏾)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for TULSA (8TVr3U85V3Uazkxd5DJbmzdUWaxhQdEGNNGJ7eNTpump)
+[Decision] 🚀 CRITERIA MET! Score: 84. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought TULSA for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://file.dexlab.space/file/19f572d8736f49d79cbcbe618b27ca28
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmZf8F4hXkAma1fUY8ZLhbxtpdi1anGAof5FqVAjrKrYhh
+[Raydium] ✅ TARGET ACQUIRED: AI Rig Complex (arc)
+[Grok] 🧪 MOCK ANALYSIS for $arc (AI Rig Complex)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for arc (61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump)
+[Decision] 🚀 CRITERIA MET! Score: 83. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought arc for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreifd3rg2jqj6fzz6nugzxaqqgjxwxzjz4mvcupzp7usthpsp2t2q64
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmNxxaTGgX3sTZV6jTgKyy5a33iFpQMjoWmcFUFfhohw5C
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreihey3shkmdrtmmkky4ffvcxspjxfew6tq36ollelbsyv75befpb4y
+[PumpFun] ✅ TARGET ACQUIRED: Job Application (Job)
+[Grok] 🧪 MOCK ANALYSIS for $Job (Job Application)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Job (HTRLNnYQHmW63YZfrEAj8Z4VvHahHEHTFFCaCyh4pump)
+[Decision] 🚀 CRITERIA MET! Score: 76. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Job for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmVAvr3r1q2NrFHsY5fvrkJCdBniGM326U2pAvfpvgkwDR
+[Filter] Found URI via metaplex_pda: https://chocolate-electrical-armadillo-60.mypinata.cloud/ipfs/QmTz8E5h9srtY4TiHiSMawH3iiPMyG2HS1x8otsFbnTsCi
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreie3qoaacfx77jujo5oif6qsop3gez2jzndfzfeb3xguhmsrlmgzga
+[Filter] Found URI via metaplex_pda: https://gateway.irys.xyz/pvCovyTk696k8F_4OjZ43BZsDBXZbmtkiQ6NpKnVdzo
+[Raydium] ✅ TARGET ACQUIRED: AnonymousCodingCult (ACC)
+[Grok] 🧪 MOCK ANALYSIS for $ACC (AnonymousCodingCult)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ACC (CrMwppXm5kQEbXPGNH45ASkQyRbd7uonD8heVQsEbgSA)
+[Decision] 🚀 CRITERIA MET! Score: 98. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ACC for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://1ea5c9284bee4d1c815c8bd0.blob.core.windows.net/deploy/d0b872c7-3833-45fd-954f-45f047462e07.json
+[Raydium] ✅ TARGET ACQUIRED: Magic Money (MAGIC)
+[Grok] 🧪 MOCK ANALYSIS for $MAGIC (Magic Money)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for MAGIC (8iq7jzyY2WRWBT4GWj8QqhftbfHFrZ9fMr1EpcBts5y7)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (61/70)
+[Filter] Found URI via buffer_scrape: https://metadata.j7tracker.com/metadata/1f5b54fdc07c46f7.json
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/bafkreifpwvyn3yvribblyxqhnqveoo35nacxhogg4yzzewpdmkaybb6fdq
+[Raydium] ✅ TARGET ACQUIRED: Meme Man (MM)
+[Grok] 🧪 MOCK ANALYSIS for $MM (Meme Man)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for MM (HfZiQSCUTpvWa9Mk3FKieQHzZfiduPqTEMVDbP1Gpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (63/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/bafkreigdxolpbx45p5h6xivolpes7jjqpvd5moowg33awkmzq6in5hv7uq
+[PumpFun] ✅ TARGET ACQUIRED: JAGUAR SOLANA (SOLANA)
+[Grok] 🧪 MOCK ANALYSIS for $SOLANA (JAGUAR SOLANA)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for SOLANA (A46HX6Gu1B4oUDbfhFcDkGKxs7zdsow9cdnCP1oRcJVD)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (69/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmbXYqw4F4keQTP4WNBKLBWSRHtQCTnayv3pZbWHhiUwft
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYiyZcURW4evLVQNz4WEiY2ecFKvTSfjy3RHZiu3qA9LM
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.irys.xyz/P-_9IXgQ-5gM3KtEaAjhzX2Gfx80AffQC_Z0fx7M6D0
+[Raydium] ✅ TARGET ACQUIRED: Seeker (SKR)
+[Grok] 🧪 MOCK ANALYSIS for $SKR (Seeker)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for SKR (SKRbvo6Gf7GondiT3BbTfuRDPqLWei4j2Qy2NPGZhW3)
+[Decision] 🚀 CRITERIA MET! Score: 82. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought SKR for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreify3soqwcwetw2hqg575lvatwmmhnqzdczqpiu2f6nzieionmakjq
+[PumpFun] ✅ TARGET ACQUIRED: The Crypto Cat (CAT)
+[Grok] 🧪 MOCK ANALYSIS for $CAT (The Crypto Cat)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for CAT (DPLKEMVrfu3DxWo4psBvp9hQXyH21qLuLQAEDusCpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (61/70)
+[Filter] Found URI via metaplex_pda: https://1ea5c9284bee4d1c815c8bd0.blob.core.windows.net/deploy/daa21936-0281-4cfd-beb7-607e4660c3ae.json
+[PumpFun] ✅ TARGET ACQUIRED: Wynn Fund (Wynn)
+[Grok] 🧪 MOCK ANALYSIS for $Wynn (Wynn Fund)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Wynn (2C7PSEusx1ENomHbh1ThgQrmzEmwxPo8tZXebdTC6sg3)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (65/70)
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/hello-xone/xone_assets/main/blockchains/xone/assets/0x1a5C8ad4EaB016AeE5F3b53dA9309715968B7220/logo.png
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreigr2djrntmknhp3fvhip76vrdq53xq25muf7sdd2at5p5ff3garwe
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreiajye5abjoivdsl7xjl3ey4y7s22qimek47vmzxjwd6jzsrcugmtu
+[PumpFun] ✅ TARGET ACQUIRED: shoot.fun (shoot)
+[Grok] 🧪 MOCK ANALYSIS for $shoot (shoot.fun)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for shoot (3xij73zmPaD5tewY3xG5vKY5CWScS7e679U9Qsfepump)
+[Decision] 🚀 CRITERIA MET! Score: 91. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought shoot for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://arweave.net/QPC6FYdUn-3V8ytFNuoCS85S2tHAuiDblh6u3CIZLsw
+[Filter] Found URI via metaplex_pda: https://arweave.net/QPC6FYdUn-3V8ytFNuoCS85S2tHAuiDblh6u3CIZLsw
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/QmUwAqAaLAYmjZsX9ThuKGAavfoyYiEgpW6aN32FU5drWU
+[PumpFun] ✅ TARGET ACQUIRED: TOILETMOON ($FLUSH)
+[Grok] 🧪 MOCK ANALYSIS for $$FLUSH (TOILETMOON)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for $FLUSH (71xZhoXPDJqkuWZJisUoKcwEQnF35DDEhDyrKggbcRY8)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (67/70)
+[Filter] Found URI via metaplex_pda: https://shdw-drive.genesysgo.net/4odiYJZhQj8zT8iEssDSVxzabRhavJedT29xAFxrJhvy/5Wsd311hY8NXQhkt9cWHwTnqafk7BGEbLu8Py3DSnPAr-841.json
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmapPN3ZaZTKQ7XYmEDjh75j2V83dcBoNg8FTQrZGEGcAE
+[Raydium] ✅ TARGET ACQUIRED: Act I : The AI Prophecy (ACT)
+[Grok] 🧪 MOCK ANALYSIS for $ACT (Act I : The AI Prophecy)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ACT (GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump)
+[Decision] 🚀 CRITERIA MET! Score: 73. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ACT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://bafkreiehz3jw7547ryrb5mr54rbnqmcjsqblkcoz46v7aejszqricvnbsa.ipfs.nftstorage.link
+[Filter] Found URI via buffer_scrape: https://meta.uxento.io/data/45b77967-89d7-45b7-ba0a-8d46c178f9e5
+[PumpFun] ✅ TARGET ACQUIRED: Take flight (Imagination)
+[Grok] 🧪 MOCK ANALYSIS for $Imagination (Take flight)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Imagination (8vxG4jfFvANVaJG4LAYou8enybwCj3LFEK7tui8kpump)
+[Decision] 🚀 CRITERIA MET! Score: 87. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Imagination for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmSkEeAv71gDaLjcwnvVMmDnNsFrhHxrFSFX2Tg4upVe48
+[Filter] Found URI via metaplex_pda: https://23h36bi3lod3ztdjqtjtirr2lngpqjndtpcrsdyz44zjfypi5yma.arweave.net/1s-_BRtbh7zMaYTTNEY6W0z4JaObxRkPGecykuHo7hg
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/ZeusNetworkHQ/zeus-metadata/master/metadata.json
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreidvgrwgxsqjdepbj65766mr3nagvnvfwnahwk2tstofc3nnux6j3u
+[PumpFun] ✅ TARGET ACQUIRED: HODL  (HODL )
+[Grok] 🧪 MOCK ANALYSIS for $HODL  (HODL )
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for HODL  (5yBdyBXzF78jcF79YUKFH6PSUXkimHc9C9Qias3Upump)
+[Decision] 🚀 CRITERIA MET! Score: 89. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought HODL  for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYCSfRjN3qoNhUzYLS6LifLgcc2NWQngenCAHvqguFeZ5
+[Raydium] ✅ TARGET ACQUIRED: Black Wallstreet ✊🏾 (TULSA)
+[Grok] 🧪 MOCK ANALYSIS for $TULSA (Black Wallstreet ✊🏾)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for TULSA (8TVr3U85V3Uazkxd5DJbmzdUWaxhQdEGNNGJ7eNTpump)
+[Decision] 🚀 CRITERIA MET! Score: 99. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought TULSA for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmdWtUkc8ZvS8UBon5YFxK5qwiQQdonC1C8c2pyzLfeH3g
+[Raydium] ✅ TARGET ACQUIRED: Skill Stacker (stkr)
+[Grok] 🧪 MOCK ANALYSIS for $stkr (Skill Stacker)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for stkr (3DFnwGLJUfxc4eMxDgQwW6oWaeKBrJ1iwA26YjTfpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (64/70)
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmV1f5Xvy9TgXS8ZTUmd54K6PphHbwFoSEMCgzXt1krxE3
+[Raydium] ✅ TARGET ACQUIRED: AGENDA 47 (A47)
+[Grok] 🧪 MOCK ANALYSIS for $A47 (AGENDA 47)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for A47 (CN162nCPpq3DxPCyKLbAvEJeB1aCxsnVTEG4ZU8vpump)
+[Decision] 🚀 CRITERIA MET! Score: 97. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought A47 for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmTkHE4DTZPZRJCFQXXCLuvLfMB5Pk8RZLNtHRptwpyRdU
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/QmWhpNRkR7vQiSiJxLRj7vcjWFLa8F9h6bChKeUmedcBRF
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmThMWu7gRoVaWuXBzQytEszwCFsBVEDVVjp7jW7nyDoqT
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreify3soqwcwetw2hqg575lvatwmmhnqzdczqpiu2f6nzieionmakjq
+[PumpFun] ✅ TARGET ACQUIRED: The Crypto Cat (CAT)
+[Grok] 🧪 MOCK ANALYSIS for $CAT (The Crypto Cat)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for CAT (DPLKEMVrfu3DxWo4psBvp9hQXyH21qLuLQAEDusCpump)
+[Decision] 🚀 CRITERIA MET! Score: 73. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought CAT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmapPN3ZaZTKQ7XYmEDjh75j2V83dcBoNg8FTQrZGEGcAE
+[Raydium] ✅ TARGET ACQUIRED: Act I : The AI Prophecy (ACT)
+[Grok] 🧪 MOCK ANALYSIS for $ACT (Act I : The AI Prophecy)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ACT (GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (65/70)
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreialxkh6u32d5mvq7bh62pnkvqtko2mxrg4ar3bt4wdx3j5qffywk4
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmeJPx76iLzqUXB6oDEDUo9xrcFG1FvtvbM4j9yj86zEBz
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmVh2nQxsWqn15pKRvDMWx1cnp5RvKJe2nTvLo1Uweichw
+[Filter] Found URI via buffer_scrape: https://metadata.rapidlaunch.io/metadata/5ad1664d-905e-4bb7-8ec5-d9353c1b00a9.json
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreieztzanno7t476mq3hhgcm5ocqbe6trx7lnujcfzo3h77ntog5ndu
+[PumpFun] ✅ TARGET ACQUIRED: Jeffrey Nakamoto (SATOSHI)
+[Grok] 🧪 MOCK ANALYSIS for $SATOSHI (Jeffrey Nakamoto)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for SATOSHI (4qpsUfV3uFrcAbJ1XEFba5cGNqLWEjdBTEDjpfdZpump)
+[Decision] 🚀 CRITERIA MET! Score: 95. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought SATOSHI for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreieuidqao76d32n7ldy2cqhv22k5cukfsmslosplkebfi5eemtt55y
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmc6tLtgXPMHsHbXeJKNjs7GLkykXBtvojftgazB4n6Vs2
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://entities.nft.helium.io/v2/tokens/hnt
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://1ea5c9284bee4d1c815c8bd0.blob.core.windows.net/deploy/d0b872c7-3833-45fd-954f-45f047462e07.json
+[Raydium] ✅ TARGET ACQUIRED: Magic Money (MAGIC)
+[Grok] 🧪 MOCK ANALYSIS for $MAGIC (Magic Money)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for MAGIC (8iq7jzyY2WRWBT4GWj8QqhftbfHFrZ9fMr1EpcBts5y7)
+[Decision] 🚀 CRITERIA MET! Score: 86. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought MAGIC for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmfFAHZNF1heDiQieaaU7ghF6xmoDYrY2TkKGvXTZiRwWf
+[Raydium] ✅ TARGET ACQUIRED: Epic Grid Chronicles AI Game (Orc)
+[Grok] 🧪 MOCK ANALYSIS for $Orc (Epic Grid Chronicles AI Game)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Orc (ELT4JkJNQiW5y9f7RwqYuY1d7ZWm8JdQvM222Rhjpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (63/70)
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreidvgrwgxsqjdepbj65766mr3nagvnvfwnahwk2tstofc3nnux6j3u
+[PumpFun] ✅ TARGET ACQUIRED: HODL  (HODL )
+[Grok] 🧪 MOCK ANALYSIS for $HODL  (HODL )
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for HODL  (5yBdyBXzF78jcF79YUKFH6PSUXkimHc9C9Qias3Upump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (65/70)
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmQn3bcZSJ8kf7ApD66HnhhAKb8AVacuLxQJYbfm7TvQEz
+[Raydium] ✅ TARGET ACQUIRED: yesnoerror (YNE)
+[Grok] 🧪 MOCK ANALYSIS for $YNE (yesnoerror)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for YNE (7D1iYWfhw2cr9yBZBFE6nZaaSUvXHqG5FizFFEZwpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (65/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYiyZcURW4evLVQNz4WEiY2ecFKvTSfjy3RHZiu3qA9LM
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreiank7eehfrr3uhe5zfqjm2rocihrybid2lgfutbpw6di6pl2r4cdm
+[PumpFun] ✅ TARGET ACQUIRED: we are cooked (COOKED)
+[Grok] 🧪 MOCK ANALYSIS for $COOKED (we are cooked)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for COOKED (CrZQiiQiJ5ApkuFnWFg8N8Exn8yuL5BJz6AWGcjnpump)
+[Decision] 🚀 CRITERIA MET! Score: 90. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought COOKED for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreify3soqwcwetw2hqg575lvatwmmhnqzdczqpiu2f6nzieionmakjq
+[PumpFun] ✅ TARGET ACQUIRED: The Crypto Cat (CAT)
+[Grok] 🧪 MOCK ANALYSIS for $CAT (The Crypto Cat)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for CAT (DPLKEMVrfu3DxWo4psBvp9hQXyH21qLuLQAEDusCpump)
+[Decision] 🚀 CRITERIA MET! Score: 78. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought CAT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://bafkreifi2rtjfhynuvm423e2655frhjeby3k6hiu64way4wlnehkffscfy.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmckb3nWWHyoJKtX3FeagfmDZXNVqiXM4nKkYsTnygm2Ah
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/bafkreiaigxzcfcp57gvavn2jixayuvhwruhr4six4y2c6hs6b4jzivtoqe
+[PumpFun] ✅ TARGET ACQUIRED: #BoycottBinance (Byenance)
+[Grok] 🧪 MOCK ANALYSIS for $Byenance (#BoycottBinance)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Byenance (CY7BLV5j9ydENoxmQ46ppZ8FheN29TLVJzBu2555pump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (65/70)
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreial27qnljpi6uapwshcmnmgowbwqmh7epe2ddwokcokfdvftdmhli
+[PumpFun] ✅ TARGET ACQUIRED: Cooked Pepe (COPE)
+[Grok] 🧪 MOCK ANALYSIS for $COPE (Cooked Pepe)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for COPE (2dCRVMftAPSQoQQmD1x5cHQEp6t98Wk2vuZp4KvXpump)
+[Decision] 🚀 CRITERIA MET! Score: 85. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought COPE for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.irys.xyz/zophYOtNpb4MzhR3RmEOm716ZEHrXwMzCZTOILAVc4E
+[Raydium] ✅ TARGET ACQUIRED: Kendrick Lamar's Dog (KDOT)
+[Grok] 🧪 MOCK ANALYSIS for $KDOT (Kendrick Lamar's Dog)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for KDOT (83ae7U3dF7FFAszTE6QKszWfjKffB7rUni5W1iWgZ476)
+[Decision] 🚀 CRITERIA MET! Score: 90. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought KDOT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmciaE8qRSBMFPPFPjFkHCFTVFGfNXWGzc619Kt8ncb88g
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreid6ejnfewqotdxvzghxbcrvofjybxvlg6wzeek3dn3d6cqlszzwde
+[PumpFun] ✅ TARGET ACQUIRED: dogwifhat (WIF)
+[Grok] 🧪 MOCK ANALYSIS for $WIF (dogwifhat)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for WIF (6LYdxfFH7uWK1hAuSMHeDPBL7sfS1nNDBjUve9FSpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (65/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmbe4nA5bYwmGLJ6Bgcegf8tqUHBAVSNPQmT8gXYSb8rUN
+[Raydium] ✅ TARGET ACQUIRED: Alchemist AI (ALCH)
+[Grok] 🧪 MOCK ANALYSIS for $ALCH (Alchemist AI)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ALCH (HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (61/70)
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreibqbvug3vr3eaxpzpwqwjjdreaki4kyel2tqkkznrk43a2pxbuvbm
+[PumpFun] ✅ TARGET ACQUIRED: Fuck my nigger life (FMNL)
+[Grok] 🧪 MOCK ANALYSIS for $FMNL (Fuck my nigger life)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for FMNL (E6myfjMGGDLtEqBpKhFpnq5froNMuvPXyNZLcPrupump)
+[Decision] 🚀 CRITERIA MET! Score: 94. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought FMNL for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmapPN3ZaZTKQ7XYmEDjh75j2V83dcBoNg8FTQrZGEGcAE
+[Raydium] ✅ TARGET ACQUIRED: Act I : The AI Prophecy (ACT)
+[Grok] 🧪 MOCK ANALYSIS for $ACT (Act I : The AI Prophecy)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ACT (GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump)
+[Decision] 🚀 CRITERIA MET! Score: 72. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ACT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmZf8F4hXkAma1fUY8ZLhbxtpdi1anGAof5FqVAjrKrYhh
+[Raydium] ✅ TARGET ACQUIRED: AI Rig Complex (arc)
+[Grok] 🧪 MOCK ANALYSIS for $arc (AI Rig Complex)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for arc (61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump)
+[Decision] 🚀 CRITERIA MET! Score: 83. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought arc for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmfAzDQkbRvQNquDHdovyeXzMJzwJuR4D6M1Hk9uqeth6S
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreifbp7m3oukm4zmkvjpslcyvbmx5f324gyt2ybx5nryeo5mfwgxmvy
+[PumpFun] ✅ TARGET ACQUIRED: Grindr (GRINDR)
+[Grok] 🧪 MOCK ANALYSIS for $GRINDR (Grindr)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for GRINDR (2K1gKJZyHXXKdJgsNmfW9VD8EBbBuKRavudKZnHUpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (61/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYfe8zVGHA1heej47AkBX3Nnetg2h2kqj5yymz1xyKeHb
+[Raydium] ✅ TARGET ACQUIRED: Fartcoin  (Fartcoin )
+[Grok] 🧪 MOCK ANALYSIS for $Fartcoin  (Fartcoin )
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Fartcoin  (9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (60/70)
+[Filter] Found URI via metaplex_pda: https://bafkreifi2rtjfhynuvm423e2655frhjeby3k6hiu64way4wlnehkffscfy.ipfs.nftstorage.link
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYTnHwVqLHCYL1xrwGQLY8e1YHdXVMimkLuYeHZNNyUiX
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmckb3nWWHyoJKtX3FeagfmDZXNVqiXM4nKkYsTnygm2Ah
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmafvPM2yBb6DECjN85Za5JHUq71AyW1TJjWiuQbxZvX9D
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/QmeMymKJF7hHoLaYoiasVFjXZZ8DQ74ERK9w6cB28MbH4a
+[PumpFun] ✅ TARGET ACQUIRED: Valontine (Valontine)
+[Grok] 🧪 MOCK ANALYSIS for $Valontine (Valontine)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Valontine (5fRPUQKVZEYUe66QT9UCmeGPcA2ijsRNAvCwbuZSpump)
+[Decision] 🚀 CRITERIA MET! Score: 71. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Valontine for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://meta.uxento.io/data/e030e498-039f-430e-ab85-6a295e0e4058
+[PumpFun] ✅ TARGET ACQUIRED: Grindr Inc (GRND)
+[Grok] 🧪 MOCK ANALYSIS for $GRND (Grindr Inc)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for GRND (Bc43HvHU8Qz6paAJSmW5Fodjns18QiXVE8dfZTWepump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (69/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmZf8F4hXkAma1fUY8ZLhbxtpdi1anGAof5FqVAjrKrYhh
+[Raydium] ✅ TARGET ACQUIRED: AI Rig Complex (arc)
+[Grok] 🧪 MOCK ANALYSIS for $arc (AI Rig Complex)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for arc (61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump)
+[Decision] 🚀 CRITERIA MET! Score: 81. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought arc for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmZPnkFty7QTWGve52voQVK3GoRikwYSUUnv4xCKFMTUb1
+[Filter] Found URI via buffer_scrape: https://metadata.j7tracker.com/metadata/3352f54490e14744.json
+[PumpFun] ✅ TARGET ACQUIRED: DEX PAID ON 1Y OLD DOG (DOG)
+[Grok] 🧪 MOCK ANALYSIS for $DOG (DEX PAID ON 1Y OLD DOG)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for DOG (9JLstGurX9nKxhZpxCi6EC4J8Mz1BdkqxrH6YgP4qYSB)
+[Decision] 🚀 CRITERIA MET! Score: 85. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought DOG for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreigg56oep7j4nfzdfwfb77q5ztmlbuus5zorv3op54oyx5hxh2fizm
+[PumpFun] ✅ TARGET ACQUIRED: you wake up (DiCaprio )
+[Grok] 🧪 MOCK ANALYSIS for $DiCaprio  (you wake up)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for DiCaprio  (AWtcNZR29xrcuowiEHhcfvmMweahvHD3ehfnNYBypump)
+[Decision] 🚀 CRITERIA MET! Score: 88. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought DiCaprio  for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://nftstorage.link/ipfs/bafkreig2jluk7p34dirqfmsg2rystw2xp27r4i4lxyqivq4bmdsjqyrfga
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/QmVmVijZYFW6uZ5HB7o6cSt1Y3zTxBApYEgf22ThUEeXCX
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/QmRiLeYKMw76uLteHjj5cJWfaDydVvgw4YH8rUbKFZ2RF3
+[PumpFun] ✅ TARGET ACQUIRED: dogwifhat (WIF)
+[Grok] 🧪 MOCK ANALYSIS for $WIF (dogwifhat)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for WIF (HzYEF7XZWbvvKUrbEpaDQ6AusBun8H673BjgbtrWpump)
+[Decision] 🚀 CRITERIA MET! Score: 94. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought WIF for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmZf8F4hXkAma1fUY8ZLhbxtpdi1anGAof5FqVAjrKrYhh
+[Raydium] ✅ TARGET ACQUIRED: AI Rig Complex (arc)
+[Grok] 🧪 MOCK ANALYSIS for $arc (AI Rig Complex)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for arc (61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump)
+[Decision] 🚀 CRITERIA MET! Score: 93. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought arc for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmXAjvQs4dwNDQgiWEzGqEdLwLZYjNzSVN2GzXfVZsy45k
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmRFaCebNcqGy77qnAuMqNajufoDdgEraRiJMZgVPGXKWX
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/Qmckb3nWWHyoJKtX3FeagfmDZXNVqiXM4nKkYsTnygm2Ah
+[Filter] Found URI via metaplex_pda: https://storage.googleapis.com/token-metadata/JitoSOL.json
+[Raydium] ✅ TARGET ACQUIRED: Jito Staked SOL (JitoSOL)
+[Grok] 🧪 MOCK ANALYSIS for $JitoSOL (Jito Staked SOL)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for JitoSOL (J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn)
+[Decision] 🚀 CRITERIA MET! Score: 90. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought JitoSOL for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmYTnHwVqLHCYL1xrwGQLY8e1YHdXVMimkLuYeHZNNyUiX
+[Filter] Found URI via buffer_scrape: https://metadata.j7tracker.com/metadata/22ebd43b9e954bc6.json
+[PumpFun] ✅ TARGET ACQUIRED: The Autonomy Paradox (AUTONOMY)
+[Grok] 🧪 MOCK ANALYSIS for $AUTONOMY (The Autonomy Paradox)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for AUTONOMY (HJrfHCHoJrcRCGC25TYEua5GCDnUud5HjhqcWRKdQZnM)
+[Decision] 🚀 CRITERIA MET! Score: 74. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought AUTONOMY for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmaQhDkWKhWzgntVPHvC2WhEa9Q8k8QWV8fm4AvX6f4d5s
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/metadata.json
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreify3soqwcwetw2hqg575lvatwmmhnqzdczqpiu2f6nzieionmakjq
+[PumpFun] ✅ TARGET ACQUIRED: The Crypto Cat (CAT)
+[Grok] 🧪 MOCK ANALYSIS for $CAT (The Crypto Cat)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for CAT (DPLKEMVrfu3DxWo4psBvp9hQXyH21qLuLQAEDusCpump)
+[Decision] 🚀 CRITERIA MET! Score: 90. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought CAT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreien3k62s3d7ltsbbrjjylgtbmmriegf6mcjnrnzlskb3egogkiv6y
+[PumpFun] ✅ TARGET ACQUIRED: The Crypto Cat (CAT)
+[Grok] 🧪 MOCK ANALYSIS for $CAT (The Crypto Cat)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for CAT (6RYVH75kJ7Qh8sJyM8K4DZknW9rxoYv5qfaL3Ty8pump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (64/70)
+[Filter] Found URI via metaplex_pda: https://gateway.lighthouse.storage/ipfs/bafkreibcnyzq7jlvhxrpqzz5ssjpqodhmb53suqfpmmuc4x64arpy3jgqm
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/bafkreia6sr3x7hfrkmbn3twq7b26irukesq46zln27x2e7unsmlcyziqam
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmRaah2aa24T3F2hGQCf8XefSuaNFZM2wGx2W2UnsxfLxM
+[Filter] Found URI via metaplex_pda: https://gateway.pinata.cloud/ipfs/QmR3LqrvPF7JxoEdMurL5fWTmfUoankVvVKmTc3J9tJGyX
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreifbp7m3oukm4zmkvjpslcyvbmx5f324gyt2ybx5nryeo5mfwgxmvy
+[Raydium] ✅ TARGET ACQUIRED: Grindr (GRINDR)
+[Grok] 🧪 MOCK ANALYSIS for $GRINDR (Grindr)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for GRINDR (2K1gKJZyHXXKdJgsNmfW9VD8EBbBuKRavudKZnHUpump)
+[Decision] 🚀 CRITERIA MET! Score: 85. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought GRINDR for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmapPN3ZaZTKQ7XYmEDjh75j2V83dcBoNg8FTQrZGEGcAE
+[Raydium] ✅ TARGET ACQUIRED: Act I : The AI Prophecy (ACT)
+[Grok] 🧪 MOCK ANALYSIS for $ACT (Act I : The AI Prophecy)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ACT (GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump)
+[Decision] 🚀 CRITERIA MET! Score: 81. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ACT for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreify3soqwcwetw2hqg575lvatwmmhnqzdczqpiu2f6nzieionmakjq
+[PumpFun] ✅ TARGET ACQUIRED: The Crypto Cat (CAT)
+[Grok] 🧪 MOCK ANALYSIS for $CAT (The Crypto Cat)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for CAT (DPLKEMVrfu3DxWo4psBvp9hQXyH21qLuLQAEDusCpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (67/70)
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmcGmF4tQxsQKdF3s1mSqYyg1vNqAXou32tbWztnsnEzth
+[Raydium] ✅ TARGET ACQUIRED: Goatseus Maximus (GOAT)
+[Grok] 🧪 MOCK ANALYSIS for $GOAT (Goatseus Maximus)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for GOAT (CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump)
+[Decision] 🚀 CRITERIA MET! Score: 87. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought GOAT for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreigx2lchzpnsfppfntd7ttoucckucpkywvxrjiu3rutcc6kleh77xa
+[PumpFun] ✅ TARGET ACQUIRED: Goatcoin (GOAT)
+[Grok] 🧪 MOCK ANALYSIS for $GOAT (Goatcoin)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for GOAT (8ngjxcFiRQXAXjukYpaVYtqSZZULoUaLaRVW1mRipump)
+[Decision] 🚀 CRITERIA MET! Score: 81. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought GOAT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/bafkreicpc4kz6g3ifmdgd5wkzsnt74vtbugztgqzdxhdozrxhiabx67rm4
+[Raydium] ✅ TARGET ACQUIRED: CORGI (CORGI)
+[Grok] 🧪 MOCK ANALYSIS for $CORGI (CORGI)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for CORGI (H8bYkBYZZfGhvvZqLojVzG5Jn9avwrypnkEBeJEnpump)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (68/70)
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/QmeMymKJF7hHoLaYoiasVFjXZZ8DQ74ERK9w6cB28MbH4a
+[PumpFun] ✅ TARGET ACQUIRED: Valontine (Valontine)
+[Grok] 🧪 MOCK ANALYSIS for $Valontine (Valontine)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Valontine (5fRPUQKVZEYUe66QT9UCmeGPcA2ijsRNAvCwbuZSpump)
+[Decision] 🚀 CRITERIA MET! Score: 76. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Valontine for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmRhXPj9EbWi12jg3WBjKnTGBpYdLx4hC9Y7tzJ7Ls9LCR
+[Raydium] ✅ TARGET ACQUIRED: Wolf (WOLF)
+[Grok] 🧪 MOCK ANALYSIS for $WOLF (Wolf)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for WOLF (BTr5SwWSKPBrdUzboi2SVr1QvSjmh1caCYUkxsxLpump)
+[Decision] 🚀 CRITERIA MET! Score: 85. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought WOLF for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreifbp7m3oukm4zmkvjpslcyvbmx5f324gyt2ybx5nryeo5mfwgxmvy
+[Raydium] ✅ TARGET ACQUIRED: Grindr (GRINDR)
+[Grok] 🧪 MOCK ANALYSIS for $GRINDR (Grindr)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for GRINDR (2K1gKJZyHXXKdJgsNmfW9VD8EBbBuKRavudKZnHUpump)
+[Decision] 🚀 CRITERIA MET! Score: 74. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought GRINDR for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmeS7xTJXchmFQ9YLKQPx92UD2wyKUJ6dwk5rpkumk4hpw
+[Raydium] ✅ TARGET ACQUIRED: just buy $10 worth of this coin ($10)
+[Grok] 🧪 MOCK ANALYSIS for $$10 (just buy $10 worth of this coin)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for $10 (E3bvXHGGZ3SAKgZKwC3W8qvD1gNHUoSkxyh1soSYpump)
+[Decision] 🚀 CRITERIA MET! Score: 96. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought $10 for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://cdn.kamino.finance/kamino-metadata.json
+[Raydium] ✅ TARGET ACQUIRED: Kamino (KMNO)
+[Grok] 🧪 MOCK ANALYSIS for $KMNO (Kamino)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for KMNO (KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS)
+[Decision] ⏸️  Signal Ignored. Narrative strength too low (64/70)
+[Filter] Found URI via metaplex_pda: https://cf-ipfs.com/ipfs/QmYv94jCG2xuYjtoi7ibRWrJ5kdmxYvH4hRa7mF7RhSSvq
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmapPN3ZaZTKQ7XYmEDjh75j2V83dcBoNg8FTQrZGEGcAE
+[Raydium] ✅ TARGET ACQUIRED: Act I : The AI Prophecy (ACT)
+[Grok] 🧪 MOCK ANALYSIS for $ACT (Act I : The AI Prophecy)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for ACT (GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump)
+[Decision] 🚀 CRITERIA MET! Score: 72. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought ACT for 0.01 SOL.
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmWbM38Bhhcj4vQZpSyesRSotgoqicNjfaNoMmuDGtWZ2o
+[Filter] Found URI via metaplex_pda: https://bafkreihwqhounu3cdwgvk2gc2dqcinpntlccbo3xcy4xuerd24yndldl5q.ipfs.nftstorage.link
+[Filter] Found URI via buffer_scrape: https://metadata.rapidlaunch.io/metadata/9eda314d-8ae7-4052-91fc-51635b9358de.json
+[PumpFun] ✅ TARGET ACQUIRED: The Mountain Bongo (Bongo)
+[Grok] 🧪 MOCK ANALYSIS for $Bongo (The Mountain Bongo)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Bongo (ivagWydhGwRN8qJYwRTyQA43M6UwZwfrhJ5ky52pump)
+[Decision] 🚀 CRITERIA MET! Score: 76. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Bongo for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/bafkreihjw6vvp4qjofoiy45t2cov3yfac6jcry6hurlikgkpwysipt2zfe
+[Filter] Found URI via metaplex_pda: https://ipfs.io/ipfs/QmcGmF4tQxsQKdF3s1mSqYyg1vNqAXou32tbWztnsnEzth
+[Raydium] ✅ TARGET ACQUIRED: Goatseus Maximus (GOAT)
+[Grok] 🧪 MOCK ANALYSIS for $GOAT (Goatseus Maximus)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for GOAT (CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump)
+[Decision] 🚀 CRITERIA MET! Score: 92. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought GOAT for 0.01 SOL.
+[Filter] Found URI via buffer_scrape: https://ipfs.io/ipfs/QmeMymKJF7hHoLaYoiasVFjXZZ8DQ74ERK9w6cB28MbH4a
+[PumpFun] ✅ TARGET ACQUIRED: Valontine (Valontine)
+[Grok] 🧪 MOCK ANALYSIS for $Valontine (Valontine)
+[Logger] Action logged: DISCOVERY_SIGNAL  (undefined)
+[Decision] 🧠 Analyzing Signal for Valontine (5fRPUQKVZEYUe66QT9UCmeGPcA2ijsRNAvCwbuZSpump)
+[Decision] 🚀 CRITERIA MET! Score: 77. Initializing Trade...
+[Decision] 🧪 DRY RUN: Would have bought Valontine for 0.01 SOL.

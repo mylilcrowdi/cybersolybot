@@ -9,20 +9,32 @@ const RPC_ENDPOINT = process.env.RPC_ENDPOINT;
 const RAYDIUM_PUBLIC_KEY = "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8";
 const PUMP_FUN_PROGRAM = "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P";
 
-const connection = new Connection(RPC_ENDPOINT, 'confirmed');
+const connection = new Connection(RPC_ENDPOINT, {
+    commitment: 'confirmed',
+    disableRetryOnRateLimit: true,
+    confirmTransactionInitialTimeout: 60000
+});
 
+// Sentinel State
+let isBusy = false;
 let onTargetFoundCallback = null;
 
+/**
+ * The Sentinel: Single-threaded processing to protect RPC limits.
+ * Drops all events while "busy" processing one.
+ */
 async function startMonitoring(callback) {
     onTargetFoundCallback = callback;
-    console.log(`[Monitor] ⚡ Agent Cyber Listening via Helius RPC`);
+    console.log(`[Monitor] ⚡ Agent Cyber Listening (Sentinel Mode: ON)`);
 
     connection.onLogs(
         new PublicKey(RAYDIUM_PUBLIC_KEY),
         async (logs) => {
-            if (logs.err) return;
+            if (isBusy || logs.err) return;
             const isInit = logs.logs.some(l => l.includes("initialize2") || l.includes("ray_log"));
-            if (isInit) processTransaction(logs.signature, "Raydium");
+            if (isInit) {
+                attemptProcess(logs.signature, "Raydium");
+            }
         },
         "confirmed"
     );
@@ -30,12 +42,32 @@ async function startMonitoring(callback) {
     connection.onLogs(
         new PublicKey(PUMP_FUN_PROGRAM),
         async (logs) => {
-            if (logs.err) return;
+            if (isBusy || logs.err) return;
             const isCreation = logs.logs.some(l => l.includes("Instruction: Create"));
-            if (isCreation) processTransaction(logs.signature, "PumpFun");
+            if (isCreation) {
+                attemptProcess(logs.signature, "PumpFun");
+            }
         },
         "confirmed"
     );
+}
+
+async function attemptProcess(signature, source) {
+    if (isBusy) return;
+    isBusy = true;
+
+    try {
+        console.log(`[Sentinel] 🔒 Locked. Processing ${source} signal...`);
+        await processTransaction(signature, source);
+    } catch (err) {
+        console.error(`[Sentinel] Error:`, err.message);
+    } finally {
+        // Cool down: Allow RPC to recover tokens before unlocking
+        // 2000ms cooldown = Max ~0.5 requests/sec average
+        setTimeout(() => {
+            isBusy = false;
+        }, 2000);
+    }
 }
 
 async function processTransaction(signature, source) {
@@ -55,11 +87,13 @@ async function processTransaction(signature, source) {
 
         const mint = candidate?.mint;
         if (mint) {
+            // Check Metadata (RPC Call #2)
             const result = await checkSocials(mint);
+            
             if (result.valid) {
                 console.log(`[${source}] ✅ TARGET ACQUIRED: ${result.name} (${result.symbol})`);
                 
-                // Slow Brain: Grok Analysis
+                // Sentiment Analysis (API Call)
                 const sentiment = await analyzeSentiment(result.symbol, result.name);
                 
                 const target = {
@@ -80,10 +114,14 @@ async function processTransaction(signature, source) {
                 if (onTargetFoundCallback) {
                     onTargetFoundCallback(target);
                 }
+            } else {
+                // console.log(`[${source}] ❌ Filtered: ${result.error || 'No socials'}`);
             }
         }
     } catch (err) {
-        // Silent error to keep monitor running
+        if (err.message && err.message.includes('429')) {
+            console.warn(`[Sentinel] ⚠️ RPC 429 in transaction fetch. Backing off.`);
+        }
     }
 }
 

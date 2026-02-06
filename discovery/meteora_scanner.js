@@ -4,6 +4,25 @@ require('dotenv').config();
 
 const METEORA_API_BASE = "https://dlmm-api.meteora.ag";
 
+async function fetchWithRetry(url, options = {}, retries = 5, backoff = 2000) {
+    for (let i = 0; i < retries; i++) {
+        try {
+            const response = await fetch(url, options);
+            if (response.status === 429) {
+                const wait = backoff * Math.pow(2, i) + Math.random() * 1000;
+                console.warn(`[Meteora] ⏳ Rate limited (429). Retrying in ${Math.round(wait)}ms...`);
+                await new Promise(resolve => setTimeout(resolve, wait));
+                continue;
+            }
+            return response;
+        } catch (err) {
+            if (i === retries - 1) throw err;
+            const wait = backoff * Math.pow(2, i) + Math.random() * 1000;
+            await new Promise(resolve => setTimeout(resolve, wait));
+        }
+    }
+}
+
 /**
  * Scans Meteora DLMM for High Volume / Low TVL opportunities.
  * Strategy: Find pairs where 24h Volume > TVL (High turnover = High fees).
@@ -14,7 +33,7 @@ async function scanMeteora() {
         
         // Fetch pairs (paginated)
         // Removed server-side sort to avoid 400s. We sort locally.
-        const response = await fetch(`${METEORA_API_BASE}/pair/all_with_pagination?limit=100&page=0`);
+        const response = await fetchWithRetry(`${METEORA_API_BASE}/pair/all_with_pagination?limit=100&page=0`);
         
         if (!response.ok) {
             console.error(`[Meteora] API Error: ${response.status}`);

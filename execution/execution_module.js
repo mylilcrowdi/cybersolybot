@@ -12,7 +12,10 @@ const logger = require('../utils/trade_logger');
 require('dotenv').config({ path: path.join(__dirname, '../../.env') });
 
 const RPC_ENDPOINT = process.env.RPC_ENDPOINT;
-const connection = new Connection(RPC_ENDPOINT, 'confirmed');
+const connection = new Connection(RPC_ENDPOINT, {
+    commitment: 'confirmed',
+    disableRetryOnRateLimit: true,
+});
 
 // Load keypair from default Solana CLI path or env
 const KEYPAIR_PATH = process.env.KEYPAIR_PATH || path.join(process.env.HOME || '/home/cyber', '.config/solana/id.json');

@@ -8,14 +8,16 @@ const { executeSwap } = require('./execution/execution_module');
 const { runYieldCycle } = require('./execution/yield_manager');
 const riskManager = require('./utils/risk_manager');
 const feedbackLoop = require('./utils/feedback_loop');
+const solanaTracker = require('./analysis/solanatracker_client');
+const dexscreener = require('./analysis/dexscreener_client');
 const logger = require('./utils/trade_logger');
 const path = require('path');
 require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
 // --- Trading Configuration ---
 const TRADE_CONFIG = {
-    ENABLED: true, // HARD OVERRIDE FOR DEPLOYMENT
-    BUY_AMOUNT_SOL: 0.01,
+    ENABLED: true, // LIVE TRADING ENABLED FOR TEST
+    BUY_AMOUNT_SOL: 0.01, // Small test amount
     MIN_GROK_SCORE: 70, // Required sentiment score from Grok
     MAX_SLIPPAGE_BPS: 200, // 2%
 };
@@ -39,6 +41,33 @@ async function handleSignal(target) {
         return;
     }
 
+    // 2. SolanaTracker Verification (Hard Data Check)
+    // Primary: SolanaTracker (Quota Limited)
+    let trackerData = await solanaTracker.getTokenData(target.mint);
+    let isSafe = true;
+
+    if (trackerData) {
+        isSafe = solanaTracker.isSafeToTrade(trackerData);
+    } else {
+        // Fallback: Dexscreener (Rate Limited but Free)
+        console.log(`[Decision] ⚠️ SolanaTracker unavailable/quota. Switching to Dexscreener...`);
+        trackerData = await dexscreener.getTokenData(target.mint);
+        if (trackerData) {
+            isSafe = dexscreener.isSafeToTrade(trackerData);
+        } else {
+            console.log(`[Decision] ⚠️ No Data Source available. Proceeding with caution.`);
+        }
+    }
+
+    if (!isSafe) {
+        console.log(`[Decision] 🛑 Data Verification Failed. Skipping.`);
+        return;
+    }
+    
+    // Enrich target with real data if available
+    if (trackerData) target.metrics = trackerData;
+
+    // 3. Narrative Analysis (AI)
     // MOCK ANALYSIS OVERRIDE FOR LIVE TRADING UNTIL GROK CREDITS REFILLED
     let grokScore = target.sentiment?.score || 0;
     
@@ -74,11 +103,11 @@ startMonitoring(handleSignal).catch(err => {
 });
 
 // 2. Run Yield Farmer (Meteora LP Management)
-// Checks every 30 minutes
+// Checks every 8 hours (480 mins) to respect Meteora API rate limits more aggressively
 setInterval(async () => {
     await runYieldCycle().catch(err => console.error("[Yield] Error:", err.message));
     await feedbackLoop.selfReflect().catch(err => console.error("[Feedback] Error:", err.message));
-}, 30 * 60 * 1000);
+}, 480 * 60 * 1000);
 
 // Initial run
 runYieldCycle().catch(err => console.error("[Yield] Initial Error:", err.message));

@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "dashboard": "node dashboard.js",
+    "monitor": "node monitor.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,8 +24,11 @@
     "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
     "@metaplex-foundation/umi": "^1.4.1",
     "@metaplex-foundation/umi-bundle-defaults": "^1.4.1",
+    "@meteora-ag/dlmm": "^1.9.3",
     "@solana/web3.js": "^1.98.4",
     "axios": "^1.13.4",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0",
     "bs58": "^6.0.0",
     "dotenv": "^17.2.3",
     "puppeteer": "^24.36.1"

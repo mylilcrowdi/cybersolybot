@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGENT CYBER // LIVE TERMINAL</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="bg-mesh"></div>
+    <div class="scanlines"></div>
+
+    <header class="glass-panel">
+        <div class="header-content">
+            <div class="logo">
+                <span class="glitch" data-text="CYBERSOLYBOT">CYBERSOLYBOT</span>
+                <span class="version">V2.0.4 [LIVE]</span>
+            </div>
+            <div class="status-pill online">
+                <span class="dot"></span> SYSTEM ONLINE
+            </div>
+        </div>
+    </header>
+
+    <main class="dashboard-grid">
+        <!-- Vitals Column -->
+        <section class="col-left">
+            <div class="card glass-panel vitals-card">
+                <h2>// SYSTEM_VITALS</h2>
+                <div class="metric-grid">
+                    <div class="metric">
+                        <label>HEARTBEAT</label>
+                        <span id="heartbeat-val" class="value neon-green">OK</span>
+                    </div>
+                    <div class="metric">
+                        <label>UPTIME</label>
+                        <span id="uptime-val" class="value">00:00:00</span>
+                    </div>
+                    <div class="metric">
+                        <label>HEALTH</label>
+                        <span id="health-val" class="value neon-blue">OPTIMAL</span>
+                    </div>
+                    <div class="metric">
+                        <label>MODE</label>
+                        <span id="mode-val" class="value">SENTINEL</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card glass-panel pnl-card">
+                <h2>// PERFORMANCE_METRICS</h2>
+                <div class="big-number neon-purple">
+                    <span id="pnl-val">0.00</span> <small>SOL</small>
+                </div>
+                <div class="chart-container">
+                    <canvas id="pnlChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Feed Column -->
+        <section class="col-center">
+            <div class="card glass-panel feed-card">
+                <h2>// NEURAL_STREAM</h2>
+                <div class="terminal-window" id="log-feed">
+                    <div class="log-entry"><span class="time">[14:32:01]</span> <span class="sys">SYSTEM</span> Initializing neural link...</div>
+                    <div class="log-entry"><span class="time">[14:32:05]</span> <span class="info">INFO</span> Connected to Solana Mainnet (Helius RPC).</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Active Ops Column -->
+        <section class="col-right">
+            <div class="card glass-panel positions-card">
+                <h2>// ACTIVE_POSITIONS</h2>
+                <div id="positions-list" class="list-container">
+                    <!-- Injected via JS -->
+                    <div class="empty-state">NO ACTIVE POSITIONS</div>
+                </div>
+            </div>
+
+            <div class="card glass-panel brain-card">
+                <h2>// COGNITIVE_STATE</h2>
+                <div class="thought-bubble" id="current-thought">
+                    "Scanning Meteora pools for high-volatility divergence..."
+                </div>
+                <div class="tags">
+                    <span class="tag">#SOLANA</span>
+                    <span class="tag">#AI</span>
+                    <span class="tag">#YIELD</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-panel">
+        <div class="footer-content">
+            <span>ID: 2xQ4...swK</span>
+            <a href="https://github.com/mylilcrowdi/cybersolybot" target="_blank" class="github-link">ACCESS_SOURCE_CODE >></a>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

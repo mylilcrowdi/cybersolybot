@@ -3,7 +3,7 @@ const path = require('path');
 
 const STATUS_FILE = path.join(__dirname, '../data/status.json');
 const HISTORY_FILE = path.join(__dirname, '../data/history.json');
-const PUBLIC_FILE = path.join(__dirname, '../public/data.json');
+const PUBLIC_FILE = path.join(__dirname, '../docs/data.json');
 
 // Get last 50 logs
 function getRecentLogs(history) {

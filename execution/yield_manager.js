@@ -49,18 +49,38 @@ async function runYieldCycle() {
     const pools = await scanMeteora();
     if (!pools || pools.length === 0) return;
 
-    // 2. DECISION
+    // 2. INTELLIGENCE (Cross-Reference with Agent Cyber's Brain)
+    // We only want to farm signals that the main agent has flagged as bullish.
+    const history = logger.getHistory();
+    const recentSignals = history.filter(h => 
+        h.type === "DISCOVERY_SIGNAL" && 
+        (Date.now() - new Date(h.timestamp).getTime()) < 6 * 60 * 60 * 1000 // Last 6h
+    );
+
+    // 3. DECISION
     for (const pool of pools) {
         const isAlreadyOpen = activePositions.find(p => p.address === pool.address);
         
         if (!isAlreadyOpen && pool.metrics.utilization >= YIELD_CONFIG.MIN_UTILIZATION) {
-            if (activePositions.length < YIELD_CONFIG.MAX_POSITIONS) {
-                await enterPosition(pool);
+            
+            // Intelligence Filter: Must match a recent signal
+            // Check mint_x or mint_y against signals
+            const matchingSignal = recentSignals.find(s => s.mint === pool.mint_x || s.mint === pool.mint_y);
+            
+            if (matchingSignal) {
+                console.log(`[Yield] 🧠 Validated by Brain: ${pool.name} (Score: ${matchingSignal.score})`);
+                
+                if (activePositions.length < YIELD_CONFIG.MAX_POSITIONS) {
+                    await enterPosition(pool);
+                }
+            } else {
+                // Log skipped opportunities occasionally?
+                // console.log(`[Yield] 🙅 Skipped ${pool.name} (No signal from Brain)`);
             }
         }
     }
 
-    // 3. MONITOR
+    // 4. MONITOR
     await monitorPositions();
 }
 

@@ -1,77 +1,117 @@
 /**
  * swap_engine.js
- * The "Claw" of Agent Cyber.
- * Handles transaction building and submission for Jupiter and Pump.fun.
+ * Handles interactions with Jupiter Aggregator for swap routes.
+ * Supports multiple providers with failover (Strategy Pattern).
  */
 
-const { Connection, Keypair, VersionedTransaction } = require('@solana/web3.js');
-const fetch = require('node-fetch');
+const axios = require('axios');
 const path = require('path');
 require('dotenv').config({ path: path.join(__dirname, '../../.env') });
 
-const RPC_ENDPOINT = process.env.RPC_ENDPOINT;
-const connection = new Connection(RPC_ENDPOINT, {
-    commitment: 'confirmed',
-    disableRetryOnRateLimit: true
-});
+// --- Providers Configuration ---
+const PROVIDERS = {
+    OFFICIAL: {
+        name: 'Jupiter Official',
+        baseUrl: 'https://api.jup.ag/swap/v1',
+        apiKey: process.env.JUPITER_API_KEY, // x-api-key header
+        priority: 1
+    },
+    // Future expansion:
+    // QUICKNODE: { ... }
+};
 
-/**
- * Executes a swap via Jupiter Aggregator (Raydium/Meteora/etc)
- * @param {string} inputMint 
- * @param {string} outputMint 
- * @param {number} amount (in lamports or atomic units)
- * @param {number} slippageBps (default 100 = 1%)
- */
-async function swapJupiter(inputMint, outputMint, amount, slippageBps = 100) {
-    try {
-        console.log(`[Jupiter] 🚀 Building swap: ${amount} of ${inputMint} -> ${outputMint}`);
-        
-        // 1. Get Quote
-        const quoteResponse = await (
-            await fetch(`https://quote-api.jup.ag/v6/quote?inputMint=${inputMint}&outputMint=${outputMint}&amount=${amount}&slippageBps=${slippageBps}`)
-        ).json();
+class SwapEngine {
+    constructor() {
+        this.currentProvider = PROVIDERS.OFFICIAL;
+    }
 
-        if (!quoteResponse.outAmount) {
-            throw new Error(`Failed to get quote: ${JSON.stringify(quoteResponse)}`);
+    /**
+     * Get the configured Axios instance for the current provider
+     */
+    getClient() {
+        const headers = {};
+        if (this.currentProvider.apiKey) {
+            // Official Jupiter API uses 'x-api-key'
+            headers['x-api-key'] = this.currentProvider.apiKey; 
         }
+        
+        return axios.create({
+            baseURL: this.currentProvider.baseUrl,
+            headers: headers,
+            timeout: 10000
+        });
+    }
 
-        // 2. Get Swap Transaction
-        const { swapTransaction } = await (
-            await fetch('https://quote-api.jup.ag/v6/swap', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    quoteResponse,
-                    userPublicKey: process.env.WALLET_PUBLIC_KEY || "2xQ4KCE7tCogEAsXjGuT8VvzLMVHCDLf4atuVaJsHswK",
-                    wrapAndUnwrapSol: true,
-                    // optimization: use priority fees from Helius or dynamic estimation
-                    dynamicComputeUnitLimit: true,
-                    prioritizationFeeLamports: 'auto' 
-                })
-            })
-        ).json();
+    /**
+     * Get a Quote
+     */
+    async getQuote(inputMint, outputMint, amount, slippageBps = 100) {
+        const client = this.getClient();
+        try {
+            const url = `/quote?inputMint=${inputMint}&outputMint=${outputMint}&amount=${amount}&slippageBps=${slippageBps}`;
+            console.log(`[Jupiter] 🚀 Fetching Quote via ${this.currentProvider.name}...`);
+            
+            const response = await client.get(url);
+            return response.data;
 
-        // 3. Deserialize and Sign (Placeholder - needs Private Key)
-        console.log("[Jupiter] Swap transaction built. Awaiting signature mechanism...");
-        return swapTransaction;
+        } catch (err) {
+            this.handleError(err, 'Quote');
+            return null;
+        }
+    }
 
-    } catch (err) {
-        console.error("[Jupiter] Execution Error:", err.message);
-        return null;
+    /**
+     * Get Swap Transaction
+     */
+    async getSwapTransaction(quoteResponse, userPublicKey) {
+        const client = this.getClient();
+        try {
+            console.log(`[Jupiter] 📝 Building Transaction via ${this.currentProvider.name}...`);
+            
+            const response = await client.post(`/swap`, {
+                quoteResponse: quoteResponse,
+                userPublicKey: userPublicKey,
+                wrapAndUnwrapSol: true,
+                // Optimization: Request higher priority if needed, but keeping standard for now
+                // dynamicComputeUnitLimit: true,
+                // priorizationFeeLamports: "auto"
+            });
+
+            return response.data.swapTransaction;
+
+        } catch (err) {
+            this.handleError(err, 'Swap');
+            return null;
+        }
+    }
+
+    /**
+     * Error Handler & Failover Logic
+     */
+    handleError(err, context) {
+        const status = err.response?.status;
+        const msg = err.response?.data?.error || err.message;
+        
+        console.error(`[Jupiter] ❌ ${context} Error (${this.currentProvider.name}): ${status || 'Net'} - ${msg}`);
+
+        if (status === 429) {
+            console.warn(`[Jupiter] ⚠️ Rate Limit hit.`);
+            // TODO: Switch to fallback provider if implemented
+        }
     }
 }
 
-/**
- * Executes a native Pump.fun swap
- * Uses direct program interaction for maximum speed in the "trenches".
- */
-async function swapPumpFun(mint, amountSol, isBuy = true) {
-    // Strategy:
-    // 1. Fetch the Bonding Curve account for the mint.
-    // 2. Build the Instruction (Buy/Sell) using Pump.fun Program ID.
-    // 3. Submit via Jito or Helius for high-speed landing.
-    console.log(`[Pump.fun] 🕒 Native ${isBuy ? 'BUY' : 'SELL'} logic for ${mint} initialized.`);
-    // TODO: Implement direct instruction building with @solana/web3.js and borsh
+// Export singleton
+const engine = new SwapEngine();
+
+async function swapJupiter(inputMint, outputMint, amount, slippageBps) {
+    // 1. Get Quote
+    const quote = await engine.getQuote(inputMint, outputMint, amount, slippageBps);
+    if (!quote) return null;
+
+    // 2. Get Transaction
+    const tx = await engine.getSwapTransaction(quote, process.env.WALLET_PUBLIC_KEY);
+    return tx;
 }
 
-module.exports = { swapJupiter, swapPumpFun };
+module.exports = { swapJupiter };

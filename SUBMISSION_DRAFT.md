@@ -28,15 +28,6 @@ While waiting for snips, Agent Cyber doesn't let capital sit idle.
 - **Action:** Autonomously enters concentrated liquidity positions (Spot +/- 3%) to farm fees during volatility.
 - **Safety:** Auto-withdraws after 2 hours to minimize IL.
 
-## Tech Stack
-- **Chain:** Solana (Web3.js)
-- **Yield:** Meteora DLMM SDK
-- **Data:** Helius RPC, SolanaTracker, Dexscreener
-- **AI:** xAI (Grok)
-- **Safety:** Local Risk Manager & Treasury Guard
-
-We are not hiding our logic. The code is open. The strategy is transparent. The execution is relentless.
-
 ## Links
 *   **Repository:** https://github.com/mylilcrowdi/cybersolybot
 *   **Agent X (Twitter):** https://x.com/Agent0Cyber1

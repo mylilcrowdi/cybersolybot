@@ -30,18 +30,24 @@ try {
     process.exit(1);
 }
 
+const SOL_MINT = "So11111111111111111111111111111111111111112";
+
 /**
  * Higher-level function to perform a swap and handle the full lifecycle (sign/send/log)
+ * @param {string} outputMint - Token to buy
+ * @param {number} amount - Amount in natural units (e.g. 0.1 SOL)
+ * @param {string} inputMint - Token to sell (default: SOL)
+ * @param {number} inputDecimals - Decimals of input token (default: 9 for SOL)
+ * @param {number} slippageBps - Slippage tolerance in basis points
  */
-async function executeSwap(outputMint, amountSol, slippageBps = 100) {
+async function executeSwap(outputMint, amount, inputMint = SOL_MINT, inputDecimals = 9, slippageBps = 100) {
     try {
-        const inputMint = "So11111111111111111111111111111111111111112"; // SOL
-        const amountLamports = Math.floor(amountSol * 1e9);
+        const amountAtomic = Math.floor(amount * Math.pow(10, inputDecimals));
 
-        console.log(`[Execution] 🔄 Initializing Swap: ${amountSol} SOL -> ${outputMint}`);
+        console.log(`[Execution] 🔄 Initializing Swap: ${amount} (raw: ${amountAtomic}) ${inputMint} -> ${outputMint}`);
 
         // 1. Get Transaction from Swap Engine (Jupiter)
-        const swapTransactionBase64 = await swapJupiter(inputMint, outputMint, amountLamports, slippageBps);
+        const swapTransactionBase64 = await swapJupiter(inputMint, outputMint, amountAtomic, slippageBps);
 
         if (!swapTransactionBase64) {
             throw new Error("Failed to get swap transaction from engine.");
@@ -69,7 +75,7 @@ async function executeSwap(outputMint, amountSol, slippageBps = 100) {
         await logger.logAction({
             type: "TRADE_EXECUTION",
             token: outputMint,
-            inputAmount: amountSol,
+            inputAmount: amount,
             inputMint: inputMint,
             signature: signature,
             status: "submitted",

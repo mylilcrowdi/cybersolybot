@@ -6,7 +6,7 @@
 
 const { scanMeteora } = require('../discovery/meteora_scanner');
 const { Connection, Keypair, PublicKey, sendAndConfirmTransaction } = require('@solana/web3.js');
-const DLMM = require('@meteora-ag/dlmm').default;
+const DLMM = require('@meteora-ag/dlmm');
 const logger = require('../utils/trade_logger');
 const fs = require('fs');
 const path = require('path');
@@ -135,13 +135,68 @@ async function monitorPositions() {
             console.log(`[Yield] 📉 EXITING ${pos.name} (Time Limit > 2h)`);
             
             if (pos.status === "active") {
-                // TODO: Implement `dlmmPool.removeLiquidity` & `closePosition`
-                // For now, we just remove from tracking to stop simulating
-                console.log(`[Yield] ⚠️ Withdraw logic pending integration.`);
+                const success = await exitPosition(pos);
+                if (success) {
+                    activePositions.splice(i, 1);
+                } else {
+                    console.log(`[Yield] ⚠️ Exit failed for ${pos.name}, will retry next cycle.`);
+                }
+            } else {
+                activePositions.splice(i, 1); // Remove simulated
             }
-            
-            activePositions.splice(i, 1);
         }
+    }
+}
+
+async function exitPosition(pos) {
+    try {
+        const poolKey = new PublicKey(pos.address);
+        const dlmmPool = await DLMM.create(connection, poolKey);
+        
+        // Find our positions in this pool
+        const { userPositions } = await dlmmPool.getPositionsByUserAndLbPair(wallet.publicKey, poolKey);
+        
+        if (userPositions.length === 0) {
+            console.log(`[Yield] ⚠️ No on-chain positions found for ${pos.name}. Removing from local tracker.`);
+            return true;
+        }
+
+        console.log(`[Yield] Found ${userPositions.length} open positions for ${pos.name}. Closing all...`);
+
+        for (const position of userPositions) {
+            console.log(`[Yield] Closing position ${position.publicKey.toBase58()}...`);
+            
+            // Withdraw 100% and Close
+            const binIds = position.positionData.positionBinData.map(bin => bin.binId);
+            
+            const removeLiquidityTx = await dlmmPool.removeLiquidity({
+                position: position.publicKey,
+                user: wallet.publicKey,
+                binIds,
+                bps: new BN(10000), // 100%
+                shouldClaimAndClose: true
+            });
+
+            // Execute Transactions (removeLiquidity can return array of txs)
+            const txs = Array.isArray(removeLiquidityTx) ? removeLiquidityTx : [removeLiquidityTx];
+            
+            for (const tx of txs) {
+                 const txHash = await sendAndConfirmTransaction(connection, tx, [wallet]);
+                 console.log(`[Yield] 💰 Liquidity Removed & Position Closed. TX: ${txHash}`);
+                 
+                 await logger.logAction({
+                     type: "YIELD_EXIT",
+                     symbol: pos.name,
+                     tx: txHash,
+                     timestamp: new Date().toISOString()
+                 });
+            }
+        }
+        return true;
+
+    } catch (err) {
+        console.error(`[Yield] ❌ Exit Failed for ${pos.name}:`, err.message);
+        return false;
     }
 }
 

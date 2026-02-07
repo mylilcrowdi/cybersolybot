@@ -22,7 +22,11 @@ const YIELD_CONFIG = {
     MIN_UTILIZATION: 1.5,
     MAX_POSITIONS: 3,
     ALLOCATION_SOL: 0.05,
+    TAKE_PROFIT_PCT: 10, // +10%
+    STOP_LOSS_PCT: -10   // -10%
 };
+
+const SOL_MINT = "So11111111111111111111111111111111111111112";
 
 // Load Wallet
 const KEYPAIR_PATH = process.env.KEYPAIR_PATH || path.join(process.env.HOME || '/home/cyber', '.config/solana/id.json');
@@ -86,11 +90,18 @@ async function enterPosition(poolData) {
 
         // Calculate Bin Range (Strategy: Spot +/- 5% for high concentration)
         const activeBin = await dlmmPool.getActiveBin();
-        const minBinId = activeBin.binId - 30; // approx -3%
-        const maxBinId = activeBin.binId + 30; // approx +3%
+        
+        // We need to determine if we are depositing X or Y (SOL)
+        const isXSOL = dlmmPool.lbPair.tokenXMint.toBase58() === SOL_MINT;
+        const isYSOL = dlmmPool.lbPair.tokenYMint.toBase58() === SOL_MINT;
+        
+        if (!isXSOL && !isYSOL) {
+             console.log(`[Yield] ⚠️ Non-SOL pair skipped: ${poolData.name}`);
+             return;
+        }
 
-        const totalXAmount = new BN(YIELD_CONFIG.ALLOCATION_SOL * 1e9); // SOL
-        const totalYAmount = new BN(0); // One-sided
+        const totalXAmount = isXSOL ? new BN(YIELD_CONFIG.ALLOCATION_SOL * 1e9) : new BN(0);
+        const totalYAmount = isYSOL ? new BN(YIELD_CONFIG.ALLOCATION_SOL * 1e9) : new BN(0);
 
         // Create Position Transaction
         // Strategy: SpotBalanced (Spread liquidity around active bin)
@@ -128,11 +139,63 @@ async function monitorPositions() {
     for (let i = activePositions.length - 1; i >= 0; i--) {
         const pos = activePositions[i];
         
-        // 1. Time-based Exit (2 hours max for high volatility plays)
+        // Time Check
         const ageHours = (Date.now() - pos.entryTime) / (1000 * 60 * 60);
-        
+        let shouldExit = false;
+        let exitReason = "";
+
         if (ageHours > 2) { 
-            console.log(`[Yield] 📉 EXITING ${pos.name} (Time Limit > 2h)`);
+            shouldExit = true;
+            exitReason = "Time Limit > 2h";
+        }
+
+        // PnL Check (Only for active positions)
+        if (!shouldExit && pos.status === "active") {
+            try {
+                const poolKey = new PublicKey(pos.address);
+                const dlmmPool = await DLMM.create(connection, poolKey);
+                const { userPositions } = await dlmmPool.getPositionsByUserAndLbPair(wallet.publicKey, poolKey);
+                
+                if (userPositions.length > 0) {
+                    const activeBin = await dlmmPool.getActiveBin();
+                    const price = Number(activeBin.price); // Price of X in Y
+
+                    let totalValueSol = 0;
+                    const isXSOL = dlmmPool.lbPair.tokenXMint.toBase58() === SOL_MINT;
+                    const isYSOL = dlmmPool.lbPair.tokenYMint.toBase58() === SOL_MINT;
+
+                    // Calculate total value of all positions in this pool
+                    userPositions.forEach(p => {
+                         const x = Number(p.positionData.totalXAmount) / 1e9; // Approx
+                         const y = Number(p.positionData.totalYAmount) / 1e9; // Approx
+                         // Note: We ignore unclaimed fees for simplicity/safety margin, 
+                         // treating them as bonus. PnL is based on principal equity.
+                         
+                         if (isXSOL) {
+                             totalValueSol += x + (y / price);
+                         } else if (isYSOL) {
+                             totalValueSol += (x * price) + y;
+                         }
+                    });
+
+                    const pnlPct = ((totalValueSol - pos.allocation) / pos.allocation) * 100;
+                    console.log(`[Yield] 📊 ${pos.name}: ${pnlPct.toFixed(2)}% PnL (${ageHours.toFixed(1)}h)`);
+
+                    if (pnlPct >= YIELD_CONFIG.TAKE_PROFIT_PCT) {
+                        shouldExit = true;
+                        exitReason = `Take Profit (+${pnlPct.toFixed(2)}%)`;
+                    } else if (pnlPct <= YIELD_CONFIG.STOP_LOSS_PCT) {
+                        shouldExit = true;
+                        exitReason = `Stop Loss (${pnlPct.toFixed(2)}%)`;
+                    }
+                }
+            } catch (err) {
+                console.warn(`[Yield] ⚠️ PnL Check Error for ${pos.name}: ${err.message}`);
+            }
+        }
+        
+        if (shouldExit) {
+            console.log(`[Yield] 📉 EXITING ${pos.name} (${exitReason})`);
             
             if (pos.status === "active") {
                 const success = await exitPosition(pos);

@@ -1,0 +1,260 @@
+{
+  "heartbeat": "RUNNING",
+  "uptime": 73890287,
+  "health": "GOOD",
+  "pnl": 0,
+  "logs": [
+    {
+      "time": "2026-02-07T12:30:38.609Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN"
+    },
+    {
+      "time": "2026-02-07T12:30:38.650Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-07T12:30:38.691Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN"
+    },
+    {
+      "time": "2026-02-07T12:30:38.730Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-07T12:30:38.761Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: JuprjznTrTSp2UFa3ZBUFgwdAmtZCq4MQCwysN55USD"
+    },
+    {
+      "time": "2026-02-07T12:30:38.794Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU"
+    },
+    {
+      "time": "2026-02-07T12:30:38.835Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
+    },
+    {
+      "time": "2026-02-07T12:30:38.870Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
+    },
+    {
+      "time": "2026-02-07T12:30:38.903Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-07T12:30:38.938Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v"
+    },
+    {
+      "time": "2026-02-07T12:31:05.842Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN"
+    },
+    {
+      "time": "2026-02-07T12:31:05.882Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-07T12:31:05.920Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN"
+    },
+    {
+      "time": "2026-02-07T12:31:05.957Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-07T12:31:05.998Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: JuprjznTrTSp2UFa3ZBUFgwdAmtZCq4MQCwysN55USD"
+    },
+    {
+      "time": "2026-02-07T12:31:06.049Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU"
+    },
+    {
+      "time": "2026-02-07T12:31:06.085Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
+    },
+    {
+      "time": "2026-02-07T12:31:06.122Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
+    },
+    {
+      "time": "2026-02-07T12:31:06.156Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-07T12:31:06.191Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v"
+    },
+    {
+      "time": "2026-02-07T12:31:37.322Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN"
+    },
+    {
+      "time": "2026-02-07T12:31:37.446Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-07T12:31:37.596Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN"
+    },
+    {
+      "time": "2026-02-07T12:31:37.702Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-07T12:31:37.771Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: JuprjznTrTSp2UFa3ZBUFgwdAmtZCq4MQCwysN55USD"
+    },
+    {
+      "time": "2026-02-07T12:31:37.833Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU"
+    },
+    {
+      "time": "2026-02-07T12:31:37.921Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
+    },
+    {
+      "time": "2026-02-07T12:31:37.982Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
+    },
+    {
+      "time": "2026-02-07T12:31:38.067Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-07T12:31:38.159Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v"
+    },
+    {
+      "time": "2026-02-07T12:32:09.350Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN"
+    },
+    {
+      "time": "2026-02-07T12:32:09.434Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-07T12:32:09.540Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN"
+    },
+    {
+      "time": "2026-02-07T12:32:09.724Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-07T12:32:09.820Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: JuprjznTrTSp2UFa3ZBUFgwdAmtZCq4MQCwysN55USD"
+    },
+    {
+      "time": "2026-02-07T12:32:10.000Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU"
+    },
+    {
+      "time": "2026-02-07T12:32:10.088Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
+    },
+    {
+      "time": "2026-02-07T12:32:10.173Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
+    },
+    {
+      "time": "2026-02-07T12:32:10.303Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-07T12:32:10.425Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v"
+    },
+    {
+      "time": "2026-02-07T12:32:41.817Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN"
+    },
+    {
+      "time": "2026-02-07T12:32:41.896Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-07T12:32:42.002Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN"
+    },
+    {
+      "time": "2026-02-07T12:32:42.068Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-07T12:32:42.150Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: JuprjznTrTSp2UFa3ZBUFgwdAmtZCq4MQCwysN55USD"
+    },
+    {
+      "time": "2026-02-07T12:32:42.240Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU"
+    },
+    {
+      "time": "2026-02-07T12:32:42.318Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
+    },
+    {
+      "time": "2026-02-07T12:32:42.374Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
+    },
+    {
+      "time": "2026-02-07T12:32:42.446Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-07T12:32:42.506Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v"
+    }
+  ],
+  "positions": [],
+  "thought": "Analyzing market microstructure for next opportunity..."
+}

@@ -1,5 +1,6 @@
 const { executeSwap, wallet } = require('./execution/execution_module');
 const { runYieldCycle } = require('./execution/yield_manager');
+const { runGovernanceCycle } = require('./execution/governance');
 const { updateDashboard } = require('./utils/dashboard_updater');
 const { Connection } = require('@solana/web3.js');
 const logger = require('./utils/trade_logger');
@@ -13,12 +14,15 @@ const STATUS_FILE = path.join(__dirname, 'data/status.json');
 // Configuration
 const CONFIG = {
     POLL_INTERVAL: 30000, // 30s
-    DASHBOARD_INTERVAL: 300000 // 5 minutes
+    DASHBOARD_INTERVAL: 300000, // 5 minutes
+    GOVERNANCE_INTERVAL: 21600000 // 6 hours
 };
 
 let lastDashboardUpdate = 0;
+let lastGovernanceCheck = 0;
 
 function updateHeartbeat() {
+// ... existing heartbeat code ...
     try {
         const status = {
             status: "RUNNING",
@@ -39,17 +43,25 @@ function updateHeartbeat() {
 async function main() {
     console.log(`🤖 Cybersolybot v2.0 - SWAP ENGINE ACTIVATED`);
     console.log(`💰 Wallet: ${wallet.publicKey.toBase58()}`);
-    console.log(`🎯 Strategy: Meteora Yield Farming`);
+    console.log(`🎯 Strategy: Meteora Yield Farming + Neural Governance`);
 
     while (true) {
         try {
             await runYieldCycle();
             updateHeartbeat();
 
+            const now = Date.now();
+
             // Auto-Dashboard Update (Every 5m)
-            if (Date.now() - lastDashboardUpdate > CONFIG.DASHBOARD_INTERVAL) {
+            if (now - lastDashboardUpdate > CONFIG.DASHBOARD_INTERVAL) {
                 await updateDashboard();
-                lastDashboardUpdate = Date.now();
+                lastDashboardUpdate = now;
+            }
+
+            // Neural Governance (Every 6h)
+            if (now - lastGovernanceCheck > CONFIG.GOVERNANCE_INTERVAL) {
+                await runGovernanceCycle();
+                lastGovernanceCheck = now;
             }
 
         } catch (err) {

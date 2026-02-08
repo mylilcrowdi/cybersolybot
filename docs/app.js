@@ -31,11 +31,19 @@ function updateUI(data) {
             div.className = 'log-entry';
             
             let colorClass = 'info';
-            if (log.type === 'SCAN') colorClass = 'trade'; // Greenish
-            if (log.type === 'SNIPE' || log.type === 'TRADE') colorClass = 'warn'; // Orange/Red
-            if (log.type === 'YIELD') colorClass = 'neon-blue';
+            if (log.type === 'SCAN') colorClass = 'trade'; 
+            if (log.type === 'SNIPE' || log.type === 'TRADE') colorClass = 'warn';
+            if (log.type === 'YIELD_SCAN') colorClass = 'neon-blue';
 
-            div.innerHTML = `<span class="time">[${log.time}]</span> <span class="${colorClass}">${log.type}</span> ${log.message}`;
+            // Agent Tag (New!)
+            const agent = log.agent || 'SYSTEM';
+            
+            div.innerHTML = `
+                <span class="time">[${log.time}]</span> 
+                <span class="agent-tag agent-${agent}">${agent}</span>
+                <span class="${colorClass}">${log.type}</span> 
+                ${log.message}
+            `;
             feed.appendChild(div);
         });
     } else {

@@ -195,6 +195,8 @@ header {
     font-size: 0.9rem;
     overflow-y: auto;
     font-family: var(--font-mono);
+    scrollbar-width: thin;
+    scrollbar-color: #b026ff #1a1a1a;
 }
 
 .log-entry {
@@ -202,7 +204,24 @@ header {
     line-height: 1.4;
     border-bottom: 1px solid rgba(255,255,255,0.02);
     padding-bottom: 2px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
 }
+
+.agent-tag {
+    font-weight: bold;
+    min-width: 70px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 0 4px;
+    font-size: 0.8rem;
+}
+
+.agent-FARMER { color: #000; background: #00ff9d; }
+.agent-HUNTER { color: #000; background: #ff0055; }
+.agent-SENTINEL { color: #fff; background: #333; }
+.agent-SYSTEM { color: #aaa; }
 
 .log-entry .time { color: var(--text-dim); margin-right: 8px; }
 .log-entry .sys { color: var(--neon-blue); font-weight: bold; margin-right: 8px; }

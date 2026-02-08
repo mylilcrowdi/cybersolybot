@@ -187,13 +187,15 @@ header {
     overflow: hidden;
 }
 
+/* SCROLLABLE NEURAL STREAM FIX */
 .terminal-window {
     flex: 1;
     background: rgba(0,0,0,0.3);
     border: 1px solid rgba(255,255,255,0.05);
     padding: 1rem;
     font-size: 0.9rem;
-    overflow-y: auto;
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 100%; /* Constrain height to parent */
     font-family: var(--font-mono);
     scrollbar-width: thin;
     scrollbar-color: #b026ff #1a1a1a;
@@ -223,11 +225,12 @@ header {
 .agent-SENTINEL { color: #fff; background: #333; }
 .agent-SYSTEM { color: #aaa; }
 
-.log-entry .time { color: var(--text-dim); margin-right: 8px; }
-.log-entry .sys { color: var(--neon-blue); font-weight: bold; margin-right: 8px; }
-.log-entry .warn { color: #ffcc00; font-weight: bold; margin-right: 8px; }
-.log-entry .err { color: #ff3333; font-weight: bold; margin-right: 8px; }
-.log-entry .success { color: var(--neon-green); font-weight: bold; margin-right: 8px; }
+.log-entry .time { color: var(--text-dim); white-space: nowrap; }
+.log-entry .sys { color: var(--neon-blue); font-weight: bold; }
+.log-entry .warn { color: #ffcc00; font-weight: bold; }
+.log-entry .err { color: #ff3333; font-weight: bold; }
+.log-entry .success { color: var(--neon-green); font-weight: bold; }
+.log-entry .trade { color: var(--neon-green); font-weight: bold; }
 
 /* Right Column */
 .positions-card {

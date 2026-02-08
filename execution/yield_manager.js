@@ -6,6 +6,7 @@
 
 const { scanMeteora } = require('../discovery/meteora_scanner');
 const { Connection, Keypair, PublicKey, sendAndConfirmTransaction } = require('@solana/web3.js');
+const { executeSwap } = require('./execution_module'); // Import Swap Fallback
 const DLMM = require('@meteora-ag/dlmm');
 const logger = require('../utils/trade_logger');
 const fs = require('fs');
@@ -114,9 +115,11 @@ async function enterPosition(poolData) {
     // Add randomized delay to avoid rate limit synchronization
     await new Promise(r => setTimeout(r, Math.random() * 2000));
 
+    let dlmmPool; // Define scope here
+
     try {
         const poolKey = new PublicKey(poolData.address);
-        const dlmmPool = await DLMM.create(connection, poolKey);
+        dlmmPool = await DLMM.create(connection, poolKey);
 
         // Calculate Bin Range (Strategy: Spot +/- 5% for high concentration)
         const activeBin = await dlmmPool.getActiveBin();
@@ -140,6 +143,9 @@ async function enterPosition(poolData) {
             { binId: activeBinId, weight: 50 },
             { binId: activeBinId + 1, weight: 25 }
         ];
+
+        // Create new Keypair for position
+        const newPositionKeypair = Keypair.generate();
 
         const newPosition = await dlmmPool.initializePositionAndAddLiquidityByWeight({
             positionPubKey: newPositionKeypair.publicKey,
@@ -167,8 +173,29 @@ async function enterPosition(poolData) {
 
     } catch (err) {
         console.error(`[Yield] ❌ Entry Failed for ${poolData.name}:`, err.message);
-        if (err.logs) {
-            console.error(`[Yield] 📜 Logs:`, err.logs);
+        
+        // FALLBACK: If LP fails, just APE the token (Swap)
+        // This ensures we don't miss the opportunity, even if we can't farm it.
+        if (err.message.includes("No liquidity") || err.message.includes("simulation")) {
+            console.log(`[Yield] 🔄 LP Failed. Fallback -> SWAPPING for exposure.`);
+            
+            // Determine which token to buy (The one that isn't SOL)
+            let targetMint = null;
+            const tokenX = dlmmPool.lbPair.tokenXMint.toBase58();
+            const tokenY = dlmmPool.lbPair.tokenYMint.toBase58();
+            
+            if (tokenX === SOL_MINT) targetMint = tokenY;
+            else if (tokenY === SOL_MINT) targetMint = tokenX;
+            
+            // Check if target is a stablecoin (Don't swap SOL for USDC in "Ape Mode")
+            const isStable = ["EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v", "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"].includes(targetMint);
+            
+            if (targetMint && !isStable) {
+                console.log(`[Yield] 🦍 Ape Mode: Buying ${poolData.name} directly...`);
+                await executeSwap(targetMint, YIELD_CONFIG.ALLOCATION_SOL);
+            } else {
+                console.log(`[Yield] ⏭️ Skipped Swap Fallback (Target is Stable or Unknown).`);
+            }
         }
     }
 }

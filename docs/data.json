@@ -1,258 +1,258 @@
 {
   "heartbeat": "RUNNING",
-  "uptime": 42076,
+  "uptime": 29462,
   "health": "GOOD",
   "pnl": 0,
   "logs": [
     {
-      "time": "2026-02-08T16:57:20.900Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump"
-    },
-    {
-      "time": "2026-02-08T16:57:21.023Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
-    },
-    {
-      "time": "2026-02-08T16:57:21.100Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
-    },
-    {
-      "time": "2026-02-08T16:57:21.176Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
-    },
-    {
-      "time": "2026-02-08T16:57:21.251Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU"
-    },
-    {
-      "time": "2026-02-08T16:57:21.347Z",
+      "time": "2026-02-08T17:57:37.994Z",
       "level": "INFO",
       "msg": "DISCOVERY_METEORA: Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump"
     },
     {
-      "time": "2026-02-08T16:57:21.446Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v"
-    },
-    {
-      "time": "2026-02-08T16:57:21.523Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
-    },
-    {
-      "time": "2026-02-08T16:57:52.102Z",
-      "level": "INFO",
-      "msg": "Detected signal: xAI ($xAI)"
-    },
-    {
-      "time": "2026-02-08T16:57:54.791Z",
-      "level": "INFO",
-      "msg": "Detected signal: just a bowl ($bowl)"
-    },
-    {
-      "time": "2026-02-08T16:57:57.475Z",
-      "level": "INFO",
-      "msg": "Detected signal: Pippin ($pippin)"
-    },
-    {
-      "time": "2026-02-08T16:58:07.449Z",
-      "level": "INFO",
-      "msg": "Detected signal: Pippin ($pippin)"
-    },
-    {
-      "time": "2026-02-08T16:58:12.519Z",
-      "level": "INFO",
-      "msg": "Detected signal: Groks Dog ($BOLT )"
-    },
-    {
-      "time": "2026-02-08T16:58:15.771Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
-    },
-    {
-      "time": "2026-02-08T16:58:15.926Z",
+      "time": "2026-02-08T17:57:38.112Z",
       "level": "INFO",
       "msg": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
     },
     {
-      "time": "2026-02-08T16:58:16.007Z",
+      "time": "2026-02-08T17:57:38.253Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
+    },
+    {
+      "time": "2026-02-08T17:57:39.095Z",
+      "level": "INFO",
+      "msg": "Detected signal: Coral Protocol ($CORAL)"
+    },
+    {
+      "time": "2026-02-08T17:57:44.070Z",
+      "level": "INFO",
+      "msg": "Detected signal: woman ($woman)"
+    },
+    {
+      "time": "2026-02-08T17:57:46.684Z",
+      "level": "INFO",
+      "msg": "Detected signal: Coral Protocol ($CORAL)"
+    },
+    {
+      "time": "2026-02-08T17:57:56.343Z",
+      "level": "INFO",
+      "msg": "Detected signal: CASH ($CASH)"
+    },
+    {
+      "time": "2026-02-08T17:57:58.921Z",
+      "level": "INFO",
+      "msg": "Detected signal: TokenTime ($TT)"
+    },
+    {
+      "time": "2026-02-08T17:58:01.689Z",
+      "level": "INFO",
+      "msg": "Detected signal: swarms ($swarms)"
+    },
+    {
+      "time": "2026-02-08T17:58:12.030Z",
+      "level": "INFO",
+      "msg": "Detected signal: GOKU ($GOKU)"
+    },
+    {
+      "time": "2026-02-08T17:58:14.800Z",
+      "level": "INFO",
+      "msg": "Detected signal: Pippin ($pippin)"
+    },
+    {
+      "time": "2026-02-08T17:58:22.772Z",
+      "level": "INFO",
+      "msg": "Detected signal: SpaceX ($SpaceX)"
+    },
+    {
+      "time": "2026-02-08T17:58:25.290Z",
+      "level": "INFO",
+      "msg": "Detected signal: Rei Ayanami ($REI)"
+    },
+    {
+      "time": "2026-02-08T17:58:28.878Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-08T17:58:29.059Z",
       "level": "INFO",
       "msg": "DISCOVERY_METEORA: 8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump"
     },
     {
-      "time": "2026-02-08T16:58:16.151Z",
+      "time": "2026-02-08T17:58:29.171Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
+    },
+    {
+      "time": "2026-02-08T17:58:29.289Z",
       "level": "INFO",
       "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
     },
     {
-      "time": "2026-02-08T16:58:16.241Z",
+      "time": "2026-02-08T17:58:29.399Z",
       "level": "INFO",
       "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
     },
     {
-      "time": "2026-02-08T16:58:16.356Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
-    },
-    {
-      "time": "2026-02-08T16:58:16.466Z",
+      "time": "2026-02-08T17:58:29.487Z",
       "level": "INFO",
       "msg": "DISCOVERY_METEORA: 2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU"
     },
     {
-      "time": "2026-02-08T16:58:16.638Z",
+      "time": "2026-02-08T17:58:29.575Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-08T17:58:29.668Z",
       "level": "INFO",
       "msg": "DISCOVERY_METEORA: Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump"
     },
     {
-      "time": "2026-02-08T16:58:16.789Z",
+      "time": "2026-02-08T17:58:29.790Z",
       "level": "INFO",
-      "msg": "DISCOVERY_METEORA: jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v"
+      "msg": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
     },
     {
-      "time": "2026-02-08T16:58:16.873Z",
+      "time": "2026-02-08T17:58:29.902Z",
       "level": "INFO",
       "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
     },
     {
-      "time": "2026-02-08T16:58:17.247Z",
+      "time": "2026-02-08T17:58:30.226Z",
+      "level": "INFO",
+      "msg": "Detected signal: World Liberty Financial USD ($USD1)"
+    },
+    {
+      "time": "2026-02-08T17:58:33.328Z",
+      "level": "INFO",
+      "msg": "Detected signal: DIDN'T ($DIDNT)"
+    },
+    {
+      "time": "2026-02-08T17:58:38.874Z",
+      "level": "INFO",
+      "msg": "Detected signal: The Spirit of Whale ($SpiriWhale)"
+    },
+    {
+      "time": "2026-02-08T17:58:51.441Z",
+      "level": "INFO",
+      "msg": "Detected signal: Collaterize ($$COLLAT)"
+    },
+    {
+      "time": "2026-02-08T17:59:00.598Z",
+      "level": "INFO",
+      "msg": "Detected signal: CASH ($CASH)"
+    },
+    {
+      "time": "2026-02-08T17:59:03.354Z",
+      "level": "INFO",
+      "msg": "Detected signal: PUMP MY CLAW ($PMC)"
+    },
+    {
+      "time": "2026-02-08T17:59:08.188Z",
+      "level": "INFO",
+      "msg": "Detected signal: DEEPSEEK FIRST NAME ($JANUS)"
+    },
+    {
+      "time": "2026-02-08T17:59:13.410Z",
+      "level": "INFO",
+      "msg": "Detected signal: Pippin ($pippin)"
+    },
+    {
+      "time": "2026-02-08T17:59:18.327Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-08T17:59:18.501Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump"
+    },
+    {
+      "time": "2026-02-08T17:59:18.665Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
+    },
+    {
+      "time": "2026-02-08T17:59:18.755Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
+    },
+    {
+      "time": "2026-02-08T17:59:18.843Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-08T17:59:18.931Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU"
+    },
+    {
+      "time": "2026-02-08T17:59:19.059Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-08T17:59:19.203Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump"
+    },
+    {
+      "time": "2026-02-08T17:59:19.318Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
+    },
+    {
+      "time": "2026-02-08T17:59:19.401Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
+    },
+    {
+      "time": "2026-02-08T17:59:20.114Z",
+      "level": "INFO",
+      "msg": "Detected signal: xAI ($xAI)"
+    },
+    {
+      "time": "2026-02-08T17:59:30.494Z",
+      "level": "INFO",
+      "msg": "Detected signal: Tron ($TRX)"
+    },
+    {
+      "time": "2026-02-08T17:59:38.206Z",
+      "level": "INFO",
+      "msg": "Detected signal: Alchemist AI ($ALCH)"
+    },
+    {
+      "time": "2026-02-08T17:59:41.073Z",
+      "level": "INFO",
+      "msg": "Detected signal: SantaSol ($SSOL)"
+    },
+    {
+      "time": "2026-02-08T17:59:43.710Z",
+      "level": "INFO",
+      "msg": "Detected signal: A Real Asscoin ($ASSCOIN)"
+    },
+    {
+      "time": "2026-02-08T17:59:46.114Z",
       "level": "INFO",
       "msg": "Detected signal: AI Rig Complex ($arc)"
     },
     {
-      "time": "2026-02-08T16:58:28.186Z",
+      "time": "2026-02-08T17:59:48.630Z",
       "level": "INFO",
-      "msg": "Detected signal: xAI ($xAI)"
+      "msg": "Detected signal: PissCoin ($PISS)"
     },
     {
-      "time": "2026-02-08T16:58:36.293Z",
+      "time": "2026-02-08T17:59:51.640Z",
       "level": "INFO",
-      "msg": "Detected signal: MangaNow ($MGN)"
+      "msg": "Detected signal: DoorDashFairy ($Fairy)"
     },
     {
-      "time": "2026-02-08T16:58:42.374Z",
+      "time": "2026-02-08T18:00:01.085Z",
       "level": "INFO",
-      "msg": "Detected signal: SpaceX ($SpaceX)"
-    },
-    {
-      "time": "2026-02-08T16:58:45.171Z",
-      "level": "INFO",
-      "msg": "Detected signal: Sol Maximalist ($MAXIMALIST)"
-    },
-    {
-      "time": "2026-02-08T16:58:52.738Z",
-      "level": "INFO",
-      "msg": "Detected signal: Wen ($WEN)"
-    },
-    {
-      "time": "2026-02-08T16:58:55.184Z",
-      "level": "INFO",
-      "msg": "Detected signal: Pippin ($pippin)"
-    },
-    {
-      "time": "2026-02-08T16:58:58.307Z",
-      "level": "INFO",
-      "msg": "Detected signal: POPCAT ($POPCAT)"
-    },
-    {
-      "time": "2026-02-08T16:59:04.561Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
-    },
-    {
-      "time": "2026-02-08T16:59:04.724Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
-    },
-    {
-      "time": "2026-02-08T16:59:04.824Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump"
-    },
-    {
-      "time": "2026-02-08T16:59:04.963Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
-    },
-    {
-      "time": "2026-02-08T16:59:05.061Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
-    },
-    {
-      "time": "2026-02-08T16:59:05.139Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
-    },
-    {
-      "time": "2026-02-08T16:59:05.215Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU"
-    },
-    {
-      "time": "2026-02-08T16:59:05.299Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump"
-    },
-    {
-      "time": "2026-02-08T16:59:05.409Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v"
-    },
-    {
-      "time": "2026-02-08T16:59:05.526Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
-    },
-    {
-      "time": "2026-02-08T16:59:07.928Z",
-      "level": "INFO",
-      "msg": "Detected signal: AGENDA 47 ($A47)"
-    },
-    {
-      "time": "2026-02-08T16:59:10.443Z",
-      "level": "INFO",
-      "msg": "Detected signal: AGENDA 47 ($A47)"
-    },
-    {
-      "time": "2026-02-08T16:59:20.318Z",
-      "level": "INFO",
-      "msg": "Detected signal: SpaceX ($SpaceX)"
-    },
-    {
-      "time": "2026-02-08T16:59:29.224Z",
-      "level": "INFO",
-      "msg": "Detected signal: xAI ($xAI)"
-    },
-    {
-      "time": "2026-02-08T16:59:31.839Z",
-      "level": "INFO",
-      "msg": "Detected signal: AGENDA 47 ($A47)"
-    },
-    {
-      "time": "2026-02-08T16:59:34.517Z",
-      "level": "INFO",
-      "msg": "Detected signal: Whats a Father? ($FATHER)"
-    },
-    {
-      "time": "2026-02-08T16:59:39.444Z",
-      "level": "INFO",
-      "msg": "Detected signal: Pippin ($pippin)"
-    },
-    {
-      "time": "2026-02-08T16:59:42.081Z",
-      "level": "INFO",
-      "msg": "Detected signal: FillmorePHX ($fPHX)"
-    },
-    {
-      "time": "2026-02-08T16:59:56.744Z",
-      "level": "INFO",
-      "msg": "Detected signal: The Female Nature ($Hypergamy)"
+      "msg": "Detected signal: soliloquy_cat REAL NAME ($Slinks)"
     }
   ],
   "positions": [],

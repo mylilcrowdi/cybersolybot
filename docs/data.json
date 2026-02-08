@@ -1,10 +1,260 @@
 {
-  "lastUpdate": 1770554012812,
-  "heartbeat": "GOOD",
-  "uptime": 12.014267785,
-  "pnl": "0.00",
-  "mode": "SENTINEL",
-  "logs": [],
-  "thought": "RUNNING; PID 165926; HEALTH GOOD; lastUpdate 1770553988665 — steady, faultless operation with resilient uptime.",
-  "positions": []
+  "heartbeat": "RUNNING",
+  "uptime": 16703,
+  "health": "GOOD",
+  "pnl": 0,
+  "logs": [
+    {
+      "time": "2026-02-08T12:57:38.341Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-08T12:57:38.378Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
+    },
+    {
+      "time": "2026-02-08T12:57:38.433Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump"
+    },
+    {
+      "time": "2026-02-08T12:57:38.499Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
+    },
+    {
+      "time": "2026-02-08T12:57:38.549Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-08T12:57:38.586Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-08T12:57:38.620Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn"
+    },
+    {
+      "time": "2026-02-08T12:57:38.653Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU"
+    },
+    {
+      "time": "2026-02-08T12:57:38.686Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
+    },
+    {
+      "time": "2026-02-08T12:57:38.720Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v"
+    },
+    {
+      "time": "2026-02-08T12:58:09.821Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-08T12:58:09.863Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
+    },
+    {
+      "time": "2026-02-08T12:58:09.904Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump"
+    },
+    {
+      "time": "2026-02-08T12:58:09.967Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
+    },
+    {
+      "time": "2026-02-08T12:58:10.020Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-08T12:58:10.055Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-08T12:58:10.087Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn"
+    },
+    {
+      "time": "2026-02-08T12:58:10.123Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU"
+    },
+    {
+      "time": "2026-02-08T12:58:10.157Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
+    },
+    {
+      "time": "2026-02-08T12:58:10.193Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v"
+    },
+    {
+      "time": "2026-02-08T12:58:41.284Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-08T12:58:41.316Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
+    },
+    {
+      "time": "2026-02-08T12:58:41.359Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump"
+    },
+    {
+      "time": "2026-02-08T12:58:41.424Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
+    },
+    {
+      "time": "2026-02-08T12:58:41.475Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-08T12:58:41.510Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-08T12:58:41.550Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn"
+    },
+    {
+      "time": "2026-02-08T12:58:41.581Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU"
+    },
+    {
+      "time": "2026-02-08T12:58:41.615Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
+    },
+    {
+      "time": "2026-02-08T12:58:41.658Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v"
+    },
+    {
+      "time": "2026-02-08T12:59:12.840Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-08T12:59:12.873Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
+    },
+    {
+      "time": "2026-02-08T12:59:12.915Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump"
+    },
+    {
+      "time": "2026-02-08T12:59:12.980Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
+    },
+    {
+      "time": "2026-02-08T12:59:13.034Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-08T12:59:13.069Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-08T12:59:13.101Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn"
+    },
+    {
+      "time": "2026-02-08T12:59:13.133Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU"
+    },
+    {
+      "time": "2026-02-08T12:59:13.166Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
+    },
+    {
+      "time": "2026-02-08T12:59:13.198Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v"
+    },
+    {
+      "time": "2026-02-08T12:59:44.383Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-08T12:59:44.417Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
+    },
+    {
+      "time": "2026-02-08T12:59:44.465Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump"
+    },
+    {
+      "time": "2026-02-08T12:59:44.531Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
+    },
+    {
+      "time": "2026-02-08T12:59:44.582Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-08T12:59:44.615Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+    },
+    {
+      "time": "2026-02-08T12:59:44.646Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn"
+    },
+    {
+      "time": "2026-02-08T12:59:44.678Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU"
+    },
+    {
+      "time": "2026-02-08T12:59:44.711Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: 7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
+    },
+    {
+      "time": "2026-02-08T12:59:44.744Z",
+      "level": "INFO",
+      "msg": "DISCOVERY_METEORA: jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v"
+    }
+  ],
+  "positions": [],
+  "thought": "Analyzing market microstructure for next opportunity..."
 }

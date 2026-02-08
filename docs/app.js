@@ -21,8 +21,26 @@ function updateUI(data) {
         document.getElementById('current-thought').textContent = `"${data.thought}"`;
     }
 
-    // Logs (Mock for now, will pull from real logs later)
-    // ...
+    // Logs (Neural Stream)
+    const feed = document.getElementById('log-feed');
+    feed.innerHTML = ''; // Clear current
+    
+    if (data.logs && data.logs.length > 0) {
+        data.logs.forEach(log => {
+            const div = document.createElement('div');
+            div.className = 'log-entry';
+            
+            let colorClass = 'info';
+            if (log.type === 'SCAN') colorClass = 'trade'; // Greenish
+            if (log.type === 'SNIPE' || log.type === 'TRADE') colorClass = 'warn'; // Orange/Red
+            if (log.type === 'YIELD') colorClass = 'neon-blue';
+
+            div.innerHTML = `<span class="time">[${log.time}]</span> <span class="${colorClass}">${log.type}</span> ${log.message}`;
+            feed.appendChild(div);
+        });
+    } else {
+        feed.innerHTML = '<div class="log-entry"><span class="sys">SYSTEM</span> No recent activity recorded.</div>';
+    }
 }
 
 function formatUptime(seconds) {

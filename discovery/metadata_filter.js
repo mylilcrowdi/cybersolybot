@@ -97,14 +97,17 @@ async function checkSocials(mintAddress) {
         if (socials.website) score += 20;
 
         // Auto-fail if no socials at all
-        const isValid = score >= 40;
+        // UPDATED: Relaxed for "Degen Mode" - allow even if score is 0 but has name/symbol
+        // We let the Snipe Manager decide if it wants score >= X.
+        // We just return valid=true if we successfully parsed the metadata.
+        const isValid = true; 
 
         return {
             valid: isValid,
             score: score,
             socials: socials,
-            name: json.name,
-            symbol: json.symbol,
+            name: json.name || "Unknown",
+            symbol: json.symbol || "UNK",
             image: json.image,
             uri: uri
         };

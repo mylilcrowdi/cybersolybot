@@ -19,10 +19,10 @@ const connection = new Connection(RPC_ENDPOINT, { commitment: 'confirmed' });
 
 const YIELD_CONFIG = {
     ENABLED: process.env.AUTO_YIELD === 'true', // Safety switch
-    MIN_UTILIZATION: 1.5,
+    MIN_UTILIZATION: 0.8, // Relaxed from 1.5 to 0.8 to catch early traction
     MAX_POSITIONS: 3,
     ALLOCATION_SOL: 0.05,
-    TAKE_PROFIT_PCT: 10, // +10%
+    TAKE_PROFIT_PCT: 25, // Increased upside target
     STOP_LOSS_PCT: -10   // -10%
 };
 
@@ -57,25 +57,32 @@ async function runYieldCycle() {
         (Date.now() - new Date(h.timestamp).getTime()) < 6 * 60 * 60 * 1000 // Last 6h
     );
 
-    // 3. DECISION
+    // 3. DECISION (Aggressive Mode: Active)
     for (const pool of pools) {
         const isAlreadyOpen = activePositions.find(p => p.address === pool.address);
         
-        if (!isAlreadyOpen && pool.metrics.utilization >= YIELD_CONFIG.MIN_UTILIZATION) {
+        // Relaxed Criteria: Only need moderate utilization OR high volume
+        // Bugfix: property is .volume, not .volume_24h
+        const isHighVol = (pool.metrics.volume || pool.metrics.volume_24h) > 500000; 
+        const isUtilized = pool.metrics.utilization >= YIELD_CONFIG.MIN_UTILIZATION;
+
+        if (!isAlreadyOpen && (isUtilized || isHighVol)) {
             
-            // Intelligence Filter: Must match a recent signal
+            // Intelligence Filter: Must match a recent signal OR have very high volume
             // Check mint_x or mint_y against signals
             const matchingSignal = recentSignals.find(s => s.mint === pool.mint_x || s.mint === pool.mint_y);
             
             if (matchingSignal) {
                 console.log(`[Yield] 🧠 Validated by Brain: ${pool.name} (Score: ${matchingSignal.score})`);
-                
                 if (activePositions.length < YIELD_CONFIG.MAX_POSITIONS) {
                     await enterPosition(pool);
                 }
-            } else {
-                // Log skipped opportunities occasionally?
-                // console.log(`[Yield] 🙅 Skipped ${pool.name} (No signal from Brain)`);
+            } else if (isHighVol) {
+                // MOMENTUM OVERRIDE: If volume is massive, ape in small.
+                console.log(`[Yield] 🌊 MOMENTUM OVERRIDE: ${pool.name} has massive volume ($${((pool.metrics.volume || 0)/1000000).toFixed(1)}M). Entering.`);
+                if (activePositions.length < YIELD_CONFIG.MAX_POSITIONS) {
+                    await enterPosition(pool);
+                }
             }
         }
     }
@@ -104,6 +111,9 @@ async function enterPosition(poolData) {
         return;
     }
 
+    // Add randomized delay to avoid rate limit synchronization
+    await new Promise(r => setTimeout(r, Math.random() * 2000));
+
     try {
         const poolKey = new PublicKey(poolData.address);
         const dlmmPool = await DLMM.create(connection, poolKey);
@@ -123,21 +133,26 @@ async function enterPosition(poolData) {
         const totalXAmount = isXSOL ? new BN(YIELD_CONFIG.ALLOCATION_SOL * 1e9) : new BN(0);
         const totalYAmount = isYSOL ? new BN(YIELD_CONFIG.ALLOCATION_SOL * 1e9) : new BN(0);
 
-        // Create Position Transaction
-        // Strategy: SpotBalanced (Spread liquidity around active bin)
+        // Strategy: Volatility Spread (Active +/- 1 bin) to ensure acceptance
+        const activeBinId = activeBin.binId;
+        const xYAmountDistribution = [
+            { binId: activeBinId - 1, weight: 25 },
+            { binId: activeBinId, weight: 50 },
+            { binId: activeBinId + 1, weight: 25 }
+        ];
+
         const newPosition = await dlmmPool.initializePositionAndAddLiquidityByWeight({
-            positionPubKey: null, // New position
+            positionPubKey: newPositionKeypair.publicKey,
             lbPairPubKey: poolKey,
             user: wallet.publicKey,
             totalXAmount,
             totalYAmount,
-            xYAmountDistribution: [
-                { binId: activeBin.binId, weight: 100 } // Super concentrated on active (simple start)
-            ]
+            xYAmountDistribution
         });
 
         console.log(`[Yield] ✍️ Sending TX...`);
-        const txHash = await sendAndConfirmTransaction(connection, newPosition.transaction, [wallet]);
+        // We must sign with BOTH the wallet (payer) and the new position keypair (account initialization)
+        const txHash = await sendAndConfirmTransaction(connection, newPosition.transaction, [wallet, newPositionKeypair]);
         console.log(`[Yield] ✅ Position Opened! TX: ${txHash}`);
 
         activePositions.push({
@@ -151,7 +166,10 @@ async function enterPosition(poolData) {
         });
 
     } catch (err) {
-        console.error(`[Yield] ❌ Entry Failed:`, err.message);
+        console.error(`[Yield] ❌ Entry Failed for ${poolData.name}:`, err.message);
+        if (err.logs) {
+            console.error(`[Yield] 📜 Logs:`, err.logs);
+        }
     }
 }
 
@@ -283,4 +301,4 @@ async function exitPosition(pos) {
     }
 }
 
-module.exports = { runYieldCycle };
+module.exports = { runYieldCycle, enterPosition, exitPosition };

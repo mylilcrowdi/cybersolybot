@@ -19,6 +19,12 @@ const connection = new Connection(RPC_ENDPOINT, {
 let isBusy = false;
 let onTargetFoundCallback = null;
 
+// Circuit Breaker State
+let consecutive429s = 0;
+const BASE_BACKOFF_MS = 5000; // Start with 5s
+const MAX_BACKOFF_MS = 300000; // Max 5 minutes
+const NORMAL_COOLDOWN_MS = 2000;
+
 /**
  * The Sentinel: Single-threaded processing to protect RPC limits.
  * Drops all events while "busy" processing one.
@@ -56,17 +62,37 @@ async function attemptProcess(signature, source) {
     if (isBusy) return;
     isBusy = true;
 
+    let cooldown = NORMAL_COOLDOWN_MS;
+
     try {
         console.log(`[Sentinel] 🔒 Locked. Processing ${source} signal...`);
         await processTransaction(signature, source);
+        
+        // Success! Reset circuit breaker
+        if (consecutive429s > 0) {
+            console.log(`[Sentinel] 🟢 RPC Health Restored. Resumed normal operation.`);
+            consecutive429s = 0;
+        }
+
     } catch (err) {
-        console.error(`[Sentinel] Error:`, err.message);
+        if (err.message && (err.message.includes('429') || err.message.includes('Too Many Requests'))) {
+            consecutive429s++;
+            // Exponential Backoff: 5s, 10s, 20s, 40s... up to 5m
+            cooldown = Math.min(BASE_BACKOFF_MS * Math.pow(2, consecutive429s - 1), MAX_BACKOFF_MS);
+            
+            console.warn(`[Sentinel] 🔴 RPC 429 DETECTED (Strike ${consecutive429s}). Circuit broken.`);
+            console.warn(`[Sentinel] ⏳ Sleeping for ${cooldown / 1000}s to allow tier recovery.`);
+        } else {
+            console.error(`[Sentinel] Error:`, err.message);
+        }
     } finally {
-        // Cool down: Allow RPC to recover tokens before unlocking
-        // 2000ms cooldown = Max ~0.5 requests/sec average
+        // Unlock only after the calculated cooldown (normal or backoff)
         setTimeout(() => {
             isBusy = false;
-        }, 2000);
+            if (consecutive429s > 0) {
+                 console.log(`[Sentinel] 🟡 Circuit attempting to close. Peeking for signals...`);
+            }
+        }, cooldown);
     }
 }
 
@@ -119,9 +145,12 @@ async function processTransaction(signature, source) {
             }
         }
     } catch (err) {
-        if (err.message && err.message.includes('429')) {
-            console.warn(`[Sentinel] ⚠️ RPC 429 in transaction fetch. Backing off.`);
+        // Re-throw 429s so attemptProcess handles the backoff
+        if (err.message && (err.message.includes('429') || err.message.includes('Too Many Requests'))) {
+            throw err;
         }
+        // Log other errors but don't crash
+        console.error(`[Process] Error: ${err.message}`);
     }
 }
 

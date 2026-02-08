@@ -1,5 +1,6 @@
 const { executeSwap, wallet } = require('./execution/execution_module');
 const { runYieldCycle } = require('./execution/yield_manager');
+const { updateDashboard } = require('./utils/dashboard_updater');
 const { Connection } = require('@solana/web3.js');
 const logger = require('./utils/trade_logger');
 const fs = require('fs');
@@ -11,8 +12,11 @@ const STATUS_FILE = path.join(__dirname, 'data/status.json');
 
 // Configuration
 const CONFIG = {
-    POLL_INTERVAL: 30000 // 30s
+    POLL_INTERVAL: 30000, // 30s
+    DASHBOARD_INTERVAL: 300000 // 5 minutes
 };
+
+let lastDashboardUpdate = 0;
 
 function updateHeartbeat() {
     try {
@@ -41,6 +45,13 @@ async function main() {
         try {
             await runYieldCycle();
             updateHeartbeat();
+
+            // Auto-Dashboard Update (Every 5m)
+            if (Date.now() - lastDashboardUpdate > CONFIG.DASHBOARD_INTERVAL) {
+                await updateDashboard();
+                lastDashboardUpdate = Date.now();
+            }
+
         } catch (err) {
             console.error("❌ Loop Error:", err.message);
         }

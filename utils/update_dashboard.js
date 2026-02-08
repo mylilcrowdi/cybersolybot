@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { exec } = require('child_process');
 
 const STATUS_FILE = path.join(__dirname, '../data/status.json');
 const HISTORY_FILE = path.join(__dirname, '../data/history.json');
@@ -52,16 +53,31 @@ async function updateDashboard() {
             health: status.health || "UNKNOWN",
             pnl: pnl,
             logs: getRecentLogs(history),
-            positions: status.positions || [], // This needs yield_manager to export position details to status.json
+            positions: status.positions || [], 
             thought: "Analyzing market microstructure for next opportunity..."
         };
 
         fs.writeFileSync(PUBLIC_FILE, JSON.stringify(dashboardData, null, 2));
-        console.log("[Dashboard] Updated public/data.json");
+        console.log("[Dashboard] Updated docs/data.json");
+        
+        // Auto-Push to GitHub
+        commitAndPush();
 
     } catch (err) {
         console.error("[Dashboard] Update failed:", err);
     }
+}
+
+function commitAndPush() {
+    const cmd = `cd ${path.join(__dirname, '..')} && git add docs/data.json && git commit -m "chore: Update dashboard stats" && git push`;
+    
+    exec(cmd, (error, stdout, stderr) => {
+        if (error) {
+            console.error(`[Dashboard] Git Push Error: ${error.message}`);
+            return;
+        }
+        console.log(`[Dashboard] Git Push Success: ${stdout}`);
+    });
 }
 
 updateDashboard();

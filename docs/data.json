@@ -1,260 +1,611 @@
 {
-  "heartbeat": "RUNNING",
-  "uptime": 16703,
-  "health": "GOOD",
-  "pnl": 0,
+  "lastUpdate": 1770558824513,
+  "heartbeat": "GOOD",
+  "uptime": 350.186327646,
+  "pnl": "0.00",
+  "mode": "DUAL_CORE",
   "logs": [
     {
-      "time": "2026-02-08T12:57:38.341Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+      "time": "13:53:30",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected PissCoin ($PISS). Score: 0/100."
     },
     {
-      "time": "2026-02-08T12:57:38.378Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
+      "time": "13:53:22",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found JupSOL-INF pool. Util: 6.83x"
     },
     {
-      "time": "2026-02-08T12:57:38.433Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump"
+      "time": "13:53:22",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found ETH-SOL pool. Util: 14.35x"
     },
     {
-      "time": "2026-02-08T12:57:38.499Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
+      "time": "13:53:22",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-SOL pool. Util: 30.30x"
     },
     {
-      "time": "2026-02-08T12:57:38.549Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+      "time": "13:53:22",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PUMP-USDC pool. Util: 4.52x"
     },
     {
-      "time": "2026-02-08T12:57:38.586Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+      "time": "13:53:22",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 19.52x"
     },
     {
-      "time": "2026-02-08T12:57:38.620Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn"
+      "time": "13:53:22",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 4.91x"
     },
     {
-      "time": "2026-02-08T12:57:38.653Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU"
+      "time": "13:53:22",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 2.02x"
     },
     {
-      "time": "2026-02-08T12:57:38.686Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
+      "time": "13:53:22",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PENGUIN-SOL pool. Util: 7.60x"
     },
     {
-      "time": "2026-02-08T12:57:38.720Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v"
+      "time": "13:53:22",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 9.86x"
     },
     {
-      "time": "2026-02-08T12:58:09.821Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+      "time": "13:53:21",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 5.40x"
     },
     {
-      "time": "2026-02-08T12:58:09.863Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
+      "time": "13:53:05",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected Fartcoin  ($Fartcoin ). Score: 40/100."
     },
     {
-      "time": "2026-02-08T12:58:09.904Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump"
+      "time": "13:52:53",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected AI Rig Complex ($arc). Score: 100/100."
     },
     {
-      "time": "2026-02-08T12:58:09.967Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
+      "time": "13:52:51",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected Daydreams ($dreams). Score: 60/100."
     },
     {
-      "time": "2026-02-08T12:58:10.020Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+      "time": "13:52:41",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected The Trump Fish ($Coleslaw). Score: 60/100."
     },
     {
-      "time": "2026-02-08T12:58:10.055Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+      "time": "13:52:39",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected Orlando Asian Mogger ($MOGGER). Score: 60/100."
     },
     {
-      "time": "2026-02-08T12:58:10.087Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn"
+      "time": "13:52:35",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found JupSOL-INF pool. Util: 6.83x"
     },
     {
-      "time": "2026-02-08T12:58:10.123Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU"
+      "time": "13:52:35",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found ETH-SOL pool. Util: 14.35x"
     },
     {
-      "time": "2026-02-08T12:58:10.157Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
+      "time": "13:52:35",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-SOL pool. Util: 30.35x"
     },
     {
-      "time": "2026-02-08T12:58:10.193Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v"
+      "time": "13:52:35",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PUMP-USDC pool. Util: 4.51x"
     },
     {
-      "time": "2026-02-08T12:58:41.284Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+      "time": "13:52:35",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 19.53x"
     },
     {
-      "time": "2026-02-08T12:58:41.316Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
+      "time": "13:52:35",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 4.91x"
     },
     {
-      "time": "2026-02-08T12:58:41.359Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump"
+      "time": "13:52:35",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 2.02x"
     },
     {
-      "time": "2026-02-08T12:58:41.424Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
+      "time": "13:52:35",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PENGUIN-SOL pool. Util: 7.61x"
     },
     {
-      "time": "2026-02-08T12:58:41.475Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+      "time": "13:52:35",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 9.86x"
     },
     {
-      "time": "2026-02-08T12:58:41.510Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+      "time": "13:52:35",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 5.40x"
     },
     {
-      "time": "2026-02-08T12:58:41.550Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn"
+      "time": "13:52:31",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected Sad kitties ($SAKI). Score: 100/100."
     },
     {
-      "time": "2026-02-08T12:58:41.581Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU"
+      "time": "13:52:19",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected Yotsuba Koiwai / 404 Girl ($Yotsuba). Score: 60/100."
     },
     {
-      "time": "2026-02-08T12:58:41.615Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
+      "time": "13:52:16",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected SpaceX ($SpaceX). Score: 0/100."
     },
     {
-      "time": "2026-02-08T12:58:41.658Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v"
+      "time": "13:52:02",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected Racist Chud ($Emiru). Score: 60/100."
     },
     {
-      "time": "2026-02-08T12:59:12.840Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+      "time": "13:51:54",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found JupSOL-INF pool. Util: 6.83x"
     },
     {
-      "time": "2026-02-08T12:59:12.873Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
+      "time": "13:51:54",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found ETH-SOL pool. Util: 14.35x"
     },
     {
-      "time": "2026-02-08T12:59:12.915Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump"
+      "time": "13:51:54",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-SOL pool. Util: 30.22x"
     },
     {
-      "time": "2026-02-08T12:59:12.980Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
+      "time": "13:51:54",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PUMP-USDC pool. Util: 4.50x"
     },
     {
-      "time": "2026-02-08T12:59:13.034Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+      "time": "13:51:54",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 19.53x"
     },
     {
-      "time": "2026-02-08T12:59:13.069Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+      "time": "13:51:54",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 4.92x"
     },
     {
-      "time": "2026-02-08T12:59:13.101Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn"
+      "time": "13:51:54",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 2.02x"
     },
     {
-      "time": "2026-02-08T12:59:13.133Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU"
+      "time": "13:51:54",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PENGUIN-SOL pool. Util: 7.60x"
     },
     {
-      "time": "2026-02-08T12:59:13.166Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
+      "time": "13:51:53",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 9.86x"
     },
     {
-      "time": "2026-02-08T12:59:13.198Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v"
+      "time": "13:51:53",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 5.41x"
     },
     {
-      "time": "2026-02-08T12:59:44.383Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+      "time": "13:51:52",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected Homelyfan ($Homelyfan). Score: 60/100."
     },
     {
-      "time": "2026-02-08T12:59:44.417Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
+      "time": "13:51:43",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected hispanic pepe ($CONCHO). Score: 0/100."
     },
     {
-      "time": "2026-02-08T12:59:44.465Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump"
+      "time": "13:51:35",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected Übermensch ($Ü). Score: 60/100."
     },
     {
-      "time": "2026-02-08T12:59:44.531Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
+      "time": "13:51:29",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected PissCoin ($PISS). Score: 0/100."
     },
     {
-      "time": "2026-02-08T12:59:44.582Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+      "time": "13:51:26",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected SpaceX ($SpaceX). Score: 0/100."
     },
     {
-      "time": "2026-02-08T12:59:44.615Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112"
+      "time": "13:51:14",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected PissCoin ($PISS). Score: 0/100."
     },
     {
-      "time": "2026-02-08T12:59:44.646Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn"
+      "time": "13:51:07",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found JupSOL-INF pool. Util: 6.83x"
     },
     {
-      "time": "2026-02-08T12:59:44.678Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 2k8yZaJjf61unHriuqdmvbxe7CUhEYML5kVJDbcotKjU"
+      "time": "13:51:07",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found ETH-SOL pool. Util: 14.35x"
     },
     {
-      "time": "2026-02-08T12:59:44.711Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: 7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
+      "time": "13:51:07",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-SOL pool. Util: 30.48x"
     },
     {
-      "time": "2026-02-08T12:59:44.744Z",
-      "level": "INFO",
-      "msg": "DISCOVERY_METEORA: jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v"
+      "time": "13:51:07",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PUMP-USDC pool. Util: 4.50x"
+    },
+    {
+      "time": "13:51:07",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 19.54x"
+    },
+    {
+      "time": "13:51:07",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 4.92x"
+    },
+    {
+      "time": "13:51:07",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 2.02x"
+    },
+    {
+      "time": "13:51:06",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected The Crypto Dog ($DOG). Score: 60/100."
+    },
+    {
+      "time": "13:51:06",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 5.41x"
+    },
+    {
+      "time": "13:51:04",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected PissCoin ($PISS). Score: 0/100."
+    },
+    {
+      "time": "13:50:59",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected Racist Chud ($Emiru). Score: 60/100."
+    },
+    {
+      "time": "13:50:45",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected Pippin ($pippin). Score: 0/100."
+    },
+    {
+      "time": "13:50:32",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected Pippin ($pippin). Score: 0/100."
+    },
+    {
+      "time": "13:50:21",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found JupSOL-INF pool. Util: 6.83x"
+    },
+    {
+      "time": "13:50:21",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found ETH-SOL pool. Util: 14.35x"
+    },
+    {
+      "time": "13:50:21",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-SOL pool. Util: 30.84x"
+    },
+    {
+      "time": "13:50:21",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PUMP-USDC pool. Util: 4.50x"
+    },
+    {
+      "time": "13:50:21",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 19.54x"
+    },
+    {
+      "time": "13:50:21",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 4.92x"
+    },
+    {
+      "time": "13:50:21",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 2.02x"
+    },
+    {
+      "time": "13:50:20",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PENGUIN-SOL pool. Util: 7.61x"
+    },
+    {
+      "time": "13:50:20",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 9.85x"
+    },
+    {
+      "time": "13:50:20",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 5.41x"
+    },
+    {
+      "time": "13:50:13",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected PissCoin ($PISS). Score: 0/100."
+    },
+    {
+      "time": "13:50:03",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected GrokBuild ($GROKBUILD). Score: 40/100."
+    },
+    {
+      "time": "13:49:58",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected CoffinDanceCoin ($COFFIN). Score: 40/100."
+    },
+    {
+      "time": "13:49:37",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected ClawdFih ($ClawdFih). Score: 0/100."
+    },
+    {
+      "time": "13:49:34",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found JupSOL-INF pool. Util: 6.83x"
+    },
+    {
+      "time": "13:49:34",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found ETH-SOL pool. Util: 14.35x"
+    },
+    {
+      "time": "13:49:34",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-SOL pool. Util: 30.83x"
+    },
+    {
+      "time": "13:49:34",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PUMP-USDC pool. Util: 4.50x"
+    },
+    {
+      "time": "13:49:33",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 19.55x"
+    },
+    {
+      "time": "13:49:33",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 4.92x"
+    },
+    {
+      "time": "13:49:33",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 2.02x"
+    },
+    {
+      "time": "13:49:33",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PENGUIN-SOL pool. Util: 7.62x"
+    },
+    {
+      "time": "13:49:33",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 9.85x"
+    },
+    {
+      "time": "13:49:33",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 5.42x"
+    },
+    {
+      "time": "13:49:02",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected PissCoin ($PISS). Score: 0/100."
+    },
+    {
+      "time": "13:48:48",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found JupSOL-INF pool. Util: 6.83x"
+    },
+    {
+      "time": "13:48:48",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found ETH-SOL pool. Util: 14.34x"
+    },
+    {
+      "time": "13:48:48",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-SOL pool. Util: 29.94x"
+    },
+    {
+      "time": "13:48:48",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PUMP-USDC pool. Util: 4.50x"
+    },
+    {
+      "time": "13:48:48",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 19.54x"
+    },
+    {
+      "time": "13:48:48",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 4.92x"
+    },
+    {
+      "time": "13:48:48",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 2.02x"
+    },
+    {
+      "time": "13:48:48",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PENGUIN-SOL pool. Util: 7.62x"
+    },
+    {
+      "time": "13:48:48",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 9.85x"
+    },
+    {
+      "time": "13:48:48",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 5.42x"
+    },
+    {
+      "time": "13:48:33",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected FOOM ($FOOM). Score: 60/100."
+    },
+    {
+      "time": "13:48:15",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected DUMBCAT ($DUMBCAT). Score: 0/100."
+    },
+    {
+      "time": "13:48:08",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected Twerking Dog ($Tod). Score: 60/100."
+    },
+    {
+      "time": "13:48:02",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected jelly-my-jelly ($jellyjelly). Score: 0/100."
+    },
+    {
+      "time": "13:47:58",
+      "agent": "FARMER",
+      "type": "TRADE",
+      "message": "SWAP EXECUTION: 0.05 SOL -> 71mfKdePwyWXtiF1mqu2aaCdMKnKuN664z2vEM2Xpump."
+    },
+    {
+      "time": "13:47:55",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found JupSOL-INF pool. Util: 6.84x"
     }
   ],
-  "positions": [],
-  "thought": "Analyzing market microstructure for next opportunity..."
+  "thought": "RUNNING; PID 168823; health GOOD; lastUpdate 1770558815843 — uptime stable, telemetry nominal, ready for ongoing operations.",
+  "positions": []
 }

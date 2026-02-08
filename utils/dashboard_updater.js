@@ -35,30 +35,36 @@ async function updateDashboard() {
         .map(h => {
             // Format log for UI
             let type = "INFO";
+            let agent = "SYSTEM";
             let msg = `Event detected: ${h.type}`;
 
             if (h.type === "DISCOVERY_SIGNAL") {
                 type = "SCAN";
+                agent = "SENTINEL";
                 msg = `Detected ${h.name} ($${h.symbol}). Score: ${h.score}/100.`;
             } else if (h.type === "DISCOVERY_METEORA") {
-                type = "YIELD";
-                msg = `Found yield pool: ${h.name}. Util: ${h.metrics?.utilization || 'N/A'}x`;
+                type = "YIELD_SCAN";
+                agent = "FARMER";
+                msg = `Found ${h.name} pool. Util: ${h.metrics?.utilization || 'N/A'}x`;
             } else if (h.type === "TRADE_EXECUTION") {
                 type = "TRADE";
-                msg = `EXECUTED SWAP: ${h.inputAmount} SOL -> ${h.token}.`;
+                agent = "FARMER";
+                msg = `SWAP EXECUTION: ${h.inputAmount} SOL -> ${h.token}.`;
             } else if (h.type === "SNIPER_ENTRY") {
                 type = "SNIPE";
-                msg = `SNIPED: ${h.symbol} with ${h.amount} SOL.`;
+                agent = "HUNTER";
+                msg = `FIRED: ${h.symbol} with ${h.amount} SOL.`;
             }
 
             return {
                 time: new Date(h.timestamp).toLocaleTimeString('en-GB'),
+                agent: agent,
                 type: type,
                 message: msg
             };
         })
         .reverse() // Newest first
-        .slice(0, 50); // Limit to 50 items to keep UI snappy
+        .slice(0, 100); // Increased buffer
 
     // 4. Update Dashboard Data JSON
     const dashboardData = {

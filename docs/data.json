@@ -1,10 +1,620 @@
 {
-  "lastUpdate": 1770641831701,
+  "lastUpdate": 1770643936913,
   "heartbeat": "GOOD",
-  "uptime": 713.851838028,
-  "pnl": "0.00",
+  "uptime": 12.872062566,
+  "wallets": {
+    "yield": {
+      "address": "2xQ4KC...HswK",
+      "balance": "0.0312"
+    },
+    "sniper": {
+      "address": "4DkcEp...bPzp",
+      "balance": "0.2000"
+    }
+  },
   "mode": "DUAL_CORE",
-  "logs": [],
-  "thought": "RUNNING, health GOOD, PID 201600, lastUpdate 1770641821258 — system nominal, neon-humming, ready for the next cycle.",
+  "logs": [
+    {
+      "time": "13:32:09",
+      "agent": "FARMER",
+      "type": "TRADE",
+      "message": "SWAP: 0.530339 SOL -> So11111111111111111111111111111111111111112."
+    },
+    {
+      "time": "13:32:09",
+      "agent": "FARMER",
+      "type": "TRADE",
+      "message": "SWAP: 61.156212 SOL -> So11111111111111111111111111111111111111112."
+    },
+    {
+      "time": "13:32:08",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-SOL pool. Util: 260.62x"
+    },
+    {
+      "time": "13:32:08",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-USDC pool. Util: 2812.53x"
+    },
+    {
+      "time": "13:32:08",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 1.47x"
+    },
+    {
+      "time": "13:32:07",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PENGUIN-SOL pool. Util: 6.76x"
+    },
+    {
+      "time": "13:32:07",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-SOL pool. Util: 505.54x"
+    },
+    {
+      "time": "13:32:07",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 5.73x"
+    },
+    {
+      "time": "13:32:07",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 3.51x"
+    },
+    {
+      "time": "13:32:06",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-SOL pool. Util: 597.64x"
+    },
+    {
+      "time": "13:32:06",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 25.24x"
+    },
+    {
+      "time": "13:32:06",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 4.90x"
+    },
+    {
+      "time": "13:31:55",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected Ramadan ($RMDN). Score: 100/100."
+    },
+    {
+      "time": "13:31:52",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected SpaceX ($SpaceX). Score: 0/100."
+    },
+    {
+      "time": "13:31:43",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected xAI ($xAI). Score: 0/100."
+    },
+    {
+      "time": "13:31:38",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-SOL pool. Util: 260.42x"
+    },
+    {
+      "time": "13:31:38",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-USDC pool. Util: 2812.53x"
+    },
+    {
+      "time": "13:31:38",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 1.47x"
+    },
+    {
+      "time": "13:31:38",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PENGUIN-SOL pool. Util: 6.76x"
+    },
+    {
+      "time": "13:31:38",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-SOL pool. Util: 507.33x"
+    },
+    {
+      "time": "13:31:37",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 5.73x"
+    },
+    {
+      "time": "13:31:37",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 3.52x"
+    },
+    {
+      "time": "13:31:37",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-SOL pool. Util: 597.81x"
+    },
+    {
+      "time": "13:31:37",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 25.24x"
+    },
+    {
+      "time": "13:31:36",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 4.90x"
+    },
+    {
+      "time": "13:31:34",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected RIMOR ($RIMOR). Score: 60/100."
+    },
+    {
+      "time": "13:30:50",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-SOL pool. Util: 260.42x"
+    },
+    {
+      "time": "13:30:50",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-USDC pool. Util: 2812.53x"
+    },
+    {
+      "time": "13:30:50",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 1.47x"
+    },
+    {
+      "time": "13:30:50",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PENGUIN-SOL pool. Util: 6.74x"
+    },
+    {
+      "time": "13:30:50",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-SOL pool. Util: 505.42x"
+    },
+    {
+      "time": "13:30:49",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 5.73x"
+    },
+    {
+      "time": "13:30:49",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 3.51x"
+    },
+    {
+      "time": "13:30:49",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-SOL pool. Util: 597.74x"
+    },
+    {
+      "time": "13:30:49",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 25.22x"
+    },
+    {
+      "time": "13:30:49",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 4.89x"
+    },
+    {
+      "time": "13:30:42",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected True Believer ($TRUE). Score: 40/100."
+    },
+    {
+      "time": "13:30:34",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected Pippin ($pippin). Score: 0/100."
+    },
+    {
+      "time": "13:30:31",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected True Believer ($Believer). Score: 40/100."
+    },
+    {
+      "time": "13:30:23",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected RIMOR ($RIMOR). Score: 60/100."
+    },
+    {
+      "time": "13:30:17",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected Epstein  ($EPN). Score: 0/100."
+    },
+    {
+      "time": "13:30:11",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected Band-aid  ($Bandit ). Score: 40/100."
+    },
+    {
+      "time": "13:30:08",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected xAI ($xAI). Score: 0/100."
+    },
+    {
+      "time": "13:30:01",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-SOL pool. Util: 260.24x"
+    },
+    {
+      "time": "13:30:00",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-USDC pool. Util: 2807.20x"
+    },
+    {
+      "time": "13:30:00",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 1.47x"
+    },
+    {
+      "time": "13:30:00",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PENGUIN-SOL pool. Util: 6.73x"
+    },
+    {
+      "time": "13:30:00",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-SOL pool. Util: 505.57x"
+    },
+    {
+      "time": "13:29:59",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 5.71x"
+    },
+    {
+      "time": "13:29:59",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 3.51x"
+    },
+    {
+      "time": "13:29:59",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-SOL pool. Util: 597.78x"
+    },
+    {
+      "time": "13:29:59",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 25.21x"
+    },
+    {
+      "time": "13:29:58",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 4.89x"
+    },
+    {
+      "time": "13:29:43",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected A BIG TOE ($TOE). Score: 0/100."
+    },
+    {
+      "time": "13:29:32",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected Teddy Bear Dildo Sex Machine ($TEDDY). Score: 60/100."
+    },
+    {
+      "time": "13:29:21",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected CASH ($CASH). Score: 0/100."
+    },
+    {
+      "time": "13:29:13",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected Hylo Leveraged SOL ($xSOL). Score: 60/100."
+    },
+    {
+      "time": "13:29:11",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-SOL pool. Util: 260.26x"
+    },
+    {
+      "time": "13:29:11",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-USDC pool. Util: 2801.90x"
+    },
+    {
+      "time": "13:29:11",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 1.47x"
+    },
+    {
+      "time": "13:29:11",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PENGUIN-SOL pool. Util: 6.73x"
+    },
+    {
+      "time": "13:29:10",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-SOL pool. Util: 505.61x"
+    },
+    {
+      "time": "13:29:10",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 5.72x"
+    },
+    {
+      "time": "13:29:10",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 3.51x"
+    },
+    {
+      "time": "13:29:10",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-SOL pool. Util: 596.78x"
+    },
+    {
+      "time": "13:29:10",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 25.21x"
+    },
+    {
+      "time": "13:29:09",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 4.89x"
+    },
+    {
+      "time": "13:29:05",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected GDTC ($GDTC). Score: 100/100."
+    },
+    {
+      "time": "13:28:47",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected Pippin ($pippin). Score: 0/100."
+    },
+    {
+      "time": "13:28:44",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected SwarmNode.ai ($SNAI). Score: 60/100."
+    },
+    {
+      "time": "13:28:42",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected xAI ($xAI). Score: 0/100."
+    },
+    {
+      "time": "13:28:33",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected KoKoK The Roach🪳 ($KOKOK). Score: 100/100."
+    },
+    {
+      "time": "13:28:15",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-SOL pool. Util: 260.56x"
+    },
+    {
+      "time": "13:28:14",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-USDC pool. Util: 2803.85x"
+    },
+    {
+      "time": "13:28:14",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 1.51x"
+    },
+    {
+      "time": "13:28:14",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PENGUIN-SOL pool. Util: 6.76x"
+    },
+    {
+      "time": "13:28:14",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-SOL pool. Util: 468.92x"
+    },
+    {
+      "time": "13:28:14",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 5.72x"
+    },
+    {
+      "time": "13:28:14",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 3.50x"
+    },
+    {
+      "time": "13:28:13",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-SOL pool. Util: 596.94x"
+    },
+    {
+      "time": "13:28:13",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 25.20x"
+    },
+    {
+      "time": "13:28:13",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 4.89x"
+    },
+    {
+      "time": "13:28:07",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected Pippin ($pippin). Score: 0/100."
+    },
+    {
+      "time": "13:27:52",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected Lazy Frog ($FROG). Score: 0/100."
+    },
+    {
+      "time": "13:27:26",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected SpaceX ($SpaceX). Score: 0/100."
+    },
+    {
+      "time": "13:27:11",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-SOL pool. Util: 260.08x"
+    },
+    {
+      "time": "13:27:11",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-USDC pool. Util: 2803.85x"
+    },
+    {
+      "time": "13:27:10",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 1.51x"
+    },
+    {
+      "time": "13:27:10",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PENGUIN-SOL pool. Util: 6.75x"
+    },
+    {
+      "time": "13:27:10",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-SOL pool. Util: 469.28x"
+    },
+    {
+      "time": "13:27:10",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 5.72x"
+    },
+    {
+      "time": "13:27:10",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 3.50x"
+    },
+    {
+      "time": "13:27:09",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found BFS-SOL pool. Util: 597.93x"
+    },
+    {
+      "time": "13:27:09",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 25.19x"
+    },
+    {
+      "time": "13:27:09",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 4.89x"
+    },
+    {
+      "time": "13:27:08",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected PUMP GATOR ($$GTR). Score: 0/100."
+    },
+    {
+      "time": "13:27:00",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected бык ($бык). Score: 60/100."
+    },
+    {
+      "time": "13:26:57",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected SpaceX ($SpaceX). Score: 0/100."
+    },
+    {
+      "time": "13:26:43",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected Pippin ($pippin). Score: 0/100."
+    },
+    {
+      "time": "13:26:28",
+      "agent": "SENTINEL",
+      "type": "SCAN",
+      "message": "Detected бык ($бык). Score: 60/100."
+    }
+  ],
+  "thought": "RUNNING; PID 203079; health GOOD; lastUpdate 1770643929733 — systems nominal in the neon grid.",
   "positions": []
 }

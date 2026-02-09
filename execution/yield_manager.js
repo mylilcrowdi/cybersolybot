@@ -7,6 +7,7 @@
 const { scanMeteora } = require('../discovery/meteora_scanner');
 const { Connection, Keypair, PublicKey, sendAndConfirmTransaction } = require('@solana/web3.js');
 const { executeSwap } = require('./execution_module'); // Import Swap Fallback
+const { getMint } = require('@solana/spl-token'); // Import getMint
 const DLMM = require('@meteora-ag/dlmm');
 const logger = require('../utils/trade_logger');
 const fs = require('fs');
@@ -40,15 +41,44 @@ try {
 }
 
 // State tracking
+const POSITIONS_FILE = path.join(__dirname, '../data/positions.json');
 let activePositions = []; 
+
+function loadPositions() {
+    if (fs.existsSync(POSITIONS_FILE)) {
+        try {
+            activePositions = JSON.parse(fs.readFileSync(POSITIONS_FILE, 'utf8'));
+            console.log(`[Yield] 📂 Loaded ${activePositions.length} active positions from disk.`);
+        } catch (e) {
+            console.error("[Yield] ❌ Failed to load positions:", e.message);
+        }
+    }
+}
+
+function savePositions() {
+    try {
+        fs.writeFileSync(POSITIONS_FILE, JSON.stringify(activePositions, null, 2));
+    } catch (e) {
+        console.error("[Yield] ❌ Failed to save positions:", e.message);
+    }
+}
 
 async function runYieldCycle() {
     if (!wallet) return;
-    console.log("[Yield] 🌾 Starting Yield Management cycle...");
+    loadPositions(); // Ensure sync
+    console.log(`[Yield] 🌾 Starting Yield Management cycle... (Active Positions: ${activePositions.length})`);
     
+    // Check Balance to prevent spamming errors
+    const bal = await connection.getBalance(wallet.publicKey);
+    const minBal = YIELD_CONFIG.ALLOCATION_SOL * 1e9;
+    const canBuy = bal > minBal;
+
     // 1. DISCOVERY
     const pools = await scanMeteora();
-    if (!pools || pools.length === 0) return;
+    if (!pools || pools.length === 0) {
+        await monitorPositions();
+        return;
+    }
 
     // 2. INTELLIGENCE (Cross-Reference with Agent Cyber's Brain)
     // We only want to farm signals that the main agent has flagged as bullish.
@@ -59,33 +89,37 @@ async function runYieldCycle() {
     );
 
     // 3. DECISION (Aggressive Mode: Active)
-    for (const pool of pools) {
-        const isAlreadyOpen = activePositions.find(p => p.address === pool.address);
-        
-        // Relaxed Criteria: Only need moderate utilization OR high volume
-        // Bugfix: property is .volume, not .volume_24h
-        const isHighVol = (pool.metrics.volume || pool.metrics.volume_24h) > 500000; 
-        const isUtilized = pool.metrics.utilization >= YIELD_CONFIG.MIN_UTILIZATION;
+    if (canBuy) {
+        for (const pool of pools) {
+            const isAlreadyOpen = activePositions.find(p => p.address === pool.address);
+            
+            // Relaxed Criteria: Only need moderate utilization OR high volume
+            // Bugfix: property is .volume, not .volume_24h
+            const isHighVol = (pool.metrics.volume || pool.metrics.volume_24h) > 500000; 
+            const isUtilized = pool.metrics.utilization >= YIELD_CONFIG.MIN_UTILIZATION;
 
-        if (!isAlreadyOpen && (isUtilized || isHighVol)) {
-            
-            // Intelligence Filter: Must match a recent signal OR have very high volume
-            // Check mint_x or mint_y against signals
-            const matchingSignal = recentSignals.find(s => s.mint === pool.mint_x || s.mint === pool.mint_y);
-            
-            if (matchingSignal) {
-                console.log(`[Yield] 🧠 Validated by Brain: ${pool.name} (Score: ${matchingSignal.score})`);
-                if (activePositions.length < YIELD_CONFIG.MAX_POSITIONS) {
-                    await enterPosition(pool);
-                }
-            } else if (isHighVol) {
-                // MOMENTUM OVERRIDE: If volume is massive, ape in small.
-                console.log(`[Yield] 🌊 MOMENTUM OVERRIDE: ${pool.name} has massive volume ($${((pool.metrics.volume || 0)/1000000).toFixed(1)}M). Entering.`);
-                if (activePositions.length < YIELD_CONFIG.MAX_POSITIONS) {
-                    await enterPosition(pool);
+            if (!isAlreadyOpen && (isUtilized || isHighVol)) {
+                
+                // Intelligence Filter: Must match a recent signal OR have very high volume
+                // Check mint_x or mint_y against signals
+                const matchingSignal = recentSignals.find(s => s.mint === pool.mint_x || s.mint === pool.mint_y);
+                
+                if (matchingSignal) {
+                    console.log(`[Yield] 🧠 Validated by Brain: ${pool.name} (Score: ${matchingSignal.score})`);
+                    if (activePositions.length < YIELD_CONFIG.MAX_POSITIONS) {
+                        await enterPosition(pool);
+                    }
+                } else if (isHighVol) {
+                    // MOMENTUM OVERRIDE: If volume is massive, ape in small.
+                    console.log(`[Yield] 🌊 MOMENTUM OVERRIDE: ${pool.name} has massive volume ($${((pool.metrics.volume || 0)/1000000).toFixed(1)}M). Entering.`);
+                    if (activePositions.length < YIELD_CONFIG.MAX_POSITIONS) {
+                        await enterPosition(pool);
+                    }
                 }
             }
         }
+    } else {
+        console.log(`[Yield] ⚠️ Low Balance (${(bal/1e9).toFixed(4)} SOL). Skipping buys, only monitoring exits.`);
     }
 
     // 4. MONITOR
@@ -109,6 +143,7 @@ async function enterPosition(poolData) {
             allocation: YIELD_CONFIG.ALLOCATION_SOL,
             status: "simulated"
         });
+        savePositions();
         return;
     }
 
@@ -170,6 +205,7 @@ async function enterPosition(poolData) {
             txHash,
             status: "active"
         });
+        savePositions();
 
     } catch (err) {
         console.error(`[Yield] ❌ Entry Failed for ${poolData.name}:`, err.message);
@@ -266,13 +302,46 @@ async function monitorPositions() {
                 const success = await exitPosition(pos);
                 if (success) {
                     activePositions.splice(i, 1);
+                    savePositions();
                 } else {
                     console.log(`[Yield] ⚠️ Exit failed for ${pos.name}, will retry next cycle.`);
                 }
+            } else if (pos.status === "active_holding") {
+                const success = await sellHolding(pos);
+                if (success) {
+                    activePositions.splice(i, 1);
+                    savePositions();
+                } else {
+                    console.log(`[Yield] ⚠️ Sell failed for ${pos.name}, will retry next cycle.`);
+                }
             } else {
                 activePositions.splice(i, 1); // Remove simulated
+                savePositions();
             }
         }
+    }
+}
+
+async function sellHolding(pos) {
+    console.log(`[Yield] 💸 Selling Untracked Holding: ${pos.name} (${pos.amount})`);
+    try {
+        const mint = new PublicKey(pos.address);
+        // Get decimals
+        const mintInfo = await getMint(connection, mint);
+        const decimals = mintInfo.decimals;
+
+        // Execute Swap: Token -> SOL
+        const tx = await executeSwap(SOL_MINT, pos.amount, pos.address, decimals);
+        
+        if (tx) {
+            console.log(`[Yield] ✅ Sold ${pos.name}. TX: ${tx}`);
+            return true;
+        } else {
+            return false;
+        }
+    } catch (err) {
+        console.error(`[Yield] ❌ Sell Failed: ${err.message}`);
+        return false;
     }
 }
 

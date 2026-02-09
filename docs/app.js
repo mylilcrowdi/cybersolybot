@@ -14,7 +14,22 @@ function updateUI(data) {
     // Vitals
     document.getElementById('heartbeat-val').textContent = data.heartbeat || 'OFFLINE';
     document.getElementById('uptime-val').textContent = formatUptime(data.uptime);
-    document.getElementById('pnl-val').textContent = data.pnl || '0.00';
+    
+    // Wallets (New!)
+    const pnlEl = document.getElementById('pnl-val');
+    if (data.wallets) {
+        const yieldBal = data.wallets.yield?.balance || 0;
+        const sniperBal = data.wallets.sniper?.balance || 0;
+        // Inject richer HTML into the PnL/Performance card
+        pnlEl.innerHTML = `
+            <div style="font-size: 0.5em; line-height: 1.4;">
+                <div style="color: #0aff0a;">YIELD: ${yieldBal} SOL</div>
+                <div style="color: #ff0055;">SNIPER: ${sniperBal} SOL</div>
+            </div>
+        `;
+    } else {
+        pnlEl.textContent = data.pnl || '0.00';
+    }
     
     // Thought / Narrative (New!)
     if (data.thought) {

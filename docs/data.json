@@ -1,39 +1,9 @@
 {
   "heartbeat": "RUNNING",
-  "uptime": 1264267,
+  "uptime": 4863444,
   "health": "GOOD",
   "pnl": 0,
   "logs": [
-    {
-      "time": "2026-02-09T13:51:54.411Z",
-      "level": "INFO",
-      "msg": "Detected signal: World Liberty Financial USD ($USD1)"
-    },
-    {
-      "time": "2026-02-09T13:51:59.566Z",
-      "level": "INFO",
-      "msg": "Detected signal: Comedian ($Ban)"
-    },
-    {
-      "time": "2026-02-09T13:52:20.001Z",
-      "level": "INFO",
-      "msg": "Detected signal: Bonk ($Bonk)"
-    },
-    {
-      "time": "2026-02-09T13:52:31.224Z",
-      "level": "INFO",
-      "msg": "Detected signal: xAI ($xAI)"
-    },
-    {
-      "time": "2026-02-09T13:52:41.126Z",
-      "level": "INFO",
-      "msg": "Detected signal: SpaceX ($SpaceX)"
-    },
-    {
-      "time": "2026-02-09T13:52:52.921Z",
-      "level": "INFO",
-      "msg": "Detected signal: xAI ($xAI)"
-    },
     {
       "time": "2026-02-09T13:53:02.637Z",
       "level": "INFO",
@@ -253,6 +223,36 @@
       "time": "2026-02-09T13:59:39.103Z",
       "level": "INFO",
       "msg": "Detected signal: Alchemist AI ($ALCH)"
+    },
+    {
+      "time": "2026-02-09T14:00:25.899Z",
+      "level": "INFO",
+      "msg": "Detected signal: BOOK OF MEME ($BOME)"
+    },
+    {
+      "time": "2026-02-09T14:00:33.442Z",
+      "level": "INFO",
+      "msg": "Detected signal: Physis ($PHY)"
+    },
+    {
+      "time": "2026-02-09T14:00:38.729Z",
+      "level": "INFO",
+      "msg": "Detected signal: GameStop ($GME)"
+    },
+    {
+      "time": "2026-02-09T14:00:44.614Z",
+      "level": "INFO",
+      "msg": "Detected signal: SpaceX ($SpaceX)"
+    },
+    {
+      "time": "2026-02-09T14:00:47.541Z",
+      "level": "INFO",
+      "msg": "Detected signal: Collabcoin ($COLLAB)"
+    },
+    {
+      "time": "2026-02-09T14:00:52.510Z",
+      "level": "INFO",
+      "msg": "Detected signal: MOON CITY ($MOONCITY)"
     }
   ],
   "positions": [],

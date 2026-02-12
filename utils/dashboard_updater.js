@@ -190,7 +190,6 @@ async function updateDashboard() {
         .reverse()
         .slice(0, 100);
 
-    // 5. Update Dashboard Data JSON
     const dashboardData = {
         lastUpdate: Date.now(),
         heartbeat: status.health || "UNKNOWN",
@@ -200,8 +199,22 @@ async function updateDashboard() {
         mode: "DUAL_CORE",
         logs: recentLogs,
         thought: narrative,
-        chartData: chartData, // NEW
-        positions: [] 
+        chartData: chartData,
+        positions: (() => {
+            try {
+                const posFile = path.join(__dirname, '../data/positions.json');
+                if (fs.existsSync(posFile)) {
+                    const raw = JSON.parse(fs.readFileSync(posFile, 'utf8'));
+                    return raw.map(p => ({
+                        symbol: p.name || p.symbol || 'Unknown',
+                        address: p.address || p.mint || '???',
+                        pnl: p.pnl || 0, // Enriched by yield_manager if running
+                        age: p.entryTime ? ((Date.now() - p.entryTime) / (1000 * 60 * 60)).toFixed(1) + 'h' : '0h'
+                    }));
+                }
+                return [];
+            } catch { return []; }
+        })()
     };
 
     fs.writeFileSync(DASHBOARD_DATA_FILE, JSON.stringify(dashboardData, null, 2));

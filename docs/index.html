@@ -3,115 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AGENT CYBER // LIVE TERMINAL</title>
-    <link rel="stylesheet" href="style.css?v=2.1">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <title>AGENT CYBER // NEO-DASH</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=3.0">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <div class="bg-mesh"></div>
-    <div class="scanlines"></div>
 
-    <header class="glass-panel">
-        <div class="header-content">
-            <div class="logo">
-                <span class="glitch" data-text="CYBERSOLYBOT">CYBERSOLYBOT</span>
-                <span class="version">V2.1.0 [DUAL_CORE]</span>
-            </div>
-            <div class="status-pill online">
-                <span class="dot"></span> SYSTEM ONLINE
-            </div>
-        </div>
-    </header>
+    <div class="main-container">
+        <!-- Sidebar / Navigation (Vertical Pill) -->
+        <nav class="neo-nav">
+            <div class="nav-icon active"><i class="fa-solid fa-microchip"></i></div>
+            <div class="nav-icon"><i class="fa-solid fa-wallet"></i></div>
+            <div class="nav-icon"><i class="fa-solid fa-flask"></i></div>
+            <div class="nav-icon alert"><i class="fa-solid fa-triangle-exclamation"></i></div>
+        </nav>
 
-    <main class="dashboard-grid">
-        <!-- Vitals Column -->
-        <section class="col-left">
-            <div class="card glass-panel vitals-card">
-                <h2>// SYSTEM_VITALS</h2>
-                <div class="metric-grid">
-                    <div class="metric">
-                        <label>HEARTBEAT</label>
-                        <span id="heartbeat-val" class="value neon-green">OK</span>
-                    </div>
-                    <div class="metric">
-                        <label>UPTIME</label>
-                        <span id="uptime-val" class="value">00:00:00</span>
-                    </div>
-                    <div class="metric">
-                        <label>HEALTH</label>
-                        <span id="health-val" class="value neon-blue">OPTIMAL</span>
-                    </div>
-                    <div class="metric">
-                        <label>MODE</label>
-                        <span id="mode-val" class="value">SENTINEL</span>
+        <!-- Main Content Area -->
+        <main class="dashboard">
+            
+            <!-- Header -->
+            <header class="neo-header">
+                <div class="title-block">
+                    <h1>AGENT CYBER</h1>
+                    <span class="badge">V3.0.0-AUTO</span>
+                </div>
+                <div class="status-block">
+                    <div class="neo-button small">
+                        <span class="indicator on"></span> SYSTEM ONLINE
                     </div>
                 </div>
+            </header>
+
+            <!-- Grid Layout -->
+            <div class="grid-layout">
+                
+                <!-- Card 1: Wallet & Capital -->
+                <div class="neo-card wide">
+                    <div class="card-header">
+                        <h3><i class="fa-brands fa-solana"></i> CAPITAL ALLOCATION</h3>
+                    </div>
+                    <div class="card-body flex-row">
+                        <div class="stat-big">
+                            <span class="label">LIQUID SOL</span>
+                            <span class="value" id="sol-balance">0.118</span>
+                        </div>
+                        <div class="stat-small">
+                            <div class="row">
+                                <span class="label">Safety Buffer</span>
+                                <span class="value">0.02 SOL</span>
+                            </div>
+                            <div class="row">
+                                <span class="label">Positions</span>
+                                <span class="value" id="pos-count">0 / 2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Strategy Config (New!) -->
+                <div class="neo-card">
+                    <div class="card-header">
+                        <h3><i class="fa-solid fa-chess-knight"></i> ACTIVE STRATEGY</h3>
+                    </div>
+                    <div class="card-body list">
+                        <div class="list-item">
+                            <i class="fa-solid fa-rotate"></i>
+                            <span><strong>Rotation Engine:</strong> ACTIVE</span>
+                        </div>
+                        <div class="list-item">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <span><strong>Max Positions:</strong> 2 (Strict)</span>
+                        </div>
+                        <div class="list-item">
+                            <i class="fa-solid fa-stairs"></i>
+                            <span><strong>Trailing Stop:</strong> +15% → Breakeven</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: Recent Upgrades -->
+                <div class="neo-card">
+                    <div class="card-header">
+                        <h3><i class="fa-solid fa-code-commit"></i> SYSTEM UPGRADES (T-30H)</h3>
+                    </div>
+                    <div class="card-body list">
+                        <div class="list-item success">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Emergency Reset & Rent Recovery</span>
+                        </div>
+                        <div class="list-item success">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Token-2022 Compatibility Patch</span>
+                        </div>
+                        <div class="list-item success">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Backtesting Lab Initialized</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4: Live Positions -->
+                <div class="neo-card wide">
+                    <div class="card-header">
+                        <h3><i class="fa-solid fa-layer-group"></i> LIVE POSITIONS</h3>
+                    </div>
+                    <div class="card-body" id="positions-container">
+                        <!-- JS Will Inject Positions Here -->
+                        <div class="empty-placeholder">
+                            <i class="fa-solid fa-wind"></i>
+                            <p>Scanning Market... No Active Trades</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5: Neural Feed (Logs) -->
+                <div class="neo-card full-height">
+                    <div class="card-header">
+                        <h3><i class="fa-solid fa-terminal"></i> NEURAL STREAM</h3>
+                    </div>
+                    <div class="card-body terminal" id="log-feed">
+                        <div class="log">System initialized...</div>
+                        <div class="log">Loaded Strategy: Yield_Rotation_V3</div>
+                        <div class="log">Connecting to Helius RPC... OK</div>
+                        <div class="log">Wallet Clean. Ready to trade.</div>
+                    </div>
+                </div>
+
             </div>
+        </main>
+    </div>
 
-            <div class="card glass-panel pnl-card">
-                <h2>// PERFORMANCE_METRICS</h2>
-                <div class="big-number neon-purple">
-                    <span id="pnl-val">0.00</span> <small>SOL</small>
-                </div>
-                <div class="chart-container">
-                    <canvas id="pnlChart"></canvas>
-                </div>
-            </div>
-        </section>
-
-        <!-- Main Feed Column -->
-        <section class="col-center">
-            <div class="card glass-panel feed-card">
-                <h2>// NEURAL_STREAM</h2>
-                <div class="terminal-window" id="log-feed">
-                    <div class="log-entry"><span class="time">[14:32:01]</span> <span class="sys">SYSTEM</span> Initializing neural link...</div>
-                    <div class="log-entry"><span class="time">[14:32:05]</span> <span class="info">INFO</span> Connected to Solana Mainnet (Helius RPC).</div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Active Ops Column -->
-        <section class="col-right">
-            <div class="card glass-panel positions-card">
-                <h2>// ACTIVE_POSITIONS</h2>
-                <div id="positions-list" class="list-container">
-                    <!-- Injected via JS -->
-                    <div class="empty-state">NO ACTIVE POSITIONS</div>
-                </div>
-            </div>
-
-            <div class="card glass-panel brain-card">
-                <h2>// COGNITIVE_STATE</h2>
-                <div class="thought-bubble" id="current-thought">
-                    "Scanning Meteora pools for high-volatility divergence..."
-                </div>
-                <div class="tags">
-                    <span class="tag">#SOLANA</span>
-                    <span class="tag">#AI</span>
-                    <span class="tag">#YIELD</span>
-                </div>
-            </div>
-
-            <div class="card glass-panel about-card">
-                <h2>// ARCHITECTURE_LOGIC</h2>
-                <div class="info-text">
-                    <p><strong>Sentinel (Eyes):</strong> Scans Solana RPC logs for new token pools (Raydium/PumpFun) in real-time.</p>
-                    <p><strong>Grok Brain (Mind):</strong> Analyzes X/Twitter sentiment. Only "BULLISH" tokens are approved.</p>
-                    <p><strong>Yield Hand (Action):</strong> Farms Meteora DLMM pools. Enters via "SpotBalanced" strategy.</p>
-                    <p><strong>PnL Guard (Defense):</strong> Hardcoded exits at +10% Profit or -10% Loss.</p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="glass-panel">
-        <div class="footer-content">
-            <span>ID: 2xQ4...swK</span>
-            <a href="https://github.com/mylilcrowdi/cybersolybot" target="_blank" class="github-link">ACCESS_SOURCE_CODE >></a>
-        </div>
-    </footer>
-
-    <script src="app.js"></script>
+    <script src="app.js?v=3.0"></script>
 </body>
 </html>

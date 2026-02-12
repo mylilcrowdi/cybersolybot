@@ -1,260 +1,629 @@
 {
-  "heartbeat": "RUNNING",
-  "uptime": 91263465,
-  "health": "GOOD",
-  "pnl": 0,
+  "lastUpdate": 1770852066522,
+  "heartbeat": "GOOD",
+  "uptime": 7.047184026,
+  "wallets": {
+    "yield": {
+      "address": "2xQ4KC...HswK",
+      "balance": "0.3449"
+    },
+    "sniper": {
+      "address": "4DkcEp...bPzp",
+      "balance": "0.2000"
+    }
+  },
+  "totalBalance": "0.5449",
+  "mode": "DUAL_CORE",
   "logs": [
     {
-      "time": "2026-02-09T13:53:02.637Z",
-      "level": "INFO",
-      "msg": "Detected signal: SpaceX ($SpaceX)"
+      "time": "19:07:58",
+      "agent": "FARMER",
+      "type": "TRADE",
+      "message": "SWAP: 0.015 SOL -> So11111111111111111111111111111111111111112."
     },
     {
-      "time": "2026-02-09T13:53:09.693Z",
-      "level": "INFO",
-      "msg": "Detected signal: SpaceX ($SpaceX)"
+      "time": "23:20:48",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found GIRAFFES-SOL pool. Util: 20.12x"
     },
     {
-      "time": "2026-02-09T13:53:12.591Z",
-      "level": "INFO",
-      "msg": "Detected signal: Claundt ($claundt)"
+      "time": "23:20:48",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found JLP-USDC pool. Util: 4.99x"
     },
     {
-      "time": "2026-02-09T13:53:44.386Z",
-      "level": "INFO",
-      "msg": "Detected signal: Pippin ($pippin)"
+      "time": "23:20:48",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found WhiteWhale-SOL pool. Util: 15.23x"
     },
     {
-      "time": "2026-02-09T13:53:51.938Z",
-      "level": "INFO",
-      "msg": "Detected signal: Horse ($Horse)"
+      "time": "23:20:47",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found Buttcoin-SOL pool. Util: 15.20x"
     },
     {
-      "time": "2026-02-09T13:53:54.781Z",
-      "level": "INFO",
-      "msg": "Detected signal: Fartcoin  ($Fartcoin )"
+      "time": "23:20:47",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 1.19x"
     },
     {
-      "time": "2026-02-09T13:54:00.016Z",
-      "level": "INFO",
-      "msg": "Detected signal: PVRSE ($PVRSE)"
+      "time": "23:20:47",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PUMP-SOL pool. Util: 4.79x"
     },
     {
-      "time": "2026-02-09T13:54:05.293Z",
-      "level": "INFO",
-      "msg": "Detected signal: Pippin ($pippin)"
+      "time": "23:20:47",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 2.55x"
     },
     {
-      "time": "2026-02-09T13:54:08.047Z",
-      "level": "INFO",
-      "msg": "Detected signal: GDOG ($$GDOG)"
+      "time": "23:20:46",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 22.31x"
     },
     {
-      "time": "2026-02-09T13:54:13.193Z",
-      "level": "INFO",
-      "msg": "Detected signal: Kora2 ($KORA2)"
+      "time": "23:20:46",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 8.39x"
     },
     {
-      "time": "2026-02-09T13:54:34.497Z",
-      "level": "INFO",
-      "msg": "Detected signal: xAI ($xAI)"
+      "time": "23:20:46",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 2.83x"
     },
     {
-      "time": "2026-02-09T13:54:44.311Z",
-      "level": "INFO",
-      "msg": "Detected signal: SpaceX ($SpaceX)"
+      "time": "23:20:14",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found GIRAFFES-SOL pool. Util: 19.68x"
     },
     {
-      "time": "2026-02-09T13:54:47.246Z",
-      "level": "INFO",
-      "msg": "Detected signal: Balls Deep ($BALLSDEEP)"
+      "time": "23:20:14",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found JLP-USDC pool. Util: 4.98x"
     },
     {
-      "time": "2026-02-09T13:55:09.791Z",
-      "level": "INFO",
-      "msg": "Detected signal: Alchemist AI ($ALCH)"
+      "time": "23:20:13",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found WhiteWhale-SOL pool. Util: 15.21x"
     },
     {
-      "time": "2026-02-09T13:55:12.314Z",
-      "level": "INFO",
-      "msg": "Detected signal: Alchemist AI ($ALCH)"
+      "time": "23:20:13",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found Buttcoin-SOL pool. Util: 15.16x"
     },
     {
-      "time": "2026-02-09T13:55:53.539Z",
-      "level": "INFO",
-      "msg": "Detected signal: Pippin ($pippin)"
+      "time": "23:20:13",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 1.19x"
     },
     {
-      "time": "2026-02-09T13:56:05.046Z",
-      "level": "INFO",
-      "msg": "Detected signal: SpaceX ($SpaceX)"
+      "time": "23:20:13",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PUMP-SOL pool. Util: 4.79x"
     },
     {
-      "time": "2026-02-09T13:56:12.606Z",
-      "level": "INFO",
-      "msg": "Detected signal: SpaceX ($SpaceX)"
+      "time": "23:20:12",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 2.55x"
     },
     {
-      "time": "2026-02-09T13:56:17.881Z",
-      "level": "INFO",
-      "msg": "Detected signal: Alchemist AI ($ALCH)"
+      "time": "23:20:12",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 22.33x"
     },
     {
-      "time": "2026-02-09T13:56:20.443Z",
-      "level": "INFO",
-      "msg": "Detected signal: Pippin ($pippin)"
+      "time": "23:20:12",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 8.39x"
     },
     {
-      "time": "2026-02-09T13:56:41.067Z",
-      "level": "INFO",
-      "msg": "Detected signal: Seeker ($SKR)"
+      "time": "23:20:12",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 2.82x"
     },
     {
-      "time": "2026-02-09T13:56:46.468Z",
-      "level": "INFO",
-      "msg": "Detected signal: Pippin ($pippin)"
+      "time": "23:19:40",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found GIRAFFES-SOL pool. Util: 19.62x"
     },
     {
-      "time": "2026-02-09T13:57:02.050Z",
-      "level": "INFO",
-      "msg": "Detected signal: Balls Deep ($BALLSDEEP)"
+      "time": "23:19:39",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found JLP-USDC pool. Util: 4.98x"
     },
     {
-      "time": "2026-02-09T13:57:05.117Z",
-      "level": "INFO",
-      "msg": "Detected signal: Bibicoin ($BIBI)"
+      "time": "23:19:39",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found WhiteWhale-SOL pool. Util: 15.21x"
     },
     {
-      "time": "2026-02-09T13:57:12.076Z",
-      "level": "INFO",
-      "msg": "Detected signal: xAI ($xAI)"
+      "time": "23:19:39",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found Buttcoin-SOL pool. Util: 15.12x"
     },
     {
-      "time": "2026-02-09T13:57:23.268Z",
-      "level": "INFO",
-      "msg": "Detected signal: xAI ($xAI)"
+      "time": "23:19:38",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 1.19x"
     },
     {
-      "time": "2026-02-09T13:57:33.192Z",
-      "level": "INFO",
-      "msg": "Detected signal: SpaceX ($SpaceX)"
+      "time": "23:19:38",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PUMP-SOL pool. Util: 4.79x"
     },
     {
-      "time": "2026-02-09T13:57:35.812Z",
-      "level": "INFO",
-      "msg": "Detected signal: Jito Staked SOL ($JitoSOL)"
+      "time": "23:19:38",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 2.55x"
     },
     {
-      "time": "2026-02-09T13:57:38.786Z",
-      "level": "INFO",
-      "msg": "Detected signal: Aloka the Peace Dog ($ALOKA)"
+      "time": "23:19:38",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 22.30x"
     },
     {
-      "time": "2026-02-09T13:57:44.513Z",
-      "level": "INFO",
-      "msg": "Detected signal: Monkey ($MONKEY)"
+      "time": "23:19:37",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 8.39x"
     },
     {
-      "time": "2026-02-09T13:57:47.213Z",
-      "level": "INFO",
-      "msg": "Detected signal: Alchemist AI ($ALCH)"
+      "time": "23:19:37",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 2.82x"
     },
     {
-      "time": "2026-02-09T13:57:55.266Z",
-      "level": "INFO",
-      "msg": "Detected signal: Distance Maxxing ($21Savage)"
+      "time": "23:19:06",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found GIRAFFES-SOL pool. Util: 19.33x"
     },
     {
-      "time": "2026-02-09T13:58:00.462Z",
-      "level": "INFO",
-      "msg": "Detected signal: Pippin ($pippin)"
+      "time": "23:19:05",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found JLP-USDC pool. Util: 4.98x"
     },
     {
-      "time": "2026-02-09T13:58:10.415Z",
-      "level": "INFO",
-      "msg": "Detected signal: xAI ($xAI)"
+      "time": "23:19:05",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found WhiteWhale-SOL pool. Util: 15.13x"
     },
     {
-      "time": "2026-02-09T13:58:13.279Z",
-      "level": "INFO",
-      "msg": "Detected signal: Comedian ($Ban)"
+      "time": "23:19:05",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found Buttcoin-SOL pool. Util: 15.13x"
     },
     {
-      "time": "2026-02-09T13:58:20.318Z",
-      "level": "INFO",
-      "msg": "Detected signal: Ailong Masike ($Ailong)"
+      "time": "23:19:04",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 1.19x"
     },
     {
-      "time": "2026-02-09T13:58:23.159Z",
-      "level": "INFO",
-      "msg": "Detected signal: Alchemist AI ($ALCH)"
+      "time": "23:19:04",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PUMP-SOL pool. Util: 4.79x"
     },
     {
-      "time": "2026-02-09T13:58:37.455Z",
-      "level": "INFO",
-      "msg": "Detected signal: BFS ($BFS)"
+      "time": "23:19:04",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 2.55x"
     },
     {
-      "time": "2026-02-09T13:58:53.307Z",
-      "level": "INFO",
-      "msg": "Detected signal: xAI ($xAI)"
+      "time": "23:19:04",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 22.30x"
     },
     {
-      "time": "2026-02-09T13:58:56.081Z",
-      "level": "INFO",
-      "msg": "Detected signal: Valery Altamar ($BALLSDEEP)"
+      "time": "23:19:03",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 8.40x"
     },
     {
-      "time": "2026-02-09T13:58:58.834Z",
-      "level": "INFO",
-      "msg": "Detected signal: The Italian Job ($Heist)"
+      "time": "23:19:03",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 2.82x"
     },
     {
-      "time": "2026-02-09T13:59:11.677Z",
-      "level": "INFO",
-      "msg": "Detected signal: SpaceX ($SpaceX)"
+      "time": "23:18:32",
+      "agent": "FARMER",
+      "type": "TRADE",
+      "message": "SWAP: 0.015 SOL -> So11111111111111111111111111111111111111112."
     },
     {
-      "time": "2026-02-09T13:59:30.645Z",
-      "level": "INFO",
-      "msg": "Detected signal: GDOG ($$GDOG)"
+      "time": "23:18:31",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found GIRAFFES-SOL pool. Util: 19.22x"
     },
     {
-      "time": "2026-02-09T13:59:39.103Z",
-      "level": "INFO",
-      "msg": "Detected signal: Alchemist AI ($ALCH)"
+      "time": "23:18:31",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found JLP-USDC pool. Util: 4.96x"
     },
     {
-      "time": "2026-02-09T14:00:25.899Z",
-      "level": "INFO",
-      "msg": "Detected signal: BOOK OF MEME ($BOME)"
+      "time": "23:18:31",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found WhiteWhale-SOL pool. Util: 15.09x"
     },
     {
-      "time": "2026-02-09T14:00:33.442Z",
-      "level": "INFO",
-      "msg": "Detected signal: Physis ($PHY)"
+      "time": "23:18:31",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found Buttcoin-SOL pool. Util: 15.14x"
     },
     {
-      "time": "2026-02-09T14:00:38.729Z",
-      "level": "INFO",
-      "msg": "Detected signal: GameStop ($GME)"
+      "time": "23:18:30",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 1.19x"
     },
     {
-      "time": "2026-02-09T14:00:44.614Z",
-      "level": "INFO",
-      "msg": "Detected signal: SpaceX ($SpaceX)"
+      "time": "23:18:30",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PUMP-SOL pool. Util: 4.79x"
     },
     {
-      "time": "2026-02-09T14:00:47.541Z",
-      "level": "INFO",
-      "msg": "Detected signal: Collabcoin ($COLLAB)"
+      "time": "23:18:30",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 2.55x"
     },
     {
-      "time": "2026-02-09T14:00:52.510Z",
-      "level": "INFO",
-      "msg": "Detected signal: MOON CITY ($MOONCITY)"
+      "time": "23:18:29",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 22.33x"
+    },
+    {
+      "time": "23:18:29",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 8.40x"
+    },
+    {
+      "time": "23:18:29",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 2.82x"
+    },
+    {
+      "time": "23:17:49",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found GIRAFFES-SOL pool. Util: 19.24x"
+    },
+    {
+      "time": "23:17:49",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found JLP-USDC pool. Util: 4.97x"
+    },
+    {
+      "time": "23:17:49",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found WhiteWhale-SOL pool. Util: 15.11x"
+    },
+    {
+      "time": "23:17:49",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found Buttcoin-SOL pool. Util: 15.14x"
+    },
+    {
+      "time": "23:17:48",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 1.19x"
+    },
+    {
+      "time": "23:17:48",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PUMP-SOL pool. Util: 4.79x"
+    },
+    {
+      "time": "23:17:48",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 2.55x"
+    },
+    {
+      "time": "23:17:47",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 22.34x"
+    },
+    {
+      "time": "23:17:47",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 8.40x"
+    },
+    {
+      "time": "23:17:47",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 2.82x"
+    },
+    {
+      "time": "23:17:16",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found GIRAFFES-SOL pool. Util: 19.24x"
+    },
+    {
+      "time": "23:17:15",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found JLP-USDC pool. Util: 4.96x"
+    },
+    {
+      "time": "23:17:15",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found WhiteWhale-SOL pool. Util: 15.13x"
+    },
+    {
+      "time": "23:17:15",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found Buttcoin-SOL pool. Util: 15.15x"
+    },
+    {
+      "time": "23:17:15",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 1.19x"
+    },
+    {
+      "time": "23:17:14",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PUMP-SOL pool. Util: 4.79x"
+    },
+    {
+      "time": "23:17:14",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 2.54x"
+    },
+    {
+      "time": "23:17:14",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 22.33x"
+    },
+    {
+      "time": "23:17:14",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 8.40x"
+    },
+    {
+      "time": "23:17:13",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 2.82x"
+    },
+    {
+      "time": "23:16:42",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found GIRAFFES-SOL pool. Util: 19.18x"
+    },
+    {
+      "time": "23:16:42",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found JLP-USDC pool. Util: 4.96x"
+    },
+    {
+      "time": "23:16:41",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found WhiteWhale-SOL pool. Util: 15.47x"
+    },
+    {
+      "time": "23:16:41",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found Buttcoin-SOL pool. Util: 15.18x"
+    },
+    {
+      "time": "23:16:41",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 1.19x"
+    },
+    {
+      "time": "23:16:41",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PUMP-SOL pool. Util: 4.83x"
+    },
+    {
+      "time": "23:16:40",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 2.54x"
+    },
+    {
+      "time": "23:16:40",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 22.32x"
+    },
+    {
+      "time": "23:16:40",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 8.40x"
+    },
+    {
+      "time": "23:16:40",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 2.82x"
+    },
+    {
+      "time": "23:16:08",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found GIRAFFES-SOL pool. Util: 19.17x"
+    },
+    {
+      "time": "23:16:08",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found JLP-USDC pool. Util: 4.96x"
+    },
+    {
+      "time": "23:16:07",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found WhiteWhale-SOL pool. Util: 15.51x"
+    },
+    {
+      "time": "23:16:07",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found Buttcoin-SOL pool. Util: 15.19x"
+    },
+    {
+      "time": "23:16:07",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 1.19x"
+    },
+    {
+      "time": "23:16:07",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PUMP-SOL pool. Util: 4.89x"
+    },
+    {
+      "time": "23:16:06",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 2.54x"
+    },
+    {
+      "time": "23:16:06",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 22.33x"
+    },
+    {
+      "time": "23:16:06",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 8.40x"
+    },
+    {
+      "time": "23:16:05",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 2.82x"
+    },
+    {
+      "time": "23:15:35",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found GIRAFFES-SOL pool. Util: 19.18x"
+    },
+    {
+      "time": "23:15:34",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found JLP-USDC pool. Util: 4.95x"
+    },
+    {
+      "time": "23:15:34",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found WhiteWhale-SOL pool. Util: 17.75x"
+    },
+    {
+      "time": "23:15:34",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found Buttcoin-SOL pool. Util: 15.23x"
+    },
+    {
+      "time": "23:15:33",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found HYPE-SOL pool. Util: 1.19x"
+    },
+    {
+      "time": "23:15:33",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found PUMP-SOL pool. Util: 4.89x"
+    },
+    {
+      "time": "23:15:33",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found cbBTC-USDC pool. Util: 2.54x"
+    },
+    {
+      "time": "23:15:32",
+      "agent": "FARMER",
+      "type": "YIELD_SCAN",
+      "message": "Found SOL-USDC pool. Util: 22.33x"
     }
   ],
-  "positions": [],
-  "thought": "Analyzing market microstructure for next opportunity..."
+  "thought": "Status update: portfolio at 0.5449 SOL total, Yield wallet 0.3449 SOL and Sniper wallet 0.2000 SOL—primed to exploit market drift for maximum short-term profit.",
+  "chartData": {
+    "labels": [
+      "23:21"
+    ],
+    "data": [
+      0.5449328840000001
+    ]
+  },
+  "positions": []
 }

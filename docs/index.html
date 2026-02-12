@@ -4,21 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AGENT CYBER // NEO-DASH</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=3.0">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=3.1">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <!-- FontAwesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
     <div class="main-container">
-        <!-- Sidebar / Navigation (Vertical Pill) -->
+        <!-- Sidebar / Navigation -->
         <nav class="neo-nav">
-            <div class="nav-icon active"><i class="fa-solid fa-microchip"></i></div>
-            <div class="nav-icon"><i class="fa-solid fa-wallet"></i></div>
-            <div class="nav-icon"><i class="fa-solid fa-flask"></i></div>
-            <div class="nav-icon alert"><i class="fa-solid fa-triangle-exclamation"></i></div>
+            <div class="nav-icon active" data-view="overview"><i class="fa-solid fa-microchip"></i></div>
+            <div class="nav-icon" data-view="wallet"><i class="fa-solid fa-wallet"></i></div>
+            <div class="nav-icon" data-view="lab"><i class="fa-solid fa-flask"></i></div>
+            <div class="nav-icon alert" data-view="logs"><i class="fa-solid fa-triangle-exclamation"></i></div>
         </nav>
 
         <!-- Main Content Area -->
@@ -28,114 +27,154 @@
             <header class="neo-header">
                 <div class="title-block">
                     <h1>AGENT CYBER</h1>
-                    <span class="badge">V3.0.0-AUTO</span>
+                    <span class="badge">V3.1.0-AI</span>
                 </div>
+                
+                <!-- AI Comic Bubble Section -->
+                <div class="ai-comms-container">
+                    <div class="cyber-avatar">
+                        <i class="fa-solid fa-robot"></i>
+                        <div class="pulse-ring"></div>
+                    </div>
+                    <div class="comic-bubble">
+                        <p id="ai-thought">INITIALIZING NEURAL LINK...</p>
+                    </div>
+                </div>
+
                 <div class="status-block">
                     <div class="neo-button small">
-                        <span class="indicator on"></span> SYSTEM ONLINE
+                        <span class="indicator on"></span> ONLINE
                     </div>
                 </div>
             </header>
 
-            <!-- Grid Layout -->
-            <div class="grid-layout">
-                
-                <!-- Card 1: Wallet & Capital -->
-                <div class="neo-card wide">
-                    <div class="card-header">
-                        <h3><i class="fa-brands fa-solana"></i> CAPITAL ALLOCATION</h3>
-                    </div>
-                    <div class="card-body flex-row">
-                        <div class="stat-big">
-                            <span class="label">LIQUID SOL</span>
-                            <span class="value" id="sol-balance">0.118</span>
+            <!-- VIEW: OVERVIEW -->
+            <div id="view-overview" class="view-section active">
+                <div class="grid-layout">
+                    <!-- Capital -->
+                    <div class="neo-card wide">
+                        <div class="card-header">
+                            <h3><i class="fa-brands fa-solana"></i> CAPITAL ALLOCATION</h3>
                         </div>
-                        <div class="stat-small">
-                            <div class="row">
-                                <span class="label">Safety Buffer</span>
-                                <span class="value">0.02 SOL</span>
+                        <div class="card-body flex-row">
+                            <div class="stat-big">
+                                <span class="label">LIQUID SOL</span>
+                                <span class="value" id="sol-balance">--.--</span>
                             </div>
-                            <div class="row">
-                                <span class="label">Positions</span>
-                                <span class="value" id="pos-count">0 / 2</span>
+                            <div class="stat-small">
+                                <div class="row">
+                                    <span class="label">Safety Buffer</span>
+                                    <span class="value">0.02 SOL</span>
+                                </div>
+                                <div class="row">
+                                    <span class="label">Positions</span>
+                                    <span class="value" id="pos-count">0 / 2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Strategy -->
+                    <div class="neo-card">
+                        <div class="card-header">
+                            <h3><i class="fa-solid fa-chess-knight"></i> ACTIVE STRATEGY</h3>
+                        </div>
+                        <div class="card-body list">
+                            <div class="list-item">
+                                <i class="fa-solid fa-rotate"></i>
+                                <span><strong>Rotation:</strong> ACTIVE</span>
+                            </div>
+                            <div class="list-item">
+                                <i class="fa-solid fa-shield-halved"></i>
+                                <span><strong>Max Pos:</strong> 2</span>
+                            </div>
+                            <div class="list-item">
+                                <i class="fa-solid fa-skull"></i>
+                                <span><strong>Kill:</strong> -11.5%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Live Positions -->
+                    <div class="neo-card full-width">
+                        <div class="card-header">
+                            <h3><i class="fa-solid fa-layer-group"></i> LIVE POSITIONS</h3>
+                        </div>
+                        <div class="card-body" id="positions-container">
+                            <div class="empty-placeholder">
+                                <i class="fa-solid fa-wind"></i>
+                                <p>Scanning Market...</p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <!-- Card 2: Strategy Config (New!) -->
-                <div class="neo-card">
-                    <div class="card-header">
-                        <h3><i class="fa-solid fa-chess-knight"></i> ACTIVE STRATEGY</h3>
-                    </div>
-                    <div class="card-body list">
-                        <div class="list-item">
-                            <i class="fa-solid fa-rotate"></i>
-                            <span><strong>Rotation Engine:</strong> ACTIVE</span>
-                        </div>
-                        <div class="list-item">
-                            <i class="fa-solid fa-shield-halved"></i>
-                            <span><strong>Max Positions:</strong> 2 (Strict)</span>
-                        </div>
-                        <div class="list-item">
-                            <i class="fa-solid fa-stairs"></i>
-                            <span><strong>Trailing Stop:</strong> +15% → Breakeven</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 3: Recent Upgrades -->
-                <div class="neo-card">
-                    <div class="card-header">
-                        <h3><i class="fa-solid fa-code-commit"></i> SYSTEM UPGRADES (T-30H)</h3>
-                    </div>
-                    <div class="card-body list">
-                        <div class="list-item success">
-                            <i class="fa-solid fa-check"></i>
-                            <span>Emergency Reset & Rent Recovery</span>
-                        </div>
-                        <div class="list-item success">
-                            <i class="fa-solid fa-check"></i>
-                            <span>Token-2022 Compatibility Patch</span>
-                        </div>
-                        <div class="list-item success">
-                            <i class="fa-solid fa-check"></i>
-                            <span>Backtesting Lab Initialized</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 4: Live Positions -->
-                <div class="neo-card wide">
-                    <div class="card-header">
-                        <h3><i class="fa-solid fa-layer-group"></i> LIVE POSITIONS</h3>
-                    </div>
-                    <div class="card-body" id="positions-container">
-                        <!-- JS Will Inject Positions Here -->
-                        <div class="empty-placeholder">
-                            <i class="fa-solid fa-wind"></i>
-                            <p>Scanning Market... No Active Trades</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 5: Neural Feed (Logs) -->
+            <!-- VIEW: WALLET (Detailed Stats) -->
+            <div id="view-wallet" class="view-section">
                 <div class="neo-card full-height">
                     <div class="card-header">
-                        <h3><i class="fa-solid fa-terminal"></i> NEURAL STREAM</h3>
+                        <h3><i class="fa-solid fa-chart-line"></i> PERFORMANCE HISTORY</h3>
                     </div>
-                    <div class="card-body terminal" id="log-feed">
-                        <div class="log">System initialized...</div>
-                        <div class="log">Loaded Strategy: Yield_Rotation_V3</div>
-                        <div class="log">Connecting to Helius RPC... OK</div>
-                        <div class="log">Wallet Clean. Ready to trade.</div>
+                    <div class="card-body">
+                        <div class="chart-container" style="position: relative; height: 300px; width:100%">
+                            <canvas id="pnlChart"></canvas>
+                        </div>
+                        <div style="margin-top: 20px;">
+                            <h4>Recent Transfers</h4>
+                            <div id="wallet-feed" class="list">
+                                <!-- Populated by JS -->
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </div>
+
+            <!-- VIEW: LAB (Backtesting) -->
+            <div id="view-lab" class="view-section">
+                <div class="neo-card full-height">
+                    <div class="card-header">
+                        <h3><i class="fa-solid fa-flask"></i> STRATEGY LAB</h3>
+                    </div>
+                    <div class="card-body center-content">
+                        <div class="lab-status">
+                            <i class="fa-solid fa-dna fa-3x" style="color:var(--primary)"></i>
+                            <h2>SIMULATION RUNNING</h2>
+                            <p>Backtesting "Momentum_V2" on recent market data...</p>
+                        </div>
+                        <div class="list" style="width: 100%; margin-top: 30px;">
+                            <div class="list-item">
+                                <span>Last Run:</span>
+                                <strong>Momentum Basic</strong>
+                            </div>
+                            <div class="list-item">
+                                <span>Win Rate:</span>
+                                <strong>16.7%</strong>
+                            </div>
+                            <div class="list-item">
+                                <span>Expectancy:</span>
+                                <strong style="color:var(--accent)">-4.20%</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- VIEW: LOGS -->
+            <div id="view-logs" class="view-section">
+                <div class="neo-card full-height">
+                    <div class="card-header">
+                        <h3><i class="fa-solid fa-terminal"></i> SYSTEM LOGS</h3>
+                    </div>
+                    <div class="card-body terminal" id="log-feed">
+                        <!-- Full Logs -->
+                    </div>
+                </div>
+            </div>
+
         </main>
     </div>
 
-    <script src="app.js?v=3.0"></script>
+    <script src="app.js?v=3.1"></script>
 </body>
 </html>

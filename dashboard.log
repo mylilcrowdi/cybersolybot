@@ -1142,3 +1142,36 @@ Data updated. Pushing to GitHub...
  1 file changed, 76 insertions(+), 76 deletions(-)
 To https://github.com/mylilcrowdi/cybersolybot.git
    7d81287..4d6dad9  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 68d5982] Update dashboard stats [skip ci]
+ 1 file changed, 25 insertions(+), 31 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   f286a6e..68d5982  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 6f8a257] Update dashboard stats [skip ci]
+ 1 file changed, 85 insertions(+), 77 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   68d5982..6f8a257  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 72589f1] Update dashboard stats [skip ci]
+ 1 file changed, 71 insertions(+), 71 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   6f8a257..72589f1  master -> master

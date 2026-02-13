@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771018204455,
+  "lastUpdate": 1771018804433,
   "heartbeat": "GOOD",
-  "uptime": 3.14075587,
+  "uptime": 2.572203685,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
-      "balance": "0.4220",
+      "balance": "0.4219",
       "pnl": {
         "realized": 8.305272833665,
-        "unrealized": 0.000247074609,
-        "total": 8.305519908274,
+        "unrealized": -0.006511487201,
+        "total": 8.298761346461998,
         "winRate": 0
       }
     },
@@ -19,51 +19,51 @@
       "pnl": null
     }
   },
-  "totalBalance": "0.6220",
+  "totalBalance": "0.6219",
   "mode": "DUAL_CORE",
   "logs": [
     {
-      "timestamp": "2026-02-13T21:29:36.938Z",
+      "timestamp": "2026-02-13T21:39:30.349Z",
       "message": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112 (candidate)"
     },
     {
-      "timestamp": "2026-02-13T21:29:36.945Z",
-      "message": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112 (candidate)"
-    },
-    {
-      "timestamp": "2026-02-13T21:29:36.953Z",
+      "timestamp": "2026-02-13T21:39:30.355Z",
       "message": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij (candidate)"
     },
     {
-      "timestamp": "2026-02-13T21:29:36.966Z",
+      "timestamp": "2026-02-13T21:39:30.359Z",
       "message": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112 (candidate)"
     },
     {
-      "timestamp": "2026-02-13T21:29:36.973Z",
+      "timestamp": "2026-02-13T21:39:30.364Z",
       "message": "DISCOVERY_METEORA: pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn (candidate)"
     },
     {
-      "timestamp": "2026-02-13T21:29:36.981Z",
+      "timestamp": "2026-02-13T21:39:30.367Z",
       "message": "DISCOVERY_METEORA: A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS (candidate)"
     },
     {
-      "timestamp": "2026-02-13T21:29:36.991Z",
+      "timestamp": "2026-02-13T21:39:30.372Z",
       "message": "DISCOVERY_METEORA: JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN (candidate)"
     },
     {
-      "timestamp": "2026-02-13T21:29:36.999Z",
+      "timestamp": "2026-02-13T21:39:30.376Z",
       "message": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g (candidate)"
     },
     {
-      "timestamp": "2026-02-13T21:29:37.007Z",
+      "timestamp": "2026-02-13T21:39:30.380Z",
       "message": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij (candidate)"
     },
     {
-      "timestamp": "2026-02-13T21:29:37.016Z",
+      "timestamp": "2026-02-13T21:39:30.384Z",
       "message": "DISCOVERY_METEORA: 27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4 (candidate)"
+    },
+    {
+      "timestamp": "2026-02-13T21:39:32.129Z",
+      "message": "TRADE_EXECUTION: pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn (submitted)"
     }
   ],
-  "thought": "\"Current balance holds at 0.6220 SOL with multiple Meteora candidates discovered including So111 and pumpCmXqMfrs; initiating evaluation of 'pump' for optimal trade execution potential.\"",
+  "thought": "Analyzing recent Meteora discoveries with a balance of 0.6219 SOL, potential opportunity detected in candidate A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS; prepare for strategic engagement.",
   "chartData": {
     "labels": [
       "23:35",
@@ -164,22 +164,22 @@
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 8.305272833665,
-    "unrealizedPnL": 0.000247074609,
-    "totalPnL": 8.305519908274,
+    "unrealizedPnL": -0.006511487201,
+    "totalPnL": 8.298761346461998,
     "activePositions": "Active"
   },
   "positions": [
     {
-      "symbol": "HYPE-SOL",
-      "address": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
-      "pnl": 0,
-      "age": "0.4h"
-    },
-    {
       "symbol": "SOL",
       "address": "DRLNhjM7jusYFPF1qade1dBD1qhgds7oAfdKs51Vpump",
       "pnl": 0,
-      "age": "0.3h"
+      "age": "0.5h"
+    },
+    {
+      "symbol": "PUMP-SOL",
+      "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "pnl": 0,
+      "age": "0.0h"
     }
   ]
 }

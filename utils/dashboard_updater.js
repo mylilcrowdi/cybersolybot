@@ -3,6 +3,7 @@ const path = require('path');
 const { Connection, Keypair } = require('@solana/web3.js');
 const bs58 = require('bs58');
 const nano = require('../utils/nano_agent');
+const solanatracker = require('../analysis/solanatracker_client');
 require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
 const STATUS_FILE = path.join(__dirname, '../data/status.json');
@@ -10,13 +11,17 @@ const DASHBOARD_DATA_FILE = path.join(__dirname, '../docs/data.json');
 const HISTORY_FILE = path.join(__dirname, '../data/history.json');
 const PNL_HISTORY_FILE = path.join(__dirname, '../data/pnl_history.json');
 
+// Singleton Connection (Prevent socket leak)
+const RPC_ENDPOINT = process.env.RPC_ENDPOINT || 'https://api.mainnet-beta.solana.com';
+const connection = new Connection(RPC_ENDPOINT, 'confirmed');
+
 // Wallet Paths
 const YIELD_WALLET_PATH = process.env.KEYPAIR_PATH || path.join(process.env.HOME || '/home/cyber', '.config/solana/id.json');
 
-async function getWalletBalances(connection) {
+async function getWalletBalances(conn) {
     let wallets = {
-        yield: { address: 'N/A', balance: 0 },
-        sniper: { address: 'N/A', balance: 0 }
+        yield: { address: 'N/A', balance: 0, pnl: null },
+        sniper: { address: 'N/A', balance: 0, pnl: null }
     };
     let totalBal = 0;
 
@@ -26,11 +31,22 @@ async function getWalletBalances(connection) {
             try {
                 const secretKey = Uint8Array.from(JSON.parse(fs.readFileSync(YIELD_WALLET_PATH, 'utf-8')));
                 const kp = Keypair.fromSecretKey(secretKey);
-                const bal = await connection.getBalance(kp.publicKey);
+                const pubKey = kp.publicKey.toBase58();
+                const bal = await conn.getBalance(kp.publicKey);
                 const solBal = bal / 1e9;
+                
+                // Fetch PnL from SolanaTracker
+                const pnlData = await solanatracker.getWalletPnL(pubKey);
+                
                 wallets.yield = {
-                    address: kp.publicKey.toBase58().slice(0, 6) + '...' + kp.publicKey.toBase58().slice(-4),
-                    balance: solBal.toFixed(4)
+                    address: pubKey.slice(0, 6) + '...' + pubKey.slice(-4),
+                    balance: solBal.toFixed(4),
+                    pnl: pnlData ? {
+                        realized: pnlData.summary?.realized || 0,
+                        unrealized: pnlData.summary?.unrealized || 0,
+                        total: pnlData.summary?.total || 0,
+                        winRate: pnlData.summary?.winRate || 0
+                    } : null
                 };
                 totalBal += solBal;
             } catch (err) {
@@ -48,11 +64,21 @@ async function getWalletBalances(connection) {
                     secretKey = bs58.decode(process.env.KEYPAIR_SNIPER);
                 }
                 const kp = Keypair.fromSecretKey(secretKey);
-                const bal = await connection.getBalance(kp.publicKey);
+                const pubKey = kp.publicKey.toBase58();
+                const bal = await conn.getBalance(kp.publicKey);
                 const solBal = bal / 1e9;
+                
+                const pnlData = await solanatracker.getWalletPnL(pubKey);
+
                 wallets.sniper = {
-                    address: kp.publicKey.toBase58().slice(0, 6) + '...' + kp.publicKey.toBase58().slice(-4),
-                    balance: solBal.toFixed(4)
+                    address: pubKey.slice(0, 6) + '...' + pubKey.slice(-4),
+                    balance: solBal.toFixed(4),
+                    pnl: pnlData ? {
+                        realized: pnlData.summary?.realized || 0,
+                        unrealized: pnlData.summary?.unrealized || 0,
+                        total: pnlData.summary?.total || 0,
+                        winRate: pnlData.summary?.winRate || 0
+                    } : null
                 };
                 totalBal += solBal;
             } catch (e) {
@@ -93,10 +119,6 @@ function generateChartData(pnlData) {
     const dayCutoff = now - (24 * 60 * 60 * 1000);
     const recentData = pnlData.filter(d => d.timestamp > dayCutoff);
 
-    // If empty or only 1 point, add a fake starting point if needed? 
-    // Or just return what we have. 
-    // We'll downsample if too many points (e.g., limit to ~24 points, 1 per hour, or just every update if sparse)
-    
     // Simple downsample: take every Nth element if > 50 points
     let chartPoints = recentData;
     if (recentData.length > 50) {
@@ -112,7 +134,7 @@ function generateChartData(pnlData) {
 
 async function updateDashboard() {
     console.log("[Dashboard] 🔄 Starting update cycle...");
-    const connection = new Connection(process.env.RPC_ENDPOINT || 'https://api.mainnet-beta.solana.com', 'confirmed');
+    // Use singleton connection
 
     // 1. Read Current State
     let status = {};
@@ -127,68 +149,46 @@ async function updateDashboard() {
     const pnlHistory = updatePnLHistory(totalBal);
     const chartData = generateChartData(pnlHistory);
 
-    // 3. Generate Narrative
-    let narrative = "System nominal. Scanning for opportunities.";
-    try {
-        // Only generate new thought if status changed or rarely? 
-        // For now, let's keep it lively.
-        const prompt = `You are Agent Cyber. Current Balance: ${totalBal.toFixed(4)} SOL. 
-        Wallets: Yield=${wallets.yield.balance}, Sniper=${wallets.sniper.balance}.
-        Write a 1-sentence status update for the dashboard. 
-        Tone: Cyberpunk, professional, focused on profit.`;
-        
-        const response = await nano.generate(prompt, "Update status.");
-        if (response) narrative = response;
-    } catch (e) {
-        // console.error("[Dashboard] Nano generation failed:", e.message);
-    }
-
-    // 4. Get Recent Logs (Last 48h) & Filter
-    let history = [];
+    // 3. Get Recent Logs
+    let recentLogs = [];
     if (fs.existsSync(HISTORY_FILE)) {
         try {
-            history = JSON.parse(fs.readFileSync(HISTORY_FILE, 'utf8'));
-        } catch(e) { console.error("History read error"); }
+            const allHistory = JSON.parse(fs.readFileSync(HISTORY_FILE, 'utf8'));
+            recentLogs = allHistory.slice(-10).map(h => ({
+                timestamp: h.timestamp,
+                message: `${h.type}: ${h.token || h.decision || 'Action'} (${h.status || 'Done'})`
+            }));
+        } catch (e) { console.error("History read error"); }
     }
 
-    const cutoff = Date.now() - (48 * 60 * 60 * 1000);
-    const recentLogs = history
-        .filter(h => h.timestamp && new Date(h.timestamp).getTime() > cutoff)
-        .map(h => {
-            let type = "INFO";
-            let agent = "SYSTEM";
-            let msg = `Event: ${h.type}`;
+    // 4. Generate Narrative
+    let narrative = "Systems nominal. Analyzing market data.";
+    try {
+        const recentEvents = recentLogs.slice(0, 5).map(l => l.message).join('. ');
+        
+        const prompt = `You are Agent Cyber, an autonomous trading bot on Solana. 
+        Current Status:
+        - Balance: ${totalBal.toFixed(4)} SOL
+        - Recent Events: ${recentEvents}
+        
+        Write a 1-sentence analytical status update for your dashboard. 
+        Be concise, slightly robotic/cyberpunk, and mention the next logical move.`;
+        
+        const response = await nano.generate(prompt, "Generate status.");
+        if (response) narrative = response;
+    } catch (e) {
+        console.warn("[Dashboard] AI Narrative skipped:", e.message);
+    }
 
-            if (h.type === "DISCOVERY_SIGNAL") {
-                type = "SCAN";
-                agent = "SENTINEL";
-                msg = `Detected ${h.name || 'Unknown'} ($${h.symbol || '???'}). Score: ${h.score || 0}/100.`;
-            } else if (h.type === "DISCOVERY_METEORA") {
-                type = "YIELD_SCAN";
-                agent = "FARMER";
-                msg = `Found ${h.name || 'Pool'} pool. Util: ${h.metrics?.utilization || 'N/A'}x`;
-            } else if (h.type === "TRADE_EXECUTION") {
-                type = "TRADE";
-                agent = "FARMER";
-                msg = `SWAP: ${h.inputAmount || 0} SOL -> ${h.token || 'Token'}.`;
-            } else if (h.type === "SNIPER_ENTRY") {
-                type = "SNIPE";
-                agent = "HUNTER";
-                msg = `FIRED: ${h.symbol || 'Token'} with ${h.amount || 0} SOL.`;
-            } else if (h.type === "ERROR") {
-                type = "ERR";
-                msg = h.message || "Unknown Error";
-            }
-
-            return {
-                time: new Date(h.timestamp).toLocaleTimeString('en-GB'),
-                agent: agent,
-                type: type,
-                message: msg
-            };
-        })
-        .reverse()
-        .slice(0, 100);
+    // 5. Strategy Analysis
+    const strategyData = {
+        name: "Momentum_V2: Sentinel",
+        winRate: (wallets.yield.pnl?.winRate || wallets.sniper.pnl?.winRate || 0) + '%',
+        realizedPnL: (wallets.yield.pnl?.realized || 0) + (wallets.sniper.pnl?.realized || 0),
+        unrealizedPnL: (wallets.yield.pnl?.unrealized || 0) + (wallets.sniper.pnl?.unrealized || 0),
+        totalPnL: (wallets.yield.pnl?.total || 0) + (wallets.sniper.pnl?.total || 0),
+        activePositions: wallets.yield.pnl ? "Active" : "Scanning"
+    };
 
     const dashboardData = {
         lastUpdate: Date.now(),
@@ -200,28 +200,31 @@ async function updateDashboard() {
         logs: recentLogs,
         thought: narrative,
         chartData: chartData,
+        strategy: strategyData,
         positions: (() => {
             try {
                 const posFile = path.join(__dirname, '../data/positions.json');
                 if (fs.existsSync(posFile)) {
                     const raw = JSON.parse(fs.readFileSync(posFile, 'utf8'));
-                    return raw.map(p => ({
-                        symbol: p.name || p.symbol || 'Unknown',
-                        address: p.address || p.mint || '???',
-                        pnl: p.pnl || 0, // Enriched by yield_manager if running
-                        age: p.entryTime ? ((Date.now() - p.entryTime) / (1000 * 60 * 60)).toFixed(1) + 'h' : '0h'
-                    }));
+                    if (Array.isArray(raw)) {
+                        return raw.map(p => ({
+                            symbol: p.name || p.symbol || 'Unknown',
+                            address: p.address || p.mint || '???',
+                            pnl: p.pnl || 0,
+                            age: p.entryTime ? ((Date.now() - p.entryTime) / (1000 * 60 * 60)).toFixed(1) + 'h' : '0h'
+                        }));
+                    }
                 }
                 return [];
             } catch { return []; }
         })()
     };
-
+    
+    // 5. Write Dashboard Data
     fs.writeFileSync(DASHBOARD_DATA_FILE, JSON.stringify(dashboardData, null, 2));
-    console.log(`[Dashboard] ✅ Updated. PnL: ${totalBal.toFixed(4)} SOL. Logs: ${recentLogs.length}`);
+    console.log("[Dashboard] ✅ Updated successfully.");
 }
 
-// Run immediately if called directly
 if (require.main === module) {
     updateDashboard();
 }

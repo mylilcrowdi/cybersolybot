@@ -15,6 +15,7 @@ require('dotenv').config({ path: path.join(__dirname, '../../.env') });
 // Configuration
 const RPC_ENDPOINT = process.env.RPC_ENDPOINT;
 const connection = new Connection(RPC_ENDPOINT, { commitment: 'confirmed' });
+const POSITIONS_FILE = path.join(__dirname, '../data/positions.json');
 
 const SNIPER_CONFIG = {
     ENABLED: true,
@@ -22,7 +23,8 @@ const SNIPER_CONFIG = {
     ALLOCATION_SOL: 0.05,
     SLIPPAGE_BPS: 200, // 2% for speed
     TAKE_PROFIT_PCT: 100, // 2x
-    STOP_LOSS_PCT: -20
+    STOP_LOSS_PCT: -20,
+    MIN_SOL_BUFFER: 0.02 // Always keep 0.02 SOL for gas
 };
 
 // Load Sniper Wallet (Distinct from Yield Wallet)
@@ -51,20 +53,45 @@ async function runSniper() {
 
         if (signal.score >= SNIPER_CONFIG.MIN_SCORE) {
             console.log(`[Sniper] 🚀 EXECUTE! High score detected.`);
-            await executeSnipe(signal.mint, SNIPER_CONFIG.ALLOCATION_SOL);
+            await executeSnipe(signal.mint, SNIPER_CONFIG.ALLOCATION_SOL, signal.symbol || "UNKNOWN");
         } else {
              console.log(`[Sniper] 💤 Skipped (Score < ${SNIPER_CONFIG.MIN_SCORE})`);
         }
     });
 }
 
-async function executeSnipe(outputMint, amount) {
+async function executeSnipe(outputMint, amount, symbol) {
     try {
         const inputMint = SOL_MINT;
+
+        // --- GAS SAFETY CHECK ---
+        if (inputMint === SOL_MINT) {
+            const balance = await connection.getBalance(wallet.publicKey);
+            const balanceSol = balance / 1e9;
+            const buffer = SNIPER_CONFIG.MIN_SOL_BUFFER || 0.02;
+
+            if (balanceSol < buffer) {
+                 console.log(`[Sniper] 🛑 Low SOL Balance (${balanceSol.toFixed(4)}). Preserving for gas.`);
+                 return;
+            }
+
+            if (balanceSol - amount < buffer) {
+                const adjustedAmount = balanceSol - buffer;
+                console.log(`[Sniper] ⚠️ Adjusting buy amount: ${amount} -> ${adjustedAmount.toFixed(4)} SOL (Buffer: ${buffer})`);
+                amount = adjustedAmount;
+
+                if (amount < 0.002) { // Minimum viable trade
+                    console.log(`[Sniper] 🛑 Adjusted amount too small (< 0.002). Skipping.`);
+                    return;
+                }
+            }
+        }
+        // ------------------------
+
         const amountAtomic = Math.floor(amount * 1e9);
 
         // 1. Get Swap Route (Jupiter)
-        const swapTransactionBase64 = await swapJupiter(inputMint, outputMint, amountAtomic, SNIPER_CONFIG.SLIPPAGE_BPS);
+        const swapTransactionBase64 = await swapJupiter(inputMint, outputMint, amountAtomic, SNIPER_CONFIG.SLIPPAGE_BPS, wallet.publicKey);
         if (!swapTransactionBase64) return;
 
         // 2. Deserialize & Sign
@@ -81,18 +108,38 @@ async function executeSnipe(outputMint, amount) {
 
         console.log(`[Sniper] ✅ SNIPED! https://solscan.io/tx/${signature}`);
         
+        // 4. Log Action
         await logger.logAction({
             type: "SNIPER_ENTRY",
-            symbol: outputMint, // TODO: Get symbol name
+            symbol: symbol,
             amount: amount,
             tx: signature
         });
 
-        // TODO: Implement exit strategy (monitoring loop)
+        // 5. Register Position for Monitoring
+        registerPosition(outputMint, symbol, amount);
 
     } catch (err) {
         console.error(`[Sniper] ❌ Failed: ${err.message}`);
     }
+}
+
+function registerPosition(mint, symbol, amount) {
+    let positions = [];
+    if (fs.existsSync(POSITIONS_FILE)) {
+        try { positions = JSON.parse(fs.readFileSync(POSITIONS_FILE, 'utf-8')); } catch(e){}
+    }
+    
+    positions.push({
+        mint: mint,
+        symbol: symbol,
+        amountSol: amount,
+        entryTime: Date.now(),
+        status: 'OPEN'
+    });
+
+    fs.writeFileSync(POSITIONS_FILE, JSON.stringify(positions, null, 2));
+    console.log(`[Sniper] 📝 Position registered for monitoring: ${symbol}`);
 }
 
 // Start if run directly

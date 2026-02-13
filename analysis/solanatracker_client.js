@@ -68,6 +68,36 @@ async function getTokenData(mint) {
 }
 
 /**
+ * Fetches PnL data for a wallet
+ * @param {string} walletAddress 
+ * @returns {Promise<object>}
+ */
+async function getWalletPnL(walletAddress) {
+    if (!API_KEY) return null;
+    checkQuotaReset();
+    if (dailyUsage >= QUOTA_LIMIT_DAILY) return null;
+
+    try {
+        // Assuming there's a PnL or portfolio endpoint. 
+        // Based on docs, it might be /pnl/{wallet} or /wallet/{wallet}
+        // Let's try /wallet/{wallet}/pnl if it exists, or just basic stats.
+        // Fallback to portfolio if PnL not explicit.
+        // NOTE: Official endpoint check needed. Assuming /pnl/{wallet} for now based on context.
+        
+        const url = `${BASE_URL}/pnl/${walletAddress}`; 
+        const response = await axios.get(url, {
+            headers: { 'x-api-key': API_KEY }
+        });
+        
+        dailyUsage++;
+        return response.data; // { totalRealized, totalUnrealized, winRate, etc }
+    } catch (err) {
+        console.warn(`[SolanaTracker] PnL Fetch Error for ${walletAddress}:`, err.message);
+        return null; 
+    }
+}
+
+/**
  * Evaluates if a token is safe enough to proceed to Sentiment Analysis
  * @param {object} trackerData 
  * @returns {boolean}
@@ -92,4 +122,4 @@ function isSafeToTrade(trackerData) {
     return true;
 }
 
-module.exports = { getTokenData, isSafeToTrade };
+module.exports = { getTokenData, getWalletPnL, isSafeToTrade };

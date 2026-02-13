@@ -1,6 +1,7 @@
 const { executeSwap, wallet } = require('./execution/execution_module');
 const { runYieldCycle } = require('./execution/yield_manager');
 const { runGovernanceCycle } = require('./execution/governance');
+const { runRotationCycle } = require('./execution/rotation_manager');
 const { updateDashboard } = require('./utils/dashboard_updater');
 const { Connection } = require('@solana/web3.js');
 const logger = require('./utils/trade_logger');
@@ -43,11 +44,16 @@ function updateHeartbeat() {
 async function main() {
     console.log(`🤖 Cybersolybot v2.0 - SWAP ENGINE ACTIVATED`);
     console.log(`💰 Wallet: ${wallet.publicKey.toBase58()}`);
-    console.log(`🎯 Strategy: Meteora Yield Farming + Neural Governance`);
+    console.log(`🎯 Strategy: Meteora Yield + Active Rotation`);
 
     while (true) {
         try {
+            // 1. Yield Management (Meteora DLMM)
             await runYieldCycle();
+
+            // 2. Active Rotation (Forced 30m Trades)
+            await runRotationCycle();
+
             updateHeartbeat();
 
             const now = Date.now();

@@ -1,1 +1,1144 @@
-]0;Agent Cyber Dashboard[?1049h[22;0;0t[?1h=[1;1r[?25l[1;1H[H[2J[?1l>[?12l[?25h[H[2J[?1049l[23;0;0t
+]0;Agent Cyber Dashboard[?1049h[22;0;0t[?1h=[1;1r[?25l[1;1H[H[2J[?1l>[?12l[?25h[H[2J[?1049l[23;0;0t[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 9c203dd] Update dashboard stats [skip ci]
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   a9f706a..9c203dd  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 7e3fe45] Update dashboard stats [skip ci]
+ 1 file changed, 9 insertions(+), 9 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   9c203dd..7e3fe45  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 3d13b9d] Update dashboard stats [skip ci]
+ 1 file changed, 13 insertions(+), 11 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   7e3fe45..3d13b9d  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 3c2399d] Update dashboard stats [skip ci]
+ 1 file changed, 9 insertions(+), 9 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   3d13b9d..3c2399d  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 8ad611e] Update dashboard stats [skip ci]
+ 1 file changed, 9 insertions(+), 9 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   3c2399d..8ad611e  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master a77a8a8] Update dashboard stats [skip ci]
+ 1 file changed, 9 insertions(+), 9 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   8ad611e..a77a8a8  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 362d85f] Update dashboard stats [skip ci]
+ 1 file changed, 9 insertions(+), 9 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   a77a8a8..362d85f  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 19fe17d] Update dashboard stats [skip ci]
+ 1 file changed, 62 insertions(+), 62 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   362d85f..19fe17d  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 20d8783] Update dashboard stats [skip ci]
+ 1 file changed, 61 insertions(+), 61 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   19fe17d..20d8783  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 4754045] Update dashboard stats [skip ci]
+ 1 file changed, 61 insertions(+), 61 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   20d8783..4754045  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master bf9dd45] Update dashboard stats [skip ci]
+ 1 file changed, 61 insertions(+), 63 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   4754045..bf9dd45  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master b7f5de3] Update dashboard stats [skip ci]
+ 1 file changed, 61 insertions(+), 61 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   bf9dd45..b7f5de3  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 2bb26c8] Update dashboard stats [skip ci]
+ 1 file changed, 62 insertions(+), 62 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   b7f5de3..2bb26c8  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master f847483] Update dashboard stats [skip ci]
+ 1 file changed, 58 insertions(+), 58 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   2bb26c8..f847483  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 1405e5b] Update dashboard stats [skip ci]
+ 1 file changed, 61 insertions(+), 61 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   f847483..1405e5b  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master c49bc92] Update dashboard stats [skip ci]
+ 1 file changed, 62 insertions(+), 62 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   1405e5b..c49bc92  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 0d1ef84] Update dashboard stats [skip ci]
+ 1 file changed, 58 insertions(+), 60 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   c49bc92..0d1ef84  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 639ea63] Update dashboard stats [skip ci]
+ 1 file changed, 59 insertions(+), 59 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   0d1ef84..639ea63  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master d7d3723] Update dashboard stats [skip ci]
+ 1 file changed, 59 insertions(+), 59 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   639ea63..d7d3723  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 0acc2e0] Update dashboard stats [skip ci]
+ 1 file changed, 60 insertions(+), 60 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   d7d3723..0acc2e0  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 3bd0a27] Update dashboard stats [skip ci]
+ 1 file changed, 61 insertions(+), 61 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   0acc2e0..3bd0a27  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 7c21dbf] Update dashboard stats [skip ci]
+ 1 file changed, 57 insertions(+), 59 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   3bd0a27..7c21dbf  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 4ee7313] Update dashboard stats [skip ci]
+ 1 file changed, 58 insertions(+), 58 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   7c21dbf..4ee7313  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 34844a5] Update dashboard stats [skip ci]
+ 1 file changed, 58 insertions(+), 58 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   4ee7313..34844a5  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 6659d85] Update dashboard stats [skip ci]
+ 1 file changed, 57 insertions(+), 57 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   34844a5..6659d85  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 069c209] Update dashboard stats [skip ci]
+ 1 file changed, 58 insertions(+), 58 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   6659d85..069c209  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 26a52b0] Update dashboard stats [skip ci]
+ 1 file changed, 58 insertions(+), 58 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   069c209..26a52b0  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master e9edd98] Update dashboard stats [skip ci]
+ 1 file changed, 58 insertions(+), 60 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   26a52b0..e9edd98  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 7df8af1] Update dashboard stats [skip ci]
+ 1 file changed, 59 insertions(+), 59 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   e9edd98..7df8af1  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master e27c07a] Update dashboard stats [skip ci]
+ 1 file changed, 56 insertions(+), 56 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   7df8af1..e27c07a  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master e05428c] Update dashboard stats [skip ci]
+ 1 file changed, 57 insertions(+), 57 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   e27c07a..e05428c  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 75d42be] Update dashboard stats [skip ci]
+ 1 file changed, 57 insertions(+), 57 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   e05428c..75d42be  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master d6599f6] Update dashboard stats [skip ci]
+ 1 file changed, 57 insertions(+), 59 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   75d42be..d6599f6  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 7242d12] Update dashboard stats [skip ci]
+ 1 file changed, 58 insertions(+), 58 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   d6599f6..7242d12  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 6a67f29] Update dashboard stats [skip ci]
+ 1 file changed, 56 insertions(+), 56 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   7242d12..6a67f29  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master a29f912] Update dashboard stats [skip ci]
+ 1 file changed, 57 insertions(+), 57 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   6a67f29..a29f912  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master d8fb4be] Update dashboard stats [skip ci]
+ 1 file changed, 58 insertions(+), 58 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   a29f912..d8fb4be  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 380eb97] Update dashboard stats [skip ci]
+ 1 file changed, 55 insertions(+), 55 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   d8fb4be..380eb97  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master d234e9d] Update dashboard stats [skip ci]
+ 1 file changed, 54 insertions(+), 56 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   380eb97..d234e9d  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master e19f21b] Update dashboard stats [skip ci]
+ 1 file changed, 55 insertions(+), 55 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   d234e9d..e19f21b  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 1843be6] Update dashboard stats [skip ci]
+ 1 file changed, 56 insertions(+), 56 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   e19f21b..1843be6  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master f801f6c] Update dashboard stats [skip ci]
+ 1 file changed, 57 insertions(+), 57 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   1843be6..f801f6c  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 778373b] Update dashboard stats [skip ci]
+ 1 file changed, 55 insertions(+), 55 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   f801f6c..778373b  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 1a8a7a1] Update dashboard stats [skip ci]
+ 1 file changed, 56 insertions(+), 56 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   778373b..1a8a7a1  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 578cdf2] Update dashboard stats [skip ci]
+ 1 file changed, 55 insertions(+), 57 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   1a8a7a1..578cdf2  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 55b26f0] Update dashboard stats [skip ci]
+ 1 file changed, 53 insertions(+), 53 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   578cdf2..55b26f0  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 9e2ef9d] Update dashboard stats [skip ci]
+ 1 file changed, 54 insertions(+), 54 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   55b26f0..9e2ef9d  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master b0f55d0] Update dashboard stats [skip ci]
+ 1 file changed, 54 insertions(+), 54 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   9e2ef9d..b0f55d0  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 8aca0c4] Update dashboard stats [skip ci]
+ 1 file changed, 55 insertions(+), 55 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   b0f55d0..8aca0c4  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master eb594d9] Update dashboard stats [skip ci]
+ 1 file changed, 56 insertions(+), 56 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   8aca0c4..eb594d9  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 2b0aacb] Update dashboard stats [skip ci]
+ 1 file changed, 53 insertions(+), 55 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   eb594d9..2b0aacb  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master a607762] Update dashboard stats [skip ci]
+ 1 file changed, 54 insertions(+), 54 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   2b0aacb..a607762  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 5fe3abf] Update dashboard stats [skip ci]
+ 1 file changed, 55 insertions(+), 55 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   a607762..5fe3abf  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 87fe110] Update dashboard stats [skip ci]
+ 1 file changed, 52 insertions(+), 52 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   5fe3abf..87fe110  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 80045f9] Update dashboard stats [skip ci]
+ 1 file changed, 53 insertions(+), 53 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   87fe110..80045f9  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 9df161c] Update dashboard stats [skip ci]
+ 1 file changed, 59 insertions(+), 41 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   80045f9..9df161c  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 9e5c023] Update dashboard stats [skip ci]
+ 1 file changed, 64 insertions(+), 64 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   9df161c..9e5c023  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 810d4be] Update dashboard stats [skip ci]
+ 1 file changed, 63 insertions(+), 63 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   9e5c023..810d4be  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 177d561] Update dashboard stats [skip ci]
+ 1 file changed, 63 insertions(+), 63 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   810d4be..177d561  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master e0426b0] Update dashboard stats [skip ci]
+ 1 file changed, 63 insertions(+), 63 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   177d561..e0426b0  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master b6d5b64] Update dashboard stats [skip ci]
+ 1 file changed, 62 insertions(+), 64 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   e0426b0..b6d5b64  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master fe6c408] Update dashboard stats [skip ci]
+ 1 file changed, 62 insertions(+), 62 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   b6d5b64..fe6c408  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master f1411cd] Update dashboard stats [skip ci]
+ 1 file changed, 62 insertions(+), 62 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   fe6c408..f1411cd  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 50a0ce9] Update dashboard stats [skip ci]
+ 1 file changed, 62 insertions(+), 62 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   f1411cd..50a0ce9  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master c690e76] Update dashboard stats [skip ci]
+ 1 file changed, 64 insertions(+), 64 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   50a0ce9..c690e76  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 8977979] Update dashboard stats [skip ci]
+ 1 file changed, 62 insertions(+), 64 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   c690e76..8977979  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master bbe6602] Update dashboard stats [skip ci]
+ 1 file changed, 63 insertions(+), 63 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   8977979..bbe6602  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master bcec0a9] Update dashboard stats [skip ci]
+ 1 file changed, 62 insertions(+), 62 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   bbe6602..bcec0a9  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master ea66a73] Update dashboard stats [skip ci]
+ 1 file changed, 63 insertions(+), 63 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   bcec0a9..ea66a73  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 50c531f] Update dashboard stats [skip ci]
+ 1 file changed, 61 insertions(+), 63 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   ea66a73..50c531f  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 85f137a] Update dashboard stats [skip ci]
+ 1 file changed, 62 insertions(+), 62 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   50c531f..85f137a  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 8c28869] Update dashboard stats [skip ci]
+ 1 file changed, 58 insertions(+), 58 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   85f137a..8c28869  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 7d334db] Update dashboard stats [skip ci]
+ 1 file changed, 60 insertions(+), 60 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   8c28869..7d334db  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 4f6a0c3] Update dashboard stats [skip ci]
+ 1 file changed, 60 insertions(+), 60 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   7d334db..4f6a0c3  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 874931a] Update dashboard stats [skip ci]
+ 1 file changed, 58 insertions(+), 60 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   4f6a0c3..874931a  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master dc90044] Update dashboard stats [skip ci]
+ 1 file changed, 59 insertions(+), 59 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   874931a..dc90044  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master ea30d01] Update dashboard stats [skip ci]
+ 1 file changed, 59 insertions(+), 59 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   dc90044..ea30d01  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 3e6658a] Update dashboard stats [skip ci]
+ 1 file changed, 59 insertions(+), 59 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   ea30d01..3e6658a  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 4df0893] Update dashboard stats [skip ci]
+ 1 file changed, 57 insertions(+), 59 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   3e6658a..4df0893  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 8341cbb] Update dashboard stats [skip ci]
+ 1 file changed, 58 insertions(+), 58 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   4df0893..8341cbb  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master b2ac642] Update dashboard stats [skip ci]
+ 1 file changed, 58 insertions(+), 58 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   8341cbb..b2ac642  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 1646d8d] Update dashboard stats [skip ci]
+ 1 file changed, 58 insertions(+), 58 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   b2ac642..1646d8d  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master eb7d076] Update dashboard stats [skip ci]
+ 1 file changed, 59 insertions(+), 59 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   1646d8d..eb7d076  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 5db983e] Update dashboard stats [skip ci]
+ 1 file changed, 58 insertions(+), 60 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   eb7d076..5db983e  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master eee19ba] Update dashboard stats [skip ci]
+ 1 file changed, 58 insertions(+), 58 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   5db983e..eee19ba  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 5f3561f] Update dashboard stats [skip ci]
+ 1 file changed, 59 insertions(+), 59 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   eee19ba..5f3561f  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master dcf05f5] Update dashboard stats [skip ci]
+ 1 file changed, 58 insertions(+), 58 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   5f3561f..dcf05f5  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master c41a0db] Update dashboard stats [skip ci]
+ 1 file changed, 57 insertions(+), 59 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   dcf05f5..c41a0db  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 5349720] Update dashboard stats [skip ci]
+ 1 file changed, 57 insertions(+), 57 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   c41a0db..5349720  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master b4d922b] Update dashboard stats [skip ci]
+ 1 file changed, 58 insertions(+), 58 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   5349720..b4d922b  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 7209f8d] Update dashboard stats [skip ci]
+ 1 file changed, 54 insertions(+), 54 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   b4d922b..7209f8d  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 32b910d] Update dashboard stats [skip ci]
+ 1 file changed, 56 insertions(+), 56 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   7209f8d..32b910d  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 157dcc3] Update dashboard stats [skip ci]
+ 1 file changed, 55 insertions(+), 57 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   32b910d..157dcc3  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 599c936] Update dashboard stats [skip ci]
+ 1 file changed, 55 insertions(+), 55 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   157dcc3..599c936  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 4dcfa71] Update dashboard stats [skip ci]
+ 1 file changed, 55 insertions(+), 55 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   599c936..4dcfa71  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 04f204d] Update dashboard stats [skip ci]
+ 1 file changed, 81 insertions(+), 81 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   4dcfa71..04f204d  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master a8b92b8] Update dashboard stats [skip ci]
+ 1 file changed, 68 insertions(+), 68 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   04f204d..a8b92b8  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master b218c15] Update dashboard stats [skip ci]
+ 1 file changed, 65 insertions(+), 65 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   a8b92b8..b218c15  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 23a79e1] Update dashboard stats [skip ci]
+ 1 file changed, 75 insertions(+), 79 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   b218c15..23a79e1  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 3aef60c] Update dashboard stats [skip ci]
+ 1 file changed, 71 insertions(+), 71 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   23a79e1..3aef60c  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 0e12975] Update dashboard stats [skip ci]
+ 1 file changed, 67 insertions(+), 67 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   3aef60c..0e12975  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 2f7523f] Update dashboard stats [skip ci]
+ 1 file changed, 77 insertions(+), 71 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   0e12975..2f7523f  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 7d81287] Update dashboard stats [skip ci]
+ 1 file changed, 77 insertions(+), 75 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   2f7523f..7d81287  master -> master
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (6) from ../.env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[Dashboard] 🔄 Starting update cycle...
+[SolanaTracker] PnL Fetch Error for 4DkcEpTG8fTdnUDtQshiCPBKXZrchE9X4R9F77CvbPzp: Request failed with status code 429
+[Dashboard] ✅ Updated successfully.
+Data updated. Pushing to GitHub...
+[master 4d6dad9] Update dashboard stats [skip ci]
+ 1 file changed, 76 insertions(+), 76 deletions(-)
+To https://github.com/mylilcrowdi/cybersolybot.git
+   7d81287..4d6dad9  master -> master

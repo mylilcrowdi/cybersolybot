@@ -1,6 +1,7 @@
 const axios = require('axios');
 
 const BASE_URL = "https://api.dexscreener.com/tokens/v1/solana";
+const SEARCH_URL = "https://api.dexscreener.com/latest/dex/search";
 
 /**
  * Fetches token data from Dexscreener (Fallback Source)
@@ -40,6 +41,45 @@ async function getTokenData(mint) {
 }
 
 /**
+ * Fetches trending/active tokens on Solana
+ * Uses search query for "solana" and sorts by volume/change
+ * @returns {Promise<Array>} List of candidate tokens
+ */
+async function getTrending() {
+    try {
+        // Query for pairs on Solana
+        const response = await axios.get(`${SEARCH_URL}?q=solana`);
+        if (!response.data || !response.data.pairs) return [];
+
+        const pairs = response.data.pairs;
+
+        // Filter and Sort:
+        // 1. Must be on Solana
+        // 2. Min Liquidity > $10k
+        // 3. Positive 5m or 1h change
+        // 4. Sort by 5m change desc (find momentum)
+        
+        return pairs
+            .filter(p => p.chainId === 'solana' && p.liquidity?.usd > 10000 && p.priceChange?.m5 > 0)
+            .sort((a, b) => b.priceChange.m5 - a.priceChange.m5)
+            .map(p => ({
+                mint: p.baseToken.address,
+                symbol: p.baseToken.symbol,
+                name: p.baseToken.name,
+                price: parseFloat(p.priceUsd),
+                change5m: p.priceChange.m5,
+                liquidity: p.liquidity.usd,
+                source: "Dexscreener_Trending"
+            }))
+            .slice(0, 5); // Return top 5
+
+    } catch (err) {
+        console.error(`[Dexscreener] ❌ Failed to fetch trending:`, err.message);
+        return [];
+    }
+}
+
+/**
  * Basic safety check using Dexscreener data
  */
 function isSafeToTrade(data) {
@@ -56,4 +96,4 @@ function isSafeToTrade(data) {
     return true;
 }
 
-module.exports = { getTokenData, isSafeToTrade };
+module.exports = { getTokenData, isSafeToTrade, getTrending };

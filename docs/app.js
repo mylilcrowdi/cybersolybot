@@ -126,7 +126,26 @@ function updateUI(data) {
         });
     }
 
-    // 6. Chart (If library loaded)
+    // 6. Strategy Stats
+    if (data.strategy) {
+        const winEl = document.getElementById('strat-winrate');
+        const realEl = document.getElementById('strat-realized');
+        const totalEl = document.getElementById('strat-total');
+        
+        if (winEl) winEl.textContent = data.strategy.winRate || '--%';
+        if (realEl) {
+            const val = parseFloat(data.strategy.realizedPnL || 0);
+            realEl.textContent = val.toFixed(3);
+            realEl.style.color = val >= 0 ? 'var(--success)' : 'var(--accent)';
+        }
+        if (totalEl) {
+            const val = parseFloat(data.strategy.totalPnL || 0);
+            totalEl.textContent = val.toFixed(3);
+            totalEl.style.color = val >= 0 ? 'var(--success)' : 'var(--accent)';
+        }
+    }
+
+    // 7. Chart (If library loaded)
     if (data.chartData && window.pnlChartInstance) {
         window.pnlChartInstance.data.labels = data.chartData.labels;
         window.pnlChartInstance.data.datasets[0].data = data.chartData.data;

@@ -104,13 +104,20 @@ class SwapEngine {
 // Export singleton
 const engine = new SwapEngine();
 
-async function swapJupiter(inputMint, outputMint, amount, slippageBps) {
+async function swapJupiter(inputMint, outputMint, amount, slippageBps, userPublicKey) {
     // 1. Get Quote
     const quote = await engine.getQuote(inputMint, outputMint, amount, slippageBps);
     if (!quote) return null;
 
     // 2. Get Transaction
-    const tx = await engine.getSwapTransaction(quote, process.env.WALLET_PUBLIC_KEY);
+    // Use passed key, fallback to env, or fail if missing
+    const pubKey = userPublicKey ? userPublicKey.toBase58() : process.env.WALLET_PUBLIC_KEY;
+    if (!pubKey) {
+        console.error("[Jupiter] ❌ No userPublicKey provided for swap.");
+        return null;
+    }
+
+    const tx = await engine.getSwapTransaction(quote, pubKey);
     return tx;
 }
 

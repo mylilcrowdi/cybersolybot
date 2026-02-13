@@ -1,5 +1,5 @@
 const { Connection, PublicKey } = require('@solana/web3.js');
-const { TOKEN_PROGRAM_ID } = require('@solana/spl-token');
+const { TOKEN_PROGRAM_ID, TOKEN_2022_PROGRAM_ID } = require('@solana/spl-token');
 const fs = require('fs');
 const path = require('path');
 const bs58 = require('bs58');
@@ -17,16 +17,23 @@ async function sweepWallet() {
     const wallet = Keypair.fromSecretKey(secretKey);
     console.log(`[Sweep] Wallet: ${wallet.publicKey.toBase58()}`);
 
-    // Get all token accounts
-    const accounts = await connection.getParsedTokenAccountsByOwner(wallet.publicKey, {
+    // Get Standard Token Accounts
+    const accountsStandard = await connection.getParsedTokenAccountsByOwner(wallet.publicKey, {
         programId: TOKEN_PROGRAM_ID
     });
 
-    console.log(`[Sweep] Found ${accounts.value.length} token accounts.`);
+    // Get Token-2022 Accounts
+    const accounts2022 = await connection.getParsedTokenAccountsByOwner(wallet.publicKey, {
+        programId: TOKEN_2022_PROGRAM_ID
+    });
+
+    const allAccounts = [...accountsStandard.value, ...accounts2022.value];
+
+    console.log(`[Sweep] Found ${allAccounts.length} token accounts.`);
 
     const holdings = [];
     
-    for (const { account } of accounts.value) {
+    for (const { account } of allAccounts) {
         const info = account.data.parsed.info;
         const amount = info.tokenAmount.uiAmount;
         const mint = info.mint;

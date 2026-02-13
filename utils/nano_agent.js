@@ -3,7 +3,7 @@ const path = require('path');
 require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
 const API_KEY = process.env.OPENAI_API_KEY;
-const MODEL = "gpt-5-nano-2025-08-07";
+const MODEL = "gpt-4o"; // Switched to 4o for better analysis
 const ENDPOINT = "https://api.openai.com/v1/chat/completions";
 
 /**
@@ -18,7 +18,7 @@ class NanoAgent {
     }
 
     async generate(systemPrompt, userContext) {
-        if (!API_KEY) return null;
+        if (!API_KEY) return "AI Module Offline"; // Fallback text
 
         try {
             const response = await axios.post(ENDPOINT, {
@@ -27,7 +27,7 @@ class NanoAgent {
                     { role: "system", content: systemPrompt },
                     { role: "user", content: userContext }
                 ],
-                temperature: 1 // Fixed for nano model
+                temperature: 0.7
             }, {
                 headers: {
                     "Authorization": `Bearer ${API_KEY}`,

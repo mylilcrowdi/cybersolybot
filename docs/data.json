@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1770940204687,
+  "lastUpdate": 1770940806429,
   "heartbeat": "GOOD",
-  "uptime": 3.545140245,
+  "uptime": 4.536467954,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.0381",
       "pnl": {
         "realized": -6.105869539464001,
-        "unrealized": 15.969691148141,
-        "total": 9.863821608676997,
+        "unrealized": 14.709357106197,
+        "total": 8.603487566733,
         "winRate": 0
       }
     },
@@ -63,7 +63,7 @@
       "message": "DISCOVERY_METEORA: A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS (candidate)"
     }
   ],
-  "thought": "Balance holds at 0.2381 SOL; multiple meteora candidates discovered, notably So11111111111111111111111111111111111111112 twice, suggesting a potential focus on further analysis or engagement with this recurring entity.",
+  "thought": "Balance at 0.2381 SOL with multiple potential candidates discovered, focus on analyzing candidate \"pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn\" for optimal trading opportunity.",
   "chartData": {
     "labels": [
       "00:41",
@@ -113,7 +113,8 @@
       "19:29",
       "19:54",
       "20:18",
-      "20:44"
+      "20:44",
+      "00:00"
     ],
     "data": [
       0.5277190039999999,
@@ -163,15 +164,16 @@
       0.25090328,
       0.250768049,
       0.263356019,
-      0.246311739
+      0.246311739,
+      0.238129222
     ]
   },
   "strategy": {
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": -6.105869539464001,
-    "unrealizedPnL": 15.969691148141,
-    "totalPnL": 9.863821608676997,
+    "unrealizedPnL": 14.709357106197,
+    "totalPnL": 8.603487566733,
     "activePositions": "Active"
   },
   "positions": [
@@ -179,13 +181,13 @@
       "symbol": "solana",
       "address": "FP3wqEhXkoFvRRJFi5PSvrotrnvm8kJ7NHuKRf78pump",
       "pnl": 0,
-      "age": "3.0h"
+      "age": "3.2h"
     },
     {
       "symbol": "PUMP-SOL",
       "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "pnl": 0,
-      "age": "3.0h"
+      "age": "3.2h"
     }
   ]
 }

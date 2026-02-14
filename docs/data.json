@@ -1,12 +1,17 @@
 {
-  "lastUpdate": 1771045804358,
+  "lastUpdate": 1771046404803,
   "heartbeat": "GOOD",
-  "uptime": 2.911078707,
+  "uptime": 3.24370408,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.4036",
-      "pnl": null
+      "pnl": {
+        "realized": 8.176397908102999,
+        "unrealized": 0.01385787891,
+        "total": 8.190255787014,
+        "winRate": 0
+      }
     },
     "sniper": {
       "address": "4DkcEp...bPzp",
@@ -18,47 +23,47 @@
   "mode": "DUAL_CORE",
   "logs": [
     {
-      "timestamp": "2026-02-14T05:10:01.890Z",
+      "timestamp": "2026-02-14T05:18:24.543Z",
       "message": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112 (candidate)"
     },
     {
-      "timestamp": "2026-02-14T05:10:01.900Z",
+      "timestamp": "2026-02-14T05:18:24.546Z",
       "message": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112 (candidate)"
     },
     {
-      "timestamp": "2026-02-14T05:10:01.910Z",
+      "timestamp": "2026-02-14T05:18:24.551Z",
       "message": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij (candidate)"
     },
     {
-      "timestamp": "2026-02-14T05:10:01.917Z",
+      "timestamp": "2026-02-14T05:18:24.554Z",
       "message": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112 (candidate)"
     },
     {
-      "timestamp": "2026-02-14T05:10:01.932Z",
+      "timestamp": "2026-02-14T05:18:24.560Z",
       "message": "DISCOVERY_METEORA: pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn (candidate)"
     },
     {
-      "timestamp": "2026-02-14T05:10:01.941Z",
+      "timestamp": "2026-02-14T05:18:24.563Z",
       "message": "DISCOVERY_METEORA: A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS (candidate)"
     },
     {
-      "timestamp": "2026-02-14T05:10:01.953Z",
+      "timestamp": "2026-02-14T05:18:24.568Z",
       "message": "DISCOVERY_METEORA: JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN (candidate)"
     },
     {
-      "timestamp": "2026-02-14T05:10:01.961Z",
+      "timestamp": "2026-02-14T05:18:24.571Z",
       "message": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g (candidate)"
     },
     {
-      "timestamp": "2026-02-14T05:10:01.974Z",
+      "timestamp": "2026-02-14T05:18:24.575Z",
       "message": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij (candidate)"
     },
     {
-      "timestamp": "2026-02-14T05:10:01.991Z",
+      "timestamp": "2026-02-14T05:18:24.578Z",
       "message": "DISCOVERY_METEORA: 27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4 (candidate)"
     }
   ],
-  "thought": "Status Update: Balance stands at 0.6036 SOL with recent detections of potential trade candidates such as So11111111111111111111111111111111111111112 and pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn; initiate deeper analysis on candidate pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn for potential gain optimization.",
+  "thought": "Balance at 0.6036 SOL, with multiple discovery alerts on So11111111111111111111111111111111111111112 and other candidates; next logical move: analyze candidate viability for potential investment.",
   "chartData": {
     "labels": [
       "05:20",
@@ -108,7 +113,8 @@
       "04:09",
       "04:25",
       "04:40",
-      "04:59"
+      "04:59",
+      "05:15"
     ],
     "data": [
       0.238129222,
@@ -158,29 +164,30 @@
       0.590084547,
       0.589552002,
       0.589116558,
-      0.603551875
+      0.603551875,
+      0.603551876
     ]
   },
   "strategy": {
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
-    "realizedPnL": 0,
-    "unrealizedPnL": 0,
-    "totalPnL": 0,
-    "activePositions": "Scanning"
+    "realizedPnL": 8.176397908102999,
+    "unrealizedPnL": 0.01385787891,
+    "totalPnL": 8.190255787014,
+    "activePositions": "Active"
   },
   "positions": [
     {
       "symbol": "ZEC-SOL",
       "address": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
       "pnl": 0,
-      "age": "0.2h"
+      "age": "0.4h"
     },
     {
       "symbol": "HYPE-SOL",
       "address": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
       "pnl": 0,
-      "age": "0.2h"
+      "age": "0.4h"
     }
   ]
 }

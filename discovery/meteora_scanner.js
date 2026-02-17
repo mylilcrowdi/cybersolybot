@@ -33,7 +33,12 @@ async function scanMeteora() {
         
         // Fetch pairs (paginated)
         // Removed server-side sort to avoid 400s. We sort locally.
-        const response = await fetchWithRetry(`${METEORA_API_BASE}/pair/all_with_pagination?limit=100&page=0`);
+        const response = await fetchWithRetry(`${METEORA_API_BASE}/pair/all_with_pagination?limit=100&page=0`, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (compatible; Cybersolybot/2.0; +https://github.com/mylilcrowdi/cybersolybot)',
+                'Accept': 'application/json'
+            }
+        });
         
         if (!response.ok) {
             console.error(`[Meteora] API Error: ${response.status}`);

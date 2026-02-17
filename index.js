@@ -16,11 +16,13 @@ const STATUS_FILE = path.join(__dirname, 'data/status.json');
 const CONFIG = {
     POLL_INTERVAL: 30000, // 30s
     DASHBOARD_INTERVAL: 300000, // 5 minutes
-    GOVERNANCE_INTERVAL: 21600000 // 6 hours
+    GOVERNANCE_INTERVAL: 21600000, // 6 hours
+    MAX_RUNTIME: 25 * 60 * 1000 // 25 Minutes (Avoid 30m Hard Kill)
 };
 
 let lastDashboardUpdate = 0;
 let lastGovernanceCheck = 0;
+const startTime = Date.now();
 
 function updateHeartbeat() {
 // ... existing heartbeat code ...
@@ -68,6 +70,12 @@ async function main() {
             if (now - lastGovernanceCheck > CONFIG.GOVERNANCE_INTERVAL) {
                 await runGovernanceCycle();
                 lastGovernanceCheck = now;
+            }
+
+            // --- PROPHYLACTIC RESTART ---
+            if (now - startTime > CONFIG.MAX_RUNTIME) {
+                console.log("[Core] ⏳ Max runtime reached (25m). Initiating graceful restart...");
+                process.exit(0); // Exit clean, let run.sh restart
             }
 
         } catch (err) {

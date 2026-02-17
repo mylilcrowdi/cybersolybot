@@ -9,7 +9,7 @@ require('dotenv').config({ path: path.join(__dirname, '../../.env') });
 const RPC_ENDPOINT = process.env.RPC_ENDPOINT;
 const connection = new Connection(RPC_ENDPOINT, 'confirmed');
 
-const MAX_HOLD_TIME_MS = 30 * 60 * 1000; // 30 Minutes
+const MAX_HOLD_TIME_MS = 24 * 60 * 60 * 1000; // 24 Hours (Disabled Churn)
 const TARGET_POSITIONS = 2;
 const SOL_MINT = "So11111111111111111111111111111111111111112";
 const POSITIONS_FILE = path.join(__dirname, '../data/positions.json');
@@ -21,32 +21,14 @@ const CHECK_INTERVAL = 60000; // Check every 1 minute
 async function getTokenBalance(mintStr) {
     try {
         const mint = new PublicKey(mintStr);
-        const programs = [
-            new PublicKey("TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"), // Standard
-            new PublicKey("TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb")  // Token-2022
-        ];
-        
-        for (const prog of programs) {
-            // Note: passing programId in options if filtering by mint requires care, 
-            // but getParsedTokenAccountsByOwner(owner, filter) implies filter restricts results.
-            // Actually web3js: getParsedTokenAccountsByOwner(owner, {mint}, commitment) 
-            // scans specific program? No, we usually pass programId as 3rd arg if we want to query a specific one?
-            // Wait, getParsedTokenAccountsByOwner(owner, filter) queries the *SPL Token* program by default? 
-            // Actually it requires we hit the right program. 
-            // Let's rely on getParsedTokenAccountsByOwner(owner, {mint: ...}) finding it if we just iterate.
-            
-            // Correction: The API signature is (publicKey, filter, commitment). 
-            // To check specific programs we might need getParsedTokenAccountsByOwner(owner, {mint, programId}).
-            // But usually we just search. Let's try simple first.
-            
-            const accounts = await connection.getParsedTokenAccountsByOwner(wallet.publicKey, { mint });
-            if (accounts.value.length > 0) {
-                const info = accounts.value[0].account.data.parsed.info;
-                return {
-                    amount: info.tokenAmount.uiAmount,
-                    decimals: info.tokenAmount.decimals
-                };
-            }
+        // Optimized: just getParsedTokenAccountsByOwner with Mint filter
+        const accounts = await connection.getParsedTokenAccountsByOwner(wallet.publicKey, { mint });
+        if (accounts.value.length > 0) {
+            const info = accounts.value[0].account.data.parsed.info;
+            return {
+                amount: info.tokenAmount.uiAmount,
+                decimals: info.tokenAmount.decimals
+            };
         }
         return { amount: 0, decimals: 0 };
     } catch (e) {
@@ -59,25 +41,40 @@ async function getOpenPositions() {
         // Source of Truth: positions.json
         if (!fs.existsSync(POSITIONS_FILE)) return [];
         
-        const trackedPositions = JSON.parse(fs.readFileSync(POSITIONS_FILE, 'utf8'));
+        let trackedPositions = [];
+        try {
+            trackedPositions = JSON.parse(fs.readFileSync(POSITIONS_FILE, 'utf8'));
+        } catch (e) {
+            console.error("[Rotation] Corrupt positions file, resetting.");
+            return [];
+        }
+
         const verifiedPositions = [];
+        let needsUpdate = false;
 
         for (const p of trackedPositions) {
             // Verify on-chain balance
             const { amount, decimals } = await getTokenBalance(p.address);
             
             if (amount > 0) {
+                // Keep only valid positions
                 verifiedPositions.push({
                     mint: p.address,
                     symbol: p.name,
-                    amount: amount,
+                    amount: amount, // Use ON-CHAIN balance
                     decimals: decimals,
                     entryTime: p.entryTime || Date.now()
                 });
             } else {
-                console.log(`[Rotation] ⚠️ Position ${p.name} tracked but has 0 balance. Ignoring.`);
+                console.log(`[Rotation] ⚠️ Position ${p.name} tracked but has 0 balance. Removing from tracker.`);
+                needsUpdate = true;
             }
         }
+
+        if (needsUpdate) {
+            fs.writeFileSync(POSITIONS_FILE, JSON.stringify(trackedPositions.filter(p => verifiedPositions.find(v => v.mint === p.address)), null, 2));
+        }
+
         return verifiedPositions;
     } catch (err) {
         console.error("[Rotation] Failed to fetch positions:", err.message);
@@ -138,7 +135,8 @@ async function runRotationCycle() {
         }
     }
 
-    // 3. Buy New Asset
+    // 3. Buy New Asset (DISABLED - Only Sniper/Discovery should add positions)
+    /*
     if (positionToSell || positions.length < TARGET_POSITIONS) {
         console.log("[Rotation] 🔍 Fetching Trending Candidates...");
         const candidates = await dexscreener.getTrending();
@@ -188,6 +186,7 @@ async function runRotationCycle() {
             console.log("[Rotation] ⚠️ No valid candidates found. Waiting.");
         }
     }
+    */
 }
 
 module.exports = { runRotationCycle };

@@ -51,6 +51,7 @@ let activePositions = [];
 
 // Pool Cache to prevent memory leak / high churn
 const poolCache = new Map();
+let lastCacheClear = Date.now();
 
 function loadPositions() {
     if (fs.existsSync(POSITIONS_FILE)) {
@@ -98,6 +99,16 @@ async function getDlmmPool(address) {
 async function runYieldCycle() {
     if (!wallet) return;
     loadPositions(); // Ensure sync
+    
+    // --- CACHE PRUNING ---
+    // Clear cache every 5 minutes to release heavy objects
+    if (Date.now() - lastCacheClear > 5 * 60 * 1000) {
+        console.log(`[Yield] 🧹 Clearing Pool Cache (Size: ${poolCache.size}) to free memory.`);
+        poolCache.clear();
+        lastCacheClear = Date.now();
+        if (global.gc) global.gc(); // Force GC if available
+    }
+
     console.log(`[Yield] 🌾 Starting Yield Management cycle... (Active Positions: ${activePositions.length})`);
     
     // Check Balance to prevent spamming errors
@@ -144,8 +155,21 @@ async function runYieldCycle() {
 
     // 3. DECISION (Aggressive Mode: Active)
     if (canBuy) {
-        // --- FORCE ENTRY LOGIC (Ensure at least 1 position) ---
-        const forceEntry = activePositions.length === 0; 
+        // --- TIME-BASED HUNGER (30m Interval) ---
+        // Find the most recent entry time across all positions
+        const lastEntryTime = activePositions.length > 0 
+            ? Math.max(...activePositions.map(p => p.entryTime || 0)) 
+            : 0;
+        
+        const timeSinceLastEntry = now - lastEntryTime;
+        const ENTRY_INTERVAL_MS = 30 * 60 * 1000; // 30 Minutes
+        
+        const isHungry = timeSinceLastEntry > ENTRY_INTERVAL_MS;
+        const forceEntry = activePositions.length === 0 || isHungry;
+
+        if (isHungry) {
+            console.log(`[Yield] ⏰ IT'S TIME. ${((timeSinceLastEntry/1000)/60).toFixed(1)}m since last entry. Hunting mode: AGGRESSIVE.`);
+        }
         
         for (const pool of aggressivePools) { // Iterate aggressive pools only
             // Duplicate Check: Same ADDRESS (Pool) or Same NAME (Token Pair)
@@ -166,6 +190,7 @@ async function runYieldCycle() {
             const isUtilized = pool.metrics.utilization >= YIELD_CONFIG.MIN_UTILIZATION;
 
             // If forcing entry, relax utilization check slightly or just pick the best volume
+            // If hungry, we LOWER the bar significantly to ensure we find *something*
             const entryCondition = isUtilized || isHighActivity || (forceEntry && volTvlRatio > 0.1);
 
             if (!isAlreadyOpen && entryCondition) {
@@ -175,24 +200,41 @@ async function runYieldCycle() {
                 const score = matchingSignal ? matchingSignal.score : (isHighActivity ? 1 : 0);
                 
                 if (matchingSignal || isHighActivity || forceEntry) {
+                    // --- GAS GUARD (New) ---
+                    // Don't enter if TVL is tiny (<$500) because yield won't cover gas.
+                    if (tvl < 500 && !forceEntry) {
+                        console.log(`[Yield] ⛽ Gas Guard: Skipping ${pool.name} (TVL $${tvl.toFixed(0)} too low).`);
+                        continue;
+                    }
+
                     // --- POSITION ROTATION LOGIC ---
+                    // If we are full AND we are hungry (30m passed), we MUST rotate.
                     if (activePositions.length >= YIELD_CONFIG.MAX_POSITIONS) {
-                        // ... (Rotation Logic same as before) ...
                         const worstPosition = activePositions.sort((a, b) => (a.pnl || 0) - (b.pnl || 0))[0];
-                        if (score >= 2 && worstPosition) {
-                            console.log(`[Yield] ♻️ ROTATION: Full. Selling ${worstPosition.name} for ${pool.name}...`);
+                        
+                        // If hungry, rotate even if the score isn't perfect, as long as the new pool is "active"
+                        // If not hungry, only rotate for high conviction (score >= 2)
+                        const shouldRotate = isHungry || score >= 2;
+
+                        if (shouldRotate && worstPosition) {
+                            const reason = isHungry ? "TIME_FORCED" : "BETTER_OPP";
+                            console.log(`[Yield] ♻️ ROTATION (${reason}): Selling ${worstPosition.name} (${worstPosition.pnl?.toFixed(2)}%) for ${pool.name}...`);
+                            
                             let sold = false;
                             if (worstPosition.status === 'active') sold = await exitPosition(worstPosition);
                             else sold = await sellHolding(worstPosition);
+                            
                             if (sold) {
                                 activePositions = activePositions.filter(p => p.address !== worstPosition.address);
                                 savePositions();
                                 await enterPosition(pool);
+                                break; // Only rotate one at a time per cycle
                             }
                         }
                     } else {
                         // Not full
-                        if (forceEntry) console.log(`[Yield] ⚡ FORCE ENTRY (Empty Portfolio): Apeing ${pool.name} (Vol/TVL: ${volTvlRatio.toFixed(2)})`);
+                        if (activePositions.length === 0) console.log(`[Yield] ⚡ FORCE ENTRY (Empty Portfolio): Apeing ${pool.name} (Vol/TVL: ${volTvlRatio.toFixed(2)})`);
+                        else if (isHungry) console.log(`[Yield] ⏰ TIME FORCED ENTRY: Adding ${pool.name} to portfolio.`);
                         else if (matchingSignal) console.log(`[Yield] 🧠 Validated by Brain: ${pool.name} (Score: ${matchingSignal.score})`);
                         else console.log(`[Yield] 🌊 HIGH TURNOVER DETECTED: ${pool.name} (Vol/TVL: ${volTvlRatio.toFixed(2)}x). Entering for fees.`);
                         

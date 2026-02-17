@@ -10,7 +10,7 @@ const { startMonitoring } = require('../discovery/monitor');
 const logger = require('../utils/trade_logger');
 const fs = require('fs');
 const path = require('path');
-require('dotenv').config({ path: path.join(__dirname, '../../.env') });
+require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
 // Configuration
 const RPC_ENDPOINT = process.env.RPC_ENDPOINT;
@@ -97,7 +97,17 @@ async function executeSnipe(outputMint, amount, symbol) {
         // 2. Deserialize & Sign
         const swapTransactionBuf = Buffer.from(swapTransactionBase64, 'base64');
         const transaction = VersionedTransaction.deserialize(swapTransactionBuf);
-        transaction.sign([wallet]);
+        
+        try {
+            transaction.sign([wallet]);
+        } catch (signErr) {
+            console.error(`[Sniper] ⚠️ Signing Error: ${signErr.message}. Checking transaction keys...`);
+            // Log required signers for debugging
+            const requiredSigners = transaction.message.staticAccountKeys.slice(0, transaction.message.header.numRequiredSignatures);
+            console.log(`[Sniper] 🔑 Required Signers: ${requiredSigners.map(k => k.toBase58()).join(', ')}`);
+            console.log(`[Sniper] 🗝️ My Wallet: ${wallet.publicKey.toBase58()}`);
+            return; // Abort this trade, but keep running
+        }
 
         // 3. Send
         console.log(`[Sniper] 🔫 Firing Transaction...`);

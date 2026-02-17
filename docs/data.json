@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771293003969,
+  "lastUpdate": 1771293603974,
   "heartbeat": "GOOD",
-  "uptime": 2.386946213,
+  "uptime": 2.856564401,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.3307",
       "pnl": {
         "realized": 9.912573855420002,
-        "unrealized": -0.123747022975,
-        "total": 9.788826832445006,
+        "unrealized": -0.087236243606,
+        "total": 9.825337611814001,
         "winRate": 0
       }
     },
@@ -23,100 +23,99 @@
   "mode": "DUAL_CORE",
   "logs": [
     {
-      "timestamp": "2026-02-17T01:49:41.588Z",
+      "timestamp": "2026-02-17T01:59:43.229Z",
       "message": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112 (candidate)"
     },
     {
-      "timestamp": "2026-02-17T01:49:41.592Z",
+      "timestamp": "2026-02-17T01:59:43.233Z",
       "message": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112 (candidate)"
     },
     {
-      "timestamp": "2026-02-17T01:49:41.598Z",
+      "timestamp": "2026-02-17T01:59:43.234Z",
       "message": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij (candidate)"
     },
     {
-      "timestamp": "2026-02-17T01:49:41.602Z",
+      "timestamp": "2026-02-17T01:59:43.234Z",
       "message": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112 (candidate)"
     },
     {
-      "timestamp": "2026-02-17T01:49:41.608Z",
+      "timestamp": "2026-02-17T01:59:43.235Z",
       "message": "DISCOVERY_METEORA: NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump (candidate)"
     },
     {
-      "timestamp": "2026-02-17T01:49:41.613Z",
+      "timestamp": "2026-02-17T01:59:43.235Z",
       "message": "DISCOVERY_METEORA: EtL967sgMgeDDSUrNhtQrbhe4T92idzqf4VuA6H7uGfQ (candidate)"
     },
     {
-      "timestamp": "2026-02-17T01:49:41.617Z",
+      "timestamp": "2026-02-17T01:59:43.236Z",
       "message": "DISCOVERY_METEORA: 8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump (candidate)"
     },
     {
-      "timestamp": "2026-02-17T01:49:41.621Z",
+      "timestamp": "2026-02-17T01:59:43.237Z",
       "message": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g (candidate)"
     },
     {
-      "timestamp": "2026-02-17T01:49:41.626Z",
-      "message": "DISCOVERY_METEORA: Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk (candidate)"
+      "timestamp": "2026-02-17T01:59:43.238Z",
+      "message": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112 (candidate)"
     },
     {
-      "timestamp": "2026-02-17T01:49:41.630Z",
-      "message": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112 (candidate)"
+      "timestamp": "2026-02-17T01:59:43.239Z",
+      "message": "DISCOVERY_METEORA: Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk (candidate)"
     }
   ],
-  "thought": "Current status: 0.3468 SOL balance with multiple METEORA discoveries, including So11111111111111111111111111111111111111112 and NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump; next move: evaluate candidate potential for strategic acquisition.",
+  "thought": "Current status: Balance steady at 0.3468 SOL; multiple candidates detected including So11111111111111111111111111111111111111112 and NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump; next move: evaluate candidate stability and initiate strategic acquisition.",
   "chartData": {
     "labels": [
-      "01:52",
-      "02:22",
-      "02:53",
-      "03:23",
-      "03:53",
-      "04:24",
-      "04:54",
-      "05:25",
-      "05:56",
-      "06:25",
-      "06:56",
-      "07:26",
-      "07:57",
-      "08:28",
-      "08:58",
-      "09:28",
-      "09:59",
-      "10:30",
-      "11:00",
-      "11:30",
-      "12:00",
-      "12:30",
-      "13:00",
-      "13:30",
-      "14:00",
-      "14:30",
-      "15:00",
-      "15:31",
-      "16:02",
-      "16:33",
-      "17:02",
-      "17:33",
-      "18:03",
-      "18:34",
-      "19:05",
-      "19:34",
-      "20:05",
-      "20:36",
-      "21:07",
-      "21:37",
-      "22:07",
-      "22:37",
-      "23:08",
-      "23:39",
-      "00:09",
-      "00:39",
-      "01:09",
-      "01:40"
+      "02:00",
+      "02:30",
+      "03:00",
+      "03:30",
+      "04:00",
+      "04:30",
+      "05:00",
+      "05:30",
+      "06:00",
+      "06:31",
+      "07:01",
+      "07:32",
+      "08:02",
+      "08:32",
+      "09:03",
+      "09:34",
+      "10:05",
+      "10:36",
+      "11:05",
+      "11:36",
+      "12:07",
+      "12:38",
+      "13:08",
+      "13:37",
+      "14:08",
+      "14:39",
+      "15:09",
+      "15:40",
+      "16:10",
+      "16:40",
+      "17:10",
+      "17:40",
+      "18:10",
+      "18:40",
+      "19:10",
+      "19:40",
+      "20:10",
+      "20:41",
+      "21:12",
+      "21:41",
+      "22:12",
+      "22:43",
+      "23:13",
+      "23:44",
+      "00:14",
+      "00:44",
+      "01:14",
+      "01:45"
     ],
     "data": [
-      0.375668906,
       0.373295783,
       0.357596002,
       0.356133765,
@@ -125,7 +124,8 @@
       0.387708057,
       0.35725792700000003,
       0.374852906,
-      0.374654622,
+      0.404852157,
+      0.392201676,
       0.331389516,
       0.33149795600000004,
       0.347234257,
@@ -134,9 +134,9 @@
       0.37352286700000004,
       0.372444963,
       0.373209669,
-      0.357354276,
-      0.371818704,
-      0.355706543,
+      0.38735231600000003,
+      0.400921543,
+      0.385700343,
       0.371234939,
       0.342764623,
       0.375048778,
@@ -170,8 +170,8 @@
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 9.912573855420002,
-    "unrealizedPnL": -0.123747022975,
-    "totalPnL": 9.788826832445006,
+    "unrealizedPnL": -0.087236243606,
+    "totalPnL": 9.825337611814001,
     "activePositions": "Active"
   },
   "positions": [
@@ -179,13 +179,13 @@
       "symbol": "Punch-SOL",
       "address": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
       "pnl": 0,
-      "age": "5.9h"
+      "age": "6.1h"
     },
     {
       "symbol": "HYPE-SOL",
       "address": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
       "pnl": 0,
-      "age": "1.4h"
+      "age": "1.5h"
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771448405240,
+  "lastUpdate": 1771449004950,
   "heartbeat": "GOOD",
-  "uptime": 3.938521389,
+  "uptime": 3.295082903,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.2057",
       "pnl": {
         "realized": 9.887841676371,
-        "unrealized": -6.725751725156,
-        "total": 3.162089951216,
+        "unrealized": -6.622751216375,
+        "total": 3.265090459996001,
         "winRate": 0
       }
     },
@@ -23,97 +23,97 @@
   "mode": "DUAL_CORE",
   "logs": [
     {
-      "timestamp": "2026-02-18T21:00:01.766Z",
-      "message": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112 (candidate)"
-    },
-    {
-      "timestamp": "2026-02-18T21:00:01.780Z",
-      "message": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112 (candidate)"
-    },
-    {
-      "timestamp": "2026-02-18T21:00:01.804Z",
-      "message": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij (candidate)"
-    },
-    {
-      "timestamp": "2026-02-18T21:00:01.817Z",
-      "message": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112 (candidate)"
-    },
-    {
-      "timestamp": "2026-02-18T21:00:01.839Z",
-      "message": "DISCOVERY_METEORA: pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn (candidate)"
-    },
-    {
-      "timestamp": "2026-02-18T21:00:01.850Z",
-      "message": "DISCOVERY_METEORA: HaUXAdAWWUkb2WTmh8z1TdaEmZkYjnQnmC6tHUdTAHvi (candidate)"
-    },
-    {
-      "timestamp": "2026-02-18T21:00:01.876Z",
-      "message": "DISCOVERY_METEORA: PreANxuXjsy2pvisWWMNB6YaJNzr7681wJJr2rHsfTh (candidate)"
-    },
-    {
-      "timestamp": "2026-02-18T21:00:01.901Z",
+      "timestamp": "2026-02-18T21:09:31.811Z",
       "message": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g (candidate)"
     },
     {
-      "timestamp": "2026-02-18T21:00:01.914Z",
+      "timestamp": "2026-02-18T21:09:31.820Z",
       "message": "DISCOVERY_METEORA: pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn (candidate)"
     },
     {
-      "timestamp": "2026-02-18T21:00:01.926Z",
+      "timestamp": "2026-02-18T21:09:31.828Z",
+      "message": "DISCOVERY_METEORA: HaUXAdAWWUkb2WTmh8z1TdaEmZkYjnQnmC6tHUdTAHvi (candidate)"
+    },
+    {
+      "timestamp": "2026-02-18T21:10:02.911Z",
+      "message": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112 (candidate)"
+    },
+    {
+      "timestamp": "2026-02-18T21:10:02.922Z",
+      "message": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112 (candidate)"
+    },
+    {
+      "timestamp": "2026-02-18T21:10:02.939Z",
+      "message": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij (candidate)"
+    },
+    {
+      "timestamp": "2026-02-18T21:10:02.959Z",
+      "message": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112 (candidate)"
+    },
+    {
+      "timestamp": "2026-02-18T21:10:02.979Z",
+      "message": "DISCOVERY_METEORA: pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn (candidate)"
+    },
+    {
+      "timestamp": "2026-02-18T21:10:02.999Z",
+      "message": "DISCOVERY_METEORA: PreANxuXjsy2pvisWWMNB6YaJNzr7681wJJr2rHsfTh (candidate)"
+    },
+    {
+      "timestamp": "2026-02-18T21:10:03.020Z",
       "message": "DISCOVERY_METEORA: HaUXAdAWWUkb2WTmh8z1TdaEmZkYjnQnmC6tHUdTAHvi (candidate)"
     }
   ],
-  "thought": "Analyzing recent discoveries: multiple signals from So11111111111111111111111111111111111111112 and new candidate pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn suggest potential arbitrage opportunities; next move is to evaluate pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn's volatility for strategic entry.",
+  "thought": "Analyzing recent Meteora discoveries with 0.2218 SOL balance; next move: evaluate potential in candidate 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g for strategic engagement.",
   "chartData": {
     "labels": [
-      "21:00",
-      "21:30",
-      "22:00",
-      "22:30",
-      "23:00",
-      "23:30",
-      "00:00",
-      "00:30",
-      "01:00",
-      "01:30",
-      "02:01",
-      "02:31",
-      "03:02",
-      "03:31",
-      "04:02",
-      "04:33",
-      "05:03",
-      "05:34",
-      "06:04",
-      "06:35",
-      "07:05",
-      "07:36",
-      "08:06",
-      "08:36",
-      "09:06",
-      "09:37",
-      "10:07",
-      "10:38",
-      "11:08",
-      "11:38",
-      "12:08",
-      "12:39",
-      "13:10",
-      "13:39",
-      "14:10",
-      "14:40",
-      "15:10",
-      "15:41",
-      "16:10",
-      "16:43",
-      "17:13",
-      "17:37",
-      "18:04",
-      "18:34",
-      "19:04",
-      "19:35",
-      "20:05",
-      "20:36"
+      "21:10",
+      "21:40",
+      "22:10",
+      "22:40",
+      "23:10",
+      "23:40",
+      "00:10",
+      "00:40",
+      "01:10",
+      "01:41",
+      "02:12",
+      "02:41",
+      "03:11",
+      "03:42",
+      "04:13",
+      "04:43",
+      "05:13",
+      "05:43",
+      "06:14",
+      "06:45",
+      "07:16",
+      "07:45",
+      "08:16",
+      "08:46",
+      "09:17",
+      "09:47",
+      "10:17",
+      "10:47",
+      "11:18",
+      "11:49",
+      "12:19",
+      "12:49",
+      "13:19",
+      "13:50",
+      "14:20",
+      "14:50",
+      "15:20",
+      "15:50",
+      "16:21",
+      "16:53",
+      "17:22",
+      "17:44",
+      "18:14",
+      "18:45",
+      "19:15",
+      "19:45",
+      "20:15",
+      "20:45"
     ],
     "data": [
       0.299104554,
@@ -170,8 +170,8 @@
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 9.887841676371,
-    "unrealizedPnL": -6.725751725156,
-    "totalPnL": 3.162089951216,
+    "unrealizedPnL": -6.622751216375,
+    "totalPnL": 3.265090459996001,
     "activePositions": "Active"
   },
   "positions": [
@@ -179,13 +179,13 @@
       "symbol": "KIMCHI-SOL",
       "address": "HaUXAdAWWUkb2WTmh8z1TdaEmZkYjnQnmC6tHUdTAHvi",
       "pnl": 0,
-      "age": "11.7h"
+      "age": "11.8h"
     },
     {
       "symbol": "PUMP-SOL",
       "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "pnl": 0,
-      "age": "3.6h"
+      "age": "3.7h"
     }
   ]
 }

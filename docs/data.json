@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771470603871,
+  "lastUpdate": 1771471203843,
   "heartbeat": "GOOD",
-  "uptime": 2.174344702,
+  "uptime": 2.518299984,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.2099",
       "pnl": {
         "realized": 9.669408449603,
-        "unrealized": -7.004357411788,
-        "total": 2.665051037814001,
+        "unrealized": -6.816306050455,
+        "total": 2.853102399149003,
         "winRate": 0
       }
     },
@@ -23,97 +23,97 @@
   "mode": "DUAL_CORE",
   "logs": [
     {
-      "timestamp": "2026-02-19T03:09:32.821Z",
+      "timestamp": "2026-02-19T03:20:00.724Z",
       "message": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112 (candidate)"
     },
     {
-      "timestamp": "2026-02-19T03:09:32.827Z",
+      "timestamp": "2026-02-19T03:20:00.753Z",
       "message": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112 (candidate)"
     },
     {
-      "timestamp": "2026-02-19T03:09:32.832Z",
+      "timestamp": "2026-02-19T03:20:00.759Z",
       "message": "DISCOVERY_METEORA: cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij (candidate)"
     },
     {
-      "timestamp": "2026-02-19T03:09:32.836Z",
+      "timestamp": "2026-02-19T03:20:00.765Z",
       "message": "DISCOVERY_METEORA: So11111111111111111111111111111111111111112 (candidate)"
     },
     {
-      "timestamp": "2026-02-19T03:09:32.840Z",
+      "timestamp": "2026-02-19T03:20:00.771Z",
       "message": "DISCOVERY_METEORA: pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn (candidate)"
     },
     {
-      "timestamp": "2026-02-19T03:09:32.842Z",
+      "timestamp": "2026-02-19T03:20:00.781Z",
       "message": "DISCOVERY_METEORA: PreANxuXjsy2pvisWWMNB6YaJNzr7681wJJr2rHsfTh (candidate)"
     },
     {
-      "timestamp": "2026-02-19T03:09:32.844Z",
+      "timestamp": "2026-02-19T03:20:00.786Z",
       "message": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g (candidate)"
     },
     {
-      "timestamp": "2026-02-19T03:09:32.846Z",
+      "timestamp": "2026-02-19T03:20:00.790Z",
       "message": "DISCOVERY_METEORA: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g (candidate)"
     },
     {
-      "timestamp": "2026-02-19T03:09:32.848Z",
-      "message": "DISCOVERY_METEORA: PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF (candidate)"
-    },
-    {
-      "timestamp": "2026-02-19T03:09:32.850Z",
+      "timestamp": "2026-02-19T03:20:00.796Z",
       "message": "DISCOVERY_METEORA: AWpD39myXc7emw5M9cMCofkbo92x5FKWdGHWYpZFdoge (candidate)"
+    },
+    {
+      "timestamp": "2026-02-19T03:20:00.801Z",
+      "message": "DISCOVERY_METEORA: PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF (candidate)"
     }
   ],
-  "thought": "\"Current balance is 0.2260 SOL with multiple candidate discoveries including So11111111111111111111111111111111111111112 and pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn; next logical move is to evaluate these candidates for potential profitable trading opportunities.\"",
+  "thought": "Analyzing recent meteora discoveries with potential candidates like So11111111111111111111111111111111111111112 and pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn, next logical move: assess viability for strategic trading opportunities.",
   "chartData": {
     "labels": [
-      "03:11",
-      "03:41",
-      "04:12",
-      "04:43",
-      "05:12",
-      "05:43",
-      "06:13",
-      "06:44",
-      "07:15",
-      "07:44",
-      "08:15",
-      "08:45",
-      "09:15",
-      "09:46",
-      "10:15",
-      "10:46",
-      "11:16",
-      "11:47",
-      "12:18",
-      "12:47",
-      "13:18",
-      "13:49",
-      "14:19",
-      "14:50",
-      "15:20",
-      "15:50",
-      "16:20",
-      "16:51",
-      "17:20",
-      "17:42",
-      "18:12",
-      "18:42",
-      "19:12",
-      "19:43",
-      "20:13",
-      "20:44",
-      "21:14",
-      "21:45",
-      "22:15",
-      "22:46",
-      "23:16",
-      "23:46",
-      "00:16",
-      "00:47",
-      "01:18",
-      "01:48",
-      "02:17",
-      "02:48"
+      "03:21",
+      "03:52",
+      "04:22",
+      "04:52",
+      "05:23",
+      "05:53",
+      "06:24",
+      "06:54",
+      "07:24",
+      "07:55",
+      "08:25",
+      "08:55",
+      "09:25",
+      "09:55",
+      "10:26",
+      "10:57",
+      "11:27",
+      "11:57",
+      "12:27",
+      "12:58",
+      "13:29",
+      "13:59",
+      "14:29",
+      "15:00",
+      "15:30",
+      "16:00",
+      "16:31",
+      "17:01",
+      "17:29",
+      "17:51",
+      "18:22",
+      "18:52",
+      "19:23",
+      "19:53",
+      "20:23",
+      "20:54",
+      "21:24",
+      "21:55",
+      "22:26",
+      "22:55",
+      "23:26",
+      "23:56",
+      "00:27",
+      "00:57",
+      "01:27",
+      "01:57",
+      "02:28",
+      "02:58"
     ],
     "data": [
       0.299104554,
@@ -128,7 +128,6 @@
       0.299104554,
       0.299104554,
       0.299104554,
-      0.299104554,
       0.267020474,
       0.267020474,
       0.267020474,
@@ -153,25 +152,26 @@
       0.22180267399999998,
       0.22180267399999998,
       0.22180267399999998,
-      0.251531069,
-      0.235976611,
-      0.230517323,
-      0.21990718599999998,
-      0.249111727,
-      0.188347327,
+      0.22180267399999998,
+      0.25153107,
+      0.260627323,
+      0.21988828500000002,
+      0.24966514,
+      0.218901727,
+      0.172934941,
       0.202380297,
       0.206905087,
-      0.23088408100000002,
-      0.215549086,
-      0.260442598
+      0.230884082,
+      0.23041295099999998,
+      0.245281238
     ]
   },
   "strategy": {
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 9.669408449603,
-    "unrealizedPnL": -7.004357411788,
-    "totalPnL": 2.665051037814001,
+    "unrealizedPnL": -6.816306050455,
+    "totalPnL": 2.853102399149003,
     "activePositions": "Active"
   },
   "positions": [
@@ -179,13 +179,13 @@
       "symbol": "HYPE-SOL",
       "address": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
       "pnl": 0,
-      "age": "0.3h"
+      "age": "0.5h"
     },
     {
       "symbol": "KIMCHI-SOL",
       "address": "AWpD39myXc7emw5M9cMCofkbo92x5FKWdGHWYpZFdoge",
       "pnl": 0,
-      "age": "0.2h"
+      "age": "0.3h"
     }
   ]
 }

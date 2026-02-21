@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771657203855,
+  "lastUpdate": 1771657802973,
   "heartbeat": "GOOD",
-  "uptime": 2.328151789,
+  "uptime": 1.759615321,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
-      "balance": "0.3254",
+      "balance": "0.2353",
       "pnl": {
         "realized": 7.709907583960002,
-        "unrealized": -2.725059473024,
-        "total": 4.984848110936001,
+        "unrealized": -2.76204065176,
+        "total": 4.947866932200002,
         "winRate": 0
       }
     },
@@ -19,33 +19,9 @@
       "pnl": null
     }
   },
-  "totalBalance": "0.3415",
+  "totalBalance": "0.2514",
   "mode": "DUAL_CORE",
   "logs": [
-    {
-      "timestamp": "2026-02-21T04:33:57.545Z",
-      "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
-    },
-    {
-      "timestamp": "2026-02-21T04:33:57.777Z",
-      "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
-    },
-    {
-      "timestamp": "2026-02-21T04:45:23.081Z",
-      "message": "TRADE_EXECUTION: NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump (submitted)"
-    },
-    {
-      "timestamp": "2026-02-21T04:45:24.145Z",
-      "message": "TRADE_EXECUTION: NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump (submitted)"
-    },
-    {
-      "timestamp": "2026-02-21T04:49:03.265Z",
-      "message": "TRADE_EXECUTION: AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump (submitted)"
-    },
-    {
-      "timestamp": "2026-02-21T04:49:03.636Z",
-      "message": "TRADE_EXECUTION: AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump (submitted)"
-    },
     {
       "timestamp": "2026-02-21T04:49:35.097Z",
       "message": "TRADE_EXECUTION: AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump (submitted)"
@@ -61,68 +37,92 @@
     {
       "timestamp": "2026-02-21T06:49:56.154Z",
       "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
+    },
+    {
+      "timestamp": "2026-02-21T07:00:51.733Z",
+      "message": "TRADE_EXECUTION: NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump (submitted)"
+    },
+    {
+      "timestamp": "2026-02-21T07:00:52.286Z",
+      "message": "TRADE_EXECUTION: NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump (submitted)"
+    },
+    {
+      "timestamp": "2026-02-21T07:05:09.261Z",
+      "message": "TRADE_EXECUTION: AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump (submitted)"
+    },
+    {
+      "timestamp": "2026-02-21T07:05:09.446Z",
+      "message": "TRADE_EXECUTION: AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump (submitted)"
+    },
+    {
+      "timestamp": "2026-02-21T07:05:41.084Z",
+      "message": "TRADE_EXECUTION: AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump (submitted)"
+    },
+    {
+      "timestamp": "2026-02-21T07:05:41.888Z",
+      "message": "TRADE_EXECUTION: AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump (submitted)"
     }
   ],
-  "thought": "Balance holding at 0.3415 SOL with successful recent trade executions; next logical move: analyze market trends for strategic re-entry points.",
+  "thought": "Balance at 0.2514 SOL with successful trade executions; next move: analyze market trends for optimal re-entry point.",
   "chartData": {
     "labels": [
-      "07:00",
-      "07:30",
-      "08:00",
-      "08:30",
-      "09:00",
-      "09:30",
-      "10:00",
-      "10:31",
-      "11:01",
-      "11:30",
-      "12:01",
-      "12:31",
-      "13:02",
-      "13:32",
-      "14:02",
-      "14:32",
-      "15:03",
-      "15:33",
-      "16:04",
-      "16:33",
-      "17:04",
-      "17:32",
-      "18:03",
-      "18:33",
-      "19:04",
-      "19:39",
-      "20:09",
-      "20:40",
-      "21:10",
-      "21:40",
-      "22:10",
-      "22:41",
-      "23:11",
-      "23:48",
-      "00:17",
-      "00:47",
-      "01:18",
-      "01:49",
-      "02:19",
-      "02:49",
-      "03:19",
-      "03:50",
-      "04:21",
-      "04:52",
-      "05:21",
-      "05:51",
-      "06:22",
-      "06:53"
+      "07:10",
+      "07:40",
+      "08:10",
+      "08:40",
+      "09:10",
+      "09:40",
+      "10:11",
+      "10:40",
+      "11:10",
+      "11:41",
+      "12:12",
+      "12:42",
+      "13:11",
+      "13:42",
+      "14:12",
+      "14:43",
+      "15:13",
+      "15:43",
+      "16:13",
+      "16:44",
+      "17:14",
+      "17:43",
+      "18:13",
+      "18:44",
+      "19:13",
+      "19:49",
+      "20:20",
+      "20:50",
+      "21:20",
+      "21:50",
+      "22:21",
+      "22:52",
+      "23:22",
+      "23:57",
+      "00:28",
+      "00:58",
+      "01:28",
+      "01:58",
+      "02:29",
+      "02:59",
+      "03:30",
+      "04:01",
+      "04:30",
+      "05:01",
+      "05:31",
+      "06:02",
+      "06:33",
+      "07:03"
     ],
     "data": [
       0.255947995,
       0.255947995,
-      0.3126705,
+      0.2676499,
       0.28732365600000004,
       0.28732365600000004,
       0.247312904,
-      0.247312904,
+      0.28841253,
       0.28841253,
       0.28841253,
       0.300068429,
@@ -141,16 +141,16 @@
       0.323500624,
       0.323500624,
       0.323500624,
-      0.33859314,
       0.30838314,
       0.30838314,
       0.30838314,
       0.30838314,
+      0.33938718500000004,
       0.309177192,
       0.309177192,
       0.309177192,
       0.309177192,
-      0.311662699,
+      0.294581815,
       0.294581815,
       0.294581815,
       0.294581815,
@@ -158,21 +158,34 @@
       0.296335672,
       0.296335672,
       0.296335672,
-      0.296335672,
+      0.31000646400000004,
       0.255053121,
       0.255053121,
       0.255053121,
       0.255053121,
-      0.341457829
+      0.311447829
     ]
   },
   "strategy": {
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 7.709907583960002,
-    "unrealizedPnL": -2.725059473024,
-    "totalPnL": 4.984848110936001,
+    "unrealizedPnL": -2.76204065176,
+    "totalPnL": 4.947866932200002,
     "activePositions": "Active"
   },
-  "positions": []
+  "positions": [
+    {
+      "symbol": "Punch-SOL",
+      "address": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
+      "pnl": 0,
+      "age": "0.2h"
+    },
+    {
+      "symbol": "Lobstar-SOL",
+      "address": "AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump",
+      "pnl": 0,
+      "age": "0.1h"
+    }
+  ]
 }

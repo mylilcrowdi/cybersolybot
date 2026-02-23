@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771859404630,
+  "lastUpdate": 1771860003133,
   "heartbeat": "GOOD",
-  "uptime": 3.07896026,
+  "uptime": 2.015576543,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
-      "balance": "0.3131",
+      "balance": "0.2485",
       "pnl": {
-        "realized": 10.679176804890998,
-        "unrealized": -3.039346161167,
-        "total": 7.639830643725,
+        "realized": 10.668488671386,
+        "unrealized": -3.296253342049,
+        "total": 7.372235329337,
         "winRate": 0
       }
     },
@@ -19,105 +19,105 @@
       "pnl": null
     }
   },
-  "totalBalance": "0.3292",
+  "totalBalance": "0.2646",
   "mode": "DUAL_CORE",
   "logs": [
     {
-      "timestamp": "2026-02-22T13:49:12.878Z",
-      "message": "TRADE_EXECUTION: AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump (submitted)"
+      "timestamp": "2026-02-23T15:14:43.043Z",
+      "message": "TRADE_EXECUTION: 8NFNhyWJF8dTWRxLN4Tq4SXkVaPHYncQm5vJ49hpump (submitted)"
     },
     {
-      "timestamp": "2026-02-22T13:49:14.037Z",
-      "message": "TRADE_EXECUTION: AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump (submitted)"
+      "timestamp": "2026-02-23T15:14:43.442Z",
+      "message": "TRADE_EXECUTION: 8NFNhyWJF8dTWRxLN4Tq4SXkVaPHYncQm5vJ49hpump (submitted)"
     },
     {
-      "timestamp": "2026-02-22T13:49:46.917Z",
-      "message": "TRADE_EXECUTION: AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump (submitted)"
-    },
-    {
-      "timestamp": "2026-02-22T13:49:47.545Z",
-      "message": "TRADE_EXECUTION: AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump (submitted)"
-    },
-    {
-      "timestamp": "2026-02-22T15:19:39.584Z",
+      "timestamp": "2026-02-23T15:15:15.044Z",
       "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
     },
     {
-      "timestamp": "2026-02-22T15:34:50.310Z",
-      "message": "TRADE_EXECUTION: NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump (submitted)"
-    },
-    {
-      "timestamp": "2026-02-22T15:34:52.102Z",
-      "message": "TRADE_EXECUTION: NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump (submitted)"
-    },
-    {
-      "timestamp": "2026-02-22T15:59:35.621Z",
+      "timestamp": "2026-02-23T15:15:15.128Z",
       "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
     },
     {
-      "timestamp": "2026-02-22T17:35:41.249Z",
-      "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
+      "timestamp": "2026-02-23T15:15:16.434Z",
+      "message": "TRADE_EXECUTION: 3LmH79u9NH5AjYxEBAyJtWkCZD875zCqPzvhELaUpump (submitted)"
     },
     {
-      "timestamp": "2026-02-23T14:07:02.949Z",
-      "message": "TRADE_EXECUTION: 98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g (submitted)"
+      "timestamp": "2026-02-23T15:15:16.945Z",
+      "message": "TRADE_EXECUTION: 3LmH79u9NH5AjYxEBAyJtWkCZD875zCqPzvhELaUpump (submitted)"
+    },
+    {
+      "timestamp": "2026-02-23T15:15:49.141Z",
+      "message": "TRADE_EXECUTION: 8NFNhyWJF8dTWRxLN4Tq4SXkVaPHYncQm5vJ49hpump (submitted)"
+    },
+    {
+      "timestamp": "2026-02-23T15:15:50.751Z",
+      "message": "TRADE_EXECUTION: 8NFNhyWJF8dTWRxLN4Tq4SXkVaPHYncQm5vJ49hpump (submitted)"
+    },
+    {
+      "timestamp": "2026-02-23T15:16:26.128Z",
+      "message": "TRADE_EXECUTION: 3LmH79u9NH5AjYxEBAyJtWkCZD875zCqPzvhELaUpump (submitted)"
+    },
+    {
+      "timestamp": "2026-02-23T15:16:26.640Z",
+      "message": "TRADE_EXECUTION: 3LmH79u9NH5AjYxEBAyJtWkCZD875zCqPzvhELaUpump (submitted)"
     }
   ],
-  "thought": "Balance holds at 0.3292 SOL with multiple executed trades; analyzing market trends for optimal entry points to maximize gains.",
+  "thought": "Balance holding steady at 0.2646 SOL following multiple trade executions, optimizing strategy requires monitoring market signals for high-impact opportunities.",
   "chartData": {
     "labels": [
-      "15:13",
-      "15:34",
-      "15:59",
-      "16:34",
-      "17:10",
-      "17:50",
-      "18:26",
-      "19:00",
-      "19:40",
-      "20:16",
-      "20:52",
-      "21:30",
-      "22:07",
-      "22:23",
-      "22:44",
-      "23:07",
-      "23:27",
-      "23:50",
-      "00:12",
-      "00:32",
-      "01:00",
-      "01:39",
-      "02:14",
-      "02:50",
-      "03:29",
-      "04:00",
-      "04:20",
-      "04:40",
-      "05:10",
-      "05:30",
-      "05:55",
-      "06:31",
-      "07:10",
-      "07:48",
-      "08:24",
-      "08:49",
-      "09:10",
-      "09:34",
-      "09:54",
-      "10:19",
-      "10:40",
-      "11:06",
-      "11:41",
-      "12:20",
-      "12:58",
-      "13:32",
-      "14:10",
-      "14:48"
+      "15:20",
+      "15:43",
+      "16:10",
+      "16:50",
+      "17:25",
+      "18:00",
+      "18:40",
+      "19:16",
+      "19:51",
+      "20:30",
+      "21:06",
+      "21:42",
+      "22:18",
+      "22:34",
+      "22:52",
+      "23:12",
+      "23:37",
+      "23:58",
+      "00:20",
+      "00:42",
+      "01:14",
+      "01:50",
+      "02:30",
+      "03:04",
+      "03:40",
+      "04:05",
+      "04:30",
+      "04:50",
+      "05:20",
+      "05:41",
+      "06:10",
+      "06:46",
+      "07:22",
+      "08:00",
+      "08:33",
+      "08:58",
+      "09:19",
+      "09:40",
+      "10:05",
+      "10:25",
+      "10:50",
+      "11:20",
+      "11:56",
+      "12:32",
+      "13:10",
+      "13:48",
+      "14:23",
+      "15:00"
     ],
     "data": [
-      0.255756367,
       0.284226547,
+      0.254118148,
       0.31714184500000003,
       0.31714184500000003,
       0.31714184500000003,
@@ -169,17 +169,23 @@
   "strategy": {
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
-    "realizedPnL": 10.679176804890998,
-    "unrealizedPnL": -3.039346161167,
-    "totalPnL": 7.639830643725,
+    "realizedPnL": 10.668488671386,
+    "unrealizedPnL": -3.296253342049,
+    "totalPnL": 7.372235329337,
     "activePositions": "Active"
   },
   "positions": [
     {
-      "symbol": "HYPE-SOL",
-      "address": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
+      "symbol": "Cocaine-SOL",
+      "address": "8NFNhyWJF8dTWRxLN4Tq4SXkVaPHYncQm5vJ49hpump",
       "pnl": 0,
-      "age": "1.1h"
+      "age": "0.1h"
+    },
+    {
+      "symbol": "GOLEM-SOL",
+      "address": "3LmH79u9NH5AjYxEBAyJtWkCZD875zCqPzvhELaUpump",
+      "pnl": 0,
+      "age": "0.1h"
     }
   ]
 }

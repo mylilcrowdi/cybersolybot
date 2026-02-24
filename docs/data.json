@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771903203950,
+  "lastUpdate": 1771903803184,
   "heartbeat": "GOOD",
-  "uptime": 2.31852223,
+  "uptime": 2.074366238,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.2290",
       "pnl": {
         "realized": 8.137628596934997,
-        "unrealized": -3.167875565381,
-        "total": 4.969753031553998,
+        "unrealized": -3.708078947372,
+        "total": 4.429549649563002,
         "winRate": 0
       }
     },
@@ -63,7 +63,7 @@
       "message": "TRADE_EXECUTION: Cu5tz3TtErpBaHcQDY5xjsJ1jmnDeCWZsK2ch7YXpump (submitted)"
     }
   ],
-  "thought": "Balance holds at 0.2451 SOL with recent trade submissions marked, next logical move: analyze market trends for optimal entry point.",
+  "thought": "Balance holds at 0.2451 SOL after multiple successful trade executions; next logical move: analyze market trends for optimal re-entry.",
   "chartData": {
     "labels": [
       "23:26",
@@ -111,7 +111,10 @@
       "03:09",
       "03:10",
       "03:14",
-      "03:19"
+      "03:19",
+      "03:25",
+      "03:28",
+      "03:30"
     ],
     "data": [
       0.242119339,
@@ -159,6 +162,9 @@
       0.24507559299999998,
       0.24507559299999998,
       0.24507559299999998,
+      0.24507559299999998,
+      0.24507559299999998,
+      0.24507559299999998,
       0.24507559299999998
     ]
   },
@@ -166,8 +172,8 @@
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 8.137628596934997,
-    "unrealizedPnL": -3.167875565381,
-    "totalPnL": 4.969753031553998,
+    "unrealizedPnL": -3.708078947372,
+    "totalPnL": 4.429549649563002,
     "activePositions": "Active"
   },
   "positions": [
@@ -175,13 +181,13 @@
       "symbol": "NoLimit-SOL",
       "address": "6fC29w55f26ne7aaTH3Apqu6DWrgKk3oHmaRnd5Hpump",
       "pnl": 0,
-      "age": "1.3h"
+      "age": "1.5h"
     },
     {
       "symbol": "plankton-SOL",
       "address": "Cu5tz3TtErpBaHcQDY5xjsJ1jmnDeCWZsK2ch7YXpump",
       "pnl": 0,
-      "age": "0.6h"
+      "age": "0.7h"
     }
   ]
 }

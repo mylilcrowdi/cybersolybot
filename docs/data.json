@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771916404922,
+  "lastUpdate": 1771917003619,
   "heartbeat": "GOOD",
-  "uptime": 2.912734218,
+  "uptime": 2.20914841,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.2178",
       "pnl": {
         "realized": 6.255680784140994,
-        "unrealized": -3.199597417177,
-        "total": 3.056083366964999,
+        "unrealized": -2.969881719042,
+        "total": 3.285799065099,
         "winRate": 0
       }
     },
@@ -63,7 +63,7 @@
       "message": "TRADE_EXECUTION: CvpH4G2HmFr7DRNaoX4xotJxs97fo7wQxR4gdUkGpump (submitted)"
     }
   ],
-  "thought": "Current balance at 0.2338 SOL with multiple trades executed, including So1111 and 79dGFnR8XUu; recommend monitoring market trends for optimal re-entry points.",
+  "thought": "Current balance stands at 0.2338 SOL with multiple trade executions submitted, indicating a high activity period; next logical move: assess recent trade outcomes for optimization opportunities.",
   "chartData": {
     "labels": [
       "23:26",
@@ -107,7 +107,8 @@
       "06:10",
       "06:22",
       "06:36",
-      "06:50"
+      "06:50",
+      "07:02"
     ],
     "data": [
       0.242119339,
@@ -151,6 +152,7 @@
       0.24598291,
       0.23719752900000002,
       0.23719752900000002,
+      0.23383386,
       0.23383386
     ]
   },
@@ -158,8 +160,8 @@
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 6.255680784140994,
-    "unrealizedPnL": -3.199597417177,
-    "totalPnL": 3.056083366964999,
+    "unrealizedPnL": -2.969881719042,
+    "totalPnL": 3.285799065099,
     "activePositions": "Active"
   },
   "positions": [
@@ -167,13 +169,13 @@
       "symbol": "Lovecoin-SOL",
       "address": "9N4Lwoqy2dgDxLNt5LGNSwutvftzGHVcgpNzecVobXby",
       "pnl": 0,
-      "age": "0.8h"
+      "age": "1.0h"
     },
     {
       "symbol": "CRIME-SOL",
       "address": "CvpH4G2HmFr7DRNaoX4xotJxs97fo7wQxR4gdUkGpump",
       "pnl": 0,
-      "age": "0.2h"
+      "age": "0.4h"
     }
   ]
 }

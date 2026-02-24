@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771915803482,
+  "lastUpdate": 1771916404922,
   "heartbeat": "GOOD",
-  "uptime": 1.91868124,
+  "uptime": 2.912734218,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.2178",
       "pnl": {
         "realized": 6.255680784140994,
-        "unrealized": -3.155671127578,
-        "total": 3.100009656562997,
+        "unrealized": -3.199597417177,
+        "total": 3.056083366964999,
         "winRate": 0
       }
     },
@@ -63,7 +63,7 @@
       "message": "TRADE_EXECUTION: CvpH4G2HmFr7DRNaoX4xotJxs97fo7wQxR4gdUkGpump (submitted)"
     }
   ],
-  "thought": "Balance stands at 0.2338 SOL after multiple trade executions, suggesting a strategic evaluation of recent transactions and potential market conditions for optimizing the next move.",
+  "thought": "Current balance at 0.2338 SOL with multiple trades executed, including So1111 and 79dGFnR8XUu; recommend monitoring market trends for optimal re-entry points.",
   "chartData": {
     "labels": [
       "23:26",
@@ -158,8 +158,8 @@
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 6.255680784140994,
-    "unrealizedPnL": -3.155671127578,
-    "totalPnL": 3.100009656562997,
+    "unrealizedPnL": -3.199597417177,
+    "totalPnL": 3.056083366964999,
     "activePositions": "Active"
   },
   "positions": [
@@ -167,13 +167,13 @@
       "symbol": "Lovecoin-SOL",
       "address": "9N4Lwoqy2dgDxLNt5LGNSwutvftzGHVcgpNzecVobXby",
       "pnl": 0,
-      "age": "0.6h"
+      "age": "0.8h"
     },
     {
       "symbol": "CRIME-SOL",
       "address": "CvpH4G2HmFr7DRNaoX4xotJxs97fo7wQxR4gdUkGpump",
       "pnl": 0,
-      "age": "0.0h"
+      "age": "0.2h"
     }
   ]
 }

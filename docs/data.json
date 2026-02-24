@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771950603547,
+  "lastUpdate": 1771951204221,
   "heartbeat": "GOOD",
-  "uptime": 2.223863493,
+  "uptime": 2.33751779,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
-      "balance": "0.2212",
+      "balance": "0.2122",
       "pnl": {
-        "realized": 6.864087866977,
-        "unrealized": -3.985436875334,
-        "total": 2.878650991643,
+        "realized": 6.342299092837001,
+        "unrealized": -3.570669337938,
+        "total": 2.771629754899006,
         "winRate": 0
       }
     },
@@ -19,21 +19,9 @@
       "pnl": null
     }
   },
-  "totalBalance": "0.2373",
+  "totalBalance": "0.2282",
   "mode": "DUAL_CORE",
   "logs": [
-    {
-      "timestamp": "2026-02-24T10:49:48.220Z",
-      "message": "TRADE_EXECUTION: 6fC29w55f26ne7aaTH3Apqu6DWrgKk3oHmaRnd5Hpump (submitted)"
-    },
-    {
-      "timestamp": "2026-02-24T10:49:48.447Z",
-      "message": "TRADE_EXECUTION: 6fC29w55f26ne7aaTH3Apqu6DWrgKk3oHmaRnd5Hpump (submitted)"
-    },
-    {
-      "timestamp": "2026-02-24T12:14:26.596Z",
-      "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
-    },
     {
       "timestamp": "2026-02-24T12:15:04.720Z",
       "message": "TRADE_EXECUTION: Cu5tz3TtErpBaHcQDY5xjsJ1jmnDeCWZsK2ch7YXpump (submitted)"
@@ -61,61 +49,68 @@
     {
       "timestamp": "2026-02-24T15:02:39.204Z",
       "message": "TRADE_EXECUTION: 3jiv2vYFJUTvpYiZyvnN9gtMbpTAtcepLviyWYu3pump (submitted)"
+    },
+    {
+      "timestamp": "2026-02-24T16:30:33.990Z",
+      "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
+    },
+    {
+      "timestamp": "2026-02-24T16:30:59.726Z",
+      "message": "TRADE_EXECUTION: 7Gf9g87UqU5nxiruoCLGSdjD7mpq98gUEFjuPNFDpump (submitted)"
+    },
+    {
+      "timestamp": "2026-02-24T16:31:24.322Z",
+      "message": "TRADE_EXECUTION: 7Gf9g87UqU5nxiruoCLGSdjD7mpq98gUEFjuPNFDpump (submitted)"
     }
   ],
-  "thought": "Balance stable at 0.2373 SOL with multiple successful trade submissions; analyze market trends for optimal next trade execution.",
+  "thought": "Balance steady at 0.2282 SOL with recent trade submissions, suggesting a pause for market analysis before initiating the next strategic move.",
   "chartData": {
     "labels": [
       "23:26",
-      "23:41",
-      "00:00",
-      "00:22",
-      "00:50",
-      "01:07",
-      "01:22",
-      "01:40",
-      "02:03",
+      "23:46",
+      "00:02",
+      "00:32",
+      "01:00",
+      "01:18",
+      "01:38",
+      "02:00",
       "02:30",
-      "02:59",
-      "03:14",
-      "03:30",
-      "03:50",
-      "04:04",
-      "04:20",
-      "04:50",
-      "05:15",
+      "03:00",
+      "03:19",
+      "03:39",
+      "03:54",
+      "04:15",
+      "04:40",
+      "05:10",
       "05:41",
-      "06:10",
-      "06:36",
-      "07:02",
-      "07:22",
-      "07:40",
-      "07:58",
-      "08:13",
+      "06:11",
+      "06:42",
+      "07:12",
+      "07:32",
+      "07:50",
+      "08:07",
       "08:29",
       "08:43",
-      "09:00",
-      "09:19",
-      "09:34",
-      "09:48",
-      "10:05",
-      "10:20",
-      "10:39",
-      "10:55",
+      "09:03",
+      "09:20",
+      "09:39",
+      "09:59",
+      "10:14",
+      "10:35",
+      "10:50",
       "11:10",
-      "11:26",
-      "11:41",
-      "12:06",
-      "12:31",
-      "13:00",
-      "13:28",
-      "13:53",
-      "14:20",
+      "11:30",
+      "11:50",
+      "12:16",
+      "12:46",
+      "13:17",
+      "13:47",
+      "14:19",
       "14:49",
-      "15:14",
-      "15:40",
-      "15:59",
-      "16:14"
+      "15:18",
+      "15:44",
+      "16:05",
+      "16:20"
     ],
     "data": [
       0.242119339,
@@ -125,19 +120,17 @@
       0.242119339,
       0.242119339,
       0.294251429,
-      0.294251429,
-      0.262160791,
+      0.277165791,
       0.262160797,
       0.24507559299999998,
       0.24507559299999998,
       0.24507559299999998,
       0.24507559299999998,
-      0.272405299,
+      0.255216629,
       0.255216629,
       0.24598291,
       0.24598291,
-      0.24598291,
-      0.24598291,
+      0.252202529,
       0.23719752900000002,
       0.23383386,
       0.23383386,
@@ -145,21 +138,18 @@
       0.23383386,
       0.22118438299999998,
       0.22118438299999998,
-      0.22118438299999998,
-      0.225564155,
       0.225564155,
       0.225564155,
       0.225564155,
       0.225564155,
       0.226780331,
       0.226780331,
-      0.20972943100000002,
       0.20972943100000002,
       0.20972943100000002,
       0.20972943100000002,
       0.20972943100000002,
       0.22980767400000002,
-      0.247257573,
+      0.22980767400000002,
       0.247257573,
       0.247257573,
       0.260735861,
@@ -173,23 +163,23 @@
   "strategy": {
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
-    "realizedPnL": 6.864087866977,
-    "unrealizedPnL": -3.985436875334,
-    "totalPnL": 2.878650991643,
+    "realizedPnL": 6.342299092837001,
+    "unrealizedPnL": -3.570669337938,
+    "totalPnL": 2.771629754899006,
     "activePositions": "Active"
   },
   "positions": [
     {
-      "symbol": "Scrapling-SOL",
-      "address": "ZNM4AT2ArN8adT7UaMkMNVYTZF44urMZywYXVdRpump",
-      "pnl": 0,
-      "age": "2.0h"
-    },
-    {
       "symbol": "Percolator-SOL",
       "address": "3jiv2vYFJUTvpYiZyvnN9gtMbpTAtcepLviyWYu3pump",
       "pnl": 0,
-      "age": "1.5h"
+      "age": "1.6h"
+    },
+    {
+      "symbol": "tetanus-SOL",
+      "address": "7Gf9g87UqU5nxiruoCLGSdjD7mpq98gUEFjuPNFDpump",
+      "pnl": 0,
+      "age": "0.1h"
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771911605246,
+  "lastUpdate": 1771912203724,
   "heartbeat": "GOOD",
-  "uptime": 4.05690217,
+  "uptime": 2.026717991,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.2299",
       "pnl": {
         "realized": 7.187505253324995,
-        "unrealized": -3.825638325362,
-        "total": 3.361866927961997,
+        "unrealized": -4.018331482871,
+        "total": 3.169173770453998,
         "winRate": 0
       }
     },
@@ -63,7 +63,7 @@
       "message": "TRADE_EXECUTION: 3LmH79u9NH5AjYxEBAyJtWkCZD875zCqPzvhELaUpump (submitted)"
     }
   ],
-  "thought": "Balance holding at 0.2460 SOL; recent trade executions are consistent, suggesting a recovery strategy – next logical move: monitor market trends for a precision entry point.",
+  "thought": "Balance at 0.2460 SOL with recent trade submissions showing high activity; next move: analyze market trends for optimal entry points.",
   "chartData": {
     "labels": [
       "23:26",
@@ -113,7 +113,8 @@
       "05:01",
       "05:10",
       "05:21",
-      "05:31"
+      "05:31",
+      "05:41"
     ],
     "data": [
       0.242119339,
@@ -163,6 +164,7 @@
       0.24598291,
       0.24598291,
       0.24598291,
+      0.24598291,
       0.24598291
     ]
   },
@@ -170,8 +172,8 @@
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 7.187505253324995,
-    "unrealizedPnL": -3.825638325362,
-    "totalPnL": 3.361866927961997,
+    "unrealizedPnL": -4.018331482871,
+    "totalPnL": 3.169173770453998,
     "activePositions": "Active"
   },
   "positions": [
@@ -179,13 +181,13 @@
       "symbol": "UNTRACKED_79dG",
       "address": "79dGFnR8XUusyDiK3n8yZ6FXhJjWLFgzdsi2SkUpump",
       "pnl": 0,
-      "age": "1.5h"
+      "age": "1.7h"
     },
     {
       "symbol": "GOLEM-SOL",
       "address": "3LmH79u9NH5AjYxEBAyJtWkCZD875zCqPzvhELaUpump",
       "pnl": 0,
-      "age": "0.9h"
+      "age": "1.1h"
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771963203746,
+  "lastUpdate": 1771963803777,
   "heartbeat": "GOOD",
-  "uptime": 2.636039057,
+  "uptime": 2.42357206,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.1957",
       "pnl": {
         "realized": 7.935870384824002,
-        "unrealized": -3.070467827632999,
-        "total": 4.865402557191002,
+        "unrealized": -3.22238558276,
+        "total": 4.713484802063997,
         "winRate": 0
       }
     },
@@ -63,7 +63,7 @@
       "message": "TRADE_EXECUTION: 7fj85y28pKMndm4So66Szkb5GMGfLHFEkwsZdDx2pump (submitted)"
     }
   ],
-  "thought": "Current status: Balance at 0.2118 SOL after multiple trade executions with CFzbaAqJX4wUTLa1ZQ8rFLogiHk58qXfeCtEvdvApump and So11111111111111111111111111111111111111112, next logical move is to analyze market trends for optimal entry point.",
+  "thought": "Current balance stands at 0.2118 SOL with recent successful trade executions, indicating a stable position, next logical move is to analyze market trends for optimal reinvestment opportunities.",
   "chartData": {
     "labels": [
       "23:26",
@@ -111,7 +111,8 @@
       "18:38",
       "18:58",
       "19:20",
-      "19:43"
+      "19:43",
+      "20:03"
     ],
     "data": [
       0.242119339,
@@ -159,6 +160,7 @@
       0.203083472,
       0.170953539,
       0.21181982700000002,
+      0.21181982700000002,
       0.21181982700000002
     ]
   },
@@ -166,8 +168,8 @@
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 7.935870384824002,
-    "unrealizedPnL": -3.070467827632999,
-    "totalPnL": 4.865402557191002,
+    "unrealizedPnL": -3.22238558276,
+    "totalPnL": 4.713484802063997,
     "activePositions": "Active"
   },
   "positions": [
@@ -175,13 +177,13 @@
       "symbol": "MOSS-SOL",
       "address": "FGiXuZTn46bA1BeMoY4dtF2txqn3aHgCohtM78vjtAq",
       "pnl": 0,
-      "age": "1.3h"
+      "age": "1.4h"
     },
     {
       "symbol": "NICE-SOL",
       "address": "7fj85y28pKMndm4So66Szkb5GMGfLHFEkwsZdDx2pump",
       "pnl": 0,
-      "age": "0.9h"
+      "age": "1.1h"
     }
   ]
 }

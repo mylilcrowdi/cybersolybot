@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771948805987,
+  "lastUpdate": 1771949403658,
   "heartbeat": "GOOD",
-  "uptime": 4.097541398,
+  "uptime": 2.361401642,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.2212",
       "pnl": {
         "realized": 6.864087866977,
-        "unrealized": -3.701488552869,
-        "total": 3.162599314108001,
+        "unrealized": -3.948283214502,
+        "total": 2.915804652475005,
         "winRate": 0
       }
     },
@@ -63,7 +63,7 @@
       "message": "TRADE_EXECUTION: 3jiv2vYFJUTvpYiZyvnN9gtMbpTAtcepLviyWYu3pump (submitted)"
     }
   ],
-  "thought": "Balance at 0.2373 SOL; recent trade executions indicate high activity, suggesting next move: analyze market trends for optimal re-entry point.",
+  "thought": "Balance holding at 0.2373 SOL with recent trades submitted in high-frequency mode; monitoring market trends for optimal entry point.",
   "chartData": {
     "labels": [
       "23:26",
@@ -172,8 +172,8 @@
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 6.864087866977,
-    "unrealizedPnL": -3.701488552869,
-    "totalPnL": 3.162599314108001,
+    "unrealizedPnL": -3.948283214502,
+    "totalPnL": 2.915804652475005,
     "activePositions": "Active"
   },
   "positions": [
@@ -181,13 +181,13 @@
       "symbol": "Scrapling-SOL",
       "address": "ZNM4AT2ArN8adT7UaMkMNVYTZF44urMZywYXVdRpump",
       "pnl": 0,
-      "age": "1.5h"
+      "age": "1.7h"
     },
     {
       "symbol": "Percolator-SOL",
       "address": "3jiv2vYFJUTvpYiZyvnN9gtMbpTAtcepLviyWYu3pump",
       "pnl": 0,
-      "age": "1.0h"
+      "age": "1.1h"
     }
   ]
 }

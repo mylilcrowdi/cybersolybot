@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771896603947,
+  "lastUpdate": 1771897203068,
   "heartbeat": "GOOD",
-  "uptime": 2.021463628,
+  "uptime": 1.896959869,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.2782",
       "pnl": {
         "realized": 8.137628596934997,
-        "unrealized": -3.060953343117,
-        "total": 5.076675253817998,
+        "unrealized": -3.09027728047,
+        "total": 5.047351316464995,
         "winRate": 0
       }
     },
@@ -63,7 +63,7 @@
       "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
     }
   ],
-  "thought": "Current balance at 0.2943 SOL with multiple successful trade executions; next strategic move: analyze market trends for optimal re-entry points.",
+  "thought": "Balance stable at 0.2943 SOL with successful trade executions on So11111111111111111111111111111111111111112 and 7QaHVrA5r2PJr63ABAzQXZ6iSU4ogcoMNyJU9zG7pump; initiate market analysis for optimal re-entry.",
   "chartData": {
     "labels": [
       "23:26",
@@ -91,7 +91,10 @@
       "01:18",
       "01:20",
       "01:22",
-      "01:27"
+      "01:27",
+      "01:33",
+      "01:38",
+      "01:40"
     ],
     "data": [
       0.242119339,
@@ -119,6 +122,9 @@
       0.242119339,
       0.242119339,
       0.294251429,
+      0.294251429,
+      0.294251429,
+      0.294251429,
       0.294251429
     ]
   },
@@ -126,8 +132,8 @@
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 8.137628596934997,
-    "unrealizedPnL": -3.060953343117,
-    "totalPnL": 5.076675253817998,
+    "unrealizedPnL": -3.09027728047,
+    "totalPnL": 5.047351316464995,
     "activePositions": "Active"
   },
   "positions": []

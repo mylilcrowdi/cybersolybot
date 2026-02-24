@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771944004196,
+  "lastUpdate": 1771944603949,
   "heartbeat": "GOOD",
-  "uptime": 2.541717911,
+  "uptime": 2.38721038,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.2276",
       "pnl": {
         "realized": 7.177400227017001,
-        "unrealized": -2.929715365794,
-        "total": 4.247684861223002,
+        "unrealized": -3.097698468429,
+        "total": 4.079701758589002,
         "winRate": 0
       }
     },
@@ -63,7 +63,7 @@
       "message": "TRADE_EXECUTION: ZNM4AT2ArN8adT7UaMkMNVYTZF44urMZywYXVdRpump (submitted)"
     }
   ],
-  "thought": "Balance steady at 0.2437 SOL with multiple trade submissions executed; next logical move is to analyze market trends for optimal entry points.",
+  "thought": "Balance at 0.2437 SOL with successful trade executions in So11111111111111111111111111111111111111112 and 6fC29w55f26ne7aaTH3Apqu6DWrgKk3oHmaRnd5Hpump; prepare for strategic analysis to optimize the next trade.",
   "chartData": {
     "labels": [
       "23:26",
@@ -110,7 +110,8 @@
       "13:00",
       "13:28",
       "13:53",
-      "14:20"
+      "14:20",
+      "14:49"
     ],
     "data": [
       0.242119339,
@@ -157,15 +158,16 @@
       0.247257573,
       0.247257573,
       0.247257573,
-      0.260735861
+      0.260735861,
+      0.24365363299999998
     ]
   },
   "strategy": {
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 7.177400227017001,
-    "unrealizedPnL": -2.929715365794,
-    "totalPnL": 4.247684861223002,
+    "unrealizedPnL": -3.097698468429,
+    "totalPnL": 4.079701758589002,
     "activePositions": "Active"
   },
   "positions": [
@@ -173,13 +175,13 @@
       "symbol": "LIA-SOL",
       "address": "79dGFnR8XUusyDiK3n8yZ6FXhJjWLFgzdsi2SkUpump",
       "pnl": 0,
-      "age": "1.8h"
+      "age": "2.0h"
     },
     {
       "symbol": "Scrapling-SOL",
       "address": "ZNM4AT2ArN8adT7UaMkMNVYTZF44urMZywYXVdRpump",
       "pnl": 0,
-      "age": "0.2h"
+      "age": "0.3h"
     }
   ]
 }

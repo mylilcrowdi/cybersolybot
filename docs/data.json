@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771896003827,
+  "lastUpdate": 1771896603947,
   "heartbeat": "GOOD",
-  "uptime": 2.447069526,
+  "uptime": 2.021463628,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
-      "balance": "0.2260",
+      "balance": "0.2782",
       "pnl": {
-        "realized": 8.794319147381996,
-        "unrealized": -3.798856004767,
-        "total": 4.995463142614996,
+        "realized": 8.137628596934997,
+        "unrealized": -3.060953343117,
+        "total": 5.076675253817998,
         "winRate": 0
       }
     },
@@ -19,21 +19,9 @@
       "pnl": null
     }
   },
-  "totalBalance": "0.2421",
+  "totalBalance": "0.2943",
   "mode": "DUAL_CORE",
   "logs": [
-    {
-      "timestamp": "2026-02-23T21:18:54.848Z",
-      "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
-    },
-    {
-      "timestamp": "2026-02-23T21:19:34.102Z",
-      "message": "TRADE_EXECUTION: 4NoNVDB4iAJDkdmP3QQckFvf3zbGuxjtoERHoYPfpump (submitted)"
-    },
-    {
-      "timestamp": "2026-02-23T21:20:05.917Z",
-      "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
-    },
     {
       "timestamp": "2026-02-23T21:20:08.646Z",
       "message": "TRADE_EXECUTION: 9HrdTe7wh6qrqQnVGHGKeUvvumiwDAj1B2vsrc7TmwqY (submitted)"
@@ -61,58 +49,49 @@
     {
       "timestamp": "2026-02-23T23:21:32.623Z",
       "message": "TRADE_EXECUTION: AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump (submitted)"
+    },
+    {
+      "timestamp": "2026-02-24T01:21:47.345Z",
+      "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
+    },
+    {
+      "timestamp": "2026-02-24T01:21:47.437Z",
+      "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
+    },
+    {
+      "timestamp": "2026-02-24T01:22:31.243Z",
+      "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
     }
   ],
-  "thought": "Current status: With a balance of 0.2421 SOL and multiple successful trade executions, the next logical move is to analyze market trends for potential arbitrage opportunities in unconventional tokens.",
+  "thought": "Current balance at 0.2943 SOL with multiple successful trade executions; next strategic move: analyze market trends for optimal re-entry points.",
   "chartData": {
     "labels": [
       "23:26",
-      "23:30",
       "23:32",
-      "23:32",
-      "23:37",
       "23:37",
       "23:40",
       "23:41",
-      "23:41",
       "23:46",
-      "23:46",
-      "23:50",
       "23:52",
-      "23:52",
-      "23:57",
       "23:57",
       "00:00",
       "00:02",
-      "00:02",
-      "00:06",
       "00:10",
-      "00:12",
       "00:17",
-      "00:20",
       "00:22",
-      "00:28",
       "00:30",
-      "00:32",
       "00:37",
-      "00:40",
       "00:42",
-      "00:48",
       "00:50",
-      "00:53",
-      "00:57",
       "00:57",
       "01:00",
       "01:02",
-      "01:02",
       "01:07",
-      "01:07",
-      "01:10",
-      "01:13",
       "01:13",
       "01:18",
-      "01:18",
-      "01:20"
+      "01:20",
+      "01:22",
+      "01:27"
     ],
     "data": [
       0.242119339,
@@ -139,51 +118,17 @@
       0.242119339,
       0.242119339,
       0.242119339,
-      0.242119339,
-      0.242119339,
-      0.242119339,
-      0.242119339,
-      0.242119339,
-      0.242119339,
-      0.242119339,
-      0.242119339,
-      0.242119339,
-      0.242119339,
-      0.242119339,
-      0.242119339,
-      0.242119339,
-      0.242119339,
-      0.242119339,
-      0.242119339,
-      0.242119339,
-      0.242119339,
-      0.242119339,
-      0.242119339,
-      0.242119339,
-      0.242119339,
-      0.242119339
+      0.294251429,
+      0.294251429
     ]
   },
   "strategy": {
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
-    "realizedPnL": 8.794319147381996,
-    "unrealizedPnL": -3.798856004767,
-    "totalPnL": 4.995463142614996,
+    "realizedPnL": 8.137628596934997,
+    "unrealizedPnL": -3.060953343117,
+    "totalPnL": 5.076675253817998,
     "activePositions": "Active"
   },
-  "positions": [
-    {
-      "symbol": "Tahlequah-SOL",
-      "address": "7QaHVrA5r2PJr63ABAzQXZ6iSU4ogcoMNyJU9zG7pump",
-      "pnl": 0,
-      "age": "2.0h"
-    },
-    {
-      "symbol": "Lobstar-SOL",
-      "address": "AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump",
-      "pnl": 0,
-      "age": "2.0h"
-    }
-  ]
+  "positions": []
 }

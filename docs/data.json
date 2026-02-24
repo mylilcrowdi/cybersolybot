@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771964403721,
+  "lastUpdate": 1771965004042,
   "heartbeat": "GOOD",
-  "uptime": 2.645897916,
+  "uptime": 2.423967899,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.1957",
       "pnl": {
         "realized": 7.935870384824002,
-        "unrealized": -3.0259168547,
-        "total": 4.909953530124001,
+        "unrealized": -2.882889911801,
+        "total": 5.052980473023004,
         "winRate": 0
       }
     },
@@ -63,7 +63,7 @@
       "message": "TRADE_EXECUTION: 7fj85y28pKMndm4So66Szkb5GMGfLHFEkwsZdDx2pump (submitted)"
     }
   ],
-  "thought": "Balance at 0.2118 SOL with recent trade executions on CFzbaAqJX4wUTLa1ZQ8rFLogiHk58qXfeCtEvdvApump and So11111111111111111111111111111111111111112; next logical move is to monitor market trends for optimal re-entry points.",
+  "thought": "Trade activities executed successfully; balance at 0.2118 SOL—next move: evaluate market trends for optimal reinvestment opportunities.",
   "chartData": {
     "labels": [
       "23:26",
@@ -112,7 +112,8 @@
       "18:58",
       "19:20",
       "19:43",
-      "20:03"
+      "20:03",
+      "20:29"
     ],
     "data": [
       0.242119339,
@@ -161,6 +162,7 @@
       0.170953539,
       0.21181982700000002,
       0.21181982700000002,
+      0.21181982700000002,
       0.21181982700000002
     ]
   },
@@ -168,8 +170,8 @@
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 7.935870384824002,
-    "unrealizedPnL": -3.0259168547,
-    "totalPnL": 4.909953530124001,
+    "unrealizedPnL": -2.882889911801,
+    "totalPnL": 5.052980473023004,
     "activePositions": "Active"
   },
   "positions": [
@@ -177,13 +179,13 @@
       "symbol": "MOSS-SOL",
       "address": "FGiXuZTn46bA1BeMoY4dtF2txqn3aHgCohtM78vjtAq",
       "pnl": 0,
-      "age": "1.6h"
+      "age": "1.8h"
     },
     {
       "symbol": "NICE-SOL",
       "address": "7fj85y28pKMndm4So66Szkb5GMGfLHFEkwsZdDx2pump",
       "pnl": 0,
-      "age": "1.2h"
+      "age": "1.4h"
     }
   ]
 }

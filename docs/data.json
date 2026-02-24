@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771914003758,
+  "lastUpdate": 1771914604534,
   "heartbeat": "GOOD",
-  "uptime": 2.301918873,
+  "uptime": 2.753542641,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.2211",
       "pnl": {
         "realized": 6.513843731078994,
-        "unrealized": -3.496042784314,
-        "total": 3.017800946763997,
+        "unrealized": -3.301587547042,
+        "total": 3.212256184036995,
         "winRate": 0
       }
     },
@@ -63,7 +63,7 @@
       "message": "TRADE_EXECUTION: 9N4Lwoqy2dgDxLNt5LGNSwutvftzGHVcgpNzecVobXby (submitted)"
     }
   ],
-  "thought": "Balance at 0.2372 SOL with multiple trade executions submitted, next logical move: analyze market trends for optimal re-entry point.",
+  "thought": "Current balance holds at 0.2372 SOL post executing multiple trades, indicating a pause for market analysis before initiating the next strategic move.",
   "chartData": {
     "labels": [
       "23:26",
@@ -104,7 +104,8 @@
       "05:30",
       "05:41",
       "05:57",
-      "06:10"
+      "06:10",
+      "06:22"
     ],
     "data": [
       0.242119339,
@@ -145,15 +146,16 @@
       0.24598291,
       0.24598291,
       0.24598291,
-      0.24598291
+      0.24598291,
+      0.23719752900000002
     ]
   },
   "strategy": {
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 6.513843731078994,
-    "unrealizedPnL": -3.496042784314,
-    "totalPnL": 3.017800946763997,
+    "unrealizedPnL": -3.301587547042,
+    "totalPnL": 3.212256184036995,
     "activePositions": "Active"
   },
   "positions": [
@@ -161,13 +163,13 @@
       "symbol": "GOLEM-SOL",
       "address": "3LmH79u9NH5AjYxEBAyJtWkCZD875zCqPzvhELaUpump",
       "pnl": 0,
-      "age": "1.6h"
+      "age": "1.7h"
     },
     {
       "symbol": "Lovecoin-SOL",
       "address": "9N4Lwoqy2dgDxLNt5LGNSwutvftzGHVcgpNzecVobXby",
       "pnl": 0,
-      "age": "0.1h"
+      "age": "0.3h"
     }
   ]
 }

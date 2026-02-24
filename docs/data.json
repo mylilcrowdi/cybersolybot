@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771963803777,
+  "lastUpdate": 1771964403721,
   "heartbeat": "GOOD",
-  "uptime": 2.42357206,
+  "uptime": 2.645897916,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.1957",
       "pnl": {
         "realized": 7.935870384824002,
-        "unrealized": -3.22238558276,
-        "total": 4.713484802063997,
+        "unrealized": -3.0259168547,
+        "total": 4.909953530124001,
         "winRate": 0
       }
     },
@@ -63,7 +63,7 @@
       "message": "TRADE_EXECUTION: 7fj85y28pKMndm4So66Szkb5GMGfLHFEkwsZdDx2pump (submitted)"
     }
   ],
-  "thought": "Current balance stands at 0.2118 SOL with recent successful trade executions, indicating a stable position, next logical move is to analyze market trends for optimal reinvestment opportunities.",
+  "thought": "Balance at 0.2118 SOL with recent trade executions on CFzbaAqJX4wUTLa1ZQ8rFLogiHk58qXfeCtEvdvApump and So11111111111111111111111111111111111111112; next logical move is to monitor market trends for optimal re-entry points.",
   "chartData": {
     "labels": [
       "23:26",
@@ -168,8 +168,8 @@
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 7.935870384824002,
-    "unrealizedPnL": -3.22238558276,
-    "totalPnL": 4.713484802063997,
+    "unrealizedPnL": -3.0259168547,
+    "totalPnL": 4.909953530124001,
     "activePositions": "Active"
   },
   "positions": [
@@ -177,13 +177,13 @@
       "symbol": "MOSS-SOL",
       "address": "FGiXuZTn46bA1BeMoY4dtF2txqn3aHgCohtM78vjtAq",
       "pnl": 0,
-      "age": "1.4h"
+      "age": "1.6h"
     },
     {
       "symbol": "NICE-SOL",
       "address": "7fj85y28pKMndm4So66Szkb5GMGfLHFEkwsZdDx2pump",
       "pnl": 0,
-      "age": "1.1h"
+      "age": "1.2h"
     }
   ]
 }

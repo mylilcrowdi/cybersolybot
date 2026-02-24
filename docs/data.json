@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771899003449,
+  "lastUpdate": 1771899606415,
   "heartbeat": "GOOD",
-  "uptime": 2.217509047,
+  "uptime": 4.665476394,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.2461",
       "pnl": {
         "realized": 8.137628596934997,
-        "unrealized": -3.100449067899999,
-        "total": 5.037179529034999,
+        "unrealized": -3.173087193997,
+        "total": 4.964541402936996,
         "winRate": 0
       }
     },
@@ -63,7 +63,7 @@
       "message": "TRADE_EXECUTION: 6fC29w55f26ne7aaTH3Apqu6DWrgKk3oHmaRnd5Hpump (submitted)"
     }
   ],
-  "thought": "Balance at 0.2622 SOL following multiple trades in So11111111111111111111111111111111111111112 and AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump; next logical move: analyze market trends for optimal re-entry.",
+  "thought": "Current balance at 0.2622 SOL with recent trade executions on various assets, recommending a strategic analysis of market trends for potential reallocation or accumulation of undervalued tokens.",
   "chartData": {
     "labels": [
       "23:26",
@@ -99,7 +99,8 @@
       "01:50",
       "01:58",
       "02:03",
-      "02:10"
+      "02:10",
+      "02:18"
     ],
     "data": [
       0.242119339,
@@ -135,15 +136,16 @@
       0.294251429,
       0.294251429,
       0.262160791,
-      0.262160793
+      0.262160793,
+      0.262160797
     ]
   },
   "strategy": {
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 8.137628596934997,
-    "unrealizedPnL": -3.100449067899999,
-    "totalPnL": 5.037179529034999,
+    "unrealizedPnL": -3.173087193997,
+    "totalPnL": 4.964541402936996,
     "activePositions": "Active"
   },
   "positions": [
@@ -151,7 +153,7 @@
       "symbol": "NoLimit-SOL",
       "address": "6fC29w55f26ne7aaTH3Apqu6DWrgKk3oHmaRnd5Hpump",
       "pnl": 0,
-      "age": "0.2h"
+      "age": "0.3h"
     }
   ]
 }

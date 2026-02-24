@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771891206434,
+  "lastUpdate": 1771891804965,
   "heartbeat": "GOOD",
-  "uptime": 5.061613646,
+  "uptime": 2.902402431,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.2260",
       "pnl": {
         "realized": 8.794319147381996,
-        "unrealized": -3.470053097065,
-        "total": 5.324266050315996,
+        "unrealized": -3.557709830871,
+        "total": 5.23660931651,
         "winRate": 0
       }
     },
@@ -63,7 +63,7 @@
       "message": "TRADE_EXECUTION: AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump (submitted)"
     }
   ],
-  "thought": "Recent trade executions reveal a pattern of activity with So11111111111111111111111111111111111111112 and other assets, suggesting a strategic reassessment of portfolio distribution is the next logical move.",
+  "thought": "Current balance stands at 0.2421 SOL with recent successful trade executions, suggesting a vigilant market analysis for potential high-yield opportunities as the next logical move.",
   "chartData": {
     "labels": [
       "23:26",
@@ -82,9 +82,17 @@
       "23:52",
       "23:57",
       "23:57",
-      "00:00"
+      "00:00",
+      "00:02",
+      "00:02",
+      "00:06",
+      "00:10"
     ],
     "data": [
+      0.242119339,
+      0.242119339,
+      0.242119339,
+      0.242119339,
       0.242119339,
       0.242119339,
       0.242119339,
@@ -108,8 +116,8 @@
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 8.794319147381996,
-    "unrealizedPnL": -3.470053097065,
-    "totalPnL": 5.324266050315996,
+    "unrealizedPnL": -3.557709830871,
+    "totalPnL": 5.23660931651,
     "activePositions": "Active"
   },
   "positions": [
@@ -117,13 +125,13 @@
       "symbol": "Tahlequah-SOL",
       "address": "7QaHVrA5r2PJr63ABAzQXZ6iSU4ogcoMNyJU9zG7pump",
       "pnl": 0,
-      "age": "0.7h"
+      "age": "0.8h"
     },
     {
       "symbol": "Lobstar-SOL",
       "address": "AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump",
       "pnl": 0,
-      "age": "0.6h"
+      "age": "0.8h"
     }
   ]
 }

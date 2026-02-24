@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771961404410,
+  "lastUpdate": 1771962004756,
   "heartbeat": "GOOD",
-  "uptime": 2.943219621,
+  "uptime": 2.890684433,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.1957",
       "pnl": {
         "realized": 7.935870384824002,
-        "unrealized": -3.394528440983,
-        "total": 4.541341943841003,
+        "unrealized": -3.458657094688,
+        "total": 4.477213290136002,
         "winRate": 0
       }
     },
@@ -63,7 +63,7 @@
       "message": "TRADE_EXECUTION: 7fj85y28pKMndm4So66Szkb5GMGfLHFEkwsZdDx2pump (submitted)"
     }
   ],
-  "thought": "Recent trades executed successfully, current balance at 0.2118 SOL; next logical move: analyze market trends to identify optimal buying opportunities.",
+  "thought": "Current balance at 0.2118 SOL with repeated trade executions on CFzbaAqJX4wUTLa1ZQ8rFLogiHk58qXfeCtEvdvApump and So11111111111111111111111111111111111111112; assessing market conditions for optimal reinvestment opportunity.",
   "chartData": {
     "labels": [
       "23:26",
@@ -114,7 +114,8 @@
       "18:12",
       "18:32",
       "18:52",
-      "19:12"
+      "19:12",
+      "19:32"
     ],
     "data": [
       0.242119339,
@@ -165,6 +166,7 @@
       0.18885333599999998,
       0.203083472,
       0.170953539,
+      0.21181982700000002,
       0.21181982700000002
     ]
   },
@@ -172,8 +174,8 @@
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 7.935870384824002,
-    "unrealizedPnL": -3.394528440983,
-    "totalPnL": 4.541341943841003,
+    "unrealizedPnL": -3.458657094688,
+    "totalPnL": 4.477213290136002,
     "activePositions": "Active"
   },
   "positions": [
@@ -181,13 +183,13 @@
       "symbol": "MOSS-SOL",
       "address": "FGiXuZTn46bA1BeMoY4dtF2txqn3aHgCohtM78vjtAq",
       "pnl": 0,
-      "age": "0.8h"
+      "age": "0.9h"
     },
     {
       "symbol": "NICE-SOL",
       "address": "7fj85y28pKMndm4So66Szkb5GMGfLHFEkwsZdDx2pump",
       "pnl": 0,
-      "age": "0.4h"
+      "age": "0.6h"
     }
   ]
 }

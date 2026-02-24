@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771957204103,
+  "lastUpdate": 1771957804944,
   "heartbeat": "GOOD",
-  "uptime": 2.468541614,
+  "uptime": 2.885364863,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.1728",
       "pnl": {
         "realized": 5.793814868565002,
-        "unrealized": -1.775646177688,
-        "total": 4.018168690877007,
+        "unrealized": -2.555415525468,
+        "total": 3.238399343097007,
         "winRate": 0
       }
     },
@@ -63,7 +63,7 @@
       "message": "TRADE_EXECUTION: CFzbaAqJX4wUTLa1ZQ8rFLogiHk58qXfeCtEvdvApump (submitted)"
     }
   ],
-  "thought": "Current Status: Balance at 0.1889 SOL post-execution of multiple trades, including ZNM4A... and 7Gf9g..., suggests a recalibration phase; next logical move: assess market trends for optimal re-entry.",
+  "thought": "Current balance stands at 0.1889 SOL with recent trade executions indicating active market engagement; next logical move is to analyze emerging patterns for optimal re-entry.",
   "chartData": {
     "labels": [
       "23:26",
@@ -166,8 +166,8 @@
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 5.793814868565002,
-    "unrealizedPnL": -1.775646177688,
-    "totalPnL": 4.018168690877007,
+    "unrealizedPnL": -2.555415525468,
+    "totalPnL": 3.238399343097007,
     "activePositions": "Active"
   },
   "positions": [
@@ -175,13 +175,13 @@
       "symbol": "tetanus-SOL",
       "address": "7Gf9g87UqU5nxiruoCLGSdjD7mpq98gUEFjuPNFDpump",
       "pnl": 0,
-      "age": "1.8h"
+      "age": "2.0h"
     },
     {
       "symbol": "Boehme-SOL",
       "address": "CFzbaAqJX4wUTLa1ZQ8rFLogiHk58qXfeCtEvdvApump",
       "pnl": 0,
-      "age": "1.3h"
+      "age": "1.4h"
     }
   ]
 }

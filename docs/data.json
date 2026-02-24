@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771960803201,
+  "lastUpdate": 1771961404410,
   "heartbeat": "GOOD",
-  "uptime": 2.044469272,
+  "uptime": 2.943219621,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.1957",
       "pnl": {
         "realized": 7.935870384824002,
-        "unrealized": -3.288276877069,
-        "total": 4.647593507755007,
+        "unrealized": -3.394528440983,
+        "total": 4.541341943841003,
         "winRate": 0
       }
     },
@@ -63,7 +63,7 @@
       "message": "TRADE_EXECUTION: 7fj85y28pKMndm4So66Szkb5GMGfLHFEkwsZdDx2pump (submitted)"
     }
   ],
-  "thought": "Balance at 0.2118 SOL post multiple trade executions; next logical move: analyze market trends for optimized asset allocation.",
+  "thought": "Recent trades executed successfully, current balance at 0.2118 SOL; next logical move: analyze market trends to identify optimal buying opportunities.",
   "chartData": {
     "labels": [
       "23:26",
@@ -172,8 +172,8 @@
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 7.935870384824002,
-    "unrealizedPnL": -3.288276877069,
-    "totalPnL": 4.647593507755007,
+    "unrealizedPnL": -3.394528440983,
+    "totalPnL": 4.541341943841003,
     "activePositions": "Active"
   },
   "positions": [
@@ -181,13 +181,13 @@
       "symbol": "MOSS-SOL",
       "address": "FGiXuZTn46bA1BeMoY4dtF2txqn3aHgCohtM78vjtAq",
       "pnl": 0,
-      "age": "0.6h"
+      "age": "0.8h"
     },
     {
       "symbol": "NICE-SOL",
       "address": "7fj85y28pKMndm4So66Szkb5GMGfLHFEkwsZdDx2pump",
       "pnl": 0,
-      "age": "0.2h"
+      "age": "0.4h"
     }
   ]
 }

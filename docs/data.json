@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771929603054,
+  "lastUpdate": 1771930203785,
   "heartbeat": "GOOD",
-  "uptime": 1.831163215,
+  "uptime": 2.376770129,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
-      "balance": "0.2107",
+      "balance": "0.1937",
       "pnl": {
         "realized": 6.875852324606997,
-        "unrealized": -2.938359049263,
-        "total": 3.937493275342997,
+        "unrealized": -3.252296443737,
+        "total": 3.623555880870002,
         "winRate": 0
       }
     },
@@ -19,25 +19,9 @@
       "pnl": null
     }
   },
-  "totalBalance": "0.2268",
+  "totalBalance": "0.2097",
   "mode": "DUAL_CORE",
   "logs": [
-    {
-      "timestamp": "2026-02-24T08:11:49.439Z",
-      "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
-    },
-    {
-      "timestamp": "2026-02-24T08:11:49.498Z",
-      "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
-    },
-    {
-      "timestamp": "2026-02-24T08:12:28.966Z",
-      "message": "TRADE_EXECUTION: 4NoNVDB4iAJDkdmP3QQckFvf3zbGuxjtoERHoYPfpump (submitted)"
-    },
-    {
-      "timestamp": "2026-02-24T08:12:29.723Z",
-      "message": "TRADE_EXECUTION: 4NoNVDB4iAJDkdmP3QQckFvf3zbGuxjtoERHoYPfpump (submitted)"
-    },
     {
       "timestamp": "2026-02-24T08:48:00.111Z",
       "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
@@ -61,9 +45,25 @@
     {
       "timestamp": "2026-02-24T10:13:26.385Z",
       "message": "TRADE_EXECUTION: 7QaHVrA5r2PJr63ABAzQXZ6iSU4ogcoMNyJU9zG7pump (submitted)"
+    },
+    {
+      "timestamp": "2026-02-24T10:49:09.697Z",
+      "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
+    },
+    {
+      "timestamp": "2026-02-24T10:49:09.713Z",
+      "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
+    },
+    {
+      "timestamp": "2026-02-24T10:49:48.220Z",
+      "message": "TRADE_EXECUTION: 6fC29w55f26ne7aaTH3Apqu6DWrgKk3oHmaRnd5Hpump (submitted)"
+    },
+    {
+      "timestamp": "2026-02-24T10:49:48.447Z",
+      "message": "TRADE_EXECUTION: 6fC29w55f26ne7aaTH3Apqu6DWrgKk3oHmaRnd5Hpump (submitted)"
     }
   ],
-  "thought": "Balance at 0.2268 SOL with multiple trade submissions executed, strategic analysis pending for optimal next move.",
+  "thought": "Balance holding at 0.2097 SOL with recent trade executions submitted, next logical move: analyze market trends for optimal re-entry.",
   "chartData": {
     "labels": [
       "23:26",
@@ -111,7 +111,8 @@
       "09:59",
       "10:10",
       "10:20",
-      "10:35"
+      "10:35",
+      "10:44"
     ],
     "data": [
       0.242119339,
@@ -159,6 +160,7 @@
       0.225564155,
       0.225564155,
       0.226780331,
+      0.226780331,
       0.226780331
     ]
   },
@@ -166,22 +168,22 @@
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 6.875852324606997,
-    "unrealizedPnL": -2.938359049263,
-    "totalPnL": 3.937493275342997,
+    "unrealizedPnL": -3.252296443737,
+    "totalPnL": 3.623555880870002,
     "activePositions": "Active"
   },
   "positions": [
     {
-      "symbol": "MOSS-SOL",
-      "address": "9HrdTe7wh6qrqQnVGHGKeUvvumiwDAj1B2vsrc7TmwqY",
-      "pnl": 0,
-      "age": "1.9h"
-    },
-    {
       "symbol": "Tahlequah-SOL",
       "address": "7QaHVrA5r2PJr63ABAzQXZ6iSU4ogcoMNyJU9zG7pump",
       "pnl": 0,
-      "age": "0.4h"
+      "age": "0.6h"
+    },
+    {
+      "symbol": "NoLimit-SOL",
+      "address": "6fC29w55f26ne7aaTH3Apqu6DWrgKk3oHmaRnd5Hpump",
+      "pnl": 0,
+      "age": "0.0h"
     }
   ]
 }

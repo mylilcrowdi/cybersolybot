@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771898403698,
+  "lastUpdate": 1771899003449,
   "heartbeat": "GOOD",
-  "uptime": 2.369479927,
+  "uptime": 2.217509047,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
-      "balance": "0.2611",
+      "balance": "0.2461",
       "pnl": {
         "realized": 8.137628596934997,
-        "unrealized": -3.097799365063999,
-        "total": 5.039829231871002,
+        "unrealized": -3.100449067899999,
+        "total": 5.037179529034999,
         "winRate": 0
       }
     },
@@ -19,13 +19,9 @@
       "pnl": null
     }
   },
-  "totalBalance": "0.2772",
+  "totalBalance": "0.2622",
   "mode": "DUAL_CORE",
   "logs": [
-    {
-      "timestamp": "2026-02-23T23:20:21.966Z",
-      "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
-    },
     {
       "timestamp": "2026-02-23T23:20:22.761Z",
       "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
@@ -61,9 +57,13 @@
     {
       "timestamp": "2026-02-24T01:59:33.575Z",
       "message": "TRADE_EXECUTION: 6fC29w55f26ne7aaTH3Apqu6DWrgKk3oHmaRnd5Hpump (submitted)"
+    },
+    {
+      "timestamp": "2026-02-24T02:00:08.505Z",
+      "message": "TRADE_EXECUTION: 6fC29w55f26ne7aaTH3Apqu6DWrgKk3oHmaRnd5Hpump (submitted)"
     }
   ],
-  "thought": "Balance at 0.2772 SOL with recent trades submitted in SOL and two pump tokens; next move: assess market volatility for optimal entry.",
+  "thought": "Balance at 0.2622 SOL following multiple trades in So11111111111111111111111111111111111111112 and AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump; next logical move: analyze market trends for optimal re-entry.",
   "chartData": {
     "labels": [
       "23:26",
@@ -97,7 +97,9 @@
       "01:40",
       "01:43",
       "01:50",
-      "01:58"
+      "01:58",
+      "02:03",
+      "02:10"
     ],
     "data": [
       0.242119339,
@@ -131,16 +133,25 @@
       0.294251429,
       0.294251429,
       0.294251429,
-      0.294251429
+      0.294251429,
+      0.262160791,
+      0.262160793
     ]
   },
   "strategy": {
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 8.137628596934997,
-    "unrealizedPnL": -3.097799365063999,
-    "totalPnL": 5.039829231871002,
+    "unrealizedPnL": -3.100449067899999,
+    "totalPnL": 5.037179529034999,
     "activePositions": "Active"
   },
-  "positions": []
+  "positions": [
+    {
+      "symbol": "NoLimit-SOL",
+      "address": "6fC29w55f26ne7aaTH3Apqu6DWrgKk3oHmaRnd5Hpump",
+      "pnl": 0,
+      "age": "0.2h"
+    }
+  ]
 }

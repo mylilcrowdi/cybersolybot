@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771929003934,
+  "lastUpdate": 1771929603054,
   "heartbeat": "GOOD",
-  "uptime": 2.554418932,
+  "uptime": 1.831163215,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.2107",
       "pnl": {
         "realized": 6.875852324606997,
-        "unrealized": -3.120323864952,
-        "total": 3.755528459655996,
+        "unrealized": -2.938359049263,
+        "total": 3.937493275342997,
         "winRate": 0
       }
     },
@@ -63,7 +63,7 @@
       "message": "TRADE_EXECUTION: 7QaHVrA5r2PJr63ABAzQXZ6iSU4ogcoMNyJU9zG7pump (submitted)"
     }
   ],
-  "thought": "Balance holding steady at 0.2268 SOL with recent trade executions completed; next logical move: analyze market trends for optimal re-entry points.",
+  "thought": "Balance at 0.2268 SOL with multiple trade submissions executed, strategic analysis pending for optimal next move.",
   "chartData": {
     "labels": [
       "23:26",
@@ -110,7 +110,8 @@
       "09:45",
       "09:59",
       "10:10",
-      "10:20"
+      "10:20",
+      "10:35"
     ],
     "data": [
       0.242119339,
@@ -157,6 +158,7 @@
       0.225564155,
       0.225564155,
       0.225564155,
+      0.226780331,
       0.226780331
     ]
   },
@@ -164,8 +166,8 @@
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 6.875852324606997,
-    "unrealizedPnL": -3.120323864952,
-    "totalPnL": 3.755528459655996,
+    "unrealizedPnL": -2.938359049263,
+    "totalPnL": 3.937493275342997,
     "activePositions": "Active"
   },
   "positions": [
@@ -173,13 +175,13 @@
       "symbol": "MOSS-SOL",
       "address": "9HrdTe7wh6qrqQnVGHGKeUvvumiwDAj1B2vsrc7TmwqY",
       "pnl": 0,
-      "age": "1.7h"
+      "age": "1.9h"
     },
     {
       "symbol": "Tahlequah-SOL",
       "address": "7QaHVrA5r2PJr63ABAzQXZ6iSU4ogcoMNyJU9zG7pump",
       "pnl": 0,
-      "age": "0.3h"
+      "age": "0.4h"
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771936204165,
+  "lastUpdate": 1771936804841,
   "heartbeat": "GOOD",
-  "uptime": 2.756646248,
+  "uptime": 3.352327918,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
       "balance": "0.2137",
       "pnl": {
         "realized": 7.111265945232999,
-        "unrealized": -3.181688246178999,
-        "total": 3.929577699054003,
+        "unrealized": -3.2103962328,
+        "total": 3.900869712432004,
         "winRate": 0
       }
     },
@@ -63,7 +63,7 @@
       "message": "TRADE_EXECUTION: Cu5tz3TtErpBaHcQDY5xjsJ1jmnDeCWZsK2ch7YXpump (submitted)"
     }
   ],
-  "thought": "Balance stands at 0.2298 SOL with recent trade executions indicating a potential market signal; initiate analysis for optimal entry point in upcoming cycles.",
+  "thought": "Current balance is 0.2298 SOL with recent trade activity on So11111111111111111111111111111111111111112 and 7QaHVrA5r2PJr63ABAzQXZ6iSU4ogcoMNyJU9zG7pump, indicating a strategic opportunity to analyze trade outcomes for optimization.",
   "chartData": {
     "labels": [
       "23:26",
@@ -111,7 +111,8 @@
       "11:21",
       "11:35",
       "11:51",
-      "12:16"
+      "12:16",
+      "12:40"
     ],
     "data": [
       0.242119339,
@@ -159,6 +160,7 @@
       0.20972943100000002,
       0.20972943100000002,
       0.20972943100000002,
+      0.22980767400000002,
       0.22980767400000002
     ]
   },
@@ -166,8 +168,8 @@
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
     "realizedPnL": 7.111265945232999,
-    "unrealizedPnL": -3.181688246178999,
-    "totalPnL": 3.929577699054003,
+    "unrealizedPnL": -3.2103962328,
+    "totalPnL": 3.900869712432004,
     "activePositions": "Active"
   },
   "positions": [
@@ -175,13 +177,13 @@
       "symbol": "NoLimit-SOL",
       "address": "6fC29w55f26ne7aaTH3Apqu6DWrgKk3oHmaRnd5Hpump",
       "pnl": 0,
-      "age": "1.7h"
+      "age": "1.8h"
     },
     {
       "symbol": "plankton-SOL",
       "address": "Cu5tz3TtErpBaHcQDY5xjsJ1jmnDeCWZsK2ch7YXpump",
       "pnl": 0,
-      "age": "0.2h"
+      "age": "0.4h"
     }
   ]
 }

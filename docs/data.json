@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771952404474,
+  "lastUpdate": 1771953005069,
   "heartbeat": "GOOD",
-  "uptime": 3.248115588,
+  "uptime": 3.128102588,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
-      "balance": "0.2122",
+      "balance": "0.1728",
       "pnl": {
-        "realized": 6.342299092837001,
-        "unrealized": -3.603136176041,
-        "total": 2.739162916796006,
+        "realized": 5.793814868565002,
+        "unrealized": -2.775038325291,
+        "total": 3.018776543274004,
         "winRate": 0
       }
     },
@@ -19,25 +19,9 @@
       "pnl": null
     }
   },
-  "totalBalance": "0.2282",
+  "totalBalance": "0.1889",
   "mode": "DUAL_CORE",
   "logs": [
-    {
-      "timestamp": "2026-02-24T12:15:04.720Z",
-      "message": "TRADE_EXECUTION: Cu5tz3TtErpBaHcQDY5xjsJ1jmnDeCWZsK2ch7YXpump (submitted)"
-    },
-    {
-      "timestamp": "2026-02-24T12:50:02.060Z",
-      "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
-    },
-    {
-      "timestamp": "2026-02-24T12:50:41.111Z",
-      "message": "TRADE_EXECUTION: 79dGFnR8XUusyDiK3n8yZ6FXhJjWLFgzdsi2SkUpump (submitted)"
-    },
-    {
-      "timestamp": "2026-02-24T14:15:48.289Z",
-      "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
-    },
     {
       "timestamp": "2026-02-24T14:29:55.109Z",
       "message": "TRADE_EXECUTION: ZNM4AT2ArN8adT7UaMkMNVYTZF44urMZywYXVdRpump (submitted)"
@@ -61,9 +45,25 @@
     {
       "timestamp": "2026-02-24T16:31:24.322Z",
       "message": "TRADE_EXECUTION: 7Gf9g87UqU5nxiruoCLGSdjD7mpq98gUEFjuPNFDpump (submitted)"
+    },
+    {
+      "timestamp": "2026-02-24T17:03:32.949Z",
+      "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
+    },
+    {
+      "timestamp": "2026-02-24T17:03:38.081Z",
+      "message": "TRADE_EXECUTION: CFzbaAqJX4wUTLa1ZQ8rFLogiHk58qXfeCtEvdvApump (submitted)"
+    },
+    {
+      "timestamp": "2026-02-24T17:04:10.860Z",
+      "message": "TRADE_EXECUTION: CFzbaAqJX4wUTLa1ZQ8rFLogiHk58qXfeCtEvdvApump (submitted)"
+    },
+    {
+      "timestamp": "2026-02-24T17:04:11.434Z",
+      "message": "TRADE_EXECUTION: CFzbaAqJX4wUTLa1ZQ8rFLogiHk58qXfeCtEvdvApump (submitted)"
     }
   ],
-  "thought": "Current Status: With 0.2282 SOL balance and recent successful trade submissions, the next logical move is to analyze market trends for optimal reinvestment opportunities.",
+  "thought": "Current SOL balance is 0.1889, with recent successful trade executions, indicating optimal algorithmic performance; next step: analyze market trends for potential high-yield opportunities.",
   "chartData": {
     "labels": [
       "23:26",
@@ -167,23 +167,23 @@
   "strategy": {
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
-    "realizedPnL": 6.342299092837001,
-    "unrealizedPnL": -3.603136176041,
-    "totalPnL": 2.739162916796006,
+    "realizedPnL": 5.793814868565002,
+    "unrealizedPnL": -2.775038325291,
+    "totalPnL": 3.018776543274004,
     "activePositions": "Active"
   },
   "positions": [
     {
-      "symbol": "Percolator-SOL",
-      "address": "3jiv2vYFJUTvpYiZyvnN9gtMbpTAtcepLviyWYu3pump",
-      "pnl": 0,
-      "age": "2.0h"
-    },
-    {
       "symbol": "tetanus-SOL",
       "address": "7Gf9g87UqU5nxiruoCLGSdjD7mpq98gUEFjuPNFDpump",
       "pnl": 0,
-      "age": "0.5h"
+      "age": "0.6h"
+    },
+    {
+      "symbol": "Boehme-SOL",
+      "address": "CFzbaAqJX4wUTLa1ZQ8rFLogiHk58qXfeCtEvdvApump",
+      "pnl": 0,
+      "age": "0.1h"
     }
   ]
 }

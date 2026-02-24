@@ -1,15 +1,15 @@
 {
-  "lastUpdate": 1771915204119,
+  "lastUpdate": 1771915803482,
   "heartbeat": "GOOD",
-  "uptime": 2.247701278,
+  "uptime": 1.91868124,
   "wallets": {
     "yield": {
       "address": "2xQ4KC...HswK",
-      "balance": "0.2211",
+      "balance": "0.2178",
       "pnl": {
-        "realized": 6.513843731078994,
-        "unrealized": -3.385844375352,
-        "total": 3.127999355725998,
+        "realized": 6.255680784140994,
+        "unrealized": -3.155671127578,
+        "total": 3.100009656562997,
         "winRate": 0
       }
     },
@@ -19,17 +19,9 @@
       "pnl": null
     }
   },
-  "totalBalance": "0.2372",
+  "totalBalance": "0.2338",
   "mode": "DUAL_CORE",
   "logs": [
-    {
-      "timestamp": "2026-02-24T02:41:28.404Z",
-      "message": "TRADE_EXECUTION: Cu5tz3TtErpBaHcQDY5xjsJ1jmnDeCWZsK2ch7YXpump (submitted)"
-    },
-    {
-      "timestamp": "2026-02-24T02:44:44.336Z",
-      "message": "TRADE_EXECUTION: Cu5tz3TtErpBaHcQDY5xjsJ1jmnDeCWZsK2ch7YXpump (submitted)"
-    },
     {
       "timestamp": "2026-02-24T02:45:17.056Z",
       "message": "TRADE_EXECUTION: Cu5tz3TtErpBaHcQDY5xjsJ1jmnDeCWZsK2ch7YXpump (submitted)"
@@ -61,9 +53,17 @@
     {
       "timestamp": "2026-02-24T06:11:32.497Z",
       "message": "TRADE_EXECUTION: 9N4Lwoqy2dgDxLNt5LGNSwutvftzGHVcgpNzecVobXby (submitted)"
+    },
+    {
+      "timestamp": "2026-02-24T06:46:40.691Z",
+      "message": "TRADE_EXECUTION: So11111111111111111111111111111111111111112 (submitted)"
+    },
+    {
+      "timestamp": "2026-02-24T06:47:20.687Z",
+      "message": "TRADE_EXECUTION: CvpH4G2HmFr7DRNaoX4xotJxs97fo7wQxR4gdUkGpump (submitted)"
     }
   ],
-  "thought": "Balance holding at 0.2372 SOL with multiple trade executions submitted; next move: analyze market conditions for optimal entry point.",
+  "thought": "Balance stands at 0.2338 SOL after multiple trade executions, suggesting a strategic evaluation of recent transactions and potential market conditions for optimizing the next move.",
   "chartData": {
     "labels": [
       "23:26",
@@ -106,7 +106,8 @@
       "05:57",
       "06:10",
       "06:22",
-      "06:36"
+      "06:36",
+      "06:50"
     ],
     "data": [
       0.242119339,
@@ -149,29 +150,30 @@
       0.24598291,
       0.24598291,
       0.23719752900000002,
-      0.23719752900000002
+      0.23719752900000002,
+      0.23383386
     ]
   },
   "strategy": {
     "name": "Momentum_V2: Sentinel",
     "winRate": "0%",
-    "realizedPnL": 6.513843731078994,
-    "unrealizedPnL": -3.385844375352,
-    "totalPnL": 3.127999355725998,
+    "realizedPnL": 6.255680784140994,
+    "unrealizedPnL": -3.155671127578,
+    "totalPnL": 3.100009656562997,
     "activePositions": "Active"
   },
   "positions": [
     {
-      "symbol": "GOLEM-SOL",
-      "address": "3LmH79u9NH5AjYxEBAyJtWkCZD875zCqPzvhELaUpump",
-      "pnl": 0,
-      "age": "1.9h"
-    },
-    {
       "symbol": "Lovecoin-SOL",
       "address": "9N4Lwoqy2dgDxLNt5LGNSwutvftzGHVcgpNzecVobXby",
       "pnl": 0,
-      "age": "0.5h"
+      "age": "0.6h"
+    },
+    {
+      "symbol": "CRIME-SOL",
+      "address": "CvpH4G2HmFr7DRNaoX4xotJxs97fo7wQxR4gdUkGpump",
+      "pnl": 0,
+      "age": "0.0h"
     }
   ]
 }
